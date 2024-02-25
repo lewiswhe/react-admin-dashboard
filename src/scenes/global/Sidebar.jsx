@@ -218,6 +218,13 @@ const Sidebar = () => {
               selected={selected}
               setSelected={setSelected}
             />
+            <Item
+            title="Radar Chart"
+            to="/radar"
+            icon={<MapOutlinedIcon />}
+            selected={selected}
+            setSelected={setSelected}
+          />
           </Box>
         </Menu>
       </ProSidebar>
