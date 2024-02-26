@@ -91,8 +91,7 @@ const Sidebar = () => {
 
           {!isCollapsed && (
             <Box mb="25px">
-              <Box display="flex" justifyContent="center" alignItems="center">
-                <img
+              <Box display="flex" justifyContent="center" alignItems="center"> <img
                   alt="profile-user"
                   width="100px"
                   height="100px"
@@ -222,6 +221,13 @@ const Sidebar = () => {
             title="Radar Chart"
             to="/radar"
             icon={<MapOutlinedIcon />}
+            selected={selected}
+            setSelected={setSelected}
+          />
+           <Item
+            title="Calendar Chart"
+            to="/calendar2"
+            icon={<CalendarTodayOutlinedIcon />}
             selected={selected}
             setSelected={setSelected}
           />
