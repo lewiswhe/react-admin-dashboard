@@ -1,0 +1,80 @@
+import { useTheme } from "@mui/material";
+import { ResponsiveSankey } from "@nivo/sankey";
+import { tokens } from "../theme";
+import { mockSankeyData as data } from "../data/mockSankeyData";
+
+const SankeyChart = ({ isCustomLineColors = false, isDashboard = false }) => {
+    const theme = useTheme();
+    const colors = tokens(theme.palette.mode);
+  // render: () => <Sankey {...commonProperties} data={dataWithRandLinkColors(sankeyData)} enableLinkGradient={true} colors={node => node.nodeColor} />
+    return (
+        <ResponsiveSankey
+        // dataWithRandLinkColors={data}
+        data={data}
+        theme={{
+        text: {
+          fill: colors.grey[100],
+        },
+        tooltip: {
+            container: {
+              color: colors.primary[500],
+            },
+          },
+      }}
+        margin={{ top: 40, right: 160, bottom: 40, left: 50 }}
+        align="start"
+        sort="ascending"
+        colors={{ scheme: 'nivo' }}
+        // colors={node => node.nodeColor
+        nodeOpacity={1}
+        nodeHoverOthersOpacity={0.35}
+        nodeThickness={18}
+        nodeSpacing={24}
+        nodeBorderWidth={0}
+        nodeBorderColor={{
+            from: 'color',
+                modifiers: [
+                    [
+                        'darker',
+                        0.8
+                    ]
+                ]
+        }}
+        nodeBorderRadius={3}
+        enableLinkGradient={true}
+        linkOpacity={0.45}
+        linkHoverOthersOpacity={0.1}
+        linkContract={1}
+        linkBlendMode="lighten"
+        labelPosition="outside"
+        labelOrientation="vertical"
+        labelPadding={16}
+        labelTextColor= {colors.primary[100]}
+        motionConfig="wobbly"
+        legends={[
+            {
+                anchor: 'bottom-right',
+                direction: 'column',
+                translateX: 130,
+                itemWidth: 100,
+                itemHeight: 14,
+                itemDirection: 'right-to-left',
+                itemsSpacing: 2,
+                itemTextColor: colors.grey[300],
+                symbolSize: 14,
+                effects: [
+                    {
+                        on: "hover",
+                        style: {
+                            itemTextColor: colors.grey[100],
+                        },
+                    },
+                ],
+            }
+        ]}
+        />
+    );
+};
+
+
+export default SankeyChart;

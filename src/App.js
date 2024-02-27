@@ -12,6 +12,7 @@ import Line from "./scenes/line";
 import Pie from "./scenes/pie";
 import Radar from "./scenes/radar";
 import Calendar2 from "./scenes/calendar2";
+import Sankey from "./scenes/sankey";
 import FAQ from "./scenes/faq";
 import Geography from "./scenes/geography";
 import { CssBaseline, ThemeProvider } from "@mui/material";
@@ -42,6 +43,7 @@ function App() {
               <Route path="/faq" element={<FAQ />} />
               <Route path="/calendar" element={<Calendar />} />
               <Route path="/geography" element={<Geography />} />
+              <Route path="/sankey" element={<Sankey />} />
               <Route path="/radar" element={<Radar />} />
               <Route path="/calendar2" element={<Calendar2 />} />
             </Routes>

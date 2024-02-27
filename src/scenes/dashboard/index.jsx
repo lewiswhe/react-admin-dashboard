@@ -10,6 +10,7 @@ import Header from "../../components/Header";
 import LineChart from "../../components/LineChart";
 import GeographyChart from "../../components/GeographyChart";
 import BarChart from "../../components/BarChart";
+import SankeyChart from "../../components/SankeyChart";
 import StatBox from "../../components/StatBox";
 import ProgressCircle from "../../components/ProgressCircle";
 
@@ -19,26 +20,6 @@ const Dashboard = () => {
 
   return (
     <Box m="20px">
-      {/* HEADER */}
-      <Box display="flex" justifyContent="space-between" alignItems="center">
-        <Header title="DASHBOARD" subtitle="Welcome to your dashboard" />
-
-        <Box>
-          <Button
-            sx={{
-              backgroundColor: colors.blueAccent[700],
-              color: colors.grey[100],
-              fontSize: "14px",
-              fontWeight: "bold",
-              padding: "10px 20px",
-            }}
-          >
-            <DownloadOutlinedIcon sx={{ mr: "10px" }} />
-            Download Reports
-          </Button>
-        </Box>
-      </Box>
-
       {/* GRID & CHARTS */}
       <Box
         display="grid"
@@ -55,8 +36,8 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="12,361"
-            subtitle="Emails Sent"
+            title="Box 1"
+            subtitle="Subtitle"
             progress="0.75"
             increase="+14%"
             icon={
@@ -66,6 +47,7 @@ const Dashboard = () => {
             }
           />
         </Box>
+    
         <Box
           gridColumn="span 3"
           backgroundColor={colors.primary[400]}
@@ -74,8 +56,8 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="431,225"
-            subtitle="Sales Obtained"
+            title="Box 2"
+            subtitle="Info"
             progress="0.50"
             increase="+21%"
             icon={
@@ -93,8 +75,8 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="32,441"
-            subtitle="New Clients"
+            title="Box 3"
+            subtitle="Info"
             progress="0.30"
             increase="+5%"
             icon={
@@ -112,7 +94,7 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="1,325,134"
+            title="Box 4"
             subtitle="Traffic Received"
             progress="0.80"
             increase="+43%"
@@ -143,14 +125,7 @@ const Dashboard = () => {
                 fontWeight="600"
                 color={colors.grey[100]}
               >
-                Revenue Generated
-              </Typography>
-              <Typography
-                variant="h3"
-                fontWeight="bold"
-                color={colors.greenAccent[500]}
-              >
-                $59,342.32
+               Sankey Chart 
               </Typography>
             </Box>
             <Box>
@@ -162,7 +137,7 @@ const Dashboard = () => {
             </Box>
           </Box>
           <Box height="250px" m="-20px 0 0 0">
-            <LineChart isDashboard={true} />
+            <SankeyChart isDashboard={true} />
           </Box>
         </Box>
         <Box
