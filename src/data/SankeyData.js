@@ -1,4 +1,4 @@
-export const mockSankeyData = {
+export const SankeyData = {
   "nodes": [
     {
       "id": "Helical Rolling",

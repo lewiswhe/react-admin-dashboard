@@ -1,17 +1,17 @@
 import { Box } from "@mui/material";
 // import React from "react";
 import Header from "../../components/Header";
-import SankeyChartL from "../../components/SankeyChartL";
+import SankeyChartA from "../../components/SankeyChartA";
 
-const SankeyL = () => {
+const SankeyA = () => {
   return (
     <Box m="20px">
-      <Header title="Sankey Chart" subtitle="Locomotion First" />
+      <Header title="Sankey Chart" subtitle="Adhesion First" />
       <Box height="75vh">
-        <SankeyChartL />
+        <SankeyChartA />
       </Box>
     </Box>
   );
 };
 
-export default SankeyL;
+export default SankeyA;

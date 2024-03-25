@@ -38,7 +38,7 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
 const Sidebar = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
-  const [isCollapsed, setIsCollapsed] = useState(false);
+  const [isCollapsed, setIsCollapsed] = useState(true);
   const [selected, setSelected] = useState("Dashboard");
 
   return (
@@ -80,7 +80,7 @@ const Sidebar = () => {
                 ml="15px"
               >
                 <Typography variant="h3" color={colors.grey[100]}>
-                 Menu 
+                  Menu
                 </Typography>
                 <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
                   <MenuOutlinedIcon />
@@ -92,12 +92,12 @@ const Sidebar = () => {
           {!isCollapsed && (
             <Box mb="25px">
               <Box display="flex" justifyContent="center" alignItems="center"> <img
-                  alt="profile-user"
-                  width="100px"
-                  height="100px"
-                  src={`../../assets/usr.png`}
-                  style={{ cursor: "pointer", borderRadius: "50%" }}
-                />
+                alt="profile-user"
+                width="100px"
+                height="100px"
+                src={`../../assets/usr.png`}
+                style={{ cursor: "pointer", borderRadius: "50%" }}
+              />
               </Box>
               <Box textAlign="center">
                 <Typography
@@ -106,10 +106,10 @@ const Sidebar = () => {
                   fontWeight="bold"
                   sx={{ m: "10px 0 0 0" }}
                 >
-                 Lew 
+                  Lew
                 </Typography>
                 <Typography variant="h5" color={colors.greenAccent[500]}>
-                 PhD Portal 
+                  PhD Portal
                 </Typography>
               </Box>
             </Box>
@@ -124,12 +124,20 @@ const Sidebar = () => {
               setSelected={setSelected}
             />
             <Item
-              title="Sankey Chart"
+              title="Sankey Loco"
               to="/sankey"
               icon={<BarChartOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
+            <Item
+              title="Sankey Adhe"
+              to="/sankey2"
+              icon={<BarChartOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+
             <Typography
               variant="h6"
               color={colors.grey[300]}
@@ -224,19 +232,19 @@ const Sidebar = () => {
               setSelected={setSelected}
             />
             <Item
-            title="Radar Chart"
-            to="/radar"
-            icon={<MapOutlinedIcon />}
-            selected={selected}
-            setSelected={setSelected}
-          />
-           <Item
-            title="Calendar Chart"
-            to="/calendar2"
-            icon={<CalendarTodayOutlinedIcon />}
-            selected={selected}
-            setSelected={setSelected}
-          />
+              title="Radar Chart"
+              to="/radar"
+              icon={<MapOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+            <Item
+              title="Calendar Chart"
+              to="/calendar2"
+              icon={<CalendarTodayOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
           </Box>
         </Menu>
       </ProSidebar>

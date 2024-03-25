@@ -12,12 +12,13 @@ import Line from "./scenes/line";
 import Pie from "./scenes/pie";
 import Radar from "./scenes/radar";
 import Calendar2 from "./scenes/calendar2";
-import Sankey from "./scenes/sankey";
+import Calendar from "./scenes/calendar/calendar";
+import SankeyL from "./scenes/sankey";
+import SankeyA from "./scenes/sankey2";
 import FAQ from "./scenes/faq";
 import Geography from "./scenes/geography";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { ColorModeContext, useMode } from "./theme";
-import Calendar from "./scenes/calendar/calendar";
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -43,9 +44,10 @@ function App() {
               <Route path="/faq" element={<FAQ />} />
               <Route path="/calendar" element={<Calendar />} />
               <Route path="/geography" element={<Geography />} />
-              <Route path="/sankey" element={<Sankey />} />
+              <Route path="/sankey" element={<SankeyL />} />
               <Route path="/radar" element={<Radar />} />
               <Route path="/calendar2" element={<Calendar2 />} />
+              <Route path="/sankey2" element={<SankeyA />} />
             </Routes>
           </main>
         </div>

@@ -1,1188 +1,1197 @@
-export const mockSankeyData = {
+export const SankeyData = {
   "nodes": [
     {
       "id": "Helical Rolling",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "Helical Friction",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "Any",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "A - Along Horizontal Pipe",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "K - Over Small Obstacles",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "Along Angled Pipe",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "BioInspired - Snake",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "B - Up Vertical Pipe",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "C - Down Vertical Pipe",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "L - Diameter Change",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "Wheeled",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "Grippers",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "Inchworm",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "Tracked",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "Electromagnets",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "Ferromagnetic",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "E - Transition Horizontal to Vertical",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "M - Up/ Down Walls",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "D - Radially Around Pipe",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "Brachiating",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "F - Transition Horizontal to Horizontal Parallel",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "I - Vertical to Vertical Transition Parallel",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "Magnetic",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "Snake",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "None",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "N - Left/Right Walls",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "Bi-Pedal",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "Air-Pressure",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "glass",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "paper",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "wood",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "Iron",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "Paint",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "Quadruped",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "Claws",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "Rough surfaces",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "concrete",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "dialectric- elastomer",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     },
     {
       "id": "Electroadhesive",
-      "nodeColor": 16711680
+      "nodeColor": "rgb(255,0,255)"
     }
   ],
   "links": [
     {
-      "from": "Helical Rolling",
-      "to": "Helical Friction",
+      "source": "Helical Rolling",
+      "target": "Helical Friction",
       "value": 1,
       "id": "1-1",
       "name": "Design for snake robot motion via partial grasping on pipes",
-      "startColor": 16711680,
-      "endColor": 16711680
+      "startColor": "rgb(255,0,0)",
+      "endColor": "rgb(255,0,0)"
     },
     {
-      "from": "Helical Friction",
-      "to": "Any",
+      "source": "Helical Friction",
+      "target": "Any",
       "value": 1,
       "id": "1-2",
       "name": "Design for snake robot motion via partial grasping on pipes",
-      "startColor": 16711680,
-      "endColor": 16711680
+      "startColor": "rgb(255,0,0)",
+      "endColor": "rgb(255,0,0)"
     },
     {
-      "from": "Any",
-      "to": "A - Along Horizontal Pipe",
+      "source": "Any",
+      "target": "A - Along Horizontal Pipe",
       "value": 1,
       "id": "1-3",
       "name": "Design for snake robot motion via partial grasping on pipes",
-      "startColor": 16711680,
-      "endColor": 16711680
+      "startColor": "rgb(255,0,0)",
+      "endColor": "rgb(255,0,0)"
     },
     {
-      "from": "Any",
-      "to": "K - Over Small Obstacles",
+      "source": "Any",
+      "target": "K - Over Small Obstacles",
       "value": 1,
       "id": "1-3",
       "name": "Design for snake robot motion via partial grasping on pipes",
-      "startColor": 16711680,
-      "endColor": 16711680
+      "startColor": "rgb(255,0,0)",
+      "endColor": "rgb(255,0,0)"
     },
     {
-      "from": "Any",
-      "to": "Along Angled Pipe",
+      "source": "Any",
+      "target": "Along Angled Pipe",
       "value": 1,
       "id": "1-3",
       "name": "Design for snake robot motion via partial grasping on pipes",
-      "startColor": 16711680,
-      "endColor": 16711680
+      "startColor": "rgb(255,0,0)",
+      "endColor": "rgb(255,0,0)"
     },
     {
-      "from": "BioInspired - Snake",
-      "to": "Helical Friction",
+      "source": "BioInspired - Snake",
+      "target": "Helical Friction",
       "value": 1,
       "id": "2-1",
       "name": "Pipe Network Locomotion with a Snake Robot",
-      "startColor": 16725760,
-      "endColor": 16725760
+      "startColor": "rgb(255,55,0)",
+      "endColor": "rgb(255,55,0)"
     },
     {
-      "from": "Helical Friction",
-      "to": "Any",
+      "source": "Helical Rolling",
+      "target": "Helical Friction",
+      "value": 1,
+      "id": "2-1",
+      "name": "Pipe Network Locomotion with a Snake Robot",
+      "startColor": "rgb(255,55,0)",
+      "endColor": "rgb(255,55,0)"
+    },
+    {
+      "source": "Helical Friction",
+      "target": "Any",
       "value": 1,
       "id": "2-2",
       "name": "Pipe Network Locomotion with a Snake Robot",
-      "startColor": 16725760,
-      "endColor": 16725760
+      "startColor": "rgb(255,55,0)",
+      "endColor": "rgb(255,55,0)"
     },
     {
-      "from": "Any",
-      "to": "A - Along Horizontal Pipe",
+      "source": "Any",
+      "target": "A - Along Horizontal Pipe",
       "value": 1,
       "id": "2-3",
       "name": "Pipe Network Locomotion with a Snake Robot",
-      "startColor": 16725760,
-      "endColor": 16725760
+      "startColor": "rgb(255,55,0)",
+      "endColor": "rgb(255,55,0)"
     },
     {
-      "from": "Any",
-      "to": "B - Up Vertical Pipe",
+      "source": "Any",
+      "target": "B - Up Vertical Pipe",
       "value": 1,
       "id": "2-3",
       "name": "Pipe Network Locomotion with a Snake Robot",
-      "startColor": 16725760,
-      "endColor": 16725760
+      "startColor": "rgb(255,55,0)",
+      "endColor": "rgb(255,55,0)"
     },
     {
-      "from": "Any",
-      "to": "C - Down Vertical Pipe",
+      "source": "Any",
+      "target": "C - Down Vertical Pipe",
       "value": 1,
       "id": "2-3",
       "name": "Pipe Network Locomotion with a Snake Robot",
-      "startColor": 16725760,
-      "endColor": 16725760
+      "startColor": "rgb(255,55,0)",
+      "endColor": "rgb(255,55,0)"
     },
     {
-      "from": "Any",
-      "to": "L - Diameter Change",
+      "source": "Any",
+      "target": "L - Diameter Change",
       "value": 1,
       "id": "2-3",
       "name": "Pipe Network Locomotion with a Snake Robot",
-      "startColor": 16725760,
-      "endColor": 16725760
+      "startColor": "rgb(255,55,0)",
+      "endColor": "rgb(255,55,0)"
     },
     {
-      "from": "Helical Rolling",
-      "to": "Helical Friction",
+      "source": "Helical Rolling",
+      "target": "Helical Friction",
       "value": 1,
       "id": "3-1",
       "name": "Mobile Manipulation Using a Snake Robot in a Helical Gait",
-      "startColor": 16741120,
-      "endColor": 16741120
+      "startColor": "rgb(255,115,0)",
+      "endColor": "rgb(255,115,0)"
     },
     {
-      "from": "Helical Friction",
-      "to": "Any",
+      "source": "Helical Friction",
+      "target": "Any",
       "value": 1,
       "id": "3-2",
       "name": "Mobile Manipulation Using a Snake Robot in a Helical Gait",
-      "startColor": 16741120,
-      "endColor": 16741120
+      "startColor": "rgb(255,115,0)",
+      "endColor": "rgb(255,115,0)"
     },
     {
-      "from": "Any",
-      "to": "A - Along Horizontal Pipe",
+      "source": "Any",
+      "target": "A - Along Horizontal Pipe",
       "value": 1,
       "id": "3-3",
       "name": "Mobile Manipulation Using a Snake Robot in a Helical Gait",
-      "startColor": 16741120,
-      "endColor": 16741120
+      "startColor": "rgb(255,115,0)",
+      "endColor": "rgb(255,115,0)"
     },
     {
-      "from": "Helical Rolling",
-      "to": "Helical Friction",
+      "source": "Helical Rolling",
+      "target": "Helical Friction",
       "value": 1,
       "id": "4-1",
       "name": "Adaptive Helical Rolling of a Snake Robot to a Straight Pipe With Irregular Cross-Sectional Shape",
-      "startColor": 16755200,
-      "endColor": 16755200
+      "startColor": "rgb(255,170,0)",
+      "endColor": "rgb(255,170,0)"
     },
     {
-      "from": "Helical Friction",
-      "to": "Any",
+      "source": "Helical Friction",
+      "target": "Any",
       "value": 1,
       "id": "4-2",
       "name": "Adaptive Helical Rolling of a Snake Robot to a Straight Pipe With Irregular Cross-Sectional Shape",
-      "startColor": 16755200,
-      "endColor": 16755200
+      "startColor": "rgb(255,170,0)",
+      "endColor": "rgb(255,170,0)"
     },
     {
-      "from": "Any",
-      "to": "A - Along Horizontal Pipe",
+      "source": "Any",
+      "target": "A - Along Horizontal Pipe",
       "value": 1,
       "id": "4-3",
       "name": "Adaptive Helical Rolling of a Snake Robot to a Straight Pipe With Irregular Cross-Sectional Shape",
-      "startColor": 16755200,
-      "endColor": 16755200
+      "startColor": "rgb(255,170,0)",
+      "endColor": "rgb(255,170,0)"
     },
     {
-      "from": "Any",
-      "to": "B - Up Vertical Pipe",
+      "source": "Any",
+      "target": "B - Up Vertical Pipe",
       "value": 1,
       "id": "4-3",
       "name": "Adaptive Helical Rolling of a Snake Robot to a Straight Pipe With Irregular Cross-Sectional Shape",
-      "startColor": 16755200,
-      "endColor": 16755200
+      "startColor": "rgb(255,170,0)",
+      "endColor": "rgb(255,170,0)"
     },
     {
-      "from": "Any",
-      "to": "C - Down Vertical Pipe",
+      "source": "Any",
+      "target": "C - Down Vertical Pipe",
       "value": 1,
       "id": "4-3",
       "name": "Adaptive Helical Rolling of a Snake Robot to a Straight Pipe With Irregular Cross-Sectional Shape",
-      "startColor": 16755200,
-      "endColor": 16755200
+      "startColor": "rgb(255,170,0)",
+      "endColor": "rgb(255,170,0)"
     },
     {
-      "from": "Any",
-      "to": "L - Diameter Change",
+      "source": "Any",
+      "target": "L - Diameter Change",
       "value": 1,
       "id": "4-3",
       "name": "Adaptive Helical Rolling of a Snake Robot to a Straight Pipe With Irregular Cross-Sectional Shape",
-      "startColor": 16755200,
-      "endColor": 16755200
+      "startColor": "rgb(255,170,0)",
+      "endColor": "rgb(255,170,0)"
     },
     {
-      "from": "Wheeled",
-      "to": "Grippers",
+      "source": "Wheeled",
+      "target": "Grippers",
       "value": 1,
       "id": "5-1",
       "name": "Design and Development of a Pipe Climbing Mechanism",
-      "startColor": 16769280,
-      "endColor": 16769280
+      "startColor": "rgb(255,225,0)",
+      "endColor": "rgb(255,225,0)"
     },
     {
-      "from": "Grippers",
-      "to": "Any",
+      "source": "Grippers",
+      "target": "Any",
       "value": 1,
       "id": "5-2",
       "name": "Design and Development of a Pipe Climbing Mechanism",
-      "startColor": 16769280,
-      "endColor": 16769280
+      "startColor": "rgb(255,225,0)",
+      "endColor": "rgb(255,225,0)"
     },
     {
-      "from": "Any",
-      "to": "A - Along Horizontal Pipe",
+      "source": "Any",
+      "target": "A - Along Horizontal Pipe",
       "value": 1,
       "id": "5-3",
       "name": "Design and Development of a Pipe Climbing Mechanism",
-      "startColor": 16769280,
-      "endColor": 16769280
+      "startColor": "rgb(255,225,0)",
+      "endColor": "rgb(255,225,0)"
     },
     {
-      "from": "Any",
-      "to": "B - Up Vertical Pipe",
+      "source": "Any",
+      "target": "B - Up Vertical Pipe",
       "value": 1,
       "id": "5-3",
       "name": "Design and Development of a Pipe Climbing Mechanism",
-      "startColor": 16769280,
-      "endColor": 16769280
+      "startColor": "rgb(255,225,0)",
+      "endColor": "rgb(255,225,0)"
     },
     {
-      "from": "Any",
-      "to": "C - Down Vertical Pipe",
+      "source": "Any",
+      "target": "C - Down Vertical Pipe",
       "value": 1,
       "id": "5-3",
       "name": "Design and Development of a Pipe Climbing Mechanism",
-      "startColor": 16769280,
-      "endColor": 16769280
+      "startColor": "rgb(255,225,0)",
+      "endColor": "rgb(255,225,0)"
     },
     {
-      "from": "Inchworm",
-      "to": "Grippers",
+      "source": "Inchworm",
+      "target": "Grippers",
       "value": 1,
       "id": "6-1",
       "name": "An Inchworm-Like Climbing Robot Based on Cable-Driven Grippers",
-      "startColor": 14810880,
-      "endColor": 14810880
+      "startColor": "rgb(225,255,0)",
+      "endColor": "rgb(225,255,0)"
     },
     {
-      "from": "Grippers",
-      "to": "Any",
+      "source": "Grippers",
+      "target": "Any",
       "value": 1,
       "id": "6-2",
       "name": "An Inchworm-Like Climbing Robot Based on Cable-Driven Grippers",
-      "startColor": 14810880,
-      "endColor": 14810880
+      "startColor": "rgb(225,255,0)",
+      "endColor": "rgb(225,255,0)"
     },
     {
-      "from": "Any",
-      "to": "A - Along Horizontal Pipe",
+      "source": "Any",
+      "target": "A - Along Horizontal Pipe",
       "value": 1,
       "id": "6-3",
       "name": "An Inchworm-Like Climbing Robot Based on Cable-Driven Grippers",
-      "startColor": 14810880,
-      "endColor": 14810880
+      "startColor": "rgb(225,255,0)",
+      "endColor": "rgb(225,255,0)"
     },
     {
-      "from": "Any",
-      "to": "B - Up Vertical Pipe",
+      "source": "Any",
+      "target": "B - Up Vertical Pipe",
       "value": 1,
       "id": "6-3",
       "name": "An Inchworm-Like Climbing Robot Based on Cable-Driven Grippers",
-      "startColor": 14810880,
-      "endColor": 14810880
+      "startColor": "rgb(225,255,0)",
+      "endColor": "rgb(225,255,0)"
     },
     {
-      "from": "Tracked",
-      "to": "Electromagnets",
+      "source": "Tracked",
+      "target": "Electromagnets",
       "value": 1,
       "id": "7-1",
       "name": "A Climbing Robot for Steel Bridge Inspection",
-      "startColor": 11206400,
-      "endColor": 11206400
+      "startColor": "rgb(170,255,0)",
+      "endColor": "rgb(170,255,0)"
     },
     {
-      "from": "Electromagnets",
-      "to": "Ferromagnetic",
+      "source": "Electromagnets",
+      "target": "Ferromagnetic",
       "value": 1,
       "id": "7-2",
       "name": "A Climbing Robot for Steel Bridge Inspection",
-      "startColor": 11206400,
-      "endColor": 11206400
+      "startColor": "rgb(170,255,0)",
+      "endColor": "rgb(170,255,0)"
     },
     {
-      "from": "Ferromagnetic",
-      "to": "A - Along Horizontal Pipe",
+      "source": "Ferromagnetic",
+      "target": "A - Along Horizontal Pipe",
       "value": 1,
       "id": "7-3",
       "name": "A Climbing Robot for Steel Bridge Inspection",
-      "startColor": 11206400,
-      "endColor": 11206400
+      "startColor": "rgb(170,255,0)",
+      "endColor": "rgb(170,255,0)"
     },
     {
-      "from": "Ferromagnetic",
-      "to": "B - Up Vertical Pipe",
+      "source": "Ferromagnetic",
+      "target": "B - Up Vertical Pipe",
       "value": 1,
       "id": "7-3",
       "name": "A Climbing Robot for Steel Bridge Inspection",
-      "startColor": 11206400,
-      "endColor": 11206400
+      "startColor": "rgb(170,255,0)",
+      "endColor": "rgb(170,255,0)"
     },
     {
-      "from": "Ferromagnetic",
-      "to": "C - Down Vertical Pipe",
+      "source": "Ferromagnetic",
+      "target": "C - Down Vertical Pipe",
       "value": 1,
       "id": "7-3",
       "name": "A Climbing Robot for Steel Bridge Inspection",
-      "startColor": 11206400,
-      "endColor": 11206400
+      "startColor": "rgb(170,255,0)",
+      "endColor": "rgb(170,255,0)"
     },
     {
-      "from": "Ferromagnetic",
-      "to": "E - Transition Horizontal to Vertical",
+      "source": "Ferromagnetic",
+      "target": "E - Transition Horizontal to Vertical",
       "value": 1,
       "id": "7-3",
       "name": "A Climbing Robot for Steel Bridge Inspection",
-      "startColor": 11206400,
-      "endColor": 11206400
+      "startColor": "rgb(170,255,0)",
+      "endColor": "rgb(170,255,0)"
     },
     {
-      "from": "Ferromagnetic",
-      "to": "L - Diameter Change",
+      "source": "Ferromagnetic",
+      "target": "L - Diameter Change",
       "value": 1,
       "id": "7-3",
       "name": "A Climbing Robot for Steel Bridge Inspection",
-      "startColor": 11206400,
-      "endColor": 11206400
+      "startColor": "rgb(170,255,0)",
+      "endColor": "rgb(170,255,0)"
     },
     {
-      "from": "Ferromagnetic",
-      "to": "M - Up/ Down Walls",
+      "source": "Ferromagnetic",
+      "target": "M - Up/ Down Walls",
       "value": 1,
       "id": "7-3",
       "name": "A Climbing Robot for Steel Bridge Inspection",
-      "startColor": 11206400,
-      "endColor": 11206400
+      "startColor": "rgb(170,255,0)",
+      "endColor": "rgb(170,255,0)"
     },
     {
-      "from": "Wheeled",
-      "to": "Grippers",
+      "source": "Wheeled",
+      "target": "Grippers",
       "value": 1,
       "id": "8-1",
       "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot",
-      "startColor": 7339776,
-      "endColor": 7339776
+      "startColor": "rgb(111,255,0)",
+      "endColor": "rgb(111,255,0)"
     },
     {
-      "from": "Inchworm",
-      "to": "Grippers",
+      "source": "Inchworm",
+      "target": "Grippers",
       "value": 1,
       "id": "8-1",
       "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot",
-      "startColor": 7339776,
-      "endColor": 7339776
+      "startColor": "rgb(111,255,0)",
+      "endColor": "rgb(111,255,0)"
     },
     {
-      "from": "Grippers",
-      "to": "Any",
+      "source": "Grippers",
+      "target": "Any",
       "value": 1,
       "id": "8-2",
       "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot",
-      "startColor": 7339776,
-      "endColor": 7339776
+      "startColor": "rgb(111,255,0)",
+      "endColor": "rgb(111,255,0)"
     },
     {
-      "from": "Any",
-      "to": "A - Along Horizontal Pipe",
+      "source": "Any",
+      "target": "A - Along Horizontal Pipe",
       "value": 1,
       "id": "8-3",
       "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot",
-      "startColor": 7339776,
-      "endColor": 7339776
+      "startColor": "rgb(111,255,0)",
+      "endColor": "rgb(111,255,0)"
     },
     {
-      "from": "Any",
-      "to": "B - Up Vertical Pipe",
+      "source": "Any",
+      "target": "B - Up Vertical Pipe",
       "value": 1,
       "id": "8-3",
       "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot",
-      "startColor": 7339776,
-      "endColor": 7339776
+      "startColor": "rgb(111,255,0)",
+      "endColor": "rgb(111,255,0)"
     },
     {
-      "from": "Any",
-      "to": "C - Down Vertical Pipe",
+      "source": "Any",
+      "target": "C - Down Vertical Pipe",
       "value": 1,
       "id": "8-3",
       "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot",
-      "startColor": 7339776,
-      "endColor": 7339776
+      "startColor": "rgb(111,255,0)",
+      "endColor": "rgb(111,255,0)"
     },
     {
-      "from": "Any",
-      "to": "D - Radially Around Pipe",
+      "source": "Any",
+      "target": "D - Radially Around Pipe",
       "value": 1,
       "id": "8-3",
       "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot",
-      "startColor": 7339776,
-      "endColor": 7339776
+      "startColor": "rgb(111,255,0)",
+      "endColor": "rgb(111,255,0)"
     },
     {
-      "from": "Any",
-      "to": "E - Transition Horizontal to Vertical",
+      "source": "Any",
+      "target": "E - Transition Horizontal to Vertical",
       "value": 1,
       "id": "8-3",
       "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot",
-      "startColor": 7339776,
-      "endColor": 7339776
+      "startColor": "rgb(111,255,0)",
+      "endColor": "rgb(111,255,0)"
     },
     {
-      "from": "Inchworm",
-      "to": "Grippers",
+      "source": "Inchworm",
+      "target": "Grippers",
       "value": 1,
       "id": "9-1",
       "name": "Climbot: A Bio-Inspired Modular Biped Climbing Robot—System Development, Climbing Gaits, and Experiments",
-      "startColor": 3669760,
-      "endColor": 3669760
+      "startColor": "rgb(55,255,0)",
+      "endColor": "rgb(55,255,0)"
     },
     {
-      "from": "Brachiating",
-      "to": "Grippers",
+      "source": "Brachiating",
+      "target": "Grippers",
       "value": 1,
       "id": "9-1",
       "name": "Climbot: A Bio-Inspired Modular Biped Climbing Robot—System Development, Climbing Gaits, and Experiments",
-      "startColor": 3669760,
-      "endColor": 3669760
+      "startColor": "rgb(55,255,0)",
+      "endColor": "rgb(55,255,0)"
     },
     {
-      "from": "Grippers",
-      "to": "Any",
+      "source": "Grippers",
+      "target": "Any",
       "value": 1,
       "id": "9-2",
       "name": "Climbot: A Bio-Inspired Modular Biped Climbing Robot—System Development, Climbing Gaits, and Experiments",
-      "startColor": 3669760,
-      "endColor": 3669760
+      "startColor": "rgb(55,255,0)",
+      "endColor": "rgb(55,255,0)"
     },
     {
-      "from": "Any",
-      "to": "A - Along Horizontal Pipe",
+      "source": "Any",
+      "target": "A - Along Horizontal Pipe",
       "value": 1,
       "id": "9-3",
       "name": "Climbot: A Bio-Inspired Modular Biped Climbing Robot—System Development, Climbing Gaits, and Experiments",
-      "startColor": 3669760,
-      "endColor": 3669760
+      "startColor": "rgb(55,255,0)",
+      "endColor": "rgb(55,255,0)"
     },
     {
-      "from": "Any",
-      "to": "B - Up Vertical Pipe",
+      "source": "Any",
+      "target": "B - Up Vertical Pipe",
       "value": 1,
       "id": "9-3",
       "name": "Climbot: A Bio-Inspired Modular Biped Climbing Robot—System Development, Climbing Gaits, and Experiments",
-      "startColor": 3669760,
-      "endColor": 3669760
+      "startColor": "rgb(55,255,0)",
+      "endColor": "rgb(55,255,0)"
     },
     {
-      "from": "Any",
-      "to": "C - Down Vertical Pipe",
+      "source": "Any",
+      "target": "C - Down Vertical Pipe",
       "value": 1,
       "id": "9-3",
       "name": "Climbot: A Bio-Inspired Modular Biped Climbing Robot—System Development, Climbing Gaits, and Experiments",
-      "startColor": 3669760,
-      "endColor": 3669760
+      "startColor": "rgb(55,255,0)",
+      "endColor": "rgb(55,255,0)"
     },
     {
-      "from": "Any",
-      "to": "E - Transition Horizontal to Vertical",
+      "source": "Any",
+      "target": "E - Transition Horizontal to Vertical",
       "value": 1,
       "id": "9-3",
       "name": "Climbot: A Bio-Inspired Modular Biped Climbing Robot—System Development, Climbing Gaits, and Experiments",
-      "startColor": 3669760,
-      "endColor": 3669760
+      "startColor": "rgb(55,255,0)",
+      "endColor": "rgb(55,255,0)"
     },
     {
-      "from": "Any",
-      "to": "F - Transition Horizontal to Horizontal Parallel",
+      "source": "Any",
+      "target": "F - Transition Horizontal to Horizontal Parallel",
       "value": 1,
       "id": "9-3",
       "name": "Climbot: A Bio-Inspired Modular Biped Climbing Robot—System Development, Climbing Gaits, and Experiments",
-      "startColor": 3669760,
-      "endColor": 3669760
+      "startColor": "rgb(55,255,0)",
+      "endColor": "rgb(55,255,0)"
     },
     {
-      "from": "Any",
-      "to": "I - Vertical to Vertical Transition Parallel",
+      "source": "Any",
+      "target": "I - Vertical to Vertical Transition Parallel",
       "value": 1,
       "id": "9-3",
       "name": "Climbot: A Bio-Inspired Modular Biped Climbing Robot—System Development, Climbing Gaits, and Experiments",
-      "startColor": 3669760,
-      "endColor": 3669760
+      "startColor": "rgb(55,255,0)",
+      "endColor": "rgb(55,255,0)"
     },
     {
-      "from": "Any",
-      "to": "K - Over Small Obstacles",
+      "source": "Any",
+      "target": "K - Over Small Obstacles",
       "value": 1,
       "id": "9-3",
       "name": "Climbot: A Bio-Inspired Modular Biped Climbing Robot—System Development, Climbing Gaits, and Experiments",
-      "startColor": 3669760,
-      "endColor": 3669760
+      "startColor": "rgb(55,255,0)",
+      "endColor": "rgb(55,255,0)"
     },
     {
-      "from": "Inchworm",
-      "to": "Magnetic",
+      "source": "Inchworm",
+      "target": "Magnetic",
       "value": 1,
       "id": "10-1",
       "name": "Adaptive Bipedal Robot Walking on Industrial Pipes Under Neural Multimodal Locomotion Control: Toward Robotic Out-Pipe Inspection",
-      "startColor": 65280,
-      "endColor": 65280
+      "startColor": "rgb(0,255,0)",
+      "endColor": "rgb(0,255,0)"
     },
     {
-      "from": "Magnetic",
-      "to": "Ferromagnetic",
+      "source": "Magnetic",
+      "target": "Ferromagnetic",
       "value": 1,
       "id": "10-2",
       "name": "Adaptive Bipedal Robot Walking on Industrial Pipes Under Neural Multimodal Locomotion Control: Toward Robotic Out-Pipe Inspection",
-      "startColor": 65280,
-      "endColor": 65280
+      "startColor": "rgb(0,255,0)",
+      "endColor": "rgb(0,255,0)"
     },
     {
-      "from": "Ferromagnetic",
-      "to": "A - Along Horizontal Pipe",
+      "source": "Ferromagnetic",
+      "target": "A - Along Horizontal Pipe",
       "value": 1,
       "id": "10-3",
       "name": "Adaptive Bipedal Robot Walking on Industrial Pipes Under Neural Multimodal Locomotion Control: Toward Robotic Out-Pipe Inspection",
-      "startColor": 65280,
-      "endColor": 65280
+      "startColor": "rgb(0,255,0)",
+      "endColor": "rgb(0,255,0)"
     },
     {
-      "from": "Ferromagnetic",
-      "to": "B - Up Vertical Pipe",
+      "source": "Ferromagnetic",
+      "target": "B - Up Vertical Pipe",
       "value": 1,
       "id": "10-3",
       "name": "Adaptive Bipedal Robot Walking on Industrial Pipes Under Neural Multimodal Locomotion Control: Toward Robotic Out-Pipe Inspection",
-      "startColor": 65280,
-      "endColor": 65280
+      "startColor": "rgb(0,255,0)",
+      "endColor": "rgb(0,255,0)"
     },
     {
-      "from": "Ferromagnetic",
-      "to": "C - Down Vertical Pipe",
+      "source": "Ferromagnetic",
+      "target": "C - Down Vertical Pipe",
       "value": 1,
       "id": "10-3",
       "name": "Adaptive Bipedal Robot Walking on Industrial Pipes Under Neural Multimodal Locomotion Control: Toward Robotic Out-Pipe Inspection",
-      "startColor": 65280,
-      "endColor": 65280
+      "startColor": "rgb(0,255,0)",
+      "endColor": "rgb(0,255,0)"
     },
     {
-      "from": "Ferromagnetic",
-      "to": "E - Transition Horizontal to Vertical",
+      "source": "Ferromagnetic",
+      "target": "E - Transition Horizontal to Vertical",
       "value": 1,
       "id": "10-3",
       "name": "Adaptive Bipedal Robot Walking on Industrial Pipes Under Neural Multimodal Locomotion Control: Toward Robotic Out-Pipe Inspection",
-      "startColor": 65280,
-      "endColor": 65280
+      "startColor": "rgb(0,255,0)",
+      "endColor": "rgb(0,255,0)"
     },
     {
-      "from": "Ferromagnetic",
-      "to": "K - Over Small Obstacles",
+      "source": "Ferromagnetic",
+      "target": "K - Over Small Obstacles",
       "value": 1,
       "id": "10-3",
       "name": "Adaptive Bipedal Robot Walking on Industrial Pipes Under Neural Multimodal Locomotion Control: Toward Robotic Out-Pipe Inspection",
-      "startColor": 65280,
-      "endColor": 65280
+      "startColor": "rgb(0,255,0)",
+      "endColor": "rgb(0,255,0)"
     },
     {
-      "from": "Helical Rolling",
-      "to": "Helical Friction",
+      "source": "Helical Rolling",
+      "target": "Helical Friction",
       "value": 1,
       "id": "11-1",
       "name": "A Robust Model-Based Radius Estimation Approach for Helical Climbing Motion of Snake Robots",
-      "startColor": 65340,
-      "endColor": 65340
+      "startColor": "rgb(0,255,60)",
+      "endColor": "rgb(0,255,60)"
     },
     {
-      "from": "Helical Friction",
-      "to": "Any",
+      "source": "Helical Friction",
+      "target": "Any",
       "value": 1,
       "id": "11-2",
       "name": "A Robust Model-Based Radius Estimation Approach for Helical Climbing Motion of Snake Robots",
-      "startColor": 65340,
-      "endColor": 65340
+      "startColor": "rgb(0,255,60)",
+      "endColor": "rgb(0,255,60)"
     },
     {
-      "from": "Any",
-      "to": "B - Up Vertical Pipe",
+      "source": "Any",
+      "target": "B - Up Vertical Pipe",
       "value": 1,
       "id": "11-3",
       "name": "A Robust Model-Based Radius Estimation Approach for Helical Climbing Motion of Snake Robots",
-      "startColor": 65340,
-      "endColor": 65340
+      "startColor": "rgb(0,255,60)",
+      "endColor": "rgb(0,255,60)"
     },
     {
-      "from": "Any",
-      "to": "C - Down Vertical Pipe",
+      "source": "Any",
+      "target": "C - Down Vertical Pipe",
       "value": 1,
       "id": "11-3",
       "name": "A Robust Model-Based Radius Estimation Approach for Helical Climbing Motion of Snake Robots",
-      "startColor": 65340,
-      "endColor": 65340
+      "startColor": "rgb(0,255,60)",
+      "endColor": "rgb(0,255,60)"
     },
     {
-      "from": "Any",
-      "to": "K - Over Small Obstacles",
+      "source": "Any",
+      "target": "K - Over Small Obstacles",
       "value": 1,
       "id": "11-3",
       "name": "A Robust Model-Based Radius Estimation Approach for Helical Climbing Motion of Snake Robots",
-      "startColor": 65340,
-      "endColor": 65340
+      "startColor": "rgb(0,255,60)",
+      "endColor": "rgb(0,255,60)"
     },
     {
-      "from": "Any",
-      "to": "L - Diameter Change",
+      "source": "Any",
+      "target": "L - Diameter Change",
       "value": 1,
       "id": "11-3",
       "name": "A Robust Model-Based Radius Estimation Approach for Helical Climbing Motion of Snake Robots",
-      "startColor": 65340,
-      "endColor": 65340
+      "startColor": "rgb(0,255,60)",
+      "endColor": "rgb(0,255,60)"
     },
     {
-      "from": "Snake",
-      "to": "None",
+      "source": "Snake",
+      "target": "None",
       "value": 1,
       "id": "12-1",
       "name": "Ladder Climbing with a Snake Robot",
-      "startColor": 65395,
-      "endColor": 65395
+      "startColor": "rgb(0,255,115)",
+      "endColor": "rgb(0,255,115)"
     },
     {
-      "from": "None",
-      "to": "Any",
+      "source": "None",
+      "target": "Any",
       "value": 1,
       "id": "12-2",
       "name": "Ladder Climbing with a Snake Robot",
-      "startColor": 65395,
-      "endColor": 65395
+      "startColor": "rgb(0,255,115)",
+      "endColor": "rgb(0,255,115)"
     },
     {
-      "from": "Any",
-      "to": "F - Transition Horizontal to Horizontal Parallel",
+      "source": "Any",
+      "target": "F - Transition Horizontal to Horizontal Parallel",
       "value": 1,
       "id": "12-3",
       "name": "Ladder Climbing with a Snake Robot",
-      "startColor": 65395,
-      "endColor": 65395
+      "startColor": "rgb(0,255,115)",
+      "endColor": "rgb(0,255,115)"
     },
     {
-      "from": "Brachiating",
-      "to": "Grippers",
+      "source": "Brachiating",
+      "target": "Grippers",
       "value": 1,
       "id": "13-1",
       "name": "Design, modeling, and manufacturing of a novel robust gripper-based climbing robot: KharazmBot",
-      "startColor": 65450,
-      "endColor": 65450
+      "startColor": "rgb(0,255,170)",
+      "endColor": "rgb(0,255,170)"
     },
     {
-      "from": "Grippers",
-      "to": "Any",
+      "source": "Grippers",
+      "target": "Any",
       "value": 1,
       "id": "13-2",
       "name": "Design, modeling, and manufacturing of a novel robust gripper-based climbing robot: KharazmBot",
-      "startColor": 65450,
-      "endColor": 65450
+      "startColor": "rgb(0,255,170)",
+      "endColor": "rgb(0,255,170)"
     },
     {
-      "from": "Any",
-      "to": "F - Transition Horizontal to Horizontal Parallel",
+      "source": "Any",
+      "target": "F - Transition Horizontal to Horizontal Parallel",
       "value": 1,
       "id": "13-3",
       "name": "Design, modeling, and manufacturing of a novel robust gripper-based climbing robot: KharazmBot",
-      "startColor": 65450,
-      "endColor": 65450
+      "startColor": "rgb(0,255,170)",
+      "endColor": "rgb(0,255,170)"
     },
     {
-      "from": "Wheeled",
-      "to": "Electromagnets",
+      "source": "Wheeled",
+      "target": "Electromagnets",
       "value": 1,
       "id": "14-1",
       "name": "Modelling, simulation and experimental validation of wheel and arm locomotion based wall-climbing robot",
-      "startColor": 65509,
-      "endColor": 65509
+      "startColor": "rgb(0,255,229)",
+      "endColor": "rgb(0,255,229)"
     },
     {
-      "from": "Inchworm",
-      "to": "Electromagnets",
+      "source": "Inchworm",
+      "target": "Electromagnets",
       "value": 1,
       "id": "14-1",
       "name": "Modelling, simulation and experimental validation of wheel and arm locomotion based wall-climbing robot",
-      "startColor": 65509,
-      "endColor": 65509
+      "startColor": "rgb(0,255,229)",
+      "endColor": "rgb(0,255,229)"
     },
     {
-      "from": "Electromagnets",
-      "to": "Ferromagnetic",
+      "source": "Electromagnets",
+      "target": "Ferromagnetic",
       "value": 1,
       "id": "14-2",
       "name": "Modelling, simulation and experimental validation of wheel and arm locomotion based wall-climbing robot",
-      "startColor": 65509,
-      "endColor": 65509
+      "startColor": "rgb(0,255,229)",
+      "endColor": "rgb(0,255,229)"
     },
     {
-      "from": "Ferromagnetic",
-      "to": "K - Over Small Obstacles",
+      "source": "Ferromagnetic",
+      "target": "K - Over Small Obstacles",
       "value": 1,
       "id": "14-3",
       "name": "Modelling, simulation and experimental validation of wheel and arm locomotion based wall-climbing robot",
-      "startColor": 65509,
-      "endColor": 65509
+      "startColor": "rgb(0,255,229)",
+      "endColor": "rgb(0,255,229)"
     },
     {
-      "from": "Ferromagnetic",
-      "to": "M - Up/ Down Walls",
+      "source": "Ferromagnetic",
+      "target": "M - Up/ Down Walls",
       "value": 1,
       "id": "14-3",
       "name": "Modelling, simulation and experimental validation of wheel and arm locomotion based wall-climbing robot",
-      "startColor": 65509,
-      "endColor": 65509
+      "startColor": "rgb(0,255,229)",
+      "endColor": "rgb(0,255,229)"
     },
     {
-      "from": "Ferromagnetic",
-      "to": "N - Left/Right Walls",
+      "source": "Ferromagnetic",
+      "target": "N - Left/Right Walls",
       "value": 1,
       "id": "14-3",
       "name": "Modelling, simulation and experimental validation of wheel and arm locomotion based wall-climbing robot",
-      "startColor": 65509,
-      "endColor": 65509
+      "startColor": "rgb(0,255,229)",
+      "endColor": "rgb(0,255,229)"
     },
     {
-      "from": "Bi-Pedal",
-      "to": "Air-Pressure",
+      "source": "Bi-Pedal",
+      "target": "Air-Pressure",
       "value": 1,
       "id": "15-1",
       "name": "A 6-DOF humanoid wall-climbing robot with flexible adsorption feet based on negative pressure suction",
-      "startColor": 57855,
-      "endColor": 57855
+      "startColor": "rgb(0,225,255)",
+      "endColor": "rgb(0,225,255)"
     },
     {
-      "from": "Air-Pressure",
-      "to": "glass",
+      "source": "Air-Pressure",
+      "target": "glass",
       "value": 1,
       "id": "15-2",
       "name": "A 6-DOF humanoid wall-climbing robot with flexible adsorption feet based on negative pressure suction",
-      "startColor": 57855,
-      "endColor": 57855
+      "startColor": "rgb(0,225,255)",
+      "endColor": "rgb(0,225,255)"
     },
     {
-      "from": "Air-Pressure",
-      "to": "paper",
+      "source": "Air-Pressure",
+      "target": "paper",
       "value": 1,
       "id": "15-2",
       "name": "A 6-DOF humanoid wall-climbing robot with flexible adsorption feet based on negative pressure suction",
-      "startColor": 57855,
-      "endColor": 57855
+      "startColor": "rgb(0,225,255)",
+      "endColor": "rgb(0,225,255)"
     },
     {
-      "from": "Air-Pressure",
-      "to": "wood",
+      "source": "Air-Pressure",
+      "target": "wood",
       "value": 1,
       "id": "15-2",
       "name": "A 6-DOF humanoid wall-climbing robot with flexible adsorption feet based on negative pressure suction",
-      "startColor": 57855,
-      "endColor": 57855
+      "startColor": "rgb(0,225,255)",
+      "endColor": "rgb(0,225,255)"
     },
     {
-      "from": "Air-Pressure",
-      "to": "Iron",
+      "source": "Air-Pressure",
+      "target": "Iron",
       "value": 1,
       "id": "15-2",
       "name": "A 6-DOF humanoid wall-climbing robot with flexible adsorption feet based on negative pressure suction",
-      "startColor": 57855,
-      "endColor": 57855
+      "startColor": "rgb(0,225,255)",
+      "endColor": "rgb(0,225,255)"
     },
     {
-      "from": "Air-Pressure",
-      "to": "Paint",
+      "source": "Air-Pressure",
+      "target": "Paint",
       "value": 1,
       "id": "15-2",
       "name": "A 6-DOF humanoid wall-climbing robot with flexible adsorption feet based on negative pressure suction",
-      "startColor": 57855,
-      "endColor": 57855
+      "startColor": "rgb(0,225,255)",
+      "endColor": "rgb(0,225,255)"
     },
     {
-      "from": "glass",
-      "to": "M - Up/ Down Walls",
+      "source": "glass",
+      "target": "M - Up/ Down Walls",
       "value": 1,
       "id": "15-3",
       "name": "A 6-DOF humanoid wall-climbing robot with flexible adsorption feet based on negative pressure suction",
-      "startColor": 57855,
-      "endColor": 57855
+      "startColor": "rgb(0,225,255)",
+      "endColor": "rgb(0,225,255)"
     },
     {
-      "from": "paper",
-      "to": "M - Up/ Down Walls",
+      "source": "paper",
+      "target": "M - Up/ Down Walls",
       "value": 1,
       "id": "15-3",
       "name": "A 6-DOF humanoid wall-climbing robot with flexible adsorption feet based on negative pressure suction",
-      "startColor": 57855,
-      "endColor": 57855
+      "startColor": "rgb(0,225,255)",
+      "endColor": "rgb(0,225,255)"
     },
     {
-      "from": "wood",
-      "to": "M - Up/ Down Walls",
+      "source": "wood",
+      "target": "M - Up/ Down Walls",
       "value": 1,
       "id": "15-3",
       "name": "A 6-DOF humanoid wall-climbing robot with flexible adsorption feet based on negative pressure suction",
-      "startColor": 57855,
-      "endColor": 57855
+      "startColor": "rgb(0,225,255)",
+      "endColor": "rgb(0,225,255)"
     },
     {
-      "from": "Iron",
-      "to": "M - Up/ Down Walls",
+      "source": "Iron",
+      "target": "M - Up/ Down Walls",
       "value": 1,
       "id": "15-3",
       "name": "A 6-DOF humanoid wall-climbing robot with flexible adsorption feet based on negative pressure suction",
-      "startColor": 57855,
-      "endColor": 57855
+      "startColor": "rgb(0,225,255)",
+      "endColor": "rgb(0,225,255)"
     },
     {
-      "from": "Paint",
-      "to": "M - Up/ Down Walls",
+      "source": "Paint",
+      "target": "M - Up/ Down Walls",
       "value": 1,
       "id": "15-3",
       "name": "A 6-DOF humanoid wall-climbing robot with flexible adsorption feet based on negative pressure suction",
-      "startColor": 57855,
-      "endColor": 57855
+      "startColor": "rgb(0,225,255)",
+      "endColor": "rgb(0,225,255)"
     },
     {
-      "from": "Quadruped",
-      "to": "Claws",
+      "source": "Quadruped",
+      "target": "Claws",
       "value": 1,
       "id": "16-1",
       "name": "A Bio-inspired Climbing Robot with Flexible Pads and Claws",
-      "startColor": 42751,
-      "endColor": 42751
+      "startColor": "rgb(0,166,255)",
+      "endColor": "rgb(0,166,255)"
     },
     {
-      "from": "Claws",
-      "to": "Rough surfaces",
+      "source": "Claws",
+      "target": "Rough surfaces",
       "value": 1,
       "id": "16-2",
       "name": "A Bio-inspired Climbing Robot with Flexible Pads and Claws",
-      "startColor": 42751,
-      "endColor": 42751
+      "startColor": "rgb(0,166,255)",
+      "endColor": "rgb(0,166,255)"
     },
     {
-      "from": "Claws",
-      "to": "concrete",
+      "source": "Claws",
+      "target": "concrete",
       "value": 1,
       "id": "16-2",
       "name": "A Bio-inspired Climbing Robot with Flexible Pads and Claws",
-      "startColor": 42751,
-      "endColor": 42751
+      "startColor": "rgb(0,166,255)",
+      "endColor": "rgb(0,166,255)"
     },
     {
-      "from": "Rough surfaces",
-      "to": "M - Up/ Down Walls",
+      "source": "Rough surfaces",
+      "target": "M - Up/ Down Walls",
       "value": 1,
       "id": "16-3",
       "name": "A Bio-inspired Climbing Robot with Flexible Pads and Claws",
-      "startColor": 42751,
-      "endColor": 42751
+      "startColor": "rgb(0,166,255)",
+      "endColor": "rgb(0,166,255)"
     },
     {
-      "from": "concrete",
-      "to": "M - Up/ Down Walls",
+      "source": "concrete",
+      "target": "M - Up/ Down Walls",
       "value": 1,
       "id": "16-3",
       "name": "A Bio-inspired Climbing Robot with Flexible Pads and Claws",
-      "startColor": 42751,
-      "endColor": 42751
+      "startColor": "rgb(0,166,255)",
+      "endColor": "rgb(0,166,255)"
     },
     {
-      "from": "Quadruped",
-      "to": "Claws",
+      "source": "Quadruped",
+      "target": "Claws",
       "value": 1,
       "id": "17-1",
       "name": "A climbing robot with paired claws inspired by gecko locomotion",
-      "startColor": 28415,
-      "endColor": 28415
+      "startColor": "rgb(0,110,255)",
+      "endColor": "rgb(0,110,255)"
     },
     {
-      "from": "Claws",
-      "to": "Rough surfaces",
+      "source": "Claws",
+      "target": "Rough surfaces",
       "value": 1,
       "id": "17-2",
       "name": "A climbing robot with paired claws inspired by gecko locomotion",
-      "startColor": 28415,
-      "endColor": 28415
+      "startColor": "rgb(0,110,255)",
+      "endColor": "rgb(0,110,255)"
     },
     {
-      "from": "Rough surfaces",
-      "to": "M - Up/ Down Walls",
+      "source": "Rough surfaces",
+      "target": "M - Up/ Down Walls",
       "value": 1,
       "id": "17-3",
       "name": "A climbing robot with paired claws inspired by gecko locomotion",
-      "startColor": 28415,
-      "endColor": 28415
+      "startColor": "rgb(0,110,255)",
+      "endColor": "rgb(0,110,255)"
     },
     {
-      "from": "Rough surfaces",
-      "to": "N - Left/Right Walls",
+      "source": "Rough surfaces",
+      "target": "N - Left/Right Walls",
       "value": 1,
       "id": "17-3",
       "name": "A climbing robot with paired claws inspired by gecko locomotion",
-      "startColor": 28415,
-      "endColor": 28415
+      "startColor": "rgb(0,110,255)",
+      "endColor": "rgb(0,110,255)"
     },
     {
-      "from": "Tracked",
-      "to": "Magnetic",
+      "source": "Tracked",
+      "target": "Magnetic",
       "value": 1,
       "id": "18-1",
       "name": "A magnetic crawler wall-climbing robot with capacity of high payload on the convex surface",
-      "startColor": 14335,
-      "endColor": 14335
+      "startColor": "rgb(0,55,255)",
+      "endColor": "rgb(0,55,255)"
     },
     {
-      "from": "Magnetic",
-      "to": "Ferromagnetic",
+      "source": "Magnetic",
+      "target": "Ferromagnetic",
       "value": 1,
       "id": "18-2",
       "name": "A magnetic crawler wall-climbing robot with capacity of high payload on the convex surface",
-      "startColor": 14335,
-      "endColor": 14335
+      "startColor": "rgb(0,55,255)",
+      "endColor": "rgb(0,55,255)"
     },
     {
-      "from": "Ferromagnetic",
-      "to": "M - Up/ Down Walls",
+      "source": "Ferromagnetic",
+      "target": "M - Up/ Down Walls",
       "value": 1,
       "id": "18-3",
       "name": "A magnetic crawler wall-climbing robot with capacity of high payload on the convex surface",
-      "startColor": 14335,
-      "endColor": 14335
+      "startColor": "rgb(0,55,255)",
+      "endColor": "rgb(0,55,255)"
     },
     {
-      "from": "dialectric- elastomer",
-      "to": "Electroadhesive",
+      "source": "dialectric- elastomer",
+      "target": "Electroadhesive",
       "value": 1,
       "id": "19-1",
       "name": "Soft wall-climbing robots",
-      "startColor": 262399,
-      "endColor": 262399
+      "startColor": "rgb(4,0,255)",
+      "endColor": "rgb(4,0,255)"
     },
     {
-      "from": "Electroadhesive",
-      "to": "wood",
+      "source": "Electroadhesive",
+      "target": "wood",
       "value": 1,
       "id": "19-2",
       "name": "Soft wall-climbing robots",
-      "startColor": 262399,
-      "endColor": 262399
+      "startColor": "rgb(4,0,255)",
+      "endColor": "rgb(4,0,255)"
     },
     {
-      "from": "Electroadhesive",
-      "to": "paper",
+      "source": "Electroadhesive",
+      "target": "paper",
       "value": 1,
       "id": "19-2",
       "name": "Soft wall-climbing robots",
-      "startColor": 262399,
-      "endColor": 262399
+      "startColor": "rgb(4,0,255)",
+      "endColor": "rgb(4,0,255)"
     },
     {
-      "from": "Electroadhesive",
-      "to": "glass",
+      "source": "Electroadhesive",
+      "target": "glass",
       "value": 1,
       "id": "19-2",
       "name": "Soft wall-climbing robots",
-      "startColor": 262399,
-      "endColor": 262399
+      "startColor": "rgb(4,0,255)",
+      "endColor": "rgb(4,0,255)"
     },
     {
-      "from": "wood",
-      "to": "M - Up/ Down Walls",
+      "source": "wood",
+      "target": "M - Up/ Down Walls",
       "value": 1,
       "id": "19-3",
       "name": "Soft wall-climbing robots",
-      "startColor": 262399,
-      "endColor": 262399
+      "startColor": "rgb(4,0,255)",
+      "endColor": "rgb(4,0,255)"
     },
     {
-      "from": "paper",
-      "to": "M - Up/ Down Walls",
+      "source": "paper",
+      "target": "M - Up/ Down Walls",
       "value": 1,
       "id": "19-3",
       "name": "Soft wall-climbing robots",
-      "startColor": 262399,
-      "endColor": 262399
+      "startColor": "rgb(4,0,255)",
+      "endColor": "rgb(4,0,255)"
     },
     {
-      "from": "glass",
-      "to": "M - Up/ Down Walls",
+      "source": "glass",
+      "target": "M - Up/ Down Walls",
       "value": 1,
       "id": "19-3",
       "name": "Soft wall-climbing robots",
-      "startColor": 262399,
-      "endColor": 262399
+      "startColor": "rgb(4,0,255)",
+      "endColor": "rgb(4,0,255)"
     },
     {
-      "from": "Wheeled",
-      "to": "Air-Pressure",
+      "source": "Wheeled",
+      "target": "Air-Pressure",
       "value": 1,
       "id": "20-1",
       "name": "Design and Control of an Omnidirectional Mobile Wall-Climbing Robot",
-      "startColor": 3932415,
-      "endColor": 3932415
+      "startColor": "rgb(60,0,255)",
+      "endColor": "rgb(60,0,255)"
     },
     {
-      "from": "Air-Pressure",
-      "to": "Any",
+      "source": "Air-Pressure",
+      "target": "Any",
       "value": 1,
       "id": "20-2",
       "name": "Design and Control of an Omnidirectional Mobile Wall-Climbing Robot",
-      "startColor": 3932415,
-      "endColor": 3932415
+      "startColor": "rgb(60,0,255)",
+      "endColor": "rgb(60,0,255)"
     },
     {
-      "from": "Any",
-      "to": "M - Up/ Down Walls",
+      "source": "Any",
+      "target": "M - Up/ Down Walls",
       "value": 1,
       "id": "20-3",
       "name": "Design and Control of an Omnidirectional Mobile Wall-Climbing Robot",
-      "startColor": 3932415,
-      "endColor": 3932415
+      "startColor": "rgb(60,0,255)",
+      "endColor": "rgb(60,0,255)"
     },
     {
-      "from": "Any",
-      "to": "N - Left/Right Walls",
+      "source": "Any",
+      "target": "N - Left/Right Walls",
       "value": 1,
       "id": "20-3",
       "name": "Design and Control of an Omnidirectional Mobile Wall-Climbing Robot",
-      "startColor": 3932415,
-      "endColor": 3932415
+      "startColor": "rgb(60,0,255)",
+      "endColor": "rgb(60,0,255)"
     }
   ]
-}
+};

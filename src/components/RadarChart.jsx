@@ -7,12 +7,12 @@ import { mockRadarData as data } from "../data/radarData";
 const RadarChart = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
-//   const [selectedKeys, setSelectedKeys] = useState([
-//     "Dry_Bones",
-//     "Baby_Daisy",
-//     "Dry_Bowser",
-//     "Baby_Luigi"
-//   ]);
+  //   const [selectedKeys, setSelectedKeys] = useState([
+  //     "Dry_Bones",
+  //     "Baby_Daisy",
+  //     "Dry_Bowser",
+  //     "Baby_Luigi"
+  //   ]);
 
   return (
     // <div>
@@ -38,13 +38,13 @@ const RadarChart = () => {
           fill: colors.grey[100],
         },
         tooltip: {
-            container: {
-              color: colors.primary[500],
-            },
+          container: {
+            color: colors.primary[500],
           },
+        },
       }}
       keys={["Dry_Bones", "Baby_Daisy", "Dry_Bowser", "Baby_Luigi"]}
-    // keys={selectedKeys}
+      // keys={selectedKeys}
       indexBy="Value"
       valueFormat=" >-.2f"
       margin={{ top: 70, right: 80, bottom: 40, left: 80 }}
@@ -53,7 +53,7 @@ const RadarChart = () => {
       dotSize={10}
       dotColor={{ theme: "background" }}
       dotBorderWidth={2}
-    //   gridLevels={10}
+      //   gridLevels={10}
       colors={{ scheme: "nivo" }}
       blendMode="multiply"
       motionConfig="wobbly"
