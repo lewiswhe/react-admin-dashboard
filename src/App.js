@@ -15,6 +15,7 @@ import Calendar2 from "./scenes/calendar2";
 import Calendar from "./scenes/calendar/calendar";
 import SankeyL from "./scenes/sankey";
 import SankeyA from "./scenes/sankey2";
+import SankeyC from "./scenes/sankeyC";
 import FAQ from "./scenes/faq";
 import Geography from "./scenes/geography";
 import { CssBaseline, ThemeProvider } from "@mui/material";
@@ -48,6 +49,7 @@ function App() {
               <Route path="/radar" element={<Radar />} />
               <Route path="/calendar2" element={<Calendar2 />} />
               <Route path="/sankey2" element={<SankeyA />} />
+              <Route path="/sankeyc" element={<SankeyC />} />
             </Routes>
           </main>
         </div>

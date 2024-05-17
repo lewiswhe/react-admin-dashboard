@@ -137,7 +137,7 @@ const Dashboard = () => {
             </Box>
           </Box>
           <Box height="650px" m="-20px 0 0 0">
-            <SankeyChartA isDashboard={true} />
+            // <SankeyChartA isDashboard={true} />
           </Box>
         </Box>
         <Box

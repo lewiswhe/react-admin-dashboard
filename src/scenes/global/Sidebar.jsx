@@ -137,6 +137,14 @@ const Sidebar = () => {
               selected={selected}
               setSelected={setSelected}
             />
+            <Item
+              title="Sankey Contacts"
+              to="/sankeyc"
+              icon={<BarChartOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+
 
             <Typography
               variant="h6"
