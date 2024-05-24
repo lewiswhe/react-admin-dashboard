@@ -48,7 +48,7 @@ const SankeyChartA = ({ isCustomLineColors = false, isDashboard = true }) => {
                     },
                 },
             }}
-            margin={{ top: 40, right: 460, bottom: 40, left: 250 }}
+            margin={{ top: 10, right: 460, bottom: 20, left: 350 }}
             align="start"
             sort="input"
             // colors={{ scheme: 'nivo' }}
@@ -56,7 +56,7 @@ const SankeyChartA = ({ isCustomLineColors = false, isDashboard = true }) => {
             nodeOpacity={1}
             nodeHoverOthersOpacity={0.35}
             nodeThickness={18}
-            nodeSpacing={24}
+            nodeSpacing={20}
             nodeBorderWidth={1}
             nodeBorderColor={{
                 from: 'color',
@@ -69,7 +69,7 @@ const SankeyChartA = ({ isCustomLineColors = false, isDashboard = true }) => {
             }}
             nodeBorderRadius={3}
             enableLinkGradient={true}
-            linkOpacity={0.45}
+            linkOpacity={0.6}
             linkHoverOthersOpacity={0.1}
             linkContract={1}
             linkBlendMode="lighten"

@@ -5,12 +5,12 @@ import SankeyChartA from "../../components/SankeyChartA";
 
 const SankeyA = () => {
   return (
-    <Box m="20px">
-      <Header title="Sankey Chart" subtitle="Adhesion First" />
-      <Box height="75vh">
+    <Box m="10px">
+      <Header title="Sankey Chart Adhesion First" />
+      <Box height="85vh">
         <SankeyChartA />
       </Box>
-    </Box>
+    </Box >
   );
 };
 
