@@ -15,10 +15,6 @@ export const HeatmapData = [
         "y": 0
       },
       {
-        "x": "Drone",
-        "y": 0
-      },
-      {
         "x": "dialectric- elastomer",
         "y": 0
       },
@@ -44,18 +40,6 @@ export const HeatmapData = [
       },
       {
         "x": "Wheeled",
-        "y": 0
-      },
-      {
-        "x": "Sliding-Frame",
-        "y": 0
-      },
-      {
-        "x": "?",
-        "y": 0
-      },
-      {
-        "x": "Shell",
         "y": 0
       }
     ]
@@ -76,10 +60,6 @@ export const HeatmapData = [
         "y": 0
       },
       {
-        "x": "Drone",
-        "y": 0
-      },
-      {
         "x": "dialectric- elastomer",
         "y": 0
       },
@@ -106,18 +86,6 @@ export const HeatmapData = [
       {
         "x": "Wheeled",
         "y": 0
-      },
-      {
-        "x": "Sliding-Frame",
-        "y": 0
-      },
-      {
-        "x": "?",
-        "y": 0
-      },
-      {
-        "x": "Shell",
-        "y": 0
       }
     ]
   },
@@ -135,10 +103,6 @@ export const HeatmapData = [
       {
         "x": "Brachiating",
         "y": 2
-      },
-      {
-        "x": "Drone",
-        "y": 0
       },
       {
         "x": "dialectric- elastomer",
@@ -167,79 +131,6 @@ export const HeatmapData = [
       {
         "x": "Wheeled",
         "y": 2
-      },
-      {
-        "x": "Sliding-Frame",
-        "y": 0
-      },
-      {
-        "x": "?",
-        "y": 0
-      },
-      {
-        "x": "Shell",
-        "y": 0
-      }
-    ]
-  },
-  {
-    "id": "Sliding Frame",
-    "data": [
-      {
-        "x": "BioInspired - Snake",
-        "y": 0
-      },
-      {
-        "x": "Helical Rolling",
-        "y": 0
-      },
-      {
-        "x": "Brachiating",
-        "y": 0
-      },
-      {
-        "x": "Drone",
-        "y": 1
-      },
-      {
-        "x": "dialectric- elastomer",
-        "y": 0
-      },
-      {
-        "x": "Humanoid",
-        "y": 0
-      },
-      {
-        "x": "Inchworm",
-        "y": 0
-      },
-      {
-        "x": "Legged",
-        "y": 0
-      },
-      {
-        "x": "Tracked",
-        "y": 0
-      },
-      {
-        "x": "Snake",
-        "y": 0
-      },
-      {
-        "x": "Wheeled",
-        "y": 0
-      },
-      {
-        "x": "Sliding-Frame",
-        "y": 0
-      },
-      {
-        "x": "?",
-        "y": 0
-      },
-      {
-        "x": "Shell",
-        "y": 0
       }
     ]
   },
@@ -259,10 +150,6 @@ export const HeatmapData = [
         "y": 0
       },
       {
-        "x": "Drone",
-        "y": 0
-      },
-      {
         "x": "dialectric- elastomer",
         "y": 1
       },
@@ -276,7 +163,7 @@ export const HeatmapData = [
       },
       {
         "x": "Legged",
-        "y": 3
+        "y": 2
       },
       {
         "x": "Tracked",
@@ -288,18 +175,6 @@ export const HeatmapData = [
       },
       {
         "x": "Wheeled",
-        "y": 0
-      },
-      {
-        "x": "Sliding-Frame",
-        "y": 0
-      },
-      {
-        "x": "?",
-        "y": 1
-      },
-      {
-        "x": "Shell",
         "y": 0
       }
     ]
@@ -320,10 +195,6 @@ export const HeatmapData = [
         "y": 0
       },
       {
-        "x": "Drone",
-        "y": 0
-      },
-      {
         "x": "dialectric- elastomer",
         "y": 0
       },
@@ -341,7 +212,7 @@ export const HeatmapData = [
       },
       {
         "x": "Tracked",
-        "y": 2
+        "y": 1
       },
       {
         "x": "Snake",
@@ -350,18 +221,6 @@ export const HeatmapData = [
       {
         "x": "Wheeled",
         "y": 2
-      },
-      {
-        "x": "Sliding-Frame",
-        "y": 0
-      },
-      {
-        "x": "?",
-        "y": 0
-      },
-      {
-        "x": "Shell",
-        "y": 0
       }
     ]
   },
@@ -381,10 +240,6 @@ export const HeatmapData = [
         "y": 0
       },
       {
-        "x": "Drone",
-        "y": 0
-      },
-      {
         "x": "dialectric- elastomer",
         "y": 0
       },
@@ -402,7 +257,7 @@ export const HeatmapData = [
       },
       {
         "x": "Tracked",
-        "y": 3
+        "y": 2
       },
       {
         "x": "Snake",
@@ -410,19 +265,7 @@ export const HeatmapData = [
       },
       {
         "x": "Wheeled",
-        "y": 7
-      },
-      {
-        "x": "Sliding-Frame",
         "y": 0
-      },
-      {
-        "x": "?",
-        "y": 0
-      },
-      {
-        "x": "Shell",
-        "y": 1
       }
     ]
   },
@@ -442,10 +285,6 @@ export const HeatmapData = [
         "y": 0
       },
       {
-        "x": "Drone",
-        "y": 0
-      },
-      {
         "x": "dialectric- elastomer",
         "y": 0
       },
@@ -459,7 +298,7 @@ export const HeatmapData = [
       },
       {
         "x": "Legged",
-        "y": 8
+        "y": 4
       },
       {
         "x": "Tracked",
@@ -471,140 +310,6 @@ export const HeatmapData = [
       },
       {
         "x": "Wheeled",
-        "y": 0
-      },
-      {
-        "x": "Sliding-Frame",
-        "y": 0
-      },
-      {
-        "x": "?",
-        "y": 0
-      },
-      {
-        "x": "Shell",
-        "y": 0
-      }
-    ]
-  },
-  {
-    "id": "Tension Straps",
-    "data": [
-      {
-        "x": "BioInspired - Snake",
-        "y": 0
-      },
-      {
-        "x": "Helical Rolling",
-        "y": 0
-      },
-      {
-        "x": "Brachiating",
-        "y": 0
-      },
-      {
-        "x": "Drone",
-        "y": 0
-      },
-      {
-        "x": "dialectric- elastomer",
-        "y": 0
-      },
-      {
-        "x": "Humanoid",
-        "y": 0
-      },
-      {
-        "x": "Inchworm",
-        "y": 0
-      },
-      {
-        "x": "Legged",
-        "y": 0
-      },
-      {
-        "x": "Tracked",
-        "y": 1
-      },
-      {
-        "x": "Snake",
-        "y": 0
-      },
-      {
-        "x": "Wheeled",
-        "y": 0
-      },
-      {
-        "x": "Sliding-Frame",
-        "y": 0
-      },
-      {
-        "x": "?",
-        "y": 0
-      },
-      {
-        "x": "Shell",
-        "y": 0
-      }
-    ]
-  },
-  {
-    "id": "Friction",
-    "data": [
-      {
-        "x": "BioInspired - Snake",
-        "y": 0
-      },
-      {
-        "x": "Helical Rolling",
-        "y": 0
-      },
-      {
-        "x": "Brachiating",
-        "y": 0
-      },
-      {
-        "x": "Drone",
-        "y": 0
-      },
-      {
-        "x": "dialectric- elastomer",
-        "y": 0
-      },
-      {
-        "x": "Humanoid",
-        "y": 0
-      },
-      {
-        "x": "Inchworm",
-        "y": 0
-      },
-      {
-        "x": "Legged",
-        "y": 0
-      },
-      {
-        "x": "Tracked",
-        "y": 1
-      },
-      {
-        "x": "Snake",
-        "y": 0
-      },
-      {
-        "x": "Wheeled",
-        "y": 2
-      },
-      {
-        "x": "Sliding-Frame",
-        "y": 2
-      },
-      {
-        "x": "?",
-        "y": 0
-      },
-      {
-        "x": "Shell",
         "y": 0
       }
     ]
@@ -625,10 +330,6 @@ export const HeatmapData = [
         "y": 0
       },
       {
-        "x": "Drone",
-        "y": 0
-      },
-      {
         "x": "dialectric- elastomer",
         "y": 0
       },
@@ -655,18 +356,6 @@ export const HeatmapData = [
       {
         "x": "Wheeled",
         "y": 1
-      },
-      {
-        "x": "Sliding-Frame",
-        "y": 0
-      },
-      {
-        "x": "?",
-        "y": 0
-      },
-      {
-        "x": "Shell",
-        "y": 0
       }
     ]
   }
