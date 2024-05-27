@@ -5,9 +5,9 @@ import MyResponsiveHeatMap from "../../components/Heatmap";
 
 const Heatm = () => {
   return (
-    <Box m="20px">
+    <Box m="10px">
       <Header title="Heatmap" subtitle="Heatmap of loco adhe" />
-      <Box height="75vh">
+      <Box height="85vh">
         <MyResponsiveHeatMap />
       </Box>
     </Box>

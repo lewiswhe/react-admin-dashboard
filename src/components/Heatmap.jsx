@@ -13,7 +13,7 @@ const MyResponsiveHeatMap = () => {
   return (
     <ResponsiveHeatMap
       data={data}
-      margin={{ top: 150, right: 90, bottom: 90, left: 190 }}
+      margin={{ top: 150, right: 90, bottom: 190, left: 190 }}
       forceSquare={true}
       theme={{
         text: {
@@ -31,13 +31,14 @@ const MyResponsiveHeatMap = () => {
           },
         },
       }}
-      axisTop={{
+      axisTop={null}
+      axisBottom={{
         tickSize: 5,
         tickPadding: 5,
-        tickRotation: -90,
+        tickRotation: -45,
         legend: 'Locomotion',
         legendPosition: 'middle',
-        legendOffset: -120,
+        legendOffset: 120,
         truncateTickAt: 0
       }}
       axisLeft={{
@@ -54,15 +55,15 @@ const MyResponsiveHeatMap = () => {
         scheme: 'greens',
         divergeAt: 0.5,
         minValue: 0,
-        maxValue: 9
+        maxValue: 11
       }}
       emptyColor="#ffb3b3"
       legends={
         [
           {
-            anchor: 'bottom',
+            anchor: 'top',
             translateX: 0,
-            translateY: 50,
+            translateY: -50,
             length: 400,
             thickness: 18,
             direction: 'row',
