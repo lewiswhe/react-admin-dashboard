@@ -5,7 +5,7 @@ import { tokens } from "../theme";
 // import { mockSankeyData as data } from "../data/mockSankeyDataOLD";
 // import { SankeyData as data } from "../data/newsankey";
 // import { SankeyData as data } from "../data/nivoSankey_nomat"
-import { SankeyData as data } from "../data/nivoSankey_nomat_adhe"
+import { SankeyData as data } from "../data/nivoSankey_nomat_adhe_All";
 
 
 const SankeyChartA = ({ isCustomLineColors = false, isDashboard = true }) => {
@@ -48,7 +48,7 @@ const SankeyChartA = ({ isCustomLineColors = false, isDashboard = true }) => {
                     },
                 },
             }}
-            margin={{ top: 10, right: 460, bottom: 20, left: 350 }}
+            margin={{ top: 10, right: 460, bottom: 20, left: 160 }}
             align="start"
             sort="input"
             // colors={{ scheme: 'nivo' }}
@@ -69,7 +69,7 @@ const SankeyChartA = ({ isCustomLineColors = false, isDashboard = true }) => {
             }}
             nodeBorderRadius={3}
             enableLinkGradient={true}
-            linkOpacity={0.6}
+            linkOpacity={0.5}
             linkHoverOthersOpacity={0.1}
             linkContract={1}
             linkBlendMode="lighten"
@@ -79,8 +79,8 @@ const SankeyChartA = ({ isCustomLineColors = false, isDashboard = true }) => {
             labelTextColor={colors.primary[100]}
             motionConfig="wobbly"
             legends={legends}
-        />
-    );
+        />);
 };
+
 
 export default SankeyChartA;

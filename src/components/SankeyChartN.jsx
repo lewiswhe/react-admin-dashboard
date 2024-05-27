@@ -1,14 +1,10 @@
 import { useTheme } from "@mui/material";
 import { ResponsiveSankey } from "@nivo/sankey";
 import { tokens } from "../theme";
-// import { SankeyData as data } from "../data/SankeyData";
-// import { mockSankeyData as data } from "../data/mockSankeyDataOLD";
-// import { SankeyData as data } from "../data/newsankey";
-// import { SankeyData as data } from "../data/nivoSankey_nomat"
-import { SankeyData as data } from "../data/nivoSankey_contact";
+import { SankeyData as data } from "../data/nivoSankey_nomat_adhe_Non-Planar"
 
 
-const SankeyChartC = ({ isCustomLineColors = false, isDashboard = true }) => {
+const SankeyChartN = ({ isCustomLineColors = false, isDashboard = true }) => {
     const theme = useTheme();
     const colors = tokens(theme.palette.mode);
     // render: () => <Sankey {...commonProperties} data={dataWithRandLinkColors(sankeyData)} enableLinkGradient={true} colors={node => node.nodeColor} />
@@ -48,16 +44,16 @@ const SankeyChartC = ({ isCustomLineColors = false, isDashboard = true }) => {
                     },
                 },
             }}
-            margin={{ top: 40, right: 460, bottom: 40, left: 250 }}
+            margin={{ top: 20, right: 460, bottom: 20, left: 150 }}
             align="start"
             sort="input"
             // colors={{ scheme: 'nivo' }}
             colors={node => node.nodeColor}
-            nodeOpacity={1}
+            nodeOpacity={2}
             nodeHoverOthersOpacity={0.35}
-            nodeThickness={18}
+            nodeThickness={38}
             nodeSpacing={24}
-            nodeBorderWidth={0}
+            nodeBorderWidth={1}
             nodeBorderColor={{
                 from: 'color',
                 modifiers: [
@@ -69,7 +65,7 @@ const SankeyChartC = ({ isCustomLineColors = false, isDashboard = true }) => {
             }}
             nodeBorderRadius={3}
             enableLinkGradient={true}
-            linkOpacity={0.45}
+            linkOpacity={0.9}
             linkHoverOthersOpacity={0.1}
             linkContract={1}
             linkBlendMode="lighten"
@@ -84,4 +80,4 @@ const SankeyChartC = ({ isCustomLineColors = false, isDashboard = true }) => {
 };
 
 
-export default SankeyChartC;
+export default SankeyChartN;

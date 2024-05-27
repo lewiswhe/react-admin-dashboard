@@ -13,9 +13,9 @@ import Pie from "./scenes/pie";
 import Radar from "./scenes/radar";
 import Calendar2 from "./scenes/calendar2";
 import Calendar from "./scenes/calendar/calendar";
-import SankeyL from "./scenes/sankey";
-import SankeyA from "./scenes/sankey2";
-import SankeyC from "./scenes/sankeyC";
+import SankeyN from "./scenes/sankeyN";
+import SankeyP from "./scenes/sankeyP";
+import SankeyC from "./scenes/sankeyA";
 import Heatm from "./scenes/heatmap";
 import FAQ from "./scenes/faq";
 import Geography from "./scenes/geography";
@@ -46,10 +46,10 @@ function App() {
               <Route path="/faq" element={<FAQ />} />
               <Route path="/calendar" element={<Calendar />} />
               <Route path="/geography" element={<Geography />} />
-              <Route path="/sankey" element={<SankeyL />} />
+              <Route path="/sankey" element={<SankeyN />} />
               <Route path="/radar" element={<Radar />} />
               <Route path="/calendar2" element={<Calendar2 />} />
-              <Route path="/sankey2" element={<SankeyA />} />
+              <Route path="/sankey2" element={<SankeyP />} />
               <Route path="/sankeyc" element={<SankeyC />} />
               <Route path="/heatmap" element={<Heatm />} />
             </Routes>
