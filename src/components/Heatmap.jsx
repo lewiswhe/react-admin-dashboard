@@ -13,7 +13,7 @@ const MyResponsiveHeatMap = () => {
   return (
     <ResponsiveHeatMap
       data={data}
-      margin={{ top: 140, right: 90, bottom: 90, left: 190 }}
+      margin={{ top: 150, right: 90, bottom: 90, left: 190 }}
       forceSquare={true}
       theme={{
         text: {
