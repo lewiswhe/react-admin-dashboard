@@ -48,15 +48,15 @@ const SankeyChartA = ({ isCustomLineColors = false, isDashboard = true }) => {
                     },
                 },
             }}
-            margin={{ top: 10, right: 460, bottom: 20, left: 160 }}
+            margin={{ top: 20, right: 460, bottom: 20, left: 150 }}
             align="start"
             sort="input"
             // colors={{ scheme: 'nivo' }}
             colors={node => node.nodeColor}
-            nodeOpacity={1}
+            nodeOpacity={2}
             nodeHoverOthersOpacity={0.35}
-            nodeThickness={18}
-            nodeSpacing={20}
+            nodeThickness={38}
+            nodeSpacing={24}
             nodeBorderWidth={1}
             nodeBorderColor={{
                 from: 'color',
@@ -69,7 +69,7 @@ const SankeyChartA = ({ isCustomLineColors = false, isDashboard = true }) => {
             }}
             nodeBorderRadius={3}
             enableLinkGradient={true}
-            linkOpacity={0.5}
+            linkOpacity={0.9}
             linkHoverOthersOpacity={0.1}
             linkContract={1}
             linkBlendMode="lighten"
@@ -79,7 +79,8 @@ const SankeyChartA = ({ isCustomLineColors = false, isDashboard = true }) => {
             labelTextColor={colors.primary[100]}
             motionConfig="wobbly"
             legends={legends}
-        />);
+        />
+    );
 };
 
 

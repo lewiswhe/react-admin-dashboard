@@ -5,9 +5,9 @@ import SankeyChartA from "../../components/SankeyChartA";
 
 const SankeyA = () => {
   return (
-    <Box m="20px">
+    <Box m="10px">
       <Header title="All" />
-      <Box height="75vh">
+      <Box height="85vh">
         <SankeyChartA />
       </Box>
     </Box>
