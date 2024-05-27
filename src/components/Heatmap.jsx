@@ -54,9 +54,9 @@ const MyResponsiveHeatMap = () => {
         scheme: 'greens',
         divergeAt: 0.5,
         minValue: 0,
-        maxValue: 7
+        maxValue: 9
       }}
-      emptyColor="#555555"
+      emptyColor="#ffb3b3"
       legends={
         [
           {
