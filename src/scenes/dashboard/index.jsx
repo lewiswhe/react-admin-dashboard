@@ -13,6 +13,7 @@ import BarChart from "../../components/BarChart";
 import SankeyChartP from "../../components/SankeyChartP";
 import Heatmap from "../../components/Heatmap";
 import StatBox from "../../components/StatBox";
+import TotalBox from "../../components/TotalBox";
 import ProgressCircle from "../../components/ProgressCircle";
 
 const Dashboard = () => {
@@ -56,7 +57,7 @@ const Dashboard = () => {
           alignItems="center"
           justifyContent="center"
         >
-          <StatBox
+          <TotalBox
             title="Box 2"
             subtitle="Info"
             progress="0.50"
