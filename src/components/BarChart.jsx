@@ -1,7 +1,7 @@
 import { useTheme } from "@mui/material";
 import { ResponsiveBar } from "@nivo/bar";
 import { tokens } from "../theme";
-import { mockBarData as data } from "../data/mockData";
+import { mockBarData as data } from "../data/speedBarData";
 
 const BarChart = ({ isDashboard = false }) => {
   const theme = useTheme();
@@ -39,13 +39,17 @@ const BarChart = ({ isDashboard = false }) => {
           },
         },
       }}
-      keys={["hot dog", "burger", "sandwich", "kebab", "fries", "donut"]}
-      indexBy="country"
+      keys={["speed"]}
+      indexBy="robot"
       margin={{ top: 50, right: 130, bottom: 50, left: 60 }}
       padding={0.3}
       valueScale={{ type: "linear" }}
       indexScale={{ type: "band", round: true }}
-      colors={{ scheme: "nivo" }}
+      // colors={{ scheme: "nivo" }}
+      colors={({
+        id,
+        data
+      }) => String(data[`${id}Color`])}
       defs={[
         {
           id: "dots",
@@ -76,7 +80,7 @@ const BarChart = ({ isDashboard = false }) => {
         tickSize: 5,
         tickPadding: 5,
         tickRotation: 0,
-        legend: isDashboard ? undefined : "country", // changed
+        legend: isDashboard ? undefined : "robot", // changed
         legendPosition: "middle",
         legendOffset: 32,
       }}
@@ -84,16 +88,16 @@ const BarChart = ({ isDashboard = false }) => {
         tickSize: 5,
         tickPadding: 5,
         tickRotation: 0,
-        legend: isDashboard ? undefined : "food", // changed
+        legend: isDashboard ? undefined : "Climbing Speed (mm/s)", // changed
         legendPosition: "middle",
         legendOffset: -40,
       }}
-      enableLabel={false}
       labelSkipWidth={12}
       labelSkipHeight={12}
+      // label={d => `${d}`}
       labelTextColor={{
         from: "color",
-        modifiers: [["darker", 1.6]],
+        modifiers: [["darker", 3]],
       }}
       legends={[
         {
@@ -120,8 +124,20 @@ const BarChart = ({ isDashboard = false }) => {
         },
       ]}
       role="application"
-      barAriaLabel={function (e) {
-        return e.id + ": " + e.formattedValue + " in country: " + e.indexValue;
+      markers={[{
+        axis: 'x',
+        value: '[41]',
+        lineStyle: {
+          stroke: 'rgba(150,0,0,0.3)',
+          strokeWidth: 100
+        }
+
+      }]}
+      groupMode="grouped"
+      enableTotals={true}
+      totalsOffset={20}
+      barAriaLabel={function(e) {
+        return e.id + ": " + e.formattedValue + " in robot: " + e.indexValue;
       }}
     />
   );
