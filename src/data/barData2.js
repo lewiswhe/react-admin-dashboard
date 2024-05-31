@@ -1,12 +1,13 @@
 export const barData = [
   {
     "adhe": "None",
-    "[8]": "0",
+    "[8]": "0"
   },
   {
     "adhe": "Helical Friction",
     "[35]": "0",
     "[38]": "0",
+    "[39]": "0",
     "[10]": "0",
     "[4]": "0",
   },
@@ -15,7 +16,7 @@ export const barData = [
     "[40]": "10",
     "[42]": "1",
     "[61]": "3",
-    "[62]": "10",
+    "[62]": "10"
   },
   {
     "adhe": "Magnetic",
@@ -26,14 +27,14 @@ export const barData = [
   },
   {
     "adhe": "Friction",
-    "[48]": "0.5",
+    "[48]": "0.5"
   },
   {
     "adhe": "Friction, Pneumatic",
-    "[54]": "0.5",
+    "[54]": "0.5"
   },
   {
     "adhe": "Friction, Sliding Frame",
-    "[58]": "2",
-  },
+    "[58]": "2"
+  }
 ]

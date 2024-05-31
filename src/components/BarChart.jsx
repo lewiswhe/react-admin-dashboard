@@ -1,7 +1,8 @@
 import { useTheme } from "@mui/material";
 import { ResponsiveBar } from "@nivo/bar";
 import { tokens } from "../theme";
-import { mockBarData as data } from "../data/speedBarData";
+import { barData as data } from "../data/barData";
+import { barKeys as keys } from "../data/barKeys";
 
 const BarChart = ({ isDashboard = false }) => {
   const theme = useTheme();
@@ -39,17 +40,17 @@ const BarChart = ({ isDashboard = false }) => {
           },
         },
       }}
-      keys={["speed"]}
-      indexBy="robot"
+      keys={keys}
+      indexBy="adhe"
       margin={{ top: 50, right: 130, bottom: 50, left: 60 }}
       padding={0.3}
       valueScale={{ type: "linear" }}
       indexScale={{ type: "band", round: true }}
-      // colors={{ scheme: "nivo" }}
-      colors={({
-        id,
-        data
-      }) => String(data[`${id}Color`])}
+      colors={{ scheme: "nivo" }}
+      // colors={({
+      //   id,
+      //   data
+      // }) => String(data[`${id}Color`])}
       defs={[
         {
           id: "dots",
@@ -124,15 +125,6 @@ const BarChart = ({ isDashboard = false }) => {
         },
       ]}
       role="application"
-      markers={[{
-        axis: 'x',
-        value: '[41]',
-        lineStyle: {
-          stroke: 'rgba(150,0,0,0.3)',
-          strokeWidth: 100
-        }
-
-      }]}
       groupMode="grouped"
       enableTotals={true}
       totalsOffset={20}
