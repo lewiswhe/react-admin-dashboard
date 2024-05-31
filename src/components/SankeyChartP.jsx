@@ -35,8 +35,9 @@ const SankeyChartP = ({ isCustomLineColors = false, isDashboard = true }) => {
             data={data}
             theme={{
                 text: {
-                    fill: colors.grey[100],
-                    fontSize: '20px',
+                    fill: colors.primary[100],
+                    fontSize: '26px',
+                    // fontWeight: 'bold'
                 },
                 tooltip: {
                     container: {
@@ -44,7 +45,7 @@ const SankeyChartP = ({ isCustomLineColors = false, isDashboard = true }) => {
                     },
                 },
             }}
-            margin={{ top: 10, right: 460, bottom: 20, left: 160 }}
+            margin={{ top: 10, right: 360, bottom: 20, left: 160 }}
             align="start"
             sort="input"
             // colors={{ scheme: 'nivo' }}
@@ -59,13 +60,13 @@ const SankeyChartP = ({ isCustomLineColors = false, isDashboard = true }) => {
                 modifiers: [
                     [
                         'darker',
-                        0.8
+                        0.5
                     ]
                 ]
             }}
             nodeBorderRadius={3}
             enableLinkGradient={true}
-            linkOpacity={0.5}
+            linkOpacity={0.4}
             linkHoverOthersOpacity={0.1}
             linkContract={1}
             linkBlendMode="lighten"

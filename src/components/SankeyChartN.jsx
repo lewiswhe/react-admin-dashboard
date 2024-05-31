@@ -36,7 +36,7 @@ const SankeyChartN = ({ isCustomLineColors = false, isDashboard = true }) => {
             theme={{
                 text: {
                     fill: colors.grey[100],
-                    fontSize: '20px',
+                    fontSize: '26px',
                 },
                 tooltip: {
                     container: {
@@ -44,7 +44,7 @@ const SankeyChartN = ({ isCustomLineColors = false, isDashboard = true }) => {
                     },
                 },
             }}
-            margin={{ top: 10, right: 460, bottom: 20, left: 160 }}
+            margin={{ top: 10, right: 200, bottom: 20, left: 160 }}
             align="start"
             sort="input"
             // colors={{ scheme: 'nivo' }}
