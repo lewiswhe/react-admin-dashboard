@@ -19,6 +19,8 @@ import SankeyC from "./scenes/sankeyA";
 import Heatm from "./scenes/heatmap";
 import FAQ from "./scenes/faq";
 import Geography from "./scenes/geography";
+import GroupedBar from "./scenes/groupedBarchart";
+import PlotlyBar from "./scenes/plotlybar";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { ColorModeContext, useMode } from "./theme";
 
@@ -52,6 +54,8 @@ function App() {
               <Route path="/sankey2" element={<SankeyP />} />
               <Route path="/sankeyc" element={<SankeyC />} />
               <Route path="/heatmap" element={<Heatm />} />
+              <Route path="/groupedbar" element={<GroupedBar />} />
+              <Route path="/plotlybar" element={<PlotlyBar />} />
             </Routes>
           </main>
         </div>

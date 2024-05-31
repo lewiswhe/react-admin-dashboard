@@ -13,17 +13,12 @@ const MyResponsiveHeatMap = () => {
   return (
     <ResponsiveHeatMap
       data={data}
-      margin={{ top: 150, right: 90, bottom: 190, left: 190 }}
+      margin={{ top: 160, right: 90, bottom: 190, left: 190 }}
       forceSquare={true}
       theme={{
         text: {
           fill: colors.grey[100],
-          fontSize: 14,
-        },
-        axis: {
-          style: {
-            fontSize: 20
-          }
+          fontSize: 18,
         },
         tooltip: {
           container: {
@@ -32,13 +27,13 @@ const MyResponsiveHeatMap = () => {
         },
       }}
       axisTop={null}
-      axisBottom={{
+      axisTop={{
         tickSize: 5,
         tickPadding: 5,
         tickRotation: -45,
         legend: 'Locomotion',
         legendPosition: 'middle',
-        legendOffset: 120,
+        legendOffset: -150,
         truncateTickAt: 0
       }}
       axisLeft={{
@@ -47,7 +42,7 @@ const MyResponsiveHeatMap = () => {
         tickRotation: 0,
         legend: 'Adhesion',
         legendPosition: 'middle',
-        legendOffset: -140,
+        legendOffset: -160,
         truncateTickAt: 0,
       }}
       colors={{
@@ -58,24 +53,24 @@ const MyResponsiveHeatMap = () => {
         maxValue: 11
       }}
       emptyColor="#ffb3b3"
-      legends={
-        [
-          {
-            anchor: 'top',
-            translateX: 0,
-            translateY: -50,
-            length: 400,
-            thickness: 18,
-            direction: 'row',
-            tickPosition: 'after',
-            tickSize: 1,
-            tickSpacing: 4,
-            tickOverlap: false,
-            title: 'Amount',
-            titleAlign: 'start',
-            titleOffset: 4
-          }
-        ]}
+      // legends={
+      //   [
+      //     {
+      //       anchor: 'top',
+      //       translateX: 0,
+      //       translateY: -50,
+      //       length: 400,
+      //       thickness: 18,
+      //       direction: 'row',
+      //       tickPosition: 'after',
+      //       tickSize: 1,
+      //       tickSpacing: 4,
+      //       tickOverlap: false,
+      //       title: 'Amount',
+      //       titleAlign: 'start',
+      //       titleOffset: 4
+      //     }
+      //   ]}
     />
   )
 }

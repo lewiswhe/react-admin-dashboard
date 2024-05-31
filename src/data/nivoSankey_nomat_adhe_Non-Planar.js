@@ -142,23 +142,23 @@ export const SankeyData = {
     },
     {
       "id": "BioInspired - Snake",
-      "nodeColor": "#2a695e"
-    },
-    {
-      "id": "Brachiating",
-      "nodeColor": "#2a695e"
-    },
-    {
-      "id": "Claws/Spines",
       "nodeColor": "#b24844"
     },
     {
-      "id": "Continuum",
+      "id": "Brachiating",
+      "nodeColor": "#b24844"
+    },
+    {
+      "id": "Claws/Spines",
       "nodeColor": "#2a695e"
     },
     {
+      "id": "Continuum",
+      "nodeColor": "#b24844"
+    },
+    {
       "id": "Drone",
-      "nodeColor": "#2a695e"
+      "nodeColor": "#b24844"
     },
     {
       "id": "Ferromagnetic",
@@ -166,73 +166,73 @@ export const SankeyData = {
     },
     {
       "id": "Friction",
-      "nodeColor": "#b24844"
+      "nodeColor": "#2a695e"
     },
     {
       "id": "Grippers",
-      "nodeColor": "#b24844"
+      "nodeColor": "#2a695e"
     },
     {
       "id": "Helical Friction",
-      "nodeColor": "#b24844"
+      "nodeColor": "#2a695e"
     },
     {
       "id": "Helical Rolling",
-      "nodeColor": "#2a695e"
+      "nodeColor": "#b24844"
     },
     {
       "id": "Inchworm",
-      "nodeColor": "#2a695e"
+      "nodeColor": "#b24844"
     },
     {
       "id": "Jet Propulsion",
-      "nodeColor": "#2a695e"
+      "nodeColor": "#b24844"
     },
     {
       "id": "Legged",
-      "nodeColor": "#2a695e"
+      "nodeColor": "#b24844"
     },
     {
       "id": "Magnetic",
-      "nodeColor": "#b24844"
+      "nodeColor": "#2a695e"
     },
     {
       "id": "None",
-      "nodeColor": "#b24844"
+      "nodeColor": "#2a695e"
     },
     {
       "id": "Pneumatic",
-      "nodeColor": "#b24844"
+      "nodeColor": "#2a695e"
     },
     {
       "id": "Shell",
-      "nodeColor": "#2a695e"
+      "nodeColor": "#b24844"
     },
     {
       "id": "Sliding Frame",
-      "nodeColor": "#b24844"
+      "nodeColor": "#2a695e"
     },
     {
       "id": "Soft",
-      "nodeColor": "#2a695e"
-    },
-    {
-      "id": "Tension Straps",
       "nodeColor": "#b24844"
     },
     {
-      "id": "Tracked",
+      "id": "Tension Straps",
       "nodeColor": "#2a695e"
     },
     {
+      "id": "Tracked",
+      "nodeColor": "#b24844"
+    },
+    {
       "id": "Wheeled",
-      "nodeColor": "#2a695e"
+      "nodeColor": "#b24844"
     }
   ],
   "links": [
     {
       "source": "[53]",
-      "target": "Friction",
+      "target": "Soft",
       "value": 1,
       "id": "1-0",
       "name": "A Pipe-Climbing Soft Robot",
@@ -240,8 +240,8 @@ export const SankeyData = {
       "endColor": "rgb(255,0,0)"
     },
     {
-      "source": "Friction",
-      "target": "Soft",
+      "source": "Soft",
+      "target": "Friction",
       "value": 1,
       "id": "1-1",
       "name": "A Pipe-Climbing Soft Robot",
@@ -249,7 +249,7 @@ export const SankeyData = {
       "endColor": "rgb(255,0,0)"
     },
     {
-      "source": "Soft",
+      "source": "Friction",
       "target": "Any",
       "value": 1,
       "id": "1-3",
@@ -259,7 +259,7 @@ export const SankeyData = {
     },
     {
       "source": "[48]",
-      "target": "Friction",
+      "target": "Jet Propulsion",
       "value": 1,
       "id": "2-0",
       "name": "A Soft-Rigid Air-Propelled Pipe-Climbing Robot",
@@ -267,8 +267,8 @@ export const SankeyData = {
       "endColor": "rgb(255,34,0)"
     },
     {
-      "source": "Friction",
-      "target": "Jet Propulsion",
+      "source": "Jet Propulsion",
+      "target": "Friction",
       "value": 1,
       "id": "2-1",
       "name": "A Soft-Rigid Air-Propelled Pipe-Climbing Robot",
@@ -276,7 +276,7 @@ export const SankeyData = {
       "endColor": "rgb(255,34,0)"
     },
     {
-      "source": "Jet Propulsion",
+      "source": "Friction",
       "target": "Any",
       "value": 1,
       "id": "2-3",
@@ -286,7 +286,7 @@ export const SankeyData = {
     },
     {
       "source": "[42]",
-      "target": "Grippers",
+      "target": "Inchworm",
       "value": 1,
       "id": "3-0",
       "name": "Fully 3D-Printed Modular Pipe-Climbing Robot",
@@ -294,8 +294,8 @@ export const SankeyData = {
       "endColor": "rgb(255,64,0)"
     },
     {
-      "source": "Grippers",
-      "target": "Inchworm",
+      "source": "Inchworm",
+      "target": "Grippers",
       "value": 1,
       "id": "3-1",
       "name": "Fully 3D-Printed Modular Pipe-Climbing Robot",
@@ -303,7 +303,7 @@ export const SankeyData = {
       "endColor": "rgb(255,64,0)"
     },
     {
-      "source": "Inchworm",
+      "source": "Grippers",
       "target": "Any",
       "value": 1,
       "id": "3-3",
@@ -313,7 +313,7 @@ export const SankeyData = {
     },
     {
       "source": "[56]",
-      "target": "Friction",
+      "target": "Wheeled",
       "value": 1,
       "id": "4-0",
       "name": "Design and Experiments of A Climbing Robot for Inspection of Isolated Phase Bus",
@@ -321,8 +321,8 @@ export const SankeyData = {
       "endColor": "rgb(255,98,0)"
     },
     {
-      "source": "Friction",
-      "target": "Wheeled",
+      "source": "Wheeled",
+      "target": "Friction",
       "value": 1,
       "id": "4-1",
       "name": "Design and Experiments of A Climbing Robot for Inspection of Isolated Phase Bus",
@@ -330,7 +330,7 @@ export const SankeyData = {
       "endColor": "rgb(255,98,0)"
     },
     {
-      "source": "Wheeled",
+      "source": "Friction",
       "target": "Any",
       "value": 1,
       "id": "4-3",
@@ -340,7 +340,7 @@ export const SankeyData = {
     },
     {
       "source": "[44]",
-      "target": "Grippers",
+      "target": "Inchworm",
       "value": 1,
       "id": "5-0",
       "name": "Design of a Double Claw Pole-Climbing Robot",
@@ -348,8 +348,8 @@ export const SankeyData = {
       "endColor": "rgb(255,132,0)"
     },
     {
-      "source": "Grippers",
-      "target": "Inchworm",
+      "source": "Inchworm",
+      "target": "Grippers",
       "value": 1,
       "id": "5-1",
       "name": "Design of a Double Claw Pole-Climbing Robot",
@@ -357,8 +357,17 @@ export const SankeyData = {
       "endColor": "rgb(255,132,0)"
     },
     {
+      "source": "Grippers",
+      "target": "Any",
+      "value": 1,
+      "id": "5-3",
+      "name": "Design of a Double Claw Pole-Climbing Robot",
+      "startColor": "rgb(255,132,0)",
+      "endColor": "rgb(255,132,0)"
+    },
+    {
       "source": "[52]",
-      "target": "Magnetic",
+      "target": "Shell",
       "value": 1,
       "id": "6-0",
       "name": "Design and Fabrication of a Novel Autonomous Pipeline Scanning Robot",
@@ -366,8 +375,8 @@ export const SankeyData = {
       "endColor": "rgb(255,166,0)"
     },
     {
-      "source": "Magnetic",
-      "target": "Shell",
+      "source": "Shell",
+      "target": "Magnetic",
       "value": 1,
       "id": "6-1",
       "name": "Design and Fabrication of a Novel Autonomous Pipeline Scanning Robot",
@@ -375,7 +384,7 @@ export const SankeyData = {
       "endColor": "rgb(255,166,0)"
     },
     {
-      "source": "Shell",
+      "source": "Magnetic",
       "target": "Ferromagnetic",
       "value": 1,
       "id": "6-3",
@@ -385,7 +394,7 @@ export const SankeyData = {
     },
     {
       "source": "[57]",
-      "target": "Magnetic",
+      "target": "Wheeled",
       "value": 1,
       "id": "7-0",
       "name": "Development and Evaluation of Compact Robot Imitating a Hermit Crab for Inspecting the Outer Surface of Pipes",
@@ -393,8 +402,8 @@ export const SankeyData = {
       "endColor": "rgb(255,196,0)"
     },
     {
-      "source": "Magnetic",
-      "target": "Wheeled",
+      "source": "Wheeled",
+      "target": "Magnetic",
       "value": 1,
       "id": "7-1",
       "name": "Development and Evaluation of Compact Robot Imitating a Hermit Crab for Inspecting the Outer Surface of Pipes",
@@ -402,7 +411,7 @@ export const SankeyData = {
       "endColor": "rgb(255,196,0)"
     },
     {
-      "source": "Wheeled",
+      "source": "Magnetic",
       "target": "Ferromagnetic",
       "value": 1,
       "id": "7-3",
@@ -412,7 +421,7 @@ export const SankeyData = {
     },
     {
       "source": "[37]",
-      "target": "Sliding Frame",
+      "target": "Drone",
       "value": 1,
       "id": "8-0",
       "name": "Development of a Novel Modular Robot for Vertical Pipeline Climbing\n                    ",
@@ -420,8 +429,8 @@ export const SankeyData = {
       "endColor": "rgb(255,230,0)"
     },
     {
-      "source": "Sliding Frame",
-      "target": "Drone",
+      "source": "Drone",
+      "target": "Sliding Frame",
       "value": 1,
       "id": "8-1",
       "name": "Development of a Novel Modular Robot for Vertical Pipeline Climbing\n                    ",
@@ -429,7 +438,7 @@ export const SankeyData = {
       "endColor": "rgb(255,230,0)"
     },
     {
-      "source": "Drone",
+      "source": "Sliding Frame",
       "target": "Any",
       "value": 1,
       "id": "8-3",
@@ -439,7 +448,7 @@ export const SankeyData = {
     },
     {
       "source": "[45]",
-      "target": "Grippers",
+      "target": "Inchworm",
       "value": 1,
       "id": "9-0",
       "name": "TAOYAKA-S III: Soft multi-legged robot for climbing unknown columnar objects",
@@ -447,8 +456,8 @@ export const SankeyData = {
       "endColor": "rgb(246,255,0)"
     },
     {
-      "source": "Grippers",
-      "target": "Inchworm",
+      "source": "Inchworm",
+      "target": "Grippers",
       "value": 1,
       "id": "9-1",
       "name": "TAOYAKA-S III: Soft multi-legged robot for climbing unknown columnar objects",
@@ -456,7 +465,7 @@ export const SankeyData = {
       "endColor": "rgb(246,255,0)"
     },
     {
-      "source": "Inchworm",
+      "source": "Grippers",
       "target": "Any",
       "value": 1,
       "id": "9-3",
@@ -466,7 +475,7 @@ export const SankeyData = {
     },
     {
       "source": "[38]",
-      "target": "Helical Friction",
+      "target": "Helical Rolling",
       "value": 1,
       "id": "10-0",
       "name": "Design for snake robot motion via partial grasping on pipes",
@@ -474,8 +483,8 @@ export const SankeyData = {
       "endColor": "rgb(212,255,0)"
     },
     {
-      "source": "Helical Friction",
-      "target": "Helical Rolling",
+      "source": "Helical Rolling",
+      "target": "Helical Friction",
       "value": 1,
       "id": "10-1",
       "name": "Design for snake robot motion via partial grasping on pipes",
@@ -483,7 +492,7 @@ export const SankeyData = {
       "endColor": "rgb(212,255,0)"
     },
     {
-      "source": "Helical Rolling",
+      "source": "Helical Friction",
       "target": "Any",
       "value": 1,
       "id": "10-3",
@@ -493,7 +502,7 @@ export const SankeyData = {
     },
     {
       "source": "[35]",
-      "target": "Helical Friction",
+      "target": "BioInspired - Snake",
       "value": 1,
       "id": "11-0",
       "name": "Pipe Network Locomotion with a Snake Robot",
@@ -501,8 +510,8 @@ export const SankeyData = {
       "endColor": "rgb(183,255,0)"
     },
     {
-      "source": "Helical Friction",
-      "target": "BioInspired - Snake",
+      "source": "BioInspired - Snake",
+      "target": "Helical Friction",
       "value": 1,
       "id": "11-1",
       "name": "Pipe Network Locomotion with a Snake Robot",
@@ -510,25 +519,25 @@ export const SankeyData = {
       "endColor": "rgb(183,255,0)"
     },
     {
-      "source": "Helical Friction",
+      "source": "[35]",
       "target": "Helical Rolling",
       "value": 1,
-      "id": "11-1",
-      "name": "Pipe Network Locomotion with a Snake Robot",
-      "startColor": "rgb(183,255,0)",
-      "endColor": "rgb(183,255,0)"
-    },
-    {
-      "source": "BioInspired - Snake",
-      "target": "Any",
-      "value": 1,
-      "id": "11-3",
+      "id": "11-0",
       "name": "Pipe Network Locomotion with a Snake Robot",
       "startColor": "rgb(183,255,0)",
       "endColor": "rgb(183,255,0)"
     },
     {
       "source": "Helical Rolling",
+      "target": "Helical Friction",
+      "value": 1,
+      "id": "11-1",
+      "name": "Pipe Network Locomotion with a Snake Robot",
+      "startColor": "rgb(183,255,0)",
+      "endColor": "rgb(183,255,0)"
+    },
+    {
+      "source": "Helical Friction",
       "target": "Any",
       "value": 1,
       "id": "11-3",
@@ -538,7 +547,7 @@ export const SankeyData = {
     },
     {
       "source": "[39]",
-      "target": "Helical Friction",
+      "target": "Helical Rolling",
       "value": 1,
       "id": "12-0",
       "name": "Mobile Manipulation Using a Snake Robot in a Helical Gait",
@@ -546,8 +555,8 @@ export const SankeyData = {
       "endColor": "rgb(149,255,0)"
     },
     {
-      "source": "Helical Friction",
-      "target": "Helical Rolling",
+      "source": "Helical Rolling",
+      "target": "Helical Friction",
       "value": 1,
       "id": "12-1",
       "name": "Mobile Manipulation Using a Snake Robot in a Helical Gait",
@@ -555,7 +564,7 @@ export const SankeyData = {
       "endColor": "rgb(149,255,0)"
     },
     {
-      "source": "Helical Rolling",
+      "source": "Helical Friction",
       "target": "Any",
       "value": 1,
       "id": "12-3",
@@ -565,7 +574,7 @@ export const SankeyData = {
     },
     {
       "source": "[10]",
-      "target": "Helical Friction",
+      "target": "Helical Rolling",
       "value": 1,
       "id": "13-0",
       "name": "Adaptive Helical Rolling of a Snake Robot to a Straight Pipe With Irregular Cross-Sectional Shape",
@@ -573,8 +582,8 @@ export const SankeyData = {
       "endColor": "rgb(115,255,0)"
     },
     {
-      "source": "Helical Friction",
-      "target": "Helical Rolling",
+      "source": "Helical Rolling",
+      "target": "Helical Friction",
       "value": 1,
       "id": "13-1",
       "name": "Adaptive Helical Rolling of a Snake Robot to a Straight Pipe With Irregular Cross-Sectional Shape",
@@ -582,7 +591,7 @@ export const SankeyData = {
       "endColor": "rgb(115,255,0)"
     },
     {
-      "source": "Helical Rolling",
+      "source": "Helical Friction",
       "target": "Any",
       "value": 1,
       "id": "13-3",
@@ -592,7 +601,7 @@ export const SankeyData = {
     },
     {
       "source": "[61]",
-      "target": "Grippers",
+      "target": "Wheeled",
       "value": 1,
       "id": "14-0",
       "name": "Design and Development of a Pipe Climbing Mechanism",
@@ -600,8 +609,8 @@ export const SankeyData = {
       "endColor": "rgb(85,255,0)"
     },
     {
-      "source": "Grippers",
-      "target": "Wheeled",
+      "source": "Wheeled",
+      "target": "Grippers",
       "value": 1,
       "id": "14-1",
       "name": "Design and Development of a Pipe Climbing Mechanism",
@@ -609,7 +618,7 @@ export const SankeyData = {
       "endColor": "rgb(85,255,0)"
     },
     {
-      "source": "Wheeled",
+      "source": "Grippers",
       "target": "Any",
       "value": 1,
       "id": "14-3",
@@ -619,7 +628,7 @@ export const SankeyData = {
     },
     {
       "source": "[47]",
-      "target": "Grippers",
+      "target": "Inchworm",
       "value": 1,
       "id": "15-0",
       "name": "An Inchworm-Like Climbing Robot Based on Cable-Driven Grippers",
@@ -627,8 +636,8 @@ export const SankeyData = {
       "endColor": "rgb(51,255,0)"
     },
     {
-      "source": "Grippers",
-      "target": "Inchworm",
+      "source": "Inchworm",
+      "target": "Grippers",
       "value": 1,
       "id": "15-1",
       "name": "An Inchworm-Like Climbing Robot Based on Cable-Driven Grippers",
@@ -636,7 +645,7 @@ export const SankeyData = {
       "endColor": "rgb(51,255,0)"
     },
     {
-      "source": "Inchworm",
+      "source": "Grippers",
       "target": "Any",
       "value": 1,
       "id": "15-3",
@@ -646,7 +655,7 @@ export const SankeyData = {
     },
     {
       "source": "[62]",
-      "target": "Grippers",
+      "target": "Wheeled",
       "value": 1,
       "id": "16-0",
       "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
@@ -654,8 +663,8 @@ export const SankeyData = {
       "endColor": "rgb(17,255,0)"
     },
     {
-      "source": "Grippers",
-      "target": "Wheeled",
+      "source": "Wheeled",
+      "target": "Grippers",
       "value": 1,
       "id": "16-1",
       "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
@@ -663,25 +672,25 @@ export const SankeyData = {
       "endColor": "rgb(17,255,0)"
     },
     {
-      "source": "Grippers",
+      "source": "[62]",
       "target": "Inchworm",
       "value": 1,
-      "id": "16-1",
-      "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
-      "startColor": "rgb(17,255,0)",
-      "endColor": "rgb(17,255,0)"
-    },
-    {
-      "source": "Wheeled",
-      "target": "Any",
-      "value": 1,
-      "id": "16-3",
+      "id": "16-0",
       "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
       "startColor": "rgb(17,255,0)",
       "endColor": "rgb(17,255,0)"
     },
     {
       "source": "Inchworm",
+      "target": "Grippers",
+      "value": 1,
+      "id": "16-1",
+      "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
+      "startColor": "rgb(17,255,0)",
+      "endColor": "rgb(17,255,0)"
+    },
+    {
+      "source": "Grippers",
       "target": "Any",
       "value": 1,
       "id": "16-3",
@@ -691,7 +700,7 @@ export const SankeyData = {
     },
     {
       "source": "[9]",
-      "target": "Grippers",
+      "target": "Inchworm",
       "value": 1,
       "id": "17-0",
       "name": "Climbot: A Bio-Inspired Modular Biped Climbing Robot—System Development, Climbing Gaits, and Experiments",
@@ -699,8 +708,8 @@ export const SankeyData = {
       "endColor": "rgb(0,255,17)"
     },
     {
-      "source": "Grippers",
-      "target": "Inchworm",
+      "source": "Inchworm",
+      "target": "Grippers",
       "value": 1,
       "id": "17-1",
       "name": "Climbot: A Bio-Inspired Modular Biped Climbing Robot—System Development, Climbing Gaits, and Experiments",
@@ -708,25 +717,25 @@ export const SankeyData = {
       "endColor": "rgb(0,255,17)"
     },
     {
-      "source": "Grippers",
+      "source": "[9]",
       "target": "Brachiating",
       "value": 1,
-      "id": "17-1",
-      "name": "Climbot: A Bio-Inspired Modular Biped Climbing Robot—System Development, Climbing Gaits, and Experiments",
-      "startColor": "rgb(0,255,17)",
-      "endColor": "rgb(0,255,17)"
-    },
-    {
-      "source": "Inchworm",
-      "target": "Any",
-      "value": 1,
-      "id": "17-3",
+      "id": "17-0",
       "name": "Climbot: A Bio-Inspired Modular Biped Climbing Robot—System Development, Climbing Gaits, and Experiments",
       "startColor": "rgb(0,255,17)",
       "endColor": "rgb(0,255,17)"
     },
     {
       "source": "Brachiating",
+      "target": "Grippers",
+      "value": 1,
+      "id": "17-1",
+      "name": "Climbot: A Bio-Inspired Modular Biped Climbing Robot—System Development, Climbing Gaits, and Experiments",
+      "startColor": "rgb(0,255,17)",
+      "endColor": "rgb(0,255,17)"
+    },
+    {
+      "source": "Grippers",
       "target": "Any",
       "value": 1,
       "id": "17-3",
@@ -736,7 +745,7 @@ export const SankeyData = {
     },
     {
       "source": "[11]",
-      "target": "Magnetic",
+      "target": "Inchworm",
       "value": 1,
       "id": "18-0",
       "name": "Adaptive Bipedal Robot Walking on Industrial Pipes Under Neural Multimodal Locomotion Control: Toward Robotic Out-Pipe Inspection",
@@ -744,8 +753,8 @@ export const SankeyData = {
       "endColor": "rgb(0,255,47)"
     },
     {
-      "source": "Magnetic",
-      "target": "Inchworm",
+      "source": "Inchworm",
+      "target": "Magnetic",
       "value": 1,
       "id": "18-1",
       "name": "Adaptive Bipedal Robot Walking on Industrial Pipes Under Neural Multimodal Locomotion Control: Toward Robotic Out-Pipe Inspection",
@@ -753,7 +762,7 @@ export const SankeyData = {
       "endColor": "rgb(0,255,47)"
     },
     {
-      "source": "Inchworm",
+      "source": "Magnetic",
       "target": "Ferromagnetic",
       "value": 1,
       "id": "18-3",
@@ -763,7 +772,7 @@ export const SankeyData = {
     },
     {
       "source": "[40]",
-      "target": "Grippers",
+      "target": "Inchworm",
       "value": 1,
       "id": "19-0",
       "name": "Developing a bioinspired pole climbing robot",
@@ -771,8 +780,8 @@ export const SankeyData = {
       "endColor": "rgb(0,255,81)"
     },
     {
-      "source": "Grippers",
-      "target": "Inchworm",
+      "source": "Inchworm",
+      "target": "Grippers",
       "value": 1,
       "id": "19-1",
       "name": "Developing a bioinspired pole climbing robot",
@@ -780,7 +789,7 @@ export const SankeyData = {
       "endColor": "rgb(0,255,81)"
     },
     {
-      "source": "Inchworm",
+      "source": "Grippers",
       "target": "Any",
       "value": 1,
       "id": "19-3",
@@ -790,7 +799,7 @@ export const SankeyData = {
     },
     {
       "source": "[43]",
-      "target": "Grippers",
+      "target": "Inchworm",
       "value": 1,
       "id": "20-0",
       "name": "Mechanical Analysis of Superheater Pipe Detection Robot",
@@ -798,8 +807,8 @@ export const SankeyData = {
       "endColor": "rgb(0,255,115)"
     },
     {
-      "source": "Grippers",
-      "target": "Inchworm",
+      "source": "Inchworm",
+      "target": "Grippers",
       "value": 1,
       "id": "20-1",
       "name": "Mechanical Analysis of Superheater Pipe Detection Robot",
@@ -807,7 +816,7 @@ export const SankeyData = {
       "endColor": "rgb(0,255,115)"
     },
     {
-      "source": "Inchworm",
+      "source": "Grippers",
       "target": "Any",
       "value": 1,
       "id": "20-3",
@@ -817,7 +826,7 @@ export const SankeyData = {
     },
     {
       "source": "[55]",
-      "target": "Magnetic",
+      "target": "Wheeled",
       "value": 1,
       "id": "21-0",
       "name": "Design and Development of Climbing Robot for Lightning Rod Maintenance in Substation",
@@ -825,8 +834,8 @@ export const SankeyData = {
       "endColor": "rgb(0,255,149)"
     },
     {
-      "source": "Magnetic",
-      "target": "Wheeled",
+      "source": "Wheeled",
+      "target": "Magnetic",
       "value": 1,
       "id": "21-1",
       "name": "Design and Development of Climbing Robot for Lightning Rod Maintenance in Substation",
@@ -834,7 +843,7 @@ export const SankeyData = {
       "endColor": "rgb(0,255,149)"
     },
     {
-      "source": "Wheeled",
+      "source": "Magnetic",
       "target": "Ferromagnetic",
       "value": 1,
       "id": "21-3",
@@ -844,7 +853,7 @@ export const SankeyData = {
     },
     {
       "source": "[58]",
-      "target": "Friction",
+      "target": "Wheeled",
       "value": 1,
       "id": "22-0",
       "name": "Climbing ring robot for inspection of offshore wind turbines",
@@ -852,8 +861,8 @@ export const SankeyData = {
       "endColor": "rgb(0,255,179)"
     },
     {
-      "source": "Friction",
-      "target": "Wheeled",
+      "source": "Wheeled",
+      "target": "Friction",
       "value": 1,
       "id": "22-1",
       "name": "Climbing ring robot for inspection of offshore wind turbines",
@@ -862,6 +871,24 @@ export const SankeyData = {
     },
     {
       "source": "Wheeled",
+      "target": "Sliding Frame",
+      "value": 1,
+      "id": "22-1",
+      "name": "Climbing ring robot for inspection of offshore wind turbines",
+      "startColor": "rgb(0,255,179)",
+      "endColor": "rgb(0,255,179)"
+    },
+    {
+      "source": "Friction",
+      "target": "Any",
+      "value": 1,
+      "id": "22-3",
+      "name": "Climbing ring robot for inspection of offshore wind turbines",
+      "startColor": "rgb(0,255,179)",
+      "endColor": "rgb(0,255,179)"
+    },
+    {
+      "source": "Sliding Frame",
       "target": "Any",
       "value": 1,
       "id": "22-3",
@@ -871,7 +898,7 @@ export const SankeyData = {
     },
     {
       "source": "[49]",
-      "target": "Claws/Spines",
+      "target": "Legged",
       "value": 1,
       "id": "23-0",
       "name": "A Four-legged Wall-climbing Robot with Spines and Miniature Setae Array Inspired by Longicorn and Gecko",
@@ -879,8 +906,8 @@ export const SankeyData = {
       "endColor": "rgb(0,255,213)"
     },
     {
-      "source": "Claws/Spines",
-      "target": "Legged",
+      "source": "Legged",
+      "target": "Claws/Spines",
       "value": 1,
       "id": "23-1",
       "name": "A Four-legged Wall-climbing Robot with Spines and Miniature Setae Array Inspired by Longicorn and Gecko",
@@ -888,7 +915,7 @@ export const SankeyData = {
       "endColor": "rgb(0,255,213)"
     },
     {
-      "source": "Legged",
+      "source": "Claws/Spines",
       "target": "Any",
       "value": 1,
       "id": "23-3",
@@ -898,34 +925,16 @@ export const SankeyData = {
     },
     {
       "source": "[50]",
+      "target": "Tracked",
+      "value": 1,
+      "id": "24-0",
+      "name": "\nDesign of a Multi-Robot System for Wind Turbine Maintenance ",
+      "startColor": "rgb(0,255,247)",
+      "endColor": "rgb(0,255,247)"
+    },
+    {
+      "source": "Tracked",
       "target": "Tension Straps",
-      "value": 1,
-      "id": "24-0",
-      "name": "\nDesign of a Multi-Robot System for Wind Turbine Maintenance ",
-      "startColor": "rgb(0,255,247)",
-      "endColor": "rgb(0,255,247)"
-    },
-    {
-      "source": "Tension Straps",
-      "target": "Tracked",
-      "value": 1,
-      "id": "24-1",
-      "name": "\nDesign of a Multi-Robot System for Wind Turbine Maintenance ",
-      "startColor": "rgb(0,255,247)",
-      "endColor": "rgb(0,255,247)"
-    },
-    {
-      "source": "[50]",
-      "target": "Friction",
-      "value": 1,
-      "id": "24-0",
-      "name": "\nDesign of a Multi-Robot System for Wind Turbine Maintenance ",
-      "startColor": "rgb(0,255,247)",
-      "endColor": "rgb(0,255,247)"
-    },
-    {
-      "source": "Friction",
-      "target": "Tracked",
       "value": 1,
       "id": "24-1",
       "name": "\nDesign of a Multi-Robot System for Wind Turbine Maintenance ",
@@ -934,6 +943,24 @@ export const SankeyData = {
     },
     {
       "source": "Tracked",
+      "target": "Friction",
+      "value": 1,
+      "id": "24-1",
+      "name": "\nDesign of a Multi-Robot System for Wind Turbine Maintenance ",
+      "startColor": "rgb(0,255,247)",
+      "endColor": "rgb(0,255,247)"
+    },
+    {
+      "source": "Tension Straps",
+      "target": "Any",
+      "value": 1,
+      "id": "24-3",
+      "name": "\nDesign of a Multi-Robot System for Wind Turbine Maintenance ",
+      "startColor": "rgb(0,255,247)",
+      "endColor": "rgb(0,255,247)"
+    },
+    {
+      "source": "Friction",
       "target": "Any",
       "value": 1,
       "id": "24-3",
@@ -943,7 +970,7 @@ export const SankeyData = {
     },
     {
       "source": "[46]",
-      "target": "Grippers",
+      "target": "Inchworm",
       "value": 1,
       "id": "25-0",
       "name": "Inchworm-Inspired Semi-Autonomous Pole-Climbing Robot",
@@ -951,8 +978,8 @@ export const SankeyData = {
       "endColor": "rgb(0,234,255)"
     },
     {
-      "source": "Grippers",
-      "target": "Inchworm",
+      "source": "Inchworm",
+      "target": "Grippers",
       "value": 1,
       "id": "25-1",
       "name": "Inchworm-Inspired Semi-Autonomous Pole-Climbing Robot",
@@ -960,7 +987,7 @@ export const SankeyData = {
       "endColor": "rgb(0,234,255)"
     },
     {
-      "source": "Inchworm",
+      "source": "Grippers",
       "target": "Any",
       "value": 1,
       "id": "25-3",
@@ -970,7 +997,7 @@ export const SankeyData = {
     },
     {
       "source": "[4]",
-      "target": "Helical Friction",
+      "target": "Helical Rolling",
       "value": 1,
       "id": "26-0",
       "name": "A Robust Model-Based Radius Estimation Approach for Helical Climbing Motion of Snake Robots",
@@ -978,8 +1005,8 @@ export const SankeyData = {
       "endColor": "rgb(0,200,255)"
     },
     {
-      "source": "Helical Friction",
-      "target": "Helical Rolling",
+      "source": "Helical Rolling",
+      "target": "Helical Friction",
       "value": 1,
       "id": "26-1",
       "name": "A Robust Model-Based Radius Estimation Approach for Helical Climbing Motion of Snake Robots",
@@ -987,7 +1014,7 @@ export const SankeyData = {
       "endColor": "rgb(0,200,255)"
     },
     {
-      "source": "Helical Rolling",
+      "source": "Helical Friction",
       "target": "Any",
       "value": 1,
       "id": "26-3",
@@ -997,34 +1024,16 @@ export const SankeyData = {
     },
     {
       "source": "[54]",
+      "target": "Soft",
+      "value": 1,
+      "id": "27-0",
+      "name": "Out-Pipe Climbing Soft Robot with Omnidirectional Actuator",
+      "startColor": "rgb(0,166,255)",
+      "endColor": "rgb(0,166,255)"
+    },
+    {
+      "source": "Soft",
       "target": "Friction",
-      "value": 1,
-      "id": "27-0",
-      "name": "Out-Pipe Climbing Soft Robot with Omnidirectional Actuator",
-      "startColor": "rgb(0,166,255)",
-      "endColor": "rgb(0,166,255)"
-    },
-    {
-      "source": "Friction",
-      "target": "Soft",
-      "value": 1,
-      "id": "27-1",
-      "name": "Out-Pipe Climbing Soft Robot with Omnidirectional Actuator",
-      "startColor": "rgb(0,166,255)",
-      "endColor": "rgb(0,166,255)"
-    },
-    {
-      "source": "[54]",
-      "target": "Pneumatic",
-      "value": 1,
-      "id": "27-0",
-      "name": "Out-Pipe Climbing Soft Robot with Omnidirectional Actuator",
-      "startColor": "rgb(0,166,255)",
-      "endColor": "rgb(0,166,255)"
-    },
-    {
-      "source": "Pneumatic",
-      "target": "Soft",
       "value": 1,
       "id": "27-1",
       "name": "Out-Pipe Climbing Soft Robot with Omnidirectional Actuator",
@@ -1033,6 +1042,24 @@ export const SankeyData = {
     },
     {
       "source": "Soft",
+      "target": "Pneumatic",
+      "value": 1,
+      "id": "27-1",
+      "name": "Out-Pipe Climbing Soft Robot with Omnidirectional Actuator",
+      "startColor": "rgb(0,166,255)",
+      "endColor": "rgb(0,166,255)"
+    },
+    {
+      "source": "Friction",
+      "target": "Any",
+      "value": 1,
+      "id": "27-3",
+      "name": "Out-Pipe Climbing Soft Robot with Omnidirectional Actuator",
+      "startColor": "rgb(0,166,255)",
+      "endColor": "rgb(0,166,255)"
+    },
+    {
+      "source": "Pneumatic",
       "target": "Any",
       "value": 1,
       "id": "27-3",
@@ -1042,7 +1069,7 @@ export const SankeyData = {
     },
     {
       "source": "[59]",
-      "target": "Magnetic",
+      "target": "Wheeled",
       "value": 1,
       "id": "28-0",
       "name": "Design and analysis of a wall-climbing robot for passive adaptive movement on variable-curvature metal facades",
@@ -1050,8 +1077,8 @@ export const SankeyData = {
       "endColor": "rgb(0,132,255)"
     },
     {
-      "source": "Magnetic",
-      "target": "Wheeled",
+      "source": "Wheeled",
+      "target": "Magnetic",
       "value": 1,
       "id": "28-1",
       "name": "Design and analysis of a wall-climbing robot for passive adaptive movement on variable-curvature metal facades",
@@ -1059,7 +1086,7 @@ export const SankeyData = {
       "endColor": "rgb(0,132,255)"
     },
     {
-      "source": "Wheeled",
+      "source": "Magnetic",
       "target": "Ferromagnetic",
       "value": 1,
       "id": "28-3",
@@ -1069,7 +1096,7 @@ export const SankeyData = {
     },
     {
       "source": "[3]",
-      "target": "Grippers",
+      "target": "Brachiating",
       "value": 1,
       "id": "29-0",
       "name": "Design, modeling, and manufacturing of a novel robust gripper-based climbing robot: KharazmBot",
@@ -1077,8 +1104,8 @@ export const SankeyData = {
       "endColor": "rgb(0,102,255)"
     },
     {
-      "source": "Grippers",
-      "target": "Brachiating",
+      "source": "Brachiating",
+      "target": "Grippers",
       "value": 1,
       "id": "29-1",
       "name": "Design, modeling, and manufacturing of a novel robust gripper-based climbing robot: KharazmBot",
@@ -1086,7 +1113,7 @@ export const SankeyData = {
       "endColor": "rgb(0,102,255)"
     },
     {
-      "source": "Brachiating",
+      "source": "Grippers",
       "target": "Any",
       "value": 1,
       "id": "29-3",
@@ -1096,7 +1123,7 @@ export const SankeyData = {
     },
     {
       "source": "[41]",
-      "target": "Magnetic",
+      "target": "Inchworm",
       "value": 1,
       "id": "30-0",
       "name": "iCrawl: An Inchworm-Inspired Crawling Robot",
@@ -1104,8 +1131,8 @@ export const SankeyData = {
       "endColor": "rgb(0,68,255)"
     },
     {
-      "source": "Magnetic",
-      "target": "Inchworm",
+      "source": "Inchworm",
+      "target": "Magnetic",
       "value": 1,
       "id": "30-1",
       "name": "iCrawl: An Inchworm-Inspired Crawling Robot",
@@ -1113,7 +1140,7 @@ export const SankeyData = {
       "endColor": "rgb(0,68,255)"
     },
     {
-      "source": "Inchworm",
+      "source": "Magnetic",
       "target": "Ferromagnetic",
       "value": 1,
       "id": "30-3",
@@ -1123,7 +1150,7 @@ export const SankeyData = {
     },
     {
       "source": "[51]",
-      "target": "Magnetic",
+      "target": "Tracked",
       "value": 1,
       "id": "31-0",
       "name": "Design of a Tractor-Trailer Climbing Robot for Large Pressure Vessel Inspection",
@@ -1131,8 +1158,8 @@ export const SankeyData = {
       "endColor": "rgb(0,34,255)"
     },
     {
-      "source": "Magnetic",
-      "target": "Tracked",
+      "source": "Tracked",
+      "target": "Magnetic",
       "value": 1,
       "id": "31-1",
       "name": "Design of a Tractor-Trailer Climbing Robot for Large Pressure Vessel Inspection",
@@ -1140,8 +1167,17 @@ export const SankeyData = {
       "endColor": "rgb(0,34,255)"
     },
     {
+      "source": "Magnetic",
+      "target": "Ferromagnetic",
+      "value": 1,
+      "id": "31-3",
+      "name": "Design of a Tractor-Trailer Climbing Robot for Large Pressure Vessel Inspection",
+      "startColor": "rgb(0,34,255)",
+      "endColor": "rgb(0,34,255)"
+    },
+    {
       "source": "[60]",
-      "target": "Magnetic",
+      "target": "Wheeled",
       "value": 1,
       "id": "32-0",
       "name": "OmniClimbers: Omni-directional magnetic wheeled climbing robots for inspection of ferromagnetic structures",
@@ -1149,8 +1185,8 @@ export const SankeyData = {
       "endColor": "rgb(0,0,255)"
     },
     {
-      "source": "Magnetic",
-      "target": "Wheeled",
+      "source": "Wheeled",
+      "target": "Magnetic",
       "value": 1,
       "id": "32-1",
       "name": "OmniClimbers: Omni-directional magnetic wheeled climbing robots for inspection of ferromagnetic structures",
@@ -1158,7 +1194,7 @@ export const SankeyData = {
       "endColor": "rgb(0,0,255)"
     },
     {
-      "source": "Wheeled",
+      "source": "Magnetic",
       "target": "Ferromagnetic",
       "value": 1,
       "id": "32-3",
@@ -1168,7 +1204,7 @@ export const SankeyData = {
     },
     {
       "source": "[36]",
-      "target": "None",
+      "target": "Continuum",
       "value": 1,
       "id": "33-0",
       "name": "A bio-inspired continuum robot for out-pipe climbing and confined space navigating",
@@ -1176,8 +1212,8 @@ export const SankeyData = {
       "endColor": "rgb(30,0,255)"
     },
     {
-      "source": "None",
-      "target": "Continuum",
+      "source": "Continuum",
+      "target": "None",
       "value": 1,
       "id": "33-1",
       "name": "A bio-inspired continuum robot for out-pipe climbing and confined space navigating",
@@ -1185,7 +1221,7 @@ export const SankeyData = {
       "endColor": "rgb(30,0,255)"
     },
     {
-      "source": "Continuum",
+      "source": "None",
       "target": "Any",
       "value": 1,
       "id": "33-3",
@@ -1195,7 +1231,7 @@ export const SankeyData = {
     },
     {
       "source": "[8]",
-      "target": "None",
+      "target": "BioInspired - Snake",
       "value": 1,
       "id": "34-0",
       "name": "Hoop-Passing Motion for a Snake Robot to Realize Motion Transition Across Different Environments",
@@ -1203,8 +1239,8 @@ export const SankeyData = {
       "endColor": "rgb(64,0,255)"
     },
     {
-      "source": "None",
-      "target": "BioInspired - Snake",
+      "source": "BioInspired - Snake",
+      "target": "None",
       "value": 1,
       "id": "34-1",
       "name": "Hoop-Passing Motion for a Snake Robot to Realize Motion Transition Across Different Environments",
@@ -1212,7 +1248,7 @@ export const SankeyData = {
       "endColor": "rgb(64,0,255)"
     },
     {
-      "source": "BioInspired - Snake",
+      "source": "None",
       "target": "Any",
       "value": 1,
       "id": "34-3",
