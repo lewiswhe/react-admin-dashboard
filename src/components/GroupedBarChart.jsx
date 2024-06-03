@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import Chart from 'chart.js/auto';
+import { legendData } from '../data/chart_extra';
 
 const GroupedBarChart = ({ data }) => {
   const chartRef = useRef();
@@ -11,6 +12,8 @@ const GroupedBarChart = ({ data }) => {
       ...data,
       datasets: data.datasets.filter(dataset => dataset.data.some(value => value !== 0 && value !== null))
     };
+    const uniqAdhes = legendData.uniqAdhes;
+    const hexColours = legendData.hexColours;
 
     // Filter out labels with no data
     const labelsWithData = filteredData.labels.filter((label, index) => filteredData.datasets.some(dataset => dataset.data[index] !== 0 && dataset.data[index] !== null));
@@ -21,6 +24,7 @@ const GroupedBarChart = ({ data }) => {
     }
 
     const ctx = chartRef.current.getContext('2d');
+    Chart.defaults.font.size = 26;
     chartInstance.current = new Chart(ctx, {
       type: 'bar',
       data: {
@@ -35,9 +39,8 @@ const GroupedBarChart = ({ data }) => {
             stacked: false,
             title: {
               display: true,
-              text: 'Robots',
+              text: 'Robot',
             },
-            // maxBarThickness: 5,
             ticks: {
               callback: (value, index, values) => labelsWithData[index], // Only show labels with data
               maxRotation: 0, // Prevent label rotation
@@ -49,14 +52,26 @@ const GroupedBarChart = ({ data }) => {
             stacked: false,
             title: {
               display: true,
-              text: 'Speed',
+              text: 'Speed (mm/s)',
             },
           }
         },
         plugins: {
           legend: {
             display: true,
-            position: 'bottom',
+            position: 'chartArea',
+            labels: {
+              generateLabels: function(chart) {
+                let labels = [];
+                uniqAdhes.forEach((adhe, index) => {
+                  labels.push({
+                    text: adhe,
+                    fillStyle: hexColours[index],
+                  });
+                });
+                return labels;
+              },
+            }
           }
         },
         layout: {
@@ -85,4 +100,3 @@ const GroupedBarChart = ({ data }) => {
 };
 
 export default GroupedBarChart;
-
