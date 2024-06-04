@@ -5,10 +5,7 @@ export const chartData = {
   "Jet Propulsion",
   "Wheeled",
   "Inchworm",
-  "Wheeled, Inchworm",
-  "Helical Rolling",
-  "BioInspired - Snake, Helical Rolling",
-  "BioInspired - Snake"
+  "Wheeled, Inchworm"
 ],
 
   datasets: [
@@ -18,9 +15,6 @@ export const chartData = {
     "adhe": "Friction, Pneumatic",
     "data": [
       "0.5",
-      null,
-      null,
-      null,
       null,
       null,
       null,
@@ -39,12 +33,9 @@ export const chartData = {
       "0.5",
       null,
       null,
-      null,
-      null,
-      null,
       null
     ],
-    "backgroundColor": "rgb(255,183,0)",
+    "backgroundColor": "rgb(238,255,0)",
     "borderColor": "rgb(0,0,0)",
     "borderWidth": 1
   },
@@ -57,12 +48,9 @@ export const chartData = {
       null,
       "0.370",
       null,
-      null,
-      null,
-      null,
       null
     ],
-    "backgroundColor": "rgb(149,255,0)",
+    "backgroundColor": "rgb(0,255,34)",
     "borderColor": "rgb(0,0,0)",
     "borderWidth": 1
   },
@@ -75,12 +63,9 @@ export const chartData = {
       null,
       null,
       "1.5",
-      null,
-      null,
-      null,
       null
     ],
-    "backgroundColor": "rgb(0,255,34)",
+    "backgroundColor": "rgb(0,208,255)",
     "borderColor": "rgb(0,0,0)",
     "borderWidth": 1
   },
@@ -93,12 +78,9 @@ export const chartData = {
       null,
       null,
       "1.5",
-      null,
-      null,
-      null,
       null
     ],
-    "backgroundColor": "rgb(0,255,34)",
+    "backgroundColor": "rgb(0,208,255)",
     "borderColor": "rgb(0,0,0)",
     "borderWidth": 1
   },
@@ -111,12 +93,9 @@ export const chartData = {
       null,
       "0.370",
       null,
-      null,
-      null,
-      null,
       null
     ],
-    "backgroundColor": "rgb(0,255,34)",
+    "backgroundColor": "rgb(0,208,255)",
     "borderColor": "rgb(0,0,0)",
     "borderWidth": 1
   },
@@ -129,102 +108,9 @@ export const chartData = {
       null,
       null,
       null,
-      "10",
-      null,
-      null,
-      null
+      "10"
     ],
-    "backgroundColor": "rgb(0,255,34)",
-    "borderColor": "rgb(0,0,0)",
-    "borderWidth": 1
-  },
-  {
-    "label": "[16]",
-    "loco": "Helical Rolling",
-    "adhe": "Helical Friction",
-    "data": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      "0",
-      null,
-      null
-    ],
-    "backgroundColor": "rgb(0,255,213)",
-    "borderColor": "rgb(0,0,0)",
-    "borderWidth": 1
-  },
-  {
-    "label": "[15]",
-    "loco": "BioInspired - Snake, Helical Rolling",
-    "adhe": "Helical Friction",
-    "data": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      "0",
-      null
-    ],
-    "backgroundColor": "rgb(0,255,213)",
-    "borderColor": "rgb(0,0,0)",
-    "borderWidth": 1
-  },
-  {
-    "label": "[17]",
-    "loco": "Helical Rolling",
-    "adhe": "Helical Friction",
-    "data": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      "0",
-      null,
-      null
-    ],
-    "backgroundColor": "rgb(0,255,213)",
-    "borderColor": "rgb(0,0,0)",
-    "borderWidth": 1
-  },
-  {
-    "label": "[10]",
-    "loco": "Helical Rolling",
-    "adhe": "Helical Friction",
-    "data": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      "0",
-      null,
-      null
-    ],
-    "backgroundColor": "rgb(0,255,213)",
-    "borderColor": "rgb(0,0,0)",
-    "borderWidth": 1
-  },
-  {
-    "label": "[4]",
-    "loco": "Helical Rolling",
-    "adhe": "Helical Friction",
-    "data": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      "0",
-      null,
-      null
-    ],
-    "backgroundColor": "rgb(0,255,213)",
+    "backgroundColor": "rgb(0,208,255)",
     "borderColor": "rgb(0,0,0)",
     "borderWidth": 1
   },
@@ -237,12 +123,9 @@ export const chartData = {
       null,
       null,
       "1.5",
-      null,
-      null,
-      null,
       null
     ],
-    "backgroundColor": "rgb(0,115,255)",
+    "backgroundColor": "rgb(64,0,255)",
     "borderColor": "rgb(0,0,0)",
     "borderWidth": 1
   },
@@ -255,12 +138,9 @@ export const chartData = {
       null,
       "0.370",
       null,
-      null,
-      null,
-      null,
       null
     ],
-    "backgroundColor": "rgb(0,115,255)",
+    "backgroundColor": "rgb(64,0,255)",
     "borderColor": "rgb(0,0,0)",
     "borderWidth": 1
   },
@@ -273,12 +153,9 @@ export const chartData = {
       null,
       "0.370",
       null,
-      null,
-      null,
-      null,
       null
     ],
-    "backgroundColor": "rgb(0,115,255)",
+    "backgroundColor": "rgb(64,0,255)",
     "borderColor": "rgb(0,0,0)",
     "borderWidth": 1
   },
@@ -291,28 +168,7 @@ export const chartData = {
       null,
       "0.370",
       null,
-      null,
-      null,
-      null,
       null
-    ],
-    "backgroundColor": "rgb(0,115,255)",
-    "borderColor": "rgb(0,0,0)",
-    "borderWidth": 1
-  },
-  {
-    "label": "[8]",
-    "loco": "BioInspired - Snake",
-    "adhe": "None",
-    "data": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      "0"
     ],
     "backgroundColor": "rgb(64,0,255)",
     "borderColor": "rgb(0,0,0)",

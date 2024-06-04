@@ -5,16 +5,12 @@ export const legendData = {
   "Friction",
   "Friction, Sliding Frame",
   "Grippers",
-  "Helical Friction",
-  "Magnetic",
-  "None"
+  "Magnetic"
 ],
 "hexColours": [
   "rgb(255,0,0)",
-  "rgb(255,183,0)",
-  "rgb(149,255,0)",
+  "rgb(238,255,0)",
   "rgb(0,255,34)",
-  "rgb(0,255,213)",
-  "rgb(0,115,255)",
+  "rgb(0,208,255)",
   "rgb(64,0,255)"
 ]};

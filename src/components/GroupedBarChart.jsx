@@ -1,7 +1,11 @@
 import React, { useEffect, useRef } from 'react';
 import Chart from 'chart.js/auto';
+import ChartDataLabels from 'chartjs-plugin-datalabels';
+import annotationPlugin from 'chartjs-plugin-annotation';
 import { legendData } from '../data/chart_extra';
 
+Chart.register(ChartDataLabels);
+Chart.register(annotationPlugin);
 const GroupedBarChart = ({ data }) => {
   const chartRef = useRef();
   const chartInstance = useRef(null);
@@ -17,11 +21,18 @@ const GroupedBarChart = ({ data }) => {
 
     // Filter out labels with no data
     const labelsWithData = filteredData.labels.filter((label, index) => filteredData.datasets.some(dataset => dataset.data[index] !== 0 && dataset.data[index] !== null));
+    var labels = labelsWithData;
 
     // Destroy the previous chart instance, if exists
     if (chartInstance.current !== null) {
       chartInstance.current.destroy();
     }
+
+    const maxDataValue = Math.max(
+      ...filteredData.datasets.flatMap(dataset => dataset.data.filter(value => value !== null))
+    );
+
+    const yAxisMax = Math.ceil(maxDataValue * 1.1);
 
     const ctx = chartRef.current.getContext('2d');
     Chart.defaults.font.size = 26;
@@ -29,7 +40,7 @@ const GroupedBarChart = ({ data }) => {
       type: 'bar',
       data: {
         labels: labelsWithData,
-        datasets: filteredData.datasets
+        datasets: filteredData.datasets,
       },
       options: {
         responsive: true,
@@ -39,7 +50,7 @@ const GroupedBarChart = ({ data }) => {
             stacked: false,
             title: {
               display: true,
-              text: 'Robot',
+              text: 'Robots grouped by Locomotion Method',
             },
             ticks: {
               callback: (value, index, values) => labelsWithData[index], // Only show labels with data
@@ -50,9 +61,10 @@ const GroupedBarChart = ({ data }) => {
           y: {
             beginAtZero: true,
             stacked: false,
+            max: yAxisMax,
             title: {
               display: true,
-              text: 'Speed (mm/s)',
+              text: 'Maximum Payload (kg)',
             },
           }
         },
@@ -60,6 +72,12 @@ const GroupedBarChart = ({ data }) => {
           legend: {
             display: true,
             position: 'chartArea',
+            title: {
+              display: true,
+              color: 'black',
+              text: "Adhesion Methods"
+
+            },
             labels: {
               generateLabels: function(chart) {
                 let labels = [];
@@ -72,7 +90,48 @@ const GroupedBarChart = ({ data }) => {
                 return labels;
               },
             }
+          },
+          datalabels: {
+            display: true,
+            align: 'end',
+            anchor: 'end',
+            font: {
+              size: 24, // Increase font size for data labels
+            },
+            formatter: (value, context) => {
+              // Customize the text shown on each bar
+              return value !== null && value !== 0 ? `${context.dataset.label}` : '';
+            }
+          },
+          title: {
+            display: true,
+            text: "Maximum Payload of Non-Planar Climbing Robots"
+          },
+          annotation: {
+            annotations: {
+              line1: {
+                type: 'line',
+                yMin: 1,
+                yMax: 1,
+                borderColor: 'rgb(255,0,0)',
+                borderWidth: 2,
+                // label: '1 Kg requirement'
+              },
+              label1: {
+                type: 'label',
+                xValue: 0.5,
+                yValue: 1.3,
+                backgroundColor: 'rgba(245,245,245)',
+                content: ['1 Kg requirement'],
+                color: 'red',
+                font: {
+                  size: 18,
+                }
+              }
+            }
+
           }
+
         },
         layout: {
           padding: {
