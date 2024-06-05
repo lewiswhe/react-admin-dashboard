@@ -11,34 +11,22 @@ const GroupedBarChart = ({ data }) => {
   const chartInstance = useRef(null);
 
   useEffect(() => {
-    // Filter out datasets with zero or null values
-    // const filteredData = {
-    //   ...data,
-    //   datasets: data.datasets.filter(dataset => dataset.data.some(value => value !== 0 && value !== null))
-    // };
     const uniqAdhes = legendData.uniqAdhesS;
     const hexColours = legendData.hexColours;
-
-    // Filter out labels with no data
-    // const labelsWithData = filteredData.labels.filter((label, index) => filteredData.datasets.some(dataset => dataset.data[index] !== 0 && dataset.data[index] !== null));
-    // var labels = labelsWithData;
 
     // Destroy the previous chart instance, if exists
     if (chartInstance.current !== null) {
       chartInstance.current.destroy();
     }
 
-    // const maxDataValue = Math.max(
-    //   ...filteredData.datasets.flatMap(dataset => dataset.data.filter(value => value !== null))
-    // );
-
-    // const yAxisMax = Math.ceil(maxDataValue * 1.1);
     const yAxisMax = 1500;
+    const labels2 = data.labels2
 
     const ctx = chartRef.current.getContext('2d');
     Chart.defaults.font.size = 26;
     chartInstance.current = new Chart(ctx, {
       type: 'scatter',
+      categories: ['Total', 'Lower than 2.50'],
       data: {
         labels: data.labels,
         datasets: data.datasets,
@@ -53,38 +41,32 @@ const GroupedBarChart = ({ data }) => {
             type: 'category',
             ticks: {
               callback: function(label) {
-                let realLabel = this.getLabelForValue(label)
-                var robot = realLabel.split(";")[0];
-                var loco = realLabel.split(";")[1];
-                return realLabel;
+                let realLabel = this.getLabelForValue(label);
+                var robot = realLabel.split(";")[0]; // Display the robot label
+                return robot;
               }
             }
           },
-          xAxis2: {
-            type: "category",
-            labels: [
-              "Legged",
-              "Soft",
-              "Jet Propulsion",
-              "Wheeled",
-              "Inchworm",
-              "Wheeled, Inchworm",
-              "Tracked"
-            ],
-            grid: {
-              drawOnChartArea: false, // only want the grid lines for one axis to show up
-            },
-            ticks: {
-              callback: function(label) {
-                let realLabel = this.getLabelForValue(label)
-
-                var robot = realLabel.split(";")[0];
-                var loco = realLabel.split(";")[1];
-                return loco;
-
-              }
-            }
-          },
+          // xAxis2: {
+          //   type: "category",
+          //   grid: {
+          //     drawOnChartArea: false,
+          //   },
+          //   afterBuildTicks: function(axis) {
+          //     // Create a mapping from labels to labels2
+          //     const labelMapping = data.labels.map(label => label.split(";")[1]);
+          //     axis.ticks = labels2.map((label, index) => ({
+          //       value: index,
+          //       label: label
+          //     })).filter((tick) => labelMapping.includes(tick.label));
+          //   },
+          //   ticks: {
+          //     callback: function(value, index) {
+          //       // Return the mapped label for this position
+          //       return labels2[index];
+          //     }
+          //   }
+          // },
           y: {
             beginAtZero: true,
             position: 'left',
@@ -143,7 +125,7 @@ const GroupedBarChart = ({ data }) => {
             },
             formatter: (value, context) => {
               // Customize the text shown on each bar
-              return value !== null && value !== 0 ? `${context.dataset.label}` : '';
+              return value !== null && value !== 0 ? `${context.dataset.label.split(";")[0]}` : '';
             }
           },
           title: {
@@ -176,6 +158,25 @@ const GroupedBarChart = ({ data }) => {
               }
             }
 
+          },
+          afterDraw: function(chart, easing) {
+            let ctx = chart.chart.ctx;
+            ctx.save();
+            let xAxis = chart.scales['x-axis-0'];
+            let xCenter = (xAxis.left + xAxis.right) / 2;
+            let yBottom = chart.scales['y-axis-0'].bottom;
+            ctx.textAlign = 'center';
+            ctx.font = '12px Arial';
+            ctx.fillText(chart.data.categories[0], (xAxis.left + xCenter) / 2, yBottom + 40);
+            ctx.fillText(chart.data.categories[1], (xCenter + xAxis.right) / 2, yBottom + 40);
+            ctx.strokeStyle = 'lightgray';
+            [xAxis.left, xCenter, xAxis.right].forEach(x => {
+              ctx.beginPath();
+              ctx.moveTo(x, yBottom);
+              ctx.lineTo(x, yBottom + 40);
+              ctx.stroke();
+            });
+            ctx.restore();
           }
 
         },
