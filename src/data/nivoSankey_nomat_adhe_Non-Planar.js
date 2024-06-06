@@ -17,7 +17,19 @@ export const SankeyData = {
       "nodeColor": "#b24844"
     },
     {
-      "id": "Any",
+      "id": "A - Along Horizontal Pipe",
+      "nodeColor": "#4477b2"
+    },
+    {
+      "id": "B - Up Vertical Pipe",
+      "nodeColor": "#4477b2"
+    },
+    {
+      "id": "C - Down Vertical Pipe",
+      "nodeColor": "#4477b2"
+    },
+    {
+      "id": "L - Diameter Change",
       "nodeColor": "#4477b2"
     },
     {
@@ -39,6 +51,10 @@ export const SankeyData = {
     {
       "id": "Brachiating",
       "nodeColor": "#b24844"
+    },
+    {
+      "id": "F - Transition Horizontal to Horizontal Parallel",
+      "nodeColor": "#4477b2"
     },
     {
       "id": "[37]",
@@ -63,6 +79,14 @@ export const SankeyData = {
     {
       "id": "[16]",
       "nodeColor": "#000000"
+    },
+    {
+      "id": "K - Over Small Obstacles",
+      "nodeColor": "#4477b2"
+    },
+    {
+      "id": "Along Angled Pipe",
+      "nodeColor": "#4477b2"
     },
     {
       "id": "[17]",
@@ -113,6 +137,14 @@ export const SankeyData = {
       "nodeColor": "#000000"
     },
     {
+      "id": "E - Transition Horizontal to Vertical",
+      "nodeColor": "#4477b2"
+    },
+    {
+      "id": "I - Vertical to Vertical Transition Parallel",
+      "nodeColor": "#4477b2"
+    },
+    {
       "id": "[46]",
       "nodeColor": "#000000"
     },
@@ -121,7 +153,11 @@ export const SankeyData = {
       "nodeColor": "#2a695e"
     },
     {
-      "id": "Ferromagnetic",
+      "id": "M - Up/ Down Walls",
+      "nodeColor": "#4477b2"
+    },
+    {
+      "id": "N - Left/Right Walls",
       "nodeColor": "#4477b2"
     },
     {
@@ -159,6 +195,10 @@ export const SankeyData = {
     {
       "id": "Tracked",
       "nodeColor": "#b24844"
+    },
+    {
+      "id": "[13]",
+      "nodeColor": "#000000"
     },
     {
       "id": "[50]",
@@ -199,6 +239,10 @@ export const SankeyData = {
     {
       "id": "Wheeled",
       "nodeColor": "#b24844"
+    },
+    {
+      "id": "D - Radially Around Pipe",
+      "nodeColor": "#4477b2"
     },
     {
       "id": "[55]",
@@ -268,7 +312,34 @@ export const SankeyData = {
     },
     {
       "source": "Helical Friction",
-      "target": "Any",
+      "target": "A - Along Horizontal Pipe",
+      "value": 1,
+      "id": "1-3",
+      "name": "Pipe Network Locomotion with a Snake Robot",
+      "startColor": "rgb(255,0,0)",
+      "endColor": "rgb(255,0,0)"
+    },
+    {
+      "source": "Helical Friction",
+      "target": "B - Up Vertical Pipe",
+      "value": 1,
+      "id": "1-3",
+      "name": "Pipe Network Locomotion with a Snake Robot",
+      "startColor": "rgb(255,0,0)",
+      "endColor": "rgb(255,0,0)"
+    },
+    {
+      "source": "Helical Friction",
+      "target": "C - Down Vertical Pipe",
+      "value": 1,
+      "id": "1-3",
+      "name": "Pipe Network Locomotion with a Snake Robot",
+      "startColor": "rgb(255,0,0)",
+      "endColor": "rgb(255,0,0)"
+    },
+    {
+      "source": "Helical Friction",
+      "target": "L - Diameter Change",
       "value": 1,
       "id": "1-3",
       "name": "Pipe Network Locomotion with a Snake Robot",
@@ -294,15 +365,6 @@ export const SankeyData = {
       "endColor": "rgb(255,34,0)"
     },
     {
-      "source": "None",
-      "target": "Any",
-      "value": 1,
-      "id": "2-3",
-      "name": "Hoop-Passing Motion for a Snake Robot to Realize Motion Transition Across Different Environments",
-      "startColor": "rgb(255,34,0)",
-      "endColor": "rgb(255,34,0)"
-    },
-    {
       "source": "[3]",
       "target": "Brachiating",
       "value": 1,
@@ -322,7 +384,7 @@ export const SankeyData = {
     },
     {
       "source": "Grippers",
-      "target": "Any",
+      "target": "F - Transition Horizontal to Horizontal Parallel",
       "value": 1,
       "id": "3-3",
       "name": "Design, modeling, and manufacturing of a novel robust gripper-based climbing robot: KharazmBot",
@@ -348,22 +410,13 @@ export const SankeyData = {
       "endColor": "rgb(255,98,0)"
     },
     {
-      "source": "None",
-      "target": "Any",
-      "value": 1,
-      "id": "4-3",
-      "name": "A bio-inspired continuum robot for out-pipe climbing and confined space navigating",
-      "startColor": "rgb(255,98,0)",
-      "endColor": "rgb(255,98,0)"
-    },
-    {
       "source": "[38]",
       "target": "Drone",
       "value": 1,
       "id": "5-0",
       "name": "Development of a Novel Modular Robot for Vertical Pipeline Climbing\n                    ",
-      "startColor": "rgb(255,132,0)",
-      "endColor": "rgb(255,132,0)"
+      "startColor": "rgb(255,128,0)",
+      "endColor": "rgb(255,128,0)"
     },
     {
       "source": "Drone",
@@ -371,17 +424,44 @@ export const SankeyData = {
       "value": 1,
       "id": "5-1",
       "name": "Development of a Novel Modular Robot for Vertical Pipeline Climbing\n                    ",
-      "startColor": "rgb(255,132,0)",
-      "endColor": "rgb(255,132,0)"
+      "startColor": "rgb(255,128,0)",
+      "endColor": "rgb(255,128,0)"
     },
     {
       "source": "Sliding Frame",
-      "target": "Any",
+      "target": "A - Along Horizontal Pipe",
       "value": 1,
       "id": "5-3",
       "name": "Development of a Novel Modular Robot for Vertical Pipeline Climbing\n                    ",
-      "startColor": "rgb(255,132,0)",
-      "endColor": "rgb(255,132,0)"
+      "startColor": "rgb(255,128,0)",
+      "endColor": "rgb(255,128,0)"
+    },
+    {
+      "source": "Sliding Frame",
+      "target": "B - Up Vertical Pipe",
+      "value": 1,
+      "id": "5-3",
+      "name": "Development of a Novel Modular Robot for Vertical Pipeline Climbing\n                    ",
+      "startColor": "rgb(255,128,0)",
+      "endColor": "rgb(255,128,0)"
+    },
+    {
+      "source": "Sliding Frame",
+      "target": "C - Down Vertical Pipe",
+      "value": 1,
+      "id": "5-3",
+      "name": "Development of a Novel Modular Robot for Vertical Pipeline Climbing\n                    ",
+      "startColor": "rgb(255,128,0)",
+      "endColor": "rgb(255,128,0)"
+    },
+    {
+      "source": "Sliding Frame",
+      "target": "L - Diameter Change",
+      "value": 1,
+      "id": "5-3",
+      "name": "Development of a Novel Modular Robot for Vertical Pipeline Climbing\n                    ",
+      "startColor": "rgb(255,128,0)",
+      "endColor": "rgb(255,128,0)"
     },
     {
       "source": "[16]",
@@ -389,8 +469,8 @@ export const SankeyData = {
       "value": 1,
       "id": "6-0",
       "name": "Design for snake robot motion via partial grasping on pipes",
-      "startColor": "rgb(255,166,0)",
-      "endColor": "rgb(255,166,0)"
+      "startColor": "rgb(255,162,0)",
+      "endColor": "rgb(255,162,0)"
     },
     {
       "source": "Helical Rolling",
@@ -398,17 +478,35 @@ export const SankeyData = {
       "value": 1,
       "id": "6-1",
       "name": "Design for snake robot motion via partial grasping on pipes",
-      "startColor": "rgb(255,166,0)",
-      "endColor": "rgb(255,166,0)"
+      "startColor": "rgb(255,162,0)",
+      "endColor": "rgb(255,162,0)"
     },
     {
       "source": "Helical Friction",
-      "target": "Any",
+      "target": "A - Along Horizontal Pipe",
       "value": 1,
       "id": "6-3",
       "name": "Design for snake robot motion via partial grasping on pipes",
-      "startColor": "rgb(255,166,0)",
-      "endColor": "rgb(255,166,0)"
+      "startColor": "rgb(255,162,0)",
+      "endColor": "rgb(255,162,0)"
+    },
+    {
+      "source": "Helical Friction",
+      "target": "K - Over Small Obstacles",
+      "value": 1,
+      "id": "6-3",
+      "name": "Design for snake robot motion via partial grasping on pipes",
+      "startColor": "rgb(255,162,0)",
+      "endColor": "rgb(255,162,0)"
+    },
+    {
+      "source": "Helical Friction",
+      "target": "Along Angled Pipe",
+      "value": 1,
+      "id": "6-3",
+      "name": "Design for snake robot motion via partial grasping on pipes",
+      "startColor": "rgb(255,162,0)",
+      "endColor": "rgb(255,162,0)"
     },
     {
       "source": "[17]",
@@ -416,8 +514,8 @@ export const SankeyData = {
       "value": 1,
       "id": "7-0",
       "name": "Mobile Manipulation Using a Snake Robot in a Helical Gait",
-      "startColor": "rgb(255,196,0)",
-      "endColor": "rgb(255,196,0)"
+      "startColor": "rgb(255,191,0)",
+      "endColor": "rgb(255,191,0)"
     },
     {
       "source": "Helical Rolling",
@@ -425,17 +523,17 @@ export const SankeyData = {
       "value": 1,
       "id": "7-1",
       "name": "Mobile Manipulation Using a Snake Robot in a Helical Gait",
-      "startColor": "rgb(255,196,0)",
-      "endColor": "rgb(255,196,0)"
+      "startColor": "rgb(255,191,0)",
+      "endColor": "rgb(255,191,0)"
     },
     {
       "source": "Helical Friction",
-      "target": "Any",
+      "target": "A - Along Horizontal Pipe",
       "value": 1,
       "id": "7-3",
       "name": "Mobile Manipulation Using a Snake Robot in a Helical Gait",
-      "startColor": "rgb(255,196,0)",
-      "endColor": "rgb(255,196,0)"
+      "startColor": "rgb(255,191,0)",
+      "endColor": "rgb(255,191,0)"
     },
     {
       "source": "[10]",
@@ -443,8 +541,8 @@ export const SankeyData = {
       "value": 1,
       "id": "8-0",
       "name": "Adaptive Helical Rolling of a Snake Robot to a Straight Pipe With Irregular Cross-Sectional Shape",
-      "startColor": "rgb(255,230,0)",
-      "endColor": "rgb(255,230,0)"
+      "startColor": "rgb(255,225,0)",
+      "endColor": "rgb(255,225,0)"
     },
     {
       "source": "Helical Rolling",
@@ -452,17 +550,44 @@ export const SankeyData = {
       "value": 1,
       "id": "8-1",
       "name": "Adaptive Helical Rolling of a Snake Robot to a Straight Pipe With Irregular Cross-Sectional Shape",
-      "startColor": "rgb(255,230,0)",
-      "endColor": "rgb(255,230,0)"
+      "startColor": "rgb(255,225,0)",
+      "endColor": "rgb(255,225,0)"
     },
     {
       "source": "Helical Friction",
-      "target": "Any",
+      "target": "A - Along Horizontal Pipe",
       "value": 1,
       "id": "8-3",
       "name": "Adaptive Helical Rolling of a Snake Robot to a Straight Pipe With Irregular Cross-Sectional Shape",
-      "startColor": "rgb(255,230,0)",
-      "endColor": "rgb(255,230,0)"
+      "startColor": "rgb(255,225,0)",
+      "endColor": "rgb(255,225,0)"
+    },
+    {
+      "source": "Helical Friction",
+      "target": "B - Up Vertical Pipe",
+      "value": 1,
+      "id": "8-3",
+      "name": "Adaptive Helical Rolling of a Snake Robot to a Straight Pipe With Irregular Cross-Sectional Shape",
+      "startColor": "rgb(255,225,0)",
+      "endColor": "rgb(255,225,0)"
+    },
+    {
+      "source": "Helical Friction",
+      "target": "C - Down Vertical Pipe",
+      "value": 1,
+      "id": "8-3",
+      "name": "Adaptive Helical Rolling of a Snake Robot to a Straight Pipe With Irregular Cross-Sectional Shape",
+      "startColor": "rgb(255,225,0)",
+      "endColor": "rgb(255,225,0)"
+    },
+    {
+      "source": "Helical Friction",
+      "target": "L - Diameter Change",
+      "value": 1,
+      "id": "8-3",
+      "name": "Adaptive Helical Rolling of a Snake Robot to a Straight Pipe With Irregular Cross-Sectional Shape",
+      "startColor": "rgb(255,225,0)",
+      "endColor": "rgb(255,225,0)"
     },
     {
       "source": "[4]",
@@ -470,8 +595,8 @@ export const SankeyData = {
       "value": 1,
       "id": "9-0",
       "name": "A Robust Model-Based Radius Estimation Approach for Helical Climbing Motion of Snake Robots",
-      "startColor": "rgb(246,255,0)",
-      "endColor": "rgb(246,255,0)"
+      "startColor": "rgb(255,255,0)",
+      "endColor": "rgb(255,255,0)"
     },
     {
       "source": "Helical Rolling",
@@ -479,17 +604,44 @@ export const SankeyData = {
       "value": 1,
       "id": "9-1",
       "name": "A Robust Model-Based Radius Estimation Approach for Helical Climbing Motion of Snake Robots",
-      "startColor": "rgb(246,255,0)",
-      "endColor": "rgb(246,255,0)"
+      "startColor": "rgb(255,255,0)",
+      "endColor": "rgb(255,255,0)"
     },
     {
       "source": "Helical Friction",
-      "target": "Any",
+      "target": "B - Up Vertical Pipe",
       "value": 1,
       "id": "9-3",
       "name": "A Robust Model-Based Radius Estimation Approach for Helical Climbing Motion of Snake Robots",
-      "startColor": "rgb(246,255,0)",
-      "endColor": "rgb(246,255,0)"
+      "startColor": "rgb(255,255,0)",
+      "endColor": "rgb(255,255,0)"
+    },
+    {
+      "source": "Helical Friction",
+      "target": "C - Down Vertical Pipe",
+      "value": 1,
+      "id": "9-3",
+      "name": "A Robust Model-Based Radius Estimation Approach for Helical Climbing Motion of Snake Robots",
+      "startColor": "rgb(255,255,0)",
+      "endColor": "rgb(255,255,0)"
+    },
+    {
+      "source": "Helical Friction",
+      "target": "K - Over Small Obstacles",
+      "value": 1,
+      "id": "9-3",
+      "name": "A Robust Model-Based Radius Estimation Approach for Helical Climbing Motion of Snake Robots",
+      "startColor": "rgb(255,255,0)",
+      "endColor": "rgb(255,255,0)"
+    },
+    {
+      "source": "Helical Friction",
+      "target": "L - Diameter Change",
+      "value": 1,
+      "id": "9-3",
+      "name": "A Robust Model-Based Radius Estimation Approach for Helical Climbing Motion of Snake Robots",
+      "startColor": "rgb(255,255,0)",
+      "endColor": "rgb(255,255,0)"
     },
     {
       "source": "[39]",
@@ -497,8 +649,8 @@ export const SankeyData = {
       "value": 1,
       "id": "10-0",
       "name": "Developing a bioinspired pole climbing robot",
-      "startColor": "rgb(212,255,0)",
-      "endColor": "rgb(212,255,0)"
+      "startColor": "rgb(221,255,0)",
+      "endColor": "rgb(221,255,0)"
     },
     {
       "source": "Inchworm",
@@ -506,17 +658,26 @@ export const SankeyData = {
       "value": 1,
       "id": "10-1",
       "name": "Developing a bioinspired pole climbing robot",
-      "startColor": "rgb(212,255,0)",
-      "endColor": "rgb(212,255,0)"
+      "startColor": "rgb(221,255,0)",
+      "endColor": "rgb(221,255,0)"
     },
     {
       "source": "Grippers",
-      "target": "Any",
+      "target": "B - Up Vertical Pipe",
       "value": 1,
       "id": "10-3",
       "name": "Developing a bioinspired pole climbing robot",
-      "startColor": "rgb(212,255,0)",
-      "endColor": "rgb(212,255,0)"
+      "startColor": "rgb(221,255,0)",
+      "endColor": "rgb(221,255,0)"
+    },
+    {
+      "source": "Grippers",
+      "target": "C - Down Vertical Pipe",
+      "value": 1,
+      "id": "10-3",
+      "name": "Developing a bioinspired pole climbing robot",
+      "startColor": "rgb(221,255,0)",
+      "endColor": "rgb(221,255,0)"
     },
     {
       "source": "[40]",
@@ -524,8 +685,8 @@ export const SankeyData = {
       "value": 1,
       "id": "11-0",
       "name": "Fully 3D-Printed Modular Pipe-Climbing Robot",
-      "startColor": "rgb(183,255,0)",
-      "endColor": "rgb(183,255,0)"
+      "startColor": "rgb(191,255,0)",
+      "endColor": "rgb(191,255,0)"
     },
     {
       "source": "Inchworm",
@@ -533,17 +694,44 @@ export const SankeyData = {
       "value": 1,
       "id": "11-1",
       "name": "Fully 3D-Printed Modular Pipe-Climbing Robot",
-      "startColor": "rgb(183,255,0)",
-      "endColor": "rgb(183,255,0)"
+      "startColor": "rgb(191,255,0)",
+      "endColor": "rgb(191,255,0)"
     },
     {
       "source": "Grippers",
-      "target": "Any",
+      "target": "A - Along Horizontal Pipe",
       "value": 1,
       "id": "11-3",
       "name": "Fully 3D-Printed Modular Pipe-Climbing Robot",
-      "startColor": "rgb(183,255,0)",
-      "endColor": "rgb(183,255,0)"
+      "startColor": "rgb(191,255,0)",
+      "endColor": "rgb(191,255,0)"
+    },
+    {
+      "source": "Grippers",
+      "target": "B - Up Vertical Pipe",
+      "value": 1,
+      "id": "11-3",
+      "name": "Fully 3D-Printed Modular Pipe-Climbing Robot",
+      "startColor": "rgb(191,255,0)",
+      "endColor": "rgb(191,255,0)"
+    },
+    {
+      "source": "Grippers",
+      "target": "C - Down Vertical Pipe",
+      "value": 1,
+      "id": "11-3",
+      "name": "Fully 3D-Printed Modular Pipe-Climbing Robot",
+      "startColor": "rgb(191,255,0)",
+      "endColor": "rgb(191,255,0)"
+    },
+    {
+      "source": "Grippers",
+      "target": "L - Diameter Change",
+      "value": 1,
+      "id": "11-3",
+      "name": "Fully 3D-Printed Modular Pipe-Climbing Robot",
+      "startColor": "rgb(191,255,0)",
+      "endColor": "rgb(191,255,0)"
     },
     {
       "source": "[41]",
@@ -551,8 +739,8 @@ export const SankeyData = {
       "value": 1,
       "id": "12-0",
       "name": "Mechanical Analysis of Superheater Pipe Detection Robot",
-      "startColor": "rgb(149,255,0)",
-      "endColor": "rgb(149,255,0)"
+      "startColor": "rgb(157,255,0)",
+      "endColor": "rgb(157,255,0)"
     },
     {
       "source": "Inchworm",
@@ -560,17 +748,26 @@ export const SankeyData = {
       "value": 1,
       "id": "12-1",
       "name": "Mechanical Analysis of Superheater Pipe Detection Robot",
-      "startColor": "rgb(149,255,0)",
-      "endColor": "rgb(149,255,0)"
+      "startColor": "rgb(157,255,0)",
+      "endColor": "rgb(157,255,0)"
     },
     {
       "source": "Grippers",
-      "target": "Any",
+      "target": "B - Up Vertical Pipe",
       "value": 1,
       "id": "12-3",
       "name": "Mechanical Analysis of Superheater Pipe Detection Robot",
-      "startColor": "rgb(149,255,0)",
-      "endColor": "rgb(149,255,0)"
+      "startColor": "rgb(157,255,0)",
+      "endColor": "rgb(157,255,0)"
+    },
+    {
+      "source": "Grippers",
+      "target": "C - Down Vertical Pipe",
+      "value": 1,
+      "id": "12-3",
+      "name": "Mechanical Analysis of Superheater Pipe Detection Robot",
+      "startColor": "rgb(157,255,0)",
+      "endColor": "rgb(157,255,0)"
     },
     {
       "source": "[42]",
@@ -578,8 +775,8 @@ export const SankeyData = {
       "value": 1,
       "id": "13-0",
       "name": "Design of a Double Claw Pole-Climbing Robot",
-      "startColor": "rgb(115,255,0)",
-      "endColor": "rgb(115,255,0)"
+      "startColor": "rgb(128,255,0)",
+      "endColor": "rgb(128,255,0)"
     },
     {
       "source": "Inchworm",
@@ -587,17 +784,17 @@ export const SankeyData = {
       "value": 1,
       "id": "13-1",
       "name": "Design of a Double Claw Pole-Climbing Robot",
-      "startColor": "rgb(115,255,0)",
-      "endColor": "rgb(115,255,0)"
+      "startColor": "rgb(128,255,0)",
+      "endColor": "rgb(128,255,0)"
     },
     {
       "source": "Grippers",
-      "target": "Any",
+      "target": "A - Along Horizontal Pipe",
       "value": 1,
       "id": "13-3",
       "name": "Design of a Double Claw Pole-Climbing Robot",
-      "startColor": "rgb(115,255,0)",
-      "endColor": "rgb(115,255,0)"
+      "startColor": "rgb(128,255,0)",
+      "endColor": "rgb(128,255,0)"
     },
     {
       "source": "[43]",
@@ -605,8 +802,8 @@ export const SankeyData = {
       "value": 1,
       "id": "14-0",
       "name": "TAOYAKA-S III: Soft multi-legged robot for climbing unknown columnar objects",
-      "startColor": "rgb(85,255,0)",
-      "endColor": "rgb(85,255,0)"
+      "startColor": "rgb(94,255,0)",
+      "endColor": "rgb(94,255,0)"
     },
     {
       "source": "Inchworm",
@@ -614,17 +811,44 @@ export const SankeyData = {
       "value": 1,
       "id": "14-1",
       "name": "TAOYAKA-S III: Soft multi-legged robot for climbing unknown columnar objects",
-      "startColor": "rgb(85,255,0)",
-      "endColor": "rgb(85,255,0)"
+      "startColor": "rgb(94,255,0)",
+      "endColor": "rgb(94,255,0)"
     },
     {
       "source": "Grippers",
-      "target": "Any",
+      "target": "A - Along Horizontal Pipe",
       "value": 1,
       "id": "14-3",
       "name": "TAOYAKA-S III: Soft multi-legged robot for climbing unknown columnar objects",
-      "startColor": "rgb(85,255,0)",
-      "endColor": "rgb(85,255,0)"
+      "startColor": "rgb(94,255,0)",
+      "endColor": "rgb(94,255,0)"
+    },
+    {
+      "source": "Grippers",
+      "target": "B - Up Vertical Pipe",
+      "value": 1,
+      "id": "14-3",
+      "name": "TAOYAKA-S III: Soft multi-legged robot for climbing unknown columnar objects",
+      "startColor": "rgb(94,255,0)",
+      "endColor": "rgb(94,255,0)"
+    },
+    {
+      "source": "Grippers",
+      "target": "C - Down Vertical Pipe",
+      "value": 1,
+      "id": "14-3",
+      "name": "TAOYAKA-S III: Soft multi-legged robot for climbing unknown columnar objects",
+      "startColor": "rgb(94,255,0)",
+      "endColor": "rgb(94,255,0)"
+    },
+    {
+      "source": "Grippers",
+      "target": "L - Diameter Change",
+      "value": 1,
+      "id": "14-3",
+      "name": "TAOYAKA-S III: Soft multi-legged robot for climbing unknown columnar objects",
+      "startColor": "rgb(94,255,0)",
+      "endColor": "rgb(94,255,0)"
     },
     {
       "source": "[44]",
@@ -632,8 +856,8 @@ export const SankeyData = {
       "value": 1,
       "id": "15-0",
       "name": "Inchworm-Inspired Semi-Autonomous Pole-Climbing Robot",
-      "startColor": "rgb(51,255,0)",
-      "endColor": "rgb(51,255,0)"
+      "startColor": "rgb(64,255,0)",
+      "endColor": "rgb(64,255,0)"
     },
     {
       "source": "Inchworm",
@@ -641,17 +865,26 @@ export const SankeyData = {
       "value": 1,
       "id": "15-1",
       "name": "Inchworm-Inspired Semi-Autonomous Pole-Climbing Robot",
-      "startColor": "rgb(51,255,0)",
-      "endColor": "rgb(51,255,0)"
+      "startColor": "rgb(64,255,0)",
+      "endColor": "rgb(64,255,0)"
     },
     {
       "source": "Grippers",
-      "target": "Any",
+      "target": "B - Up Vertical Pipe",
       "value": 1,
       "id": "15-3",
       "name": "Inchworm-Inspired Semi-Autonomous Pole-Climbing Robot",
-      "startColor": "rgb(51,255,0)",
-      "endColor": "rgb(51,255,0)"
+      "startColor": "rgb(64,255,0)",
+      "endColor": "rgb(64,255,0)"
+    },
+    {
+      "source": "Grippers",
+      "target": "C - Down Vertical Pipe",
+      "value": 1,
+      "id": "15-3",
+      "name": "Inchworm-Inspired Semi-Autonomous Pole-Climbing Robot",
+      "startColor": "rgb(64,255,0)",
+      "endColor": "rgb(64,255,0)"
     },
     {
       "source": "[45]",
@@ -659,8 +892,8 @@ export const SankeyData = {
       "value": 1,
       "id": "16-0",
       "name": "An Inchworm-Like Climbing Robot Based on Cable-Driven Grippers",
-      "startColor": "rgb(17,255,0)",
-      "endColor": "rgb(17,255,0)"
+      "startColor": "rgb(30,255,0)",
+      "endColor": "rgb(30,255,0)"
     },
     {
       "source": "Inchworm",
@@ -668,17 +901,26 @@ export const SankeyData = {
       "value": 1,
       "id": "16-1",
       "name": "An Inchworm-Like Climbing Robot Based on Cable-Driven Grippers",
-      "startColor": "rgb(17,255,0)",
-      "endColor": "rgb(17,255,0)"
+      "startColor": "rgb(30,255,0)",
+      "endColor": "rgb(30,255,0)"
     },
     {
       "source": "Grippers",
-      "target": "Any",
+      "target": "A - Along Horizontal Pipe",
       "value": 1,
       "id": "16-3",
       "name": "An Inchworm-Like Climbing Robot Based on Cable-Driven Grippers",
-      "startColor": "rgb(17,255,0)",
-      "endColor": "rgb(17,255,0)"
+      "startColor": "rgb(30,255,0)",
+      "endColor": "rgb(30,255,0)"
+    },
+    {
+      "source": "Grippers",
+      "target": "B - Up Vertical Pipe",
+      "value": 1,
+      "id": "16-3",
+      "name": "An Inchworm-Like Climbing Robot Based on Cable-Driven Grippers",
+      "startColor": "rgb(30,255,0)",
+      "endColor": "rgb(30,255,0)"
     },
     {
       "source": "[9]",
@@ -686,8 +928,8 @@ export const SankeyData = {
       "value": 1,
       "id": "17-0",
       "name": "Climbot: A Bio-Inspired Modular Biped Climbing Robot—System Development, Climbing Gaits, and Experiments",
-      "startColor": "rgb(0,255,17)",
-      "endColor": "rgb(0,255,17)"
+      "startColor": "rgb(0,255,0)",
+      "endColor": "rgb(0,255,0)"
     },
     {
       "source": "Inchworm",
@@ -695,8 +937,8 @@ export const SankeyData = {
       "value": 1,
       "id": "17-1",
       "name": "Climbot: A Bio-Inspired Modular Biped Climbing Robot—System Development, Climbing Gaits, and Experiments",
-      "startColor": "rgb(0,255,17)",
-      "endColor": "rgb(0,255,17)"
+      "startColor": "rgb(0,255,0)",
+      "endColor": "rgb(0,255,0)"
     },
     {
       "source": "[9]",
@@ -704,8 +946,8 @@ export const SankeyData = {
       "value": 1,
       "id": "17-0",
       "name": "Climbot: A Bio-Inspired Modular Biped Climbing Robot—System Development, Climbing Gaits, and Experiments",
-      "startColor": "rgb(0,255,17)",
-      "endColor": "rgb(0,255,17)"
+      "startColor": "rgb(0,255,0)",
+      "endColor": "rgb(0,255,0)"
     },
     {
       "source": "Brachiating",
@@ -713,17 +955,71 @@ export const SankeyData = {
       "value": 1,
       "id": "17-1",
       "name": "Climbot: A Bio-Inspired Modular Biped Climbing Robot—System Development, Climbing Gaits, and Experiments",
-      "startColor": "rgb(0,255,17)",
-      "endColor": "rgb(0,255,17)"
+      "startColor": "rgb(0,255,0)",
+      "endColor": "rgb(0,255,0)"
     },
     {
       "source": "Grippers",
-      "target": "Any",
+      "target": "A - Along Horizontal Pipe",
       "value": 1,
       "id": "17-3",
       "name": "Climbot: A Bio-Inspired Modular Biped Climbing Robot—System Development, Climbing Gaits, and Experiments",
-      "startColor": "rgb(0,255,17)",
-      "endColor": "rgb(0,255,17)"
+      "startColor": "rgb(0,255,0)",
+      "endColor": "rgb(0,255,0)"
+    },
+    {
+      "source": "Grippers",
+      "target": "B - Up Vertical Pipe",
+      "value": 1,
+      "id": "17-3",
+      "name": "Climbot: A Bio-Inspired Modular Biped Climbing Robot—System Development, Climbing Gaits, and Experiments",
+      "startColor": "rgb(0,255,0)",
+      "endColor": "rgb(0,255,0)"
+    },
+    {
+      "source": "Grippers",
+      "target": "C - Down Vertical Pipe",
+      "value": 1,
+      "id": "17-3",
+      "name": "Climbot: A Bio-Inspired Modular Biped Climbing Robot—System Development, Climbing Gaits, and Experiments",
+      "startColor": "rgb(0,255,0)",
+      "endColor": "rgb(0,255,0)"
+    },
+    {
+      "source": "Grippers",
+      "target": "E - Transition Horizontal to Vertical",
+      "value": 1,
+      "id": "17-3",
+      "name": "Climbot: A Bio-Inspired Modular Biped Climbing Robot—System Development, Climbing Gaits, and Experiments",
+      "startColor": "rgb(0,255,0)",
+      "endColor": "rgb(0,255,0)"
+    },
+    {
+      "source": "Grippers",
+      "target": "F - Transition Horizontal to Horizontal Parallel",
+      "value": 1,
+      "id": "17-3",
+      "name": "Climbot: A Bio-Inspired Modular Biped Climbing Robot—System Development, Climbing Gaits, and Experiments",
+      "startColor": "rgb(0,255,0)",
+      "endColor": "rgb(0,255,0)"
+    },
+    {
+      "source": "Grippers",
+      "target": "I - Vertical to Vertical Transition Parallel",
+      "value": 1,
+      "id": "17-3",
+      "name": "Climbot: A Bio-Inspired Modular Biped Climbing Robot—System Development, Climbing Gaits, and Experiments",
+      "startColor": "rgb(0,255,0)",
+      "endColor": "rgb(0,255,0)"
+    },
+    {
+      "source": "Grippers",
+      "target": "K - Over Small Obstacles",
+      "value": 1,
+      "id": "17-3",
+      "name": "Climbot: A Bio-Inspired Modular Biped Climbing Robot—System Development, Climbing Gaits, and Experiments",
+      "startColor": "rgb(0,255,0)",
+      "endColor": "rgb(0,255,0)"
     },
     {
       "source": "[46]",
@@ -731,8 +1027,8 @@ export const SankeyData = {
       "value": 1,
       "id": "18-0",
       "name": "iCrawl: An Inchworm-Inspired Crawling Robot",
-      "startColor": "rgb(0,255,47)",
-      "endColor": "rgb(0,255,47)"
+      "startColor": "rgb(0,255,34)",
+      "endColor": "rgb(0,255,34)"
     },
     {
       "source": "Inchworm",
@@ -740,17 +1036,89 @@ export const SankeyData = {
       "value": 1,
       "id": "18-1",
       "name": "iCrawl: An Inchworm-Inspired Crawling Robot",
-      "startColor": "rgb(0,255,47)",
-      "endColor": "rgb(0,255,47)"
+      "startColor": "rgb(0,255,34)",
+      "endColor": "rgb(0,255,34)"
     },
     {
       "source": "Magnetic",
-      "target": "Ferromagnetic",
+      "target": "L - Diameter Change",
       "value": 1,
       "id": "18-3",
       "name": "iCrawl: An Inchworm-Inspired Crawling Robot",
-      "startColor": "rgb(0,255,47)",
-      "endColor": "rgb(0,255,47)"
+      "startColor": "rgb(0,255,34)",
+      "endColor": "rgb(0,255,34)"
+    },
+    {
+      "source": "Magnetic",
+      "target": "A - Along Horizontal Pipe",
+      "value": 1,
+      "id": "18-3",
+      "name": "iCrawl: An Inchworm-Inspired Crawling Robot",
+      "startColor": "rgb(0,255,34)",
+      "endColor": "rgb(0,255,34)"
+    },
+    {
+      "source": "Magnetic",
+      "target": "B - Up Vertical Pipe",
+      "value": 1,
+      "id": "18-3",
+      "name": "iCrawl: An Inchworm-Inspired Crawling Robot",
+      "startColor": "rgb(0,255,34)",
+      "endColor": "rgb(0,255,34)"
+    },
+    {
+      "source": "Magnetic",
+      "target": "C - Down Vertical Pipe",
+      "value": 1,
+      "id": "18-3",
+      "name": "iCrawl: An Inchworm-Inspired Crawling Robot",
+      "startColor": "rgb(0,255,34)",
+      "endColor": "rgb(0,255,34)"
+    },
+    {
+      "source": "Magnetic",
+      "target": "M - Up/ Down Walls",
+      "value": 1,
+      "id": "18-3",
+      "name": "iCrawl: An Inchworm-Inspired Crawling Robot",
+      "startColor": "rgb(0,255,34)",
+      "endColor": "rgb(0,255,34)"
+    },
+    {
+      "source": "Magnetic",
+      "target": "N - Left/Right Walls",
+      "value": 1,
+      "id": "18-3",
+      "name": "iCrawl: An Inchworm-Inspired Crawling Robot",
+      "startColor": "rgb(0,255,34)",
+      "endColor": "rgb(0,255,34)"
+    },
+    {
+      "source": "Magnetic",
+      "target": "F - Transition Horizontal to Horizontal Parallel",
+      "value": 1,
+      "id": "18-3",
+      "name": "iCrawl: An Inchworm-Inspired Crawling Robot",
+      "startColor": "rgb(0,255,34)",
+      "endColor": "rgb(0,255,34)"
+    },
+    {
+      "source": "Magnetic",
+      "target": "E - Transition Horizontal to Vertical",
+      "value": 1,
+      "id": "18-3",
+      "name": "iCrawl: An Inchworm-Inspired Crawling Robot",
+      "startColor": "rgb(0,255,34)",
+      "endColor": "rgb(0,255,34)"
+    },
+    {
+      "source": "Magnetic",
+      "target": "K - Over Small Obstacles",
+      "value": 1,
+      "id": "18-3",
+      "name": "iCrawl: An Inchworm-Inspired Crawling Robot",
+      "startColor": "rgb(0,255,34)",
+      "endColor": "rgb(0,255,34)"
     },
     {
       "source": "[11]",
@@ -758,8 +1126,8 @@ export const SankeyData = {
       "value": 1,
       "id": "19-0",
       "name": "Adaptive Bipedal Robot Walking on Industrial Pipes Under Neural Multimodal Locomotion Control: Toward Robotic Out-Pipe Inspection",
-      "startColor": "rgb(0,255,81)",
-      "endColor": "rgb(0,255,81)"
+      "startColor": "rgb(0,255,64)",
+      "endColor": "rgb(0,255,64)"
     },
     {
       "source": "Inchworm",
@@ -767,17 +1135,53 @@ export const SankeyData = {
       "value": 1,
       "id": "19-1",
       "name": "Adaptive Bipedal Robot Walking on Industrial Pipes Under Neural Multimodal Locomotion Control: Toward Robotic Out-Pipe Inspection",
-      "startColor": "rgb(0,255,81)",
-      "endColor": "rgb(0,255,81)"
+      "startColor": "rgb(0,255,64)",
+      "endColor": "rgb(0,255,64)"
     },
     {
       "source": "Magnetic",
-      "target": "Ferromagnetic",
+      "target": "A - Along Horizontal Pipe",
       "value": 1,
       "id": "19-3",
       "name": "Adaptive Bipedal Robot Walking on Industrial Pipes Under Neural Multimodal Locomotion Control: Toward Robotic Out-Pipe Inspection",
-      "startColor": "rgb(0,255,81)",
-      "endColor": "rgb(0,255,81)"
+      "startColor": "rgb(0,255,64)",
+      "endColor": "rgb(0,255,64)"
+    },
+    {
+      "source": "Magnetic",
+      "target": "B - Up Vertical Pipe",
+      "value": 1,
+      "id": "19-3",
+      "name": "Adaptive Bipedal Robot Walking on Industrial Pipes Under Neural Multimodal Locomotion Control: Toward Robotic Out-Pipe Inspection",
+      "startColor": "rgb(0,255,64)",
+      "endColor": "rgb(0,255,64)"
+    },
+    {
+      "source": "Magnetic",
+      "target": "C - Down Vertical Pipe",
+      "value": 1,
+      "id": "19-3",
+      "name": "Adaptive Bipedal Robot Walking on Industrial Pipes Under Neural Multimodal Locomotion Control: Toward Robotic Out-Pipe Inspection",
+      "startColor": "rgb(0,255,64)",
+      "endColor": "rgb(0,255,64)"
+    },
+    {
+      "source": "Magnetic",
+      "target": "E - Transition Horizontal to Vertical",
+      "value": 1,
+      "id": "19-3",
+      "name": "Adaptive Bipedal Robot Walking on Industrial Pipes Under Neural Multimodal Locomotion Control: Toward Robotic Out-Pipe Inspection",
+      "startColor": "rgb(0,255,64)",
+      "endColor": "rgb(0,255,64)"
+    },
+    {
+      "source": "Magnetic",
+      "target": "K - Over Small Obstacles",
+      "value": 1,
+      "id": "19-3",
+      "name": "Adaptive Bipedal Robot Walking on Industrial Pipes Under Neural Multimodal Locomotion Control: Toward Robotic Out-Pipe Inspection",
+      "startColor": "rgb(0,255,64)",
+      "endColor": "rgb(0,255,64)"
     },
     {
       "source": "[47]",
@@ -785,8 +1189,8 @@ export const SankeyData = {
       "value": 1,
       "id": "20-0",
       "name": "A Soft-Rigid Air-Propelled Pipe-Climbing Robot",
-      "startColor": "rgb(0,255,115)",
-      "endColor": "rgb(0,255,115)"
+      "startColor": "rgb(0,255,98)",
+      "endColor": "rgb(0,255,98)"
     },
     {
       "source": "Jet Propulsion",
@@ -794,17 +1198,44 @@ export const SankeyData = {
       "value": 1,
       "id": "20-1",
       "name": "A Soft-Rigid Air-Propelled Pipe-Climbing Robot",
-      "startColor": "rgb(0,255,115)",
-      "endColor": "rgb(0,255,115)"
+      "startColor": "rgb(0,255,98)",
+      "endColor": "rgb(0,255,98)"
     },
     {
       "source": "Friction",
-      "target": "Any",
+      "target": "A - Along Horizontal Pipe",
       "value": 1,
       "id": "20-3",
       "name": "A Soft-Rigid Air-Propelled Pipe-Climbing Robot",
-      "startColor": "rgb(0,255,115)",
-      "endColor": "rgb(0,255,115)"
+      "startColor": "rgb(0,255,98)",
+      "endColor": "rgb(0,255,98)"
+    },
+    {
+      "source": "Friction",
+      "target": "L - Diameter Change",
+      "value": 1,
+      "id": "20-3",
+      "name": "A Soft-Rigid Air-Propelled Pipe-Climbing Robot",
+      "startColor": "rgb(0,255,98)",
+      "endColor": "rgb(0,255,98)"
+    },
+    {
+      "source": "Friction",
+      "target": "B - Up Vertical Pipe",
+      "value": 1,
+      "id": "20-3",
+      "name": "A Soft-Rigid Air-Propelled Pipe-Climbing Robot",
+      "startColor": "rgb(0,255,98)",
+      "endColor": "rgb(0,255,98)"
+    },
+    {
+      "source": "Friction",
+      "target": "C - Down Vertical Pipe",
+      "value": 1,
+      "id": "20-3",
+      "name": "A Soft-Rigid Air-Propelled Pipe-Climbing Robot",
+      "startColor": "rgb(0,255,98)",
+      "endColor": "rgb(0,255,98)"
     },
     {
       "source": "[48]",
@@ -812,8 +1243,8 @@ export const SankeyData = {
       "value": 1,
       "id": "21-0",
       "name": "A Four-legged Wall-climbing Robot with Spines and Miniature Setae Array Inspired by Longicorn and Gecko",
-      "startColor": "rgb(0,255,149)",
-      "endColor": "rgb(0,255,149)"
+      "startColor": "rgb(0,255,128)",
+      "endColor": "rgb(0,255,128)"
     },
     {
       "source": "Legged",
@@ -821,17 +1252,26 @@ export const SankeyData = {
       "value": 1,
       "id": "21-1",
       "name": "A Four-legged Wall-climbing Robot with Spines and Miniature Setae Array Inspired by Longicorn and Gecko",
-      "startColor": "rgb(0,255,149)",
-      "endColor": "rgb(0,255,149)"
+      "startColor": "rgb(0,255,128)",
+      "endColor": "rgb(0,255,128)"
     },
     {
       "source": "Claws/Spines",
-      "target": "Any",
+      "target": "B - Up Vertical Pipe",
       "value": 1,
       "id": "21-3",
       "name": "A Four-legged Wall-climbing Robot with Spines and Miniature Setae Array Inspired by Longicorn and Gecko",
-      "startColor": "rgb(0,255,149)",
-      "endColor": "rgb(0,255,149)"
+      "startColor": "rgb(0,255,128)",
+      "endColor": "rgb(0,255,128)"
+    },
+    {
+      "source": "Claws/Spines",
+      "target": "C - Down Vertical Pipe",
+      "value": 1,
+      "id": "21-3",
+      "name": "A Four-legged Wall-climbing Robot with Spines and Miniature Setae Array Inspired by Longicorn and Gecko",
+      "startColor": "rgb(0,255,128)",
+      "endColor": "rgb(0,255,128)"
     },
     {
       "source": "[49]",
@@ -839,8 +1279,8 @@ export const SankeyData = {
       "value": 1,
       "id": "22-0",
       "name": "Design of a Tractor-Trailer Climbing Robot for Large Pressure Vessel Inspection",
-      "startColor": "rgb(0,255,179)",
-      "endColor": "rgb(0,255,179)"
+      "startColor": "rgb(0,255,162)",
+      "endColor": "rgb(0,255,162)"
     },
     {
       "source": "Tracked",
@@ -848,356 +1288,653 @@ export const SankeyData = {
       "value": 1,
       "id": "22-1",
       "name": "Design of a Tractor-Trailer Climbing Robot for Large Pressure Vessel Inspection",
-      "startColor": "rgb(0,255,179)",
-      "endColor": "rgb(0,255,179)"
+      "startColor": "rgb(0,255,162)",
+      "endColor": "rgb(0,255,162)"
     },
     {
       "source": "Magnetic",
-      "target": "Ferromagnetic",
+      "target": "M - Up/ Down Walls",
       "value": 1,
       "id": "22-3",
       "name": "Design of a Tractor-Trailer Climbing Robot for Large Pressure Vessel Inspection",
-      "startColor": "rgb(0,255,179)",
-      "endColor": "rgb(0,255,179)"
+      "startColor": "rgb(0,255,162)",
+      "endColor": "rgb(0,255,162)"
+    },
+    {
+      "source": "Magnetic",
+      "target": "N - Left/Right Walls",
+      "value": 1,
+      "id": "22-3",
+      "name": "Design of a Tractor-Trailer Climbing Robot for Large Pressure Vessel Inspection",
+      "startColor": "rgb(0,255,162)",
+      "endColor": "rgb(0,255,162)"
+    },
+    {
+      "source": "[13]",
+      "target": "Tracked",
+      "value": 1,
+      "id": "23-0",
+      "name": "A Climbing Robot for Steel Bridge Inspection",
+      "startColor": "rgb(0,255,191)",
+      "endColor": "rgb(0,255,191)"
+    },
+    {
+      "source": "Tracked",
+      "target": "Magnetic",
+      "value": 1,
+      "id": "23-1",
+      "name": "A Climbing Robot for Steel Bridge Inspection",
+      "startColor": "rgb(0,255,191)",
+      "endColor": "rgb(0,255,191)"
+    },
+    {
+      "source": "Magnetic",
+      "target": "A - Along Horizontal Pipe",
+      "value": 1,
+      "id": "23-3",
+      "name": "A Climbing Robot for Steel Bridge Inspection",
+      "startColor": "rgb(0,255,191)",
+      "endColor": "rgb(0,255,191)"
+    },
+    {
+      "source": "Magnetic",
+      "target": "B - Up Vertical Pipe",
+      "value": 1,
+      "id": "23-3",
+      "name": "A Climbing Robot for Steel Bridge Inspection",
+      "startColor": "rgb(0,255,191)",
+      "endColor": "rgb(0,255,191)"
+    },
+    {
+      "source": "Magnetic",
+      "target": "C - Down Vertical Pipe",
+      "value": 1,
+      "id": "23-3",
+      "name": "A Climbing Robot for Steel Bridge Inspection",
+      "startColor": "rgb(0,255,191)",
+      "endColor": "rgb(0,255,191)"
+    },
+    {
+      "source": "Magnetic",
+      "target": "E - Transition Horizontal to Vertical",
+      "value": 1,
+      "id": "23-3",
+      "name": "A Climbing Robot for Steel Bridge Inspection",
+      "startColor": "rgb(0,255,191)",
+      "endColor": "rgb(0,255,191)"
+    },
+    {
+      "source": "Magnetic",
+      "target": "L - Diameter Change",
+      "value": 1,
+      "id": "23-3",
+      "name": "A Climbing Robot for Steel Bridge Inspection",
+      "startColor": "rgb(0,255,191)",
+      "endColor": "rgb(0,255,191)"
+    },
+    {
+      "source": "Magnetic",
+      "target": "M - Up/ Down Walls",
+      "value": 1,
+      "id": "23-3",
+      "name": "A Climbing Robot for Steel Bridge Inspection",
+      "startColor": "rgb(0,255,191)",
+      "endColor": "rgb(0,255,191)"
     },
     {
       "source": "[50]",
       "target": "Tracked",
       "value": 1,
-      "id": "23-0",
+      "id": "24-0",
       "name": "\nDesign of a Multi-Robot System for Wind Turbine Maintenance ",
-      "startColor": "rgb(0,255,213)",
-      "endColor": "rgb(0,255,213)"
+      "startColor": "rgb(0,255,225)",
+      "endColor": "rgb(0,255,225)"
     },
     {
       "source": "Tracked",
       "target": "Tension Straps",
       "value": 1,
-      "id": "23-1",
+      "id": "24-1",
       "name": "\nDesign of a Multi-Robot System for Wind Turbine Maintenance ",
-      "startColor": "rgb(0,255,213)",
-      "endColor": "rgb(0,255,213)"
+      "startColor": "rgb(0,255,225)",
+      "endColor": "rgb(0,255,225)"
     },
     {
       "source": "Tracked",
       "target": "Friction",
       "value": 1,
-      "id": "23-1",
+      "id": "24-1",
       "name": "\nDesign of a Multi-Robot System for Wind Turbine Maintenance ",
-      "startColor": "rgb(0,255,213)",
-      "endColor": "rgb(0,255,213)"
+      "startColor": "rgb(0,255,225)",
+      "endColor": "rgb(0,255,225)"
     },
     {
       "source": "Tension Straps",
-      "target": "Any",
+      "target": "B - Up Vertical Pipe",
       "value": 1,
-      "id": "23-3",
+      "id": "24-3",
       "name": "\nDesign of a Multi-Robot System for Wind Turbine Maintenance ",
-      "startColor": "rgb(0,255,213)",
-      "endColor": "rgb(0,255,213)"
+      "startColor": "rgb(0,255,225)",
+      "endColor": "rgb(0,255,225)"
+    },
+    {
+      "source": "Tension Straps",
+      "target": "C - Down Vertical Pipe",
+      "value": 1,
+      "id": "24-3",
+      "name": "\nDesign of a Multi-Robot System for Wind Turbine Maintenance ",
+      "startColor": "rgb(0,255,225)",
+      "endColor": "rgb(0,255,225)"
     },
     {
       "source": "Friction",
-      "target": "Any",
+      "target": "B - Up Vertical Pipe",
       "value": 1,
-      "id": "23-3",
+      "id": "24-3",
       "name": "\nDesign of a Multi-Robot System for Wind Turbine Maintenance ",
-      "startColor": "rgb(0,255,213)",
-      "endColor": "rgb(0,255,213)"
+      "startColor": "rgb(0,255,225)",
+      "endColor": "rgb(0,255,225)"
+    },
+    {
+      "source": "Friction",
+      "target": "C - Down Vertical Pipe",
+      "value": 1,
+      "id": "24-3",
+      "name": "\nDesign of a Multi-Robot System for Wind Turbine Maintenance ",
+      "startColor": "rgb(0,255,225)",
+      "endColor": "rgb(0,255,225)"
     },
     {
       "source": "[51]",
       "target": "Shell",
       "value": 1,
-      "id": "24-0",
+      "id": "25-0",
       "name": "Design and Fabrication of a Novel Autonomous Pipeline Scanning Robot",
-      "startColor": "rgb(0,255,247)",
-      "endColor": "rgb(0,255,247)"
+      "startColor": "rgb(0,255,255)",
+      "endColor": "rgb(0,255,255)"
     },
     {
       "source": "Shell",
       "target": "Magnetic",
       "value": 1,
-      "id": "24-1",
+      "id": "25-1",
       "name": "Design and Fabrication of a Novel Autonomous Pipeline Scanning Robot",
-      "startColor": "rgb(0,255,247)",
-      "endColor": "rgb(0,255,247)"
+      "startColor": "rgb(0,255,255)",
+      "endColor": "rgb(0,255,255)"
     },
     {
       "source": "Magnetic",
-      "target": "Ferromagnetic",
+      "target": "A - Along Horizontal Pipe",
       "value": 1,
-      "id": "24-3",
+      "id": "25-3",
       "name": "Design and Fabrication of a Novel Autonomous Pipeline Scanning Robot",
-      "startColor": "rgb(0,255,247)",
-      "endColor": "rgb(0,255,247)"
+      "startColor": "rgb(0,255,255)",
+      "endColor": "rgb(0,255,255)"
     },
     {
       "source": "[52]",
       "target": "Soft",
       "value": 1,
-      "id": "25-0",
+      "id": "26-0",
       "name": "A Pipe-Climbing Soft Robot",
-      "startColor": "rgb(0,234,255)",
-      "endColor": "rgb(0,234,255)"
+      "startColor": "rgb(0,221,255)",
+      "endColor": "rgb(0,221,255)"
     },
     {
       "source": "Soft",
       "target": "Friction",
       "value": 1,
-      "id": "25-1",
+      "id": "26-1",
       "name": "A Pipe-Climbing Soft Robot",
-      "startColor": "rgb(0,234,255)",
-      "endColor": "rgb(0,234,255)"
+      "startColor": "rgb(0,221,255)",
+      "endColor": "rgb(0,221,255)"
     },
     {
       "source": "Friction",
-      "target": "Any",
+      "target": "A - Along Horizontal Pipe",
       "value": 1,
-      "id": "25-3",
+      "id": "26-3",
       "name": "A Pipe-Climbing Soft Robot",
-      "startColor": "rgb(0,234,255)",
-      "endColor": "rgb(0,234,255)"
+      "startColor": "rgb(0,221,255)",
+      "endColor": "rgb(0,221,255)"
+    },
+    {
+      "source": "Friction",
+      "target": "B - Up Vertical Pipe",
+      "value": 1,
+      "id": "26-3",
+      "name": "A Pipe-Climbing Soft Robot",
+      "startColor": "rgb(0,221,255)",
+      "endColor": "rgb(0,221,255)"
     },
     {
       "source": "[53]",
       "target": "Soft",
       "value": 1,
-      "id": "26-0",
+      "id": "27-0",
       "name": "Out-Pipe Climbing Soft Robot with Omnidirectional Actuator",
-      "startColor": "rgb(0,200,255)",
-      "endColor": "rgb(0,200,255)"
+      "startColor": "rgb(0,191,255)",
+      "endColor": "rgb(0,191,255)"
     },
     {
       "source": "Soft",
       "target": "Friction",
       "value": 1,
-      "id": "26-1",
+      "id": "27-1",
       "name": "Out-Pipe Climbing Soft Robot with Omnidirectional Actuator",
-      "startColor": "rgb(0,200,255)",
-      "endColor": "rgb(0,200,255)"
+      "startColor": "rgb(0,191,255)",
+      "endColor": "rgb(0,191,255)"
     },
     {
       "source": "Soft",
       "target": "Pneumatic",
       "value": 1,
-      "id": "26-1",
+      "id": "27-1",
       "name": "Out-Pipe Climbing Soft Robot with Omnidirectional Actuator",
-      "startColor": "rgb(0,200,255)",
-      "endColor": "rgb(0,200,255)"
+      "startColor": "rgb(0,191,255)",
+      "endColor": "rgb(0,191,255)"
     },
     {
       "source": "Friction",
-      "target": "Any",
+      "target": "C - Down Vertical Pipe",
       "value": 1,
-      "id": "26-3",
+      "id": "27-3",
       "name": "Out-Pipe Climbing Soft Robot with Omnidirectional Actuator",
-      "startColor": "rgb(0,200,255)",
-      "endColor": "rgb(0,200,255)"
+      "startColor": "rgb(0,191,255)",
+      "endColor": "rgb(0,191,255)"
+    },
+    {
+      "source": "Friction",
+      "target": "B - Up Vertical Pipe",
+      "value": 1,
+      "id": "27-3",
+      "name": "Out-Pipe Climbing Soft Robot with Omnidirectional Actuator",
+      "startColor": "rgb(0,191,255)",
+      "endColor": "rgb(0,191,255)"
     },
     {
       "source": "Pneumatic",
-      "target": "Any",
+      "target": "C - Down Vertical Pipe",
       "value": 1,
-      "id": "26-3",
+      "id": "27-3",
       "name": "Out-Pipe Climbing Soft Robot with Omnidirectional Actuator",
-      "startColor": "rgb(0,200,255)",
-      "endColor": "rgb(0,200,255)"
+      "startColor": "rgb(0,191,255)",
+      "endColor": "rgb(0,191,255)"
+    },
+    {
+      "source": "Pneumatic",
+      "target": "B - Up Vertical Pipe",
+      "value": 1,
+      "id": "27-3",
+      "name": "Out-Pipe Climbing Soft Robot with Omnidirectional Actuator",
+      "startColor": "rgb(0,191,255)",
+      "endColor": "rgb(0,191,255)"
     },
     {
       "source": "[54]",
       "target": "Wheeled",
       "value": 1,
-      "id": "27-0",
+      "id": "28-0",
       "name": "Design and Experiments of A Climbing Robot for Inspection of Isolated Phase Bus",
-      "startColor": "rgb(0,166,255)",
-      "endColor": "rgb(0,166,255)"
+      "startColor": "rgb(0,157,255)",
+      "endColor": "rgb(0,157,255)"
     },
     {
       "source": "Wheeled",
       "target": "Friction",
       "value": 1,
-      "id": "27-1",
+      "id": "28-1",
       "name": "Design and Experiments of A Climbing Robot for Inspection of Isolated Phase Bus",
-      "startColor": "rgb(0,166,255)",
-      "endColor": "rgb(0,166,255)"
+      "startColor": "rgb(0,157,255)",
+      "endColor": "rgb(0,157,255)"
     },
     {
       "source": "Friction",
-      "target": "Any",
+      "target": "A - Along Horizontal Pipe",
       "value": 1,
-      "id": "27-3",
+      "id": "28-3",
       "name": "Design and Experiments of A Climbing Robot for Inspection of Isolated Phase Bus",
-      "startColor": "rgb(0,166,255)",
-      "endColor": "rgb(0,166,255)"
+      "startColor": "rgb(0,157,255)",
+      "endColor": "rgb(0,157,255)"
+    },
+    {
+      "source": "Friction",
+      "target": "D - Radially Around Pipe",
+      "value": 1,
+      "id": "28-3",
+      "name": "Design and Experiments of A Climbing Robot for Inspection of Isolated Phase Bus",
+      "startColor": "rgb(0,157,255)",
+      "endColor": "rgb(0,157,255)"
+    },
+    {
+      "source": "Friction",
+      "target": "B - Up Vertical Pipe",
+      "value": 1,
+      "id": "28-3",
+      "name": "Design and Experiments of A Climbing Robot for Inspection of Isolated Phase Bus",
+      "startColor": "rgb(0,157,255)",
+      "endColor": "rgb(0,157,255)"
+    },
+    {
+      "source": "Friction",
+      "target": "C - Down Vertical Pipe",
+      "value": 1,
+      "id": "28-3",
+      "name": "Design and Experiments of A Climbing Robot for Inspection of Isolated Phase Bus",
+      "startColor": "rgb(0,157,255)",
+      "endColor": "rgb(0,157,255)"
     },
     {
       "source": "[55]",
       "target": "Wheeled",
       "value": 1,
-      "id": "28-0",
+      "id": "29-0",
       "name": "Climbing ring robot for inspection of offshore wind turbines",
-      "startColor": "rgb(0,132,255)",
-      "endColor": "rgb(0,132,255)"
+      "startColor": "rgb(0,128,255)",
+      "endColor": "rgb(0,128,255)"
     },
     {
       "source": "Wheeled",
       "target": "Friction",
       "value": 1,
-      "id": "28-1",
+      "id": "29-1",
       "name": "Climbing ring robot for inspection of offshore wind turbines",
-      "startColor": "rgb(0,132,255)",
-      "endColor": "rgb(0,132,255)"
+      "startColor": "rgb(0,128,255)",
+      "endColor": "rgb(0,128,255)"
     },
     {
       "source": "Wheeled",
       "target": "Sliding Frame",
       "value": 1,
-      "id": "28-1",
+      "id": "29-1",
       "name": "Climbing ring robot for inspection of offshore wind turbines",
-      "startColor": "rgb(0,132,255)",
-      "endColor": "rgb(0,132,255)"
+      "startColor": "rgb(0,128,255)",
+      "endColor": "rgb(0,128,255)"
     },
     {
       "source": "Friction",
-      "target": "Any",
+      "target": "B - Up Vertical Pipe",
       "value": 1,
-      "id": "28-3",
+      "id": "29-3",
       "name": "Climbing ring robot for inspection of offshore wind turbines",
-      "startColor": "rgb(0,132,255)",
-      "endColor": "rgb(0,132,255)"
+      "startColor": "rgb(0,128,255)",
+      "endColor": "rgb(0,128,255)"
+    },
+    {
+      "source": "Friction",
+      "target": "C - Down Vertical Pipe",
+      "value": 1,
+      "id": "29-3",
+      "name": "Climbing ring robot for inspection of offshore wind turbines",
+      "startColor": "rgb(0,128,255)",
+      "endColor": "rgb(0,128,255)"
+    },
+    {
+      "source": "Friction",
+      "target": "D - Radially Around Pipe",
+      "value": 1,
+      "id": "29-3",
+      "name": "Climbing ring robot for inspection of offshore wind turbines",
+      "startColor": "rgb(0,128,255)",
+      "endColor": "rgb(0,128,255)"
+    },
+    {
+      "source": "Friction",
+      "target": "L - Diameter Change",
+      "value": 1,
+      "id": "29-3",
+      "name": "Climbing ring robot for inspection of offshore wind turbines",
+      "startColor": "rgb(0,128,255)",
+      "endColor": "rgb(0,128,255)"
     },
     {
       "source": "Sliding Frame",
-      "target": "Any",
+      "target": "B - Up Vertical Pipe",
       "value": 1,
-      "id": "28-3",
+      "id": "29-3",
       "name": "Climbing ring robot for inspection of offshore wind turbines",
-      "startColor": "rgb(0,132,255)",
-      "endColor": "rgb(0,132,255)"
+      "startColor": "rgb(0,128,255)",
+      "endColor": "rgb(0,128,255)"
+    },
+    {
+      "source": "Sliding Frame",
+      "target": "C - Down Vertical Pipe",
+      "value": 1,
+      "id": "29-3",
+      "name": "Climbing ring robot for inspection of offshore wind turbines",
+      "startColor": "rgb(0,128,255)",
+      "endColor": "rgb(0,128,255)"
+    },
+    {
+      "source": "Sliding Frame",
+      "target": "D - Radially Around Pipe",
+      "value": 1,
+      "id": "29-3",
+      "name": "Climbing ring robot for inspection of offshore wind turbines",
+      "startColor": "rgb(0,128,255)",
+      "endColor": "rgb(0,128,255)"
+    },
+    {
+      "source": "Sliding Frame",
+      "target": "L - Diameter Change",
+      "value": 1,
+      "id": "29-3",
+      "name": "Climbing ring robot for inspection of offshore wind turbines",
+      "startColor": "rgb(0,128,255)",
+      "endColor": "rgb(0,128,255)"
     },
     {
       "source": "[56]",
       "target": "Wheeled",
       "value": 1,
-      "id": "29-0",
-      "name": "Design and Development of a Pipe Climbing Mechanism",
-      "startColor": "rgb(0,102,255)",
-      "endColor": "rgb(0,102,255)"
-    },
-    {
-      "source": "Wheeled",
-      "target": "Grippers",
-      "value": 1,
-      "id": "29-1",
-      "name": "Design and Development of a Pipe Climbing Mechanism",
-      "startColor": "rgb(0,102,255)",
-      "endColor": "rgb(0,102,255)"
-    },
-    {
-      "source": "Grippers",
-      "target": "Any",
-      "value": 1,
-      "id": "29-3",
-      "name": "Design and Development of a Pipe Climbing Mechanism",
-      "startColor": "rgb(0,102,255)",
-      "endColor": "rgb(0,102,255)"
-    },
-    {
-      "source": "[57]",
-      "target": "Wheeled",
-      "value": 1,
       "id": "30-0",
-      "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
-      "startColor": "rgb(0,68,255)",
-      "endColor": "rgb(0,68,255)"
+      "name": "Design and Development of a Pipe Climbing Mechanism",
+      "startColor": "rgb(0,94,255)",
+      "endColor": "rgb(0,94,255)"
     },
     {
       "source": "Wheeled",
       "target": "Grippers",
       "value": 1,
       "id": "30-1",
+      "name": "Design and Development of a Pipe Climbing Mechanism",
+      "startColor": "rgb(0,94,255)",
+      "endColor": "rgb(0,94,255)"
+    },
+    {
+      "source": "Grippers",
+      "target": "A - Along Horizontal Pipe",
+      "value": 1,
+      "id": "30-3",
+      "name": "Design and Development of a Pipe Climbing Mechanism",
+      "startColor": "rgb(0,94,255)",
+      "endColor": "rgb(0,94,255)"
+    },
+    {
+      "source": "Grippers",
+      "target": "B - Up Vertical Pipe",
+      "value": 1,
+      "id": "30-3",
+      "name": "Design and Development of a Pipe Climbing Mechanism",
+      "startColor": "rgb(0,94,255)",
+      "endColor": "rgb(0,94,255)"
+    },
+    {
+      "source": "Grippers",
+      "target": "C - Down Vertical Pipe",
+      "value": 1,
+      "id": "30-3",
+      "name": "Design and Development of a Pipe Climbing Mechanism",
+      "startColor": "rgb(0,94,255)",
+      "endColor": "rgb(0,94,255)"
+    },
+    {
+      "source": "[57]",
+      "target": "Wheeled",
+      "value": 1,
+      "id": "31-0",
       "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
-      "startColor": "rgb(0,68,255)",
-      "endColor": "rgb(0,68,255)"
+      "startColor": "rgb(0,64,255)",
+      "endColor": "rgb(0,64,255)"
+    },
+    {
+      "source": "Wheeled",
+      "target": "Grippers",
+      "value": 1,
+      "id": "31-1",
+      "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
+      "startColor": "rgb(0,64,255)",
+      "endColor": "rgb(0,64,255)"
     },
     {
       "source": "[57]",
       "target": "Inchworm",
       "value": 1,
-      "id": "30-0",
+      "id": "31-0",
       "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
-      "startColor": "rgb(0,68,255)",
-      "endColor": "rgb(0,68,255)"
+      "startColor": "rgb(0,64,255)",
+      "endColor": "rgb(0,64,255)"
     },
     {
       "source": "Inchworm",
       "target": "Grippers",
       "value": 1,
-      "id": "30-1",
+      "id": "31-1",
       "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
-      "startColor": "rgb(0,68,255)",
-      "endColor": "rgb(0,68,255)"
+      "startColor": "rgb(0,64,255)",
+      "endColor": "rgb(0,64,255)"
     },
     {
       "source": "Grippers",
-      "target": "Any",
+      "target": "A - Along Horizontal Pipe",
       "value": 1,
-      "id": "30-3",
+      "id": "31-3",
       "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
-      "startColor": "rgb(0,68,255)",
-      "endColor": "rgb(0,68,255)"
+      "startColor": "rgb(0,64,255)",
+      "endColor": "rgb(0,64,255)"
+    },
+    {
+      "source": "Grippers",
+      "target": "B - Up Vertical Pipe",
+      "value": 1,
+      "id": "31-3",
+      "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
+      "startColor": "rgb(0,64,255)",
+      "endColor": "rgb(0,64,255)"
+    },
+    {
+      "source": "Grippers",
+      "target": "C - Down Vertical Pipe",
+      "value": 1,
+      "id": "31-3",
+      "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
+      "startColor": "rgb(0,64,255)",
+      "endColor": "rgb(0,64,255)"
+    },
+    {
+      "source": "Grippers",
+      "target": "D - Radially Around Pipe",
+      "value": 1,
+      "id": "31-3",
+      "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
+      "startColor": "rgb(0,64,255)",
+      "endColor": "rgb(0,64,255)"
+    },
+    {
+      "source": "Grippers",
+      "target": "E - Transition Horizontal to Vertical",
+      "value": 1,
+      "id": "31-3",
+      "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
+      "startColor": "rgb(0,64,255)",
+      "endColor": "rgb(0,64,255)"
     },
     {
       "source": "[58]",
       "target": "Wheeled",
       "value": 1,
-      "id": "31-0",
-      "name": "Design and Development of Climbing Robot for Lightning Rod Maintenance in Substation",
-      "startColor": "rgb(0,34,255)",
-      "endColor": "rgb(0,34,255)"
-    },
-    {
-      "source": "Wheeled",
-      "target": "Magnetic",
-      "value": 1,
-      "id": "31-1",
-      "name": "Design and Development of Climbing Robot for Lightning Rod Maintenance in Substation",
-      "startColor": "rgb(0,34,255)",
-      "endColor": "rgb(0,34,255)"
-    },
-    {
-      "source": "Magnetic",
-      "target": "Ferromagnetic",
-      "value": 1,
-      "id": "31-3",
-      "name": "Design and Development of Climbing Robot for Lightning Rod Maintenance in Substation",
-      "startColor": "rgb(0,34,255)",
-      "endColor": "rgb(0,34,255)"
-    },
-    {
-      "source": "[59]",
-      "target": "Wheeled",
-      "value": 1,
       "id": "32-0",
-      "name": "Development and Evaluation of Compact Robot Imitating a Hermit Crab for Inspecting the Outer Surface of Pipes",
-      "startColor": "rgb(0,0,255)",
-      "endColor": "rgb(0,0,255)"
+      "name": "Design and Development of Climbing Robot for Lightning Rod Maintenance in Substation",
+      "startColor": "rgb(0,30,255)",
+      "endColor": "rgb(0,30,255)"
     },
     {
       "source": "Wheeled",
       "target": "Magnetic",
       "value": 1,
       "id": "32-1",
+      "name": "Design and Development of Climbing Robot for Lightning Rod Maintenance in Substation",
+      "startColor": "rgb(0,30,255)",
+      "endColor": "rgb(0,30,255)"
+    },
+    {
+      "source": "Magnetic",
+      "target": "B - Up Vertical Pipe",
+      "value": 1,
+      "id": "32-3",
+      "name": "Design and Development of Climbing Robot for Lightning Rod Maintenance in Substation",
+      "startColor": "rgb(0,30,255)",
+      "endColor": "rgb(0,30,255)"
+    },
+    {
+      "source": "Magnetic",
+      "target": "C - Down Vertical Pipe",
+      "value": 1,
+      "id": "32-3",
+      "name": "Design and Development of Climbing Robot for Lightning Rod Maintenance in Substation",
+      "startColor": "rgb(0,30,255)",
+      "endColor": "rgb(0,30,255)"
+    },
+    {
+      "source": "Magnetic",
+      "target": "K - Over Small Obstacles",
+      "value": 1,
+      "id": "32-3",
+      "name": "Design and Development of Climbing Robot for Lightning Rod Maintenance in Substation",
+      "startColor": "rgb(0,30,255)",
+      "endColor": "rgb(0,30,255)"
+    },
+    {
+      "source": "[59]",
+      "target": "Wheeled",
+      "value": 1,
+      "id": "33-0",
+      "name": "Development and Evaluation of Compact Robot Imitating a Hermit Crab for Inspecting the Outer Surface of Pipes",
+      "startColor": "rgb(0,0,255)",
+      "endColor": "rgb(0,0,255)"
+    },
+    {
+      "source": "Wheeled",
+      "target": "Magnetic",
+      "value": 1,
+      "id": "33-1",
       "name": "Development and Evaluation of Compact Robot Imitating a Hermit Crab for Inspecting the Outer Surface of Pipes",
       "startColor": "rgb(0,0,255)",
       "endColor": "rgb(0,0,255)"
     },
     {
       "source": "Magnetic",
-      "target": "Ferromagnetic",
+      "target": "A - Along Horizontal Pipe",
       "value": 1,
-      "id": "32-3",
+      "id": "33-3",
+      "name": "Development and Evaluation of Compact Robot Imitating a Hermit Crab for Inspecting the Outer Surface of Pipes",
+      "startColor": "rgb(0,0,255)",
+      "endColor": "rgb(0,0,255)"
+    },
+    {
+      "source": "Magnetic",
+      "target": "B - Up Vertical Pipe",
+      "value": 1,
+      "id": "33-3",
+      "name": "Development and Evaluation of Compact Robot Imitating a Hermit Crab for Inspecting the Outer Surface of Pipes",
+      "startColor": "rgb(0,0,255)",
+      "endColor": "rgb(0,0,255)"
+    },
+    {
+      "source": "Magnetic",
+      "target": "C - Down Vertical Pipe",
+      "value": 1,
+      "id": "33-3",
       "name": "Development and Evaluation of Compact Robot Imitating a Hermit Crab for Inspecting the Outer Surface of Pipes",
       "startColor": "rgb(0,0,255)",
       "endColor": "rgb(0,0,255)"
@@ -1206,52 +1943,133 @@ export const SankeyData = {
       "source": "[60]",
       "target": "Wheeled",
       "value": 1,
-      "id": "33-0",
-      "name": "Design and analysis of a wall-climbing robot for passive adaptive movement on variable-curvature metal facades",
-      "startColor": "rgb(30,0,255)",
-      "endColor": "rgb(30,0,255)"
-    },
-    {
-      "source": "Wheeled",
-      "target": "Magnetic",
-      "value": 1,
-      "id": "33-1",
-      "name": "Design and analysis of a wall-climbing robot for passive adaptive movement on variable-curvature metal facades",
-      "startColor": "rgb(30,0,255)",
-      "endColor": "rgb(30,0,255)"
-    },
-    {
-      "source": "Magnetic",
-      "target": "Ferromagnetic",
-      "value": 1,
-      "id": "33-3",
-      "name": "Design and analysis of a wall-climbing robot for passive adaptive movement on variable-curvature metal facades",
-      "startColor": "rgb(30,0,255)",
-      "endColor": "rgb(30,0,255)"
-    },
-    {
-      "source": "[61]",
-      "target": "Wheeled",
-      "value": 1,
       "id": "34-0",
-      "name": "OmniClimbers: Omni-directional magnetic wheeled climbing robots for inspection of ferromagnetic structures",
-      "startColor": "rgb(64,0,255)",
-      "endColor": "rgb(64,0,255)"
+      "name": "Design and analysis of a wall-climbing robot for passive adaptive movement on variable-curvature metal facades",
+      "startColor": "rgb(34,0,255)",
+      "endColor": "rgb(34,0,255)"
     },
     {
       "source": "Wheeled",
       "target": "Magnetic",
       "value": 1,
       "id": "34-1",
+      "name": "Design and analysis of a wall-climbing robot for passive adaptive movement on variable-curvature metal facades",
+      "startColor": "rgb(34,0,255)",
+      "endColor": "rgb(34,0,255)"
+    },
+    {
+      "source": "Magnetic",
+      "target": "D - Radially Around Pipe",
+      "value": 1,
+      "id": "34-3",
+      "name": "Design and analysis of a wall-climbing robot for passive adaptive movement on variable-curvature metal facades",
+      "startColor": "rgb(34,0,255)",
+      "endColor": "rgb(34,0,255)"
+    },
+    {
+      "source": "Magnetic",
+      "target": "M - Up/ Down Walls",
+      "value": 1,
+      "id": "34-3",
+      "name": "Design and analysis of a wall-climbing robot for passive adaptive movement on variable-curvature metal facades",
+      "startColor": "rgb(34,0,255)",
+      "endColor": "rgb(34,0,255)"
+    },
+    {
+      "source": "Magnetic",
+      "target": "N - Left/Right Walls",
+      "value": 1,
+      "id": "34-3",
+      "name": "Design and analysis of a wall-climbing robot for passive adaptive movement on variable-curvature metal facades",
+      "startColor": "rgb(34,0,255)",
+      "endColor": "rgb(34,0,255)"
+    },
+    {
+      "source": "Magnetic",
+      "target": "A - Along Horizontal Pipe",
+      "value": 1,
+      "id": "34-3",
+      "name": "Design and analysis of a wall-climbing robot for passive adaptive movement on variable-curvature metal facades",
+      "startColor": "rgb(34,0,255)",
+      "endColor": "rgb(34,0,255)"
+    },
+    {
+      "source": "Magnetic",
+      "target": "C - Down Vertical Pipe",
+      "value": 1,
+      "id": "34-3",
+      "name": "Design and analysis of a wall-climbing robot for passive adaptive movement on variable-curvature metal facades",
+      "startColor": "rgb(34,0,255)",
+      "endColor": "rgb(34,0,255)"
+    },
+    {
+      "source": "Magnetic",
+      "target": "B - Up Vertical Pipe",
+      "value": 1,
+      "id": "34-3",
+      "name": "Design and analysis of a wall-climbing robot for passive adaptive movement on variable-curvature metal facades",
+      "startColor": "rgb(34,0,255)",
+      "endColor": "rgb(34,0,255)"
+    },
+    {
+      "source": "[61]",
+      "target": "Wheeled",
+      "value": 1,
+      "id": "35-0",
+      "name": "OmniClimbers: Omni-directional magnetic wheeled climbing robots for inspection of ferromagnetic structures",
+      "startColor": "rgb(64,0,255)",
+      "endColor": "rgb(64,0,255)"
+    },
+    {
+      "source": "Wheeled",
+      "target": "Magnetic",
+      "value": 1,
+      "id": "35-1",
       "name": "OmniClimbers: Omni-directional magnetic wheeled climbing robots for inspection of ferromagnetic structures",
       "startColor": "rgb(64,0,255)",
       "endColor": "rgb(64,0,255)"
     },
     {
       "source": "Magnetic",
-      "target": "Ferromagnetic",
+      "target": "N - Left/Right Walls",
       "value": 1,
-      "id": "34-3",
+      "id": "35-3",
+      "name": "OmniClimbers: Omni-directional magnetic wheeled climbing robots for inspection of ferromagnetic structures",
+      "startColor": "rgb(64,0,255)",
+      "endColor": "rgb(64,0,255)"
+    },
+    {
+      "source": "Magnetic",
+      "target": "M - Up/ Down Walls",
+      "value": 1,
+      "id": "35-3",
+      "name": "OmniClimbers: Omni-directional magnetic wheeled climbing robots for inspection of ferromagnetic structures",
+      "startColor": "rgb(64,0,255)",
+      "endColor": "rgb(64,0,255)"
+    },
+    {
+      "source": "Magnetic",
+      "target": "B - Up Vertical Pipe",
+      "value": 1,
+      "id": "35-3",
+      "name": "OmniClimbers: Omni-directional magnetic wheeled climbing robots for inspection of ferromagnetic structures",
+      "startColor": "rgb(64,0,255)",
+      "endColor": "rgb(64,0,255)"
+    },
+    {
+      "source": "Magnetic",
+      "target": "C - Down Vertical Pipe",
+      "value": 1,
+      "id": "35-3",
+      "name": "OmniClimbers: Omni-directional magnetic wheeled climbing robots for inspection of ferromagnetic structures",
+      "startColor": "rgb(64,0,255)",
+      "endColor": "rgb(64,0,255)"
+    },
+    {
+      "source": "Magnetic",
+      "target": "D - Radially Around Pipe",
+      "value": 1,
+      "id": "35-3",
       "name": "OmniClimbers: Omni-directional magnetic wheeled climbing robots for inspection of ferromagnetic structures",
       "startColor": "rgb(64,0,255)",
       "endColor": "rgb(64,0,255)"

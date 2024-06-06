@@ -2,12 +2,12 @@ export const legendData = {
       
 
   "uniqAdhesS": [
-  "Adhesives",
   "Claws/Spines",
-  "Electroadhesive",
   "Friction",
-  "Magnetic",
-  "Pneumatic"
+  "Friction, Pneumatic",
+  "Friction, Sliding Frame",
+  "Grippers",
+  "Magnetic"
 ],
     "hexColours": [
   "rgba(255,0,0",
