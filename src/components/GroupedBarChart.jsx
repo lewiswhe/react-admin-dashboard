@@ -33,7 +33,7 @@ const GroupedBarChart = ({ data }) => {
     // );
 
     // const yAxisMax = Math.ceil(maxDataValue * 1.1);
-    const yAxisMax = 1500;
+    const yAxisMax = 1200;
 
     const ctx = chartRef.current.getContext('2d');
     Chart.defaults.font.size = 26;
@@ -80,7 +80,7 @@ const GroupedBarChart = ({ data }) => {
 
                 var robot = realLabel.split(";")[0];
                 var loco = realLabel.split(";")[1];
-                return loco;
+                return realLabel;
 
               }
             }
@@ -89,7 +89,7 @@ const GroupedBarChart = ({ data }) => {
             beginAtZero: true,
             position: 'left',
             stacked: false,
-            type: 'logarithmic',
+            // type: 'logarithmic',
             max: yAxisMax,
             title: {
               display: true,
@@ -148,7 +148,7 @@ const GroupedBarChart = ({ data }) => {
           },
           title: {
             display: true,
-            text: "Maximum Payload of Planar Climbing Robots"
+            text: "Climbing Speed and Maximum Payload of Non-Planar Climbing Robots"
           },
           annotation: {
             annotations: {
