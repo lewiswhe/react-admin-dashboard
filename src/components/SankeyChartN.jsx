@@ -44,7 +44,7 @@ const SankeyChartN = ({ isCustomLineColors = false, isDashboard = true }) => {
                     },
                 },
             }}
-            margin={{ top: 10, right: 200, bottom: 20, left: 160 }}
+            margin={{ top: 10, right: 700, bottom: 20, left: 160 }}
             align="start"
             sort="input"
             // colors={{ scheme: 'nivo' }}

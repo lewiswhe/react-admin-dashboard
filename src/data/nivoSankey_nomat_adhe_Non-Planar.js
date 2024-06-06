@@ -85,10 +85,6 @@ export const SankeyData = {
       "nodeColor": "#4477b2"
     },
     {
-      "id": "Along Angled Pipe",
-      "nodeColor": "#4477b2"
-    },
-    {
       "id": "[17]",
       "nodeColor": "#000000"
     },
@@ -493,15 +489,6 @@ export const SankeyData = {
     {
       "source": "Helical Friction",
       "target": "K - Over Small Obstacles",
-      "value": 1,
-      "id": "6-3",
-      "name": "Design for snake robot motion via partial grasping on pipes",
-      "startColor": "rgb(255,162,0)",
-      "endColor": "rgb(255,162,0)"
-    },
-    {
-      "source": "Helical Friction",
-      "target": "Along Angled Pipe",
       "value": 1,
       "id": "6-3",
       "name": "Design for snake robot motion via partial grasping on pipes",
