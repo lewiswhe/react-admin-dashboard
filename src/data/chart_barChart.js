@@ -1,748 +1,786 @@
 export const chartData = {
 labels:
     [
-  "[48]",
-  "[52]",
-  "[53]",
-  "[47]",
-  "[54]",
-  "[55]",
   "[39]",
+  "[46]",
   "[40]",
   "[44]",
-  "[56]",
   "[45]",
-  "[57]",
-  "[46]",
-  "[59]",
-  "[60]",
-  "[61]",
+  "[11]",
+  "[47]",
+  "[48]",
   "[49]",
   "[13]",
-  "[11]"
+  "[52]",
+  "[53]",
+  "[54]",
+  "[59]",
+  "[55]",
+  "[60]",
+  "[61]",
+  "[56]",
+  "[57]"
 ], 
     
 datasets: [
   {
-    "type": "bar",
+    "label": "[39]",
     "yAxisID": "y",
-    "xAxisID": "x",
-    "label": "[48]",
-    "loco": "Legged",
-    "adhe": "Claws/Spines",
-    "payload": "0",
     "data": [
-      {
-        "x": "[48]",
-        "y": "55.6"
-      }
+      "37"
     ],
-    "backgroundColor": "rgba(255,0,0,0.2)",
-    "borderColor": "rgb(0,0,0)",
-    "borderWidth": 1,
-    "order": 2
+    "loco": "Inchworm",
+    "adhe": "Grippers",
+    "backgroundColor": "rgba(255,0,0,1.0)",
+    "stack": 0
   },
   {
-    "type": "bar",
-    "yAxisID": "y",
-    "xAxisID": "x",
-    "label": "[52]",
-    "loco": "Soft",
-    "adhe": "Friction",
-    "payload": "0",
+    "label": "[39]",
+    "yAxisID": "y1",
     "data": [
-      {
-        "x": "[52]",
-        "y": "2.1"
-      }
+      "10"
     ],
-    "backgroundColor": "rgba(255,217,0,0.2)",
-    "borderColor": "rgb(0,0,0)",
-    "borderWidth": 1,
-    "order": 2
+    "loco": "Inchworm",
+    "adhe": "Grippers",
+    "backgroundColor": "rgba(255,0,0,0.25)",
+    "stack": 1
   },
   {
-    "type": "bar",
+    "label": "[46]",
     "yAxisID": "y",
-    "xAxisID": "x",
-    "label": "[53]",
-    "loco": "Soft",
-    "adhe": "Friction, Pneumatic",
-    "payload": "0.5",
     "data": [
-      {
-        "x": "[53]",
-        "y": "8.3"
-      }
+      null,
+      "25"
     ],
-    "backgroundColor": "rgba(77,255,0,0.2)",
-    "borderColor": "rgb(0,0,0)",
-    "borderWidth": 1,
-    "order": 2
+    "loco": "Inchworm",
+    "adhe": "Magnetic",
+    "backgroundColor": "rgba(255,255,0,1.0)",
+    "stack": 0
   },
   {
-    "type": "bar",
+    "label": "[46]",
+    "yAxisID": "y1",
+    "data": [
+      null,
+      "1.5"
+    ],
+    "loco": "Inchworm",
+    "adhe": "Magnetic",
+    "backgroundColor": "rgba(255,255,0,0.25)",
+    "stack": 1
+  },
+  {
+    "label": "[40]",
     "yAxisID": "y",
-    "xAxisID": "x",
+    "data": [
+      null,
+      null,
+      "0"
+    ],
+    "loco": "Inchworm",
+    "adhe": "Grippers",
+    "backgroundColor": "rgba(255,0,0,1.0)",
+    "stack": 0
+  },
+  {
+    "label": "[40]",
+    "yAxisID": "y1",
+    "data": [
+      null,
+      null,
+      "1"
+    ],
+    "loco": "Inchworm",
+    "adhe": "Grippers",
+    "backgroundColor": "rgba(255,0,0,0.25)",
+    "stack": 1
+  },
+  {
+    "label": "[44]",
+    "yAxisID": "y",
+    "data": [
+      null,
+      null,
+      null,
+      "48"
+    ],
+    "loco": "Inchworm",
+    "adhe": "Grippers",
+    "backgroundColor": "rgba(255,0,0,1.0)",
+    "stack": 0
+  },
+  {
+    "label": "[44]",
+    "yAxisID": "y",
+    "data": [
+      null,
+      null,
+      null,
+      "0"
+    ],
+    "loco": "Inchworm",
+    "adhe": "Grippers",
+    "backgroundColor": "rgba(255,0,0,0.25)",
+    "stack": 1
+  },
+  {
+    "label": "[45]",
+    "yAxisID": "y",
+    "data": [
+      null,
+      null,
+      null,
+      null,
+      "1"
+    ],
+    "loco": "Inchworm",
+    "adhe": "Grippers",
+    "backgroundColor": "rgba(255,0,0,1.0)",
+    "stack": 0
+  },
+  {
+    "label": "[45]",
+    "yAxisID": "y",
+    "data": [
+      null,
+      null,
+      null,
+      null,
+      "0"
+    ],
+    "loco": "Inchworm",
+    "adhe": "Grippers",
+    "backgroundColor": "rgba(255,0,0,0.25)",
+    "stack": 1
+  },
+  {
+    "label": "[11]",
+    "yAxisID": "y",
+    "data": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      "115"
+    ],
+    "loco": "Inchworm",
+    "adhe": "Magnetic",
+    "backgroundColor": "rgba(255,255,0,1.0)",
+    "stack": 0
+  },
+  {
+    "label": "[11]",
+    "yAxisID": "y",
+    "data": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      "0"
+    ],
+    "loco": "Inchworm",
+    "adhe": "Magnetic",
+    "backgroundColor": "rgba(255,255,0,0.25)",
+    "stack": 1
+  },
+  {
     "label": "[47]",
+    "yAxisID": "y",
+    "data": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "1090"
+    ],
     "loco": "Jet Propulsion",
     "adhe": "Friction",
-    "payload": "0.5",
-    "data": [
-      {
-        "x": "[47]",
-        "y": "1090"
-      }
-    ],
-    "backgroundColor": "rgba(255,217,0,0.2)",
-    "borderColor": "rgb(0,0,0)",
-    "borderWidth": 1,
-    "order": 2
+    "backgroundColor": "rgba(0,255,0,1.0)",
+    "stack": 0
   },
   {
-    "type": "bar",
-    "yAxisID": "y",
-    "xAxisID": "x",
-    "label": "[54]",
-    "loco": "Wheeled",
-    "adhe": "Friction",
-    "payload": "0",
-    "data": [
-      {
-        "x": "[54]",
-        "y": "1000"
-      }
-    ],
-    "backgroundColor": "rgba(255,217,0,0.2)",
-    "borderColor": "rgb(0,0,0)",
-    "borderWidth": 1,
-    "order": 2
-  },
-  {
-    "type": "bar",
-    "yAxisID": "y",
-    "xAxisID": "x",
-    "label": "[55]",
-    "loco": "Wheeled",
-    "adhe": "Friction, Sliding Frame",
-    "payload": "2",
-    "data": [
-      {
-        "x": "[55]",
-        "y": "167"
-      }
-    ],
-    "backgroundColor": "rgba(0,255,140,1.0) ",
-    "borderColor": "rgb(0,0,0)",
-    "borderWidth": 1,
-    "order": 2
-  },
-  {
-    "type": "bar",
-    "yAxisID": "y",
-    "xAxisID": "x",
-    "label": "[39]",
-    "loco": "Inchworm",
-    "adhe": "Grippers",
-    "payload": "10",
-    "data": [
-      {
-        "x": "[39]",
-        "y": "37"
-      }
-    ],
-    "backgroundColor": "rgba(0,153,255,1.0) ",
-    "borderColor": "rgb(0,0,0)",
-    "borderWidth": 1,
-    "order": 2
-  },
-  {
-    "type": "bar",
-    "yAxisID": "y",
-    "xAxisID": "x",
-    "label": "[40]",
-    "loco": "Inchworm",
-    "adhe": "Grippers",
-    "payload": "1",
-    "data": [
-      {
-        "x": "[40]",
-        "y": "0"
-      }
-    ],
-    "backgroundColor": "rgba(0,153,255,1.0) ",
-    "borderColor": "rgb(0,0,0)",
-    "borderWidth": 1,
-    "order": 2
-  },
-  {
-    "type": "bar",
-    "yAxisID": "y",
-    "xAxisID": "x",
-    "label": "[44]",
-    "loco": "Inchworm",
-    "adhe": "Grippers",
-    "payload": "0",
-    "data": [
-      {
-        "x": "[44]",
-        "y": "48"
-      }
-    ],
-    "backgroundColor": "rgba(0,153,255,0.2)",
-    "borderColor": "rgb(0,0,0)",
-    "borderWidth": 1,
-    "order": 2
-  },
-  {
-    "type": "bar",
-    "yAxisID": "y",
-    "xAxisID": "x",
-    "label": "[56]",
-    "loco": "Wheeled",
-    "adhe": "Grippers",
-    "payload": "3",
-    "data": [
-      {
-        "x": "[56]",
-        "y": "500"
-      }
-    ],
-    "backgroundColor": "rgba(0,153,255,1.0) ",
-    "borderColor": "rgb(0,0,0)",
-    "borderWidth": 1,
-    "order": 2
-  },
-  {
-    "type": "bar",
-    "yAxisID": "y",
-    "xAxisID": "x",
-    "label": "[45]",
-    "loco": "Inchworm",
-    "adhe": "Grippers",
-    "payload": "0",
-    "data": [
-      {
-        "x": "[45]",
-        "y": "1"
-      }
-    ],
-    "backgroundColor": "rgba(0,153,255,0.2)",
-    "borderColor": "rgb(0,0,0)",
-    "borderWidth": 1,
-    "order": 2
-  },
-  {
-    "type": "bar",
-    "yAxisID": "y",
-    "xAxisID": "x",
-    "label": "[57]",
-    "loco": "Wheeled, Inchworm",
-    "adhe": "Grippers",
-    "payload": "10",
-    "data": [
-      {
-        "x": "[57]",
-        "y": "180"
-      }
-    ],
-    "backgroundColor": "rgba(0,153,255,1.0) ",
-    "borderColor": "rgb(0,0,0)",
-    "borderWidth": 1,
-    "order": 2
-  },
-  {
-    "type": "bar",
-    "yAxisID": "y",
-    "xAxisID": "x",
-    "label": "[46]",
-    "loco": "Inchworm",
-    "adhe": "Magnetic",
-    "payload": "1.5",
-    "data": [
-      {
-        "x": "[46]",
-        "y": "25"
-      }
-    ],
-    "backgroundColor": "rgba(64,0,255,1.0) ",
-    "borderColor": "rgb(0,0,0)",
-    "borderWidth": 1,
-    "order": 2
-  },
-  {
-    "type": "bar",
-    "yAxisID": "y",
-    "xAxisID": "x",
-    "label": "[59]",
-    "loco": "Wheeled",
-    "adhe": "Magnetic",
-    "payload": "0.155",
-    "data": [
-      {
-        "x": "[59]",
-        "y": "100"
-      }
-    ],
-    "backgroundColor": "rgba(64,0,255,0.2)",
-    "borderColor": "rgb(0,0,0)",
-    "borderWidth": 1,
-    "order": 2
-  },
-  {
-    "type": "bar",
-    "yAxisID": "y",
-    "xAxisID": "x",
-    "label": "[60]",
-    "loco": "Wheeled",
-    "adhe": "Magnetic",
-    "payload": "5.5",
-    "data": [
-      {
-        "x": "[60]",
-        "y": "83"
-      }
-    ],
-    "backgroundColor": "rgba(64,0,255,1.0) ",
-    "borderColor": "rgb(0,0,0)",
-    "borderWidth": 1,
-    "order": 2
-  },
-  {
-    "type": "bar",
-    "yAxisID": "y",
-    "xAxisID": "x",
-    "label": "[61]",
-    "loco": "Wheeled",
-    "adhe": "Magnetic",
-    "payload": "0.370",
-    "data": [
-      {
-        "x": "[61]",
-        "y": "110"
-      }
-    ],
-    "backgroundColor": "rgba(64,0,255,0.2)",
-    "borderColor": "rgb(0,0,0)",
-    "borderWidth": 1,
-    "order": 2
-  },
-  {
-    "type": "bar",
-    "yAxisID": "y",
-    "xAxisID": "x",
-    "label": "[49]",
-    "loco": "Tracked",
-    "adhe": "Magnetic",
-    "payload": "0",
-    "data": [
-      {
-        "x": "[49]",
-        "y": "83"
-      }
-    ],
-    "backgroundColor": "rgba(64,0,255,0.2)",
-    "borderColor": "rgb(0,0,0)",
-    "borderWidth": 1,
-    "order": 2
-  },
-  {
-    "type": "bar",
-    "yAxisID": "y",
-    "xAxisID": "x",
-    "label": "[13]",
-    "loco": "Tracked",
-    "adhe": "Magnetic",
-    "payload": "0",
-    "data": [
-      {
-        "x": "[13]",
-        "y": "200"
-      }
-    ],
-    "backgroundColor": "rgba(64,0,255,0.2)",
-    "borderColor": "rgb(0,0,0)",
-    "borderWidth": 1,
-    "order": 2
-  },
-  {
-    "type": "bar",
-    "yAxisID": "y",
-    "xAxisID": "x",
-    "label": "[11]",
-    "loco": "Inchworm",
-    "adhe": "Magnetic",
-    "payload": "0",
-    "data": [
-      {
-        "x": "[11]",
-        "y": "115"
-      }
-    ],
-    "backgroundColor": "rgba(64,0,255,0.2)",
-    "borderColor": "rgb(0,0,0)",
-    "borderWidth": 1,
-    "order": 2
-  },
-  {
-    "type": "line",
-    "yAxisID": "y1",
-    "xAxisID": "x",
-    "label": "[48]",
-    "loco": "Legged",
-    "adhe": "Claws/Spines",
-    "data": [
-      {
-        "x": "[48]",
-        "y": "0"
-      }
-    ],
-    "borderColor": "rgb(0,0,0)",
-    "pointStyle": "cross",
-    "radius": 10,
-    "order": 1,
-    "backgroundColor": "rgba(255,0,0,1.0)"
-  },
-  {
-    "type": "line",
-    "yAxisID": "y1",
-    "xAxisID": "x",
-    "label": "[52]",
-    "loco": "Soft",
-    "adhe": "Friction",
-    "data": [
-      {
-        "x": "[52]",
-        "y": "0"
-      }
-    ],
-    "borderColor": "rgb(0,0,0)",
-    "pointStyle": "cross",
-    "radius": 10,
-    "order": 1,
-    "backgroundColor": "rgba(255,217,0,1.0)"
-  },
-  {
-    "type": "line",
-    "yAxisID": "y1",
-    "xAxisID": "x",
-    "label": "[53]",
-    "loco": "Soft",
-    "adhe": "Friction, Pneumatic",
-    "data": [
-      {
-        "x": "[53]",
-        "y": "0.5"
-      }
-    ],
-    "borderColor": "rgb(0,0,0)",
-    "pointStyle": "cross",
-    "radius": 10,
-    "order": 1,
-    "backgroundColor": "rgba(77,255,0,1.0)"
-  },
-  {
-    "type": "line",
-    "yAxisID": "y1",
-    "xAxisID": "x",
     "label": "[47]",
+    "yAxisID": "y1",
+    "data": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "0.5"
+    ],
     "loco": "Jet Propulsion",
     "adhe": "Friction",
-    "data": [
-      {
-        "x": "[47]",
-        "y": "0.5"
-      }
-    ],
-    "borderColor": "rgb(0,0,0)",
-    "pointStyle": "cross",
-    "radius": 10,
-    "order": 1,
-    "backgroundColor": "rgba(255,217,0,1.0)"
+    "backgroundColor": "rgba(0,255,0,0.25)",
+    "stack": 1
   },
   {
-    "type": "line",
+    "label": "[48]",
+    "yAxisID": "y",
+    "data": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "55.6"
+    ],
+    "loco": "Legged",
+    "adhe": "Claws/Spines",
+    "backgroundColor": "rgba(0,255,255,1.0)",
+    "stack": 0
+  },
+  {
+    "label": "[48]",
+    "yAxisID": "y",
+    "data": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "0"
+    ],
+    "loco": "Legged",
+    "adhe": "Claws/Spines",
+    "backgroundColor": "rgba(0,255,255,0.25)",
+    "stack": 1
+  },
+  {
+    "label": "[49]",
+    "yAxisID": "y",
+    "data": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "83"
+    ],
+    "loco": "Tracked",
+    "adhe": "Magnetic",
+    "backgroundColor": "rgba(255,255,0,1.0)",
+    "stack": 0
+  },
+  {
+    "label": "[49]",
+    "yAxisID": "y",
+    "data": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "0"
+    ],
+    "loco": "Tracked",
+    "adhe": "Magnetic",
+    "backgroundColor": "rgba(255,255,0,0.25)",
+    "stack": 1
+  },
+  {
+    "label": "[13]",
+    "yAxisID": "y",
+    "data": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "200"
+    ],
+    "loco": "Tracked",
+    "adhe": "Magnetic",
+    "backgroundColor": "rgba(255,255,0,1.0)",
+    "stack": 0
+  },
+  {
+    "label": "[13]",
+    "yAxisID": "y",
+    "data": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "0"
+    ],
+    "loco": "Tracked",
+    "adhe": "Magnetic",
+    "backgroundColor": "rgba(255,255,0,0.25)",
+    "stack": 1
+  },
+  {
+    "label": "[52]",
+    "yAxisID": "y",
+    "data": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "2.1"
+    ],
+    "loco": "Soft",
+    "adhe": "Friction",
+    "backgroundColor": "rgba(0,255,0,1.0)",
+    "stack": 0
+  },
+  {
+    "label": "[52]",
+    "yAxisID": "y",
+    "data": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "0"
+    ],
+    "loco": "Soft",
+    "adhe": "Friction",
+    "backgroundColor": "rgba(0,255,0,0.25)",
+    "stack": 1
+  },
+  {
+    "label": "[53]",
+    "yAxisID": "y",
+    "data": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "8.3"
+    ],
+    "loco": "Soft",
+    "adhe": "Friction, Pneumatic",
+    "backgroundColor": "rgba(0,0,255,1.0)",
+    "stack": 0
+  },
+  {
+    "label": "[53]",
     "yAxisID": "y1",
-    "xAxisID": "x",
+    "data": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "0.5"
+    ],
+    "loco": "Soft",
+    "adhe": "Friction, Pneumatic",
+    "backgroundColor": "rgba(0,0,255,0.25)",
+    "stack": 1
+  },
+  {
     "label": "[54]",
+    "yAxisID": "y",
+    "data": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "1000"
+    ],
     "loco": "Wheeled",
     "adhe": "Friction",
-    "data": [
-      {
-        "x": "[54]",
-        "y": "0"
-      }
-    ],
-    "borderColor": "rgb(0,0,0)",
-    "pointStyle": "cross",
-    "radius": 10,
-    "order": 1,
-    "backgroundColor": "rgba(255,217,0,1.0)"
+    "backgroundColor": "rgba(0,255,0,1.0)",
+    "stack": 0
   },
   {
-    "type": "line",
+    "label": "[54]",
+    "yAxisID": "y",
+    "data": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "0"
+    ],
+    "loco": "Wheeled",
+    "adhe": "Friction",
+    "backgroundColor": "rgba(0,255,0,0.25)",
+    "stack": 1
+  },
+  {
+    "label": "[59]",
+    "yAxisID": "y",
+    "data": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "100"
+    ],
+    "loco": "Wheeled",
+    "adhe": "Magnetic",
+    "backgroundColor": "rgba(255,255,0,1.0)",
+    "stack": 0
+  },
+  {
+    "label": "[59]",
     "yAxisID": "y1",
-    "xAxisID": "x",
+    "data": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "0.155"
+    ],
+    "loco": "Wheeled",
+    "adhe": "Magnetic",
+    "backgroundColor": "rgba(255,255,0,0.25)",
+    "stack": 1
+  },
+  {
     "label": "[55]",
+    "yAxisID": "y",
+    "data": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "167"
+    ],
     "loco": "Wheeled",
     "adhe": "Friction, Sliding Frame",
-    "data": [
-      {
-        "x": "[55]",
-        "y": "2"
-      }
-    ],
-    "borderColor": "rgb(0,0,0)",
-    "pointStyle": "cross",
-    "radius": 10,
-    "order": 1,
-    "backgroundColor": "rgba(0,255,140,1.0)"
+    "backgroundColor": "rgba(255,0,255,1.0)",
+    "stack": 0
   },
   {
-    "type": "line",
+    "label": "[55]",
     "yAxisID": "y1",
-    "xAxisID": "x",
-    "label": "[39]",
-    "loco": "Inchworm",
-    "adhe": "Grippers",
     "data": [
-      {
-        "x": "[39]",
-        "y": "10"
-      }
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "2"
     ],
-    "borderColor": "rgb(0,0,0)",
-    "pointStyle": "cross",
-    "radius": 10,
-    "order": 1,
-    "backgroundColor": "rgba(0,153,255,1.0)"
+    "loco": "Wheeled",
+    "adhe": "Friction, Sliding Frame",
+    "backgroundColor": "rgba(255,0,255,0.25)",
+    "stack": 1
   },
   {
-    "type": "line",
-    "yAxisID": "y1",
-    "xAxisID": "x",
-    "label": "[40]",
-    "loco": "Inchworm",
-    "adhe": "Grippers",
+    "label": "[60]",
+    "yAxisID": "y",
     "data": [
-      {
-        "x": "[40]",
-        "y": "1"
-      }
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "83"
     ],
-    "borderColor": "rgb(0,0,0)",
-    "pointStyle": "cross",
-    "radius": 10,
-    "order": 1,
-    "backgroundColor": "rgba(0,153,255,1.0)"
+    "loco": "Wheeled",
+    "adhe": "Magnetic",
+    "backgroundColor": "rgba(255,255,0,1.0)",
+    "stack": 0
   },
   {
-    "type": "line",
+    "label": "[60]",
     "yAxisID": "y1",
-    "xAxisID": "x",
-    "label": "[44]",
-    "loco": "Inchworm",
-    "adhe": "Grippers",
     "data": [
-      {
-        "x": "[44]",
-        "y": "0"
-      }
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "5.5"
     ],
-    "borderColor": "rgb(0,0,0)",
-    "pointStyle": "cross",
-    "radius": 10,
-    "order": 1,
-    "backgroundColor": "rgba(0,153,255,1.0)"
+    "loco": "Wheeled",
+    "adhe": "Magnetic",
+    "backgroundColor": "rgba(255,255,0,0.25)",
+    "stack": 1
   },
   {
-    "type": "line",
+    "label": "[61]",
+    "yAxisID": "y",
+    "data": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "110"
+    ],
+    "loco": "Wheeled",
+    "adhe": "Magnetic",
+    "backgroundColor": "rgba(255,255,0,1.0)",
+    "stack": 0
+  },
+  {
+    "label": "[61]",
     "yAxisID": "y1",
-    "xAxisID": "x",
+    "data": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "0.370"
+    ],
+    "loco": "Wheeled",
+    "adhe": "Magnetic",
+    "backgroundColor": "rgba(255,255,0,0.25)",
+    "stack": 1
+  },
+  {
     "label": "[56]",
+    "yAxisID": "y",
+    "data": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "500"
+    ],
     "loco": "Wheeled",
     "adhe": "Grippers",
-    "data": [
-      {
-        "x": "[56]",
-        "y": "3"
-      }
-    ],
-    "borderColor": "rgb(0,0,0)",
-    "pointStyle": "cross",
-    "radius": 10,
-    "order": 1,
-    "backgroundColor": "rgba(0,153,255,1.0)"
+    "backgroundColor": "rgba(255,0,0,1.0)",
+    "stack": 0
   },
   {
-    "type": "line",
+    "label": "[56]",
     "yAxisID": "y1",
-    "xAxisID": "x",
-    "label": "[45]",
-    "loco": "Inchworm",
+    "data": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "3"
+    ],
+    "loco": "Wheeled",
     "adhe": "Grippers",
-    "data": [
-      {
-        "x": "[45]",
-        "y": "0"
-      }
-    ],
-    "borderColor": "rgb(0,0,0)",
-    "pointStyle": "cross",
-    "radius": 10,
-    "order": 1,
-    "backgroundColor": "rgba(0,153,255,1.0)"
+    "backgroundColor": "rgba(255,0,0,0.25)",
+    "stack": 1
   },
   {
-    "type": "line",
-    "yAxisID": "y1",
-    "xAxisID": "x",
     "label": "[57]",
+    "yAxisID": "y",
+    "data": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "180"
+    ],
     "loco": "Wheeled, Inchworm",
     "adhe": "Grippers",
-    "data": [
-      {
-        "x": "[57]",
-        "y": "10"
-      }
-    ],
-    "borderColor": "rgb(0,0,0)",
-    "pointStyle": "cross",
-    "radius": 10,
-    "order": 1,
-    "backgroundColor": "rgba(0,153,255,1.0)"
+    "backgroundColor": "rgba(255,0,0,1.0)",
+    "stack": 0
   },
   {
-    "type": "line",
+    "label": "[57]",
     "yAxisID": "y1",
-    "xAxisID": "x",
-    "label": "[46]",
-    "loco": "Inchworm",
-    "adhe": "Magnetic",
     "data": [
-      {
-        "x": "[46]",
-        "y": "1.5"
-      }
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "10"
     ],
-    "borderColor": "rgb(0,0,0)",
-    "pointStyle": "cross",
-    "radius": 10,
-    "order": 1,
-    "backgroundColor": "rgba(64,0,255,1.0)"
-  },
-  {
-    "type": "line",
-    "yAxisID": "y1",
-    "xAxisID": "x",
-    "label": "[59]",
-    "loco": "Wheeled",
-    "adhe": "Magnetic",
-    "data": [
-      {
-        "x": "[59]",
-        "y": "0.155"
-      }
-    ],
-    "borderColor": "rgb(0,0,0)",
-    "pointStyle": "cross",
-    "radius": 10,
-    "order": 1,
-    "backgroundColor": "rgba(64,0,255,1.0)"
-  },
-  {
-    "type": "line",
-    "yAxisID": "y1",
-    "xAxisID": "x",
-    "label": "[60]",
-    "loco": "Wheeled",
-    "adhe": "Magnetic",
-    "data": [
-      {
-        "x": "[60]",
-        "y": "5.5"
-      }
-    ],
-    "borderColor": "rgb(0,0,0)",
-    "pointStyle": "cross",
-    "radius": 10,
-    "order": 1,
-    "backgroundColor": "rgba(64,0,255,1.0)"
-  },
-  {
-    "type": "line",
-    "yAxisID": "y1",
-    "xAxisID": "x",
-    "label": "[61]",
-    "loco": "Wheeled",
-    "adhe": "Magnetic",
-    "data": [
-      {
-        "x": "[61]",
-        "y": "0.370"
-      }
-    ],
-    "borderColor": "rgb(0,0,0)",
-    "pointStyle": "cross",
-    "radius": 10,
-    "order": 1,
-    "backgroundColor": "rgba(64,0,255,1.0)"
-  },
-  {
-    "type": "line",
-    "yAxisID": "y1",
-    "xAxisID": "x",
-    "label": "[49]",
-    "loco": "Tracked",
-    "adhe": "Magnetic",
-    "data": [
-      {
-        "x": "[49]",
-        "y": "0"
-      }
-    ],
-    "borderColor": "rgb(0,0,0)",
-    "pointStyle": "cross",
-    "radius": 10,
-    "order": 1,
-    "backgroundColor": "rgba(64,0,255,1.0)"
-  },
-  {
-    "type": "line",
-    "yAxisID": "y1",
-    "xAxisID": "x",
-    "label": "[13]",
-    "loco": "Tracked",
-    "adhe": "Magnetic",
-    "data": [
-      {
-        "x": "[13]",
-        "y": "0"
-      }
-    ],
-    "borderColor": "rgb(0,0,0)",
-    "pointStyle": "cross",
-    "radius": 10,
-    "order": 1,
-    "backgroundColor": "rgba(64,0,255,1.0)"
-  },
-  {
-    "type": "line",
-    "yAxisID": "y1",
-    "xAxisID": "x",
-    "label": "[11]",
-    "loco": "Inchworm",
-    "adhe": "Magnetic",
-    "data": [
-      {
-        "x": "[11]",
-        "y": "0"
-      }
-    ],
-    "borderColor": "rgb(0,0,0)",
-    "pointStyle": "cross",
-    "radius": 10,
-    "order": 1,
-    "backgroundColor": "rgba(64,0,255,1.0)"
+    "loco": "Wheeled, Inchworm",
+    "adhe": "Grippers",
+    "backgroundColor": "rgba(255,0,0,0.25)",
+    "stack": 1
   }
 ]}; 

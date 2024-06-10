@@ -6,6 +6,20 @@ import { legendData } from '../data/chart_extra';
 
 Chart.register(ChartDataLabels);
 Chart.register(annotationPlugin);
+function maxValue(ctx) {
+  const values = ctx.chart.data.datasets[0].data;
+  return Math.max(...values);
+}
+
+function maxIndex(ctx) {
+  const max = maxValue(ctx);
+  const dataset = ctx.chart.data.datasets[0];
+  return dataset.data.indexOf(max);
+}
+
+function maxLabel(ctx) {
+  return ctx.chart.data.labels[maxIndex(ctx)];
+}
 const GroupedBarChart = ({ data }) => {
   const chartRef = useRef();
   const chartInstance = useRef(null);
@@ -18,79 +32,151 @@ const GroupedBarChart = ({ data }) => {
     // };
     const uniqAdhes = legendData.uniqAdhesS;
     const hexColours = legendData.hexColours;
+    console.log(uniqAdhes);
 
-    // Filter out labels with no data
-    // const labelsWithData = filteredData.labels.filter((label, index) => filteredData.datasets.some(dataset => dataset.data[index] !== 0 && dataset.data[index] !== null));
-    // var labels = labelsWithData;
-
-    // Destroy the previous chart instance, if exists
     if (chartInstance.current !== null) {
       chartInstance.current.destroy();
     }
+    const annotation0 =
+    {
+      type: 'line',
+      yScaleID: 'y',
+      yMin: 0,
+      yMax: 'yAxisMax',
+      xMin: 6.5,
+      xMax: 6.5
+    }
+    const annotation1 =
+    {
+      type: 'line',
+      yScaleID: 'y',
+      yMin: 0,
+      yMax: 'yAxisMax',
+      xMin: 7.5,
+      xMax: 7.5
+    }
+    const annotation2 =
+    {
+      type: 'line',
+      yScaleID: 'y',
+      yMin: 0,
+      yMax: 'yAxisMax',
+      xMin: 8.5,
+      xMax: 8.5
+    }
+    const annotation3 =
+    {
+      type: 'line',
+      yScaleID: 'y',
+      yMin: 0,
+      yMax: 'yAxisMax',
+      xMin: 10.5,
+      xMax: 10.5
+    }
+    const annotation4 =
+    {
+      type: 'line',
+      yScaleID: 'y',
+      yMin: 0,
+      yMax: 'yAxisMax',
+      xMin: 12.5,
+      xMax: 12.5
+    }
+    const annotation5 =
+    {
+      type: 'line',
+      yScaleID: 'y',
+      yMin: 0,
+      yMax: 'yAxisMax',
+      xMin: 18.5,
+      xMax: 18.5
+    }
 
-    // const maxDataValue = Math.max(
-    //   ...filteredData.datasets.flatMap(dataset => dataset.data.filter(value => value !== null))
-    // );
 
-    // const yAxisMax = Math.ceil(maxDataValue * 1.1);
-    const yAxisMax = 1200;
+    const yAxisMax = 400;
+    const marker = {
+      type: 'label',
+      borderColor: (ctx) => ctx.chart.data.datasets[0].backgroundColor,
+      borderRadius: 6,
+      borderWidth: 1,
+      content: ['Climbing', 'Speed'],
+      callout: {
+        display: true,
+        position: 'bottom'
+      },
+      position: {
+        x: 'start',
+        y: 'center'
+      },
+      xValue: '[47]',
+      yValue: 250,
+      // xAdjust: (ctx) => maxIndex(ctx) <= 3 ? 60 : maxIndex(ctx) >= 10 ? -60 : 0,
+      xAdjust: -175,
+      // xValue: (ctx) => maxLabel(ctx),
+      yAdjust: -60,
+      // yValue: (ctx) => maxValue(ctx)
+    };
+    const marker1 = {
+      type: 'label',
+      borderColor: (ctx) => ctx.chart.data.datasets[0].backgroundColor,
+      borderRadius: 6,
+      borderWidth: 1,
+      content: ['Payload'],
+      callout: {
+        display: true,
+        position: 'bottom'
+      },
+      position: {
+        x: 'start',
+        y: 'center'
+      },
+      xValue: '[47]',
+      yValue: 200,
+      // xAdjust: (ctx) => maxIndex(ctx) <= 3 ? 60 : maxIndex(ctx) >= 10 ? -60 : 0,
+      xAdjust: 50,
+      // xValue: (ctx) => maxLabel(ctx),
+      yAdjust: -100,
+      // yValue: (ctx) => maxValue(ctx)
+    };
 
     const ctx = chartRef.current.getContext('2d');
     Chart.defaults.font.size = 26;
     chartInstance.current = new Chart(ctx, {
-      type: 'scatter',
+      type: 'bar',
       data: {
         labels: data.labels,
         datasets: data.datasets,
       },
       options: {
-        type: 'bar',
         responsive: true,
         skipNull: true,
+        // barThickness: 50,
+        categoryPercentage: 0.9,
+        barPercentage: 0.9,
         scales: {
           x: {
-            stacked: true,
+            stacked: false,
             type: 'category',
             ticks: {
-              callback: function(label) {
-                let realLabel = this.getLabelForValue(label)
-                var robot = realLabel.split(";")[0];
-                var loco = realLabel.split(";")[1];
-                return realLabel;
-              }
-            }
-          },
-          xAxis2: {
-            type: "category",
-            labels: [
-              "Legged",
-              "Soft",
-              "Jet Propulsion",
-              "Wheeled",
-              "Inchworm",
-              "Wheeled, Inchworm",
-              "Tracked"
-            ],
-            grid: {
-              drawOnChartArea: false, // only want the grid lines for one axis to show up
-            },
-            ticks: {
-              callback: function(label) {
-                let realLabel = this.getLabelForValue(label)
-
-                var robot = realLabel.split(";")[0];
-                var loco = realLabel.split(";")[1];
-                return realLabel;
-
-              }
+              autoSkip: false,
+              autoSkipPadding: 50,
+              align: 'center',
+              sampleSize: 10,
+              // callback: function(label) {
+              //   let realLabel = this.getLabelForValue(label)
+              //   var robot = realLabel.split(";")[0];
+              //   var loco = realLabel.split(";")[1];
+              //   return realLabel;
+              // }
             }
           },
           y: {
             beginAtZero: true,
             position: 'left',
-            stacked: false,
+            minBarLength: 5,
             // type: 'logarithmic',
-            max: yAxisMax,
+            stacked: false,
+            // max: yAxisMax,
             title: {
               display: true,
               text: 'Climbing Speed (mm/s)',
@@ -98,10 +184,11 @@ const GroupedBarChart = ({ data }) => {
           },
           y1: {
             beginAtZero: true,
+            minBarLength: 2,
             type: 'logarithmic',
             stacked: false,
             position: 'right',
-            max: 100,
+            // max: 100,
             title: {
               display: true,
               text: 'Payload (kg)',
@@ -135,7 +222,7 @@ const GroupedBarChart = ({ data }) => {
             }
           },
           datalabels: {
-            display: true,
+            display: false,
             align: 'end',
             anchor: 'end',
             font: {
@@ -143,7 +230,7 @@ const GroupedBarChart = ({ data }) => {
             },
             formatter: (value, context) => {
               // Customize the text shown on each bar
-              return value !== null && value !== 0 ? `${context.dataset.label}` : '';
+              return value !== null && value !== 0 ? `${context.dataset.label.split(";")[0]}` : '';
             }
           },
           title: {
@@ -152,12 +239,22 @@ const GroupedBarChart = ({ data }) => {
           },
           annotation: {
             annotations: {
+              marker,
+              marker1,
+              annotation0,
+              annotation1,
+              annotation2,
+              annotation3,
+              annotation4,
+              annotation5,
+
+              // annotation6,
               line1: {
                 type: 'line',
                 yScaleID: 'y1',
                 yMin: 1,
                 yMax: 1,
-                xMin: 0.5,
+                xMin: 0,
                 borderColor: 'rgb(255,0,0)',
                 borderWidth: 2,
                 // label: '1 Kg requirement'
@@ -173,11 +270,9 @@ const GroupedBarChart = ({ data }) => {
                 font: {
                   size: 18,
                 }
-              }
+              },
             }
-
           }
-
         },
         layout: {
           padding: {
