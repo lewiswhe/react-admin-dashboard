@@ -1,7 +1,8 @@
 import { useTheme } from "@mui/material";
 import { ResponsiveSankey } from "@nivo/sankey";
 import { tokens } from "../theme";
-import { SankeyData as data } from "../data/nivoSankey_nomat_adhe_Non-Planar"
+// import { SankeyData as data } from "../data/nivoSankey_nomat_adhe_Non-Planar"
+import { SankeyData as data } from "../data/nivoSankey_Non-Planar.js"
 
 
 const SankeyChartN = ({ isCustomLineColors = false, isDashboard = true }) => {

@@ -1,7 +1,7 @@
 import { useTheme } from "@mui/material";
 import { ResponsiveSankey } from "@nivo/sankey";
 import { tokens } from "../theme";
-import { SankeyData as data } from "../data/nivoSankey_nomat_adhe_Planar"
+import { SankeyData as data } from "../data/nivoSankey_Planar"
 
 
 const SankeyChartP = ({ isCustomLineColors = false, isDashboard = true }) => {
@@ -45,7 +45,7 @@ const SankeyChartP = ({ isCustomLineColors = false, isDashboard = true }) => {
                     },
                 },
             }}
-            margin={{ top: 10, right: 360, bottom: 20, left: 160 }}
+            margin={{ top: 10, right: 700, bottom: 20, left: 160 }}
             align="start"
             sort="input"
             // colors={{ scheme: 'nivo' }}

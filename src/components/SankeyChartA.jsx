@@ -5,7 +5,7 @@ import { tokens } from "../theme";
 // import { mockSankeyData as data } from "../data/mockSankeyDataOLD";
 // import { SankeyData as data } from "../data/newsankey";
 // import { SankeyData as data } from "../data/nivoSankey_nomat"
-import { SankeyData as data } from "../data/nivoSankey_nomat_adhe_All";
+import { SankeyData as data } from "../data/nivoSankey_All";
 
 
 const SankeyChartA = ({ isCustomLineColors = false, isDashboard = true }) => {

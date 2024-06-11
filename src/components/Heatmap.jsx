@@ -53,24 +53,25 @@ const MyResponsiveHeatMap = () => {
         maxValue: 11
       }}
       emptyColor="#ffb3b3"
-      // legends={
-      //   [
-      //     {
-      //       anchor: 'top',
-      //       translateX: 0,
-      //       translateY: -50,
-      //       length: 400,
-      //       thickness: 18,
-      //       direction: 'row',
-      //       tickPosition: 'after',
-      //       tickSize: 1,
-      //       tickSpacing: 4,
-      //       tickOverlap: false,
-      //       title: 'Amount',
-      //       titleAlign: 'start',
-      //       titleOffset: 4
-      //     }
-      //   ]}
+      labelTextColor={{ theme: 'labels.text.fill' }}
+    // legends={
+    //   [
+    //     {
+    //       anchor: 'top',
+    //       translateX: 0,
+    //       translateY: -50,
+    //       length: 400,
+    //       thickness: 18,
+    //       direction: 'row',
+    //       tickPosition: 'after',
+    //       tickSize: 1,
+    //       tickSpacing: 4,
+    //       tickOverlap: false,
+    //       title: 'Amount',
+    //       titleAlign: 'start',
+    //       titleOffset: 4
+    //     }
+    //   ]}
     />
   )
 }

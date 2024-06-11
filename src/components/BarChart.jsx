@@ -1,9 +1,11 @@
 import { useTheme } from "@mui/material";
 import { ResponsiveBar } from "@nivo/bar";
 import { tokens } from "../theme";
-import { barData as data } from "../data/barData";
-import { barKeys as keys } from "../data/barKeys";
+// import { barData as data } from "../data/barData";
+// import { barKeys as keys } from "../data/barKeys";
 
+const data = [];
+const keys = [];
 const BarChart = ({ isDashboard = false }) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
