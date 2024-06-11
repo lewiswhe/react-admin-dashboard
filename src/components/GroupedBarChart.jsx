@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import Chart from 'chart.js/auto';
 import ChartDataLabels from 'chartjs-plugin-datalabels';
 import annotationPlugin from 'chartjs-plugin-annotation';
-import { legendData } from '../data/chart_extra';
+import { legendData } from '../data/chart_extra_Non-Planar';
 
 Chart.register(ChartDataLabels);
 Chart.register(annotationPlugin);
@@ -37,62 +37,60 @@ const GroupedBarChart = ({ data }) => {
     if (chartInstance.current !== null) {
       chartInstance.current.destroy();
     }
-    const annotation0 =
-    {
-      type: 'line',
-      yScaleID: 'y',
-      yMin: 0,
-      yMax: 'yAxisMax',
-      xMin: 6.5,
-      xMax: 6.5
-    }
-    const annotation1 =
-    {
-      type: 'line',
-      yScaleID: 'y',
-      yMin: 0,
-      yMax: 'yAxisMax',
-      xMin: 7.5,
-      xMax: 7.5
-    }
-    const annotation2 =
-    {
-      type: 'line',
-      yScaleID: 'y',
-      yMin: 0,
-      yMax: 'yAxisMax',
-      xMin: 8.5,
-      xMax: 8.5
-    }
-    const annotation3 =
-    {
-      type: 'line',
-      yScaleID: 'y',
-      yMin: 0,
-      yMax: 'yAxisMax',
-      xMin: 10.5,
-      xMax: 10.5
-    }
-    const annotation4 =
-    {
-      type: 'line',
-      yScaleID: 'y',
-      yMin: 0,
-      yMax: 'yAxisMax',
-      xMin: 12.5,
-      xMax: 12.5
-    }
-    const annotation5 =
-    {
-      type: 'line',
-      yScaleID: 'y',
-      yMin: 0,
-      yMax: 'yAxisMax',
-      xMin: 18.5,
-      xMax: 18.5
-    }
-
-
+    const annotation0=
+{
+  type: 'line',
+  yScaleID: 'y',
+  yMin: 0,
+  yMax: 'yAxisMax',
+  xMin: 5.5,
+  xMax: 5.5
+}
+const annotation1=
+{
+  type: 'line',
+  yScaleID: 'y',
+  yMin: 0,
+  yMax: 'yAxisMax',
+  xMin: 6.5,
+  xMax: 6.5
+}
+const annotation2=
+{
+  type: 'line',
+  yScaleID: 'y',
+  yMin: 0,
+  yMax: 'yAxisMax',
+  xMin: 7.5,
+  xMax: 7.5
+}
+const annotation3=
+{
+  type: 'line',
+  yScaleID: 'y',
+  yMin: 0,
+  yMax: 'yAxisMax',
+  xMin: 9.5,
+  xMax: 9.5
+}
+const annotation4=
+{
+  type: 'line',
+  yScaleID: 'y',
+  yMin: 0,
+  yMax: 'yAxisMax',
+  xMin: 11.5,
+  xMax: 11.5
+}
+const annotation5=
+{
+  type: 'line',
+  yScaleID: 'y',
+  yMin: 0,
+  yMax: 'yAxisMax',
+  xMin: 17.5,
+  xMax: 17.5
+}
     const yAxisMax = 400;
     const marker = {
       type: 'label',
@@ -111,7 +109,7 @@ const GroupedBarChart = ({ data }) => {
       xValue: '[47]',
       yValue: 250,
       // xAdjust: (ctx) => maxIndex(ctx) <= 3 ? 60 : maxIndex(ctx) >= 10 ? -60 : 0,
-      xAdjust: -175,
+      xAdjust: -195,
       // xValue: (ctx) => maxLabel(ctx),
       yAdjust: -60,
       // yValue: (ctx) => maxValue(ctx)
@@ -133,7 +131,7 @@ const GroupedBarChart = ({ data }) => {
       xValue: '[47]',
       yValue: 200,
       // xAdjust: (ctx) => maxIndex(ctx) <= 3 ? 60 : maxIndex(ctx) >= 10 ? -60 : 0,
-      xAdjust: 50,
+      xAdjust: 80,
       // xValue: (ctx) => maxLabel(ctx),
       yAdjust: -100,
       // yValue: (ctx) => maxValue(ctx)
@@ -162,21 +160,26 @@ const GroupedBarChart = ({ data }) => {
               autoSkipPadding: 50,
               align: 'center',
               sampleSize: 10,
+
               // callback: function(label) {
               //   let realLabel = this.getLabelForValue(label)
               //   var robot = realLabel.split(";")[0];
               //   var loco = realLabel.split(";")[1];
               //   return realLabel;
               // }
+            },
+
+            grid: {
+              display: true,
+              color: '#a3a3a3'
             }
+
           },
           y: {
             beginAtZero: true,
             position: 'left',
             minBarLength: 5,
-            // type: 'logarithmic',
             stacked: false,
-            // max: yAxisMax,
             title: {
               display: true,
               text: 'Climbing Speed (mm/s)',
@@ -188,7 +191,6 @@ const GroupedBarChart = ({ data }) => {
             type: 'logarithmic',
             stacked: false,
             position: 'right',
-            // max: 100,
             title: {
               display: true,
               text: 'Payload (kg)',
