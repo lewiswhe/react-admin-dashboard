@@ -98,6 +98,7 @@ const annotation5=
       borderColor: (ctx) => ctx.chart.data.datasets[0].backgroundColor,
       borderRadius: 6,
       borderWidth: 1,
+      backgroundColor: '#ffffff',
       content: ['Climbing', 'Speed'],
       callout: {
         display: true,
@@ -107,7 +108,7 @@ const annotation5=
         x: 'start',
         y: 'center'
       },
-      xValue: '[25]',
+      xValue: 6.75,
       yValue: 250,
       // xAdjust: (ctx) => maxIndex(ctx) <= 3 ? 60 : maxIndex(ctx) >= 10 ? -60 : 0,
       xAdjust: -185,
@@ -120,6 +121,7 @@ const annotation5=
       borderColor: (ctx) => ctx.chart.data.datasets[0].backgroundColor,
       borderRadius: 6,
       borderWidth: 1,
+      backgroundColor: '#ffffff',
       content: ['Payload'],
       callout: {
         display: true,
@@ -129,7 +131,7 @@ const annotation5=
         x: 'start',
         y: 'center'
       },
-      xValue: '[25]',
+      xValue: 7.25,
       yValue: 200,
       // xAdjust: (ctx) => maxIndex(ctx) <= 3 ? 60 : maxIndex(ctx) >= 10 ? -60 : 0,
       xAdjust: 35,

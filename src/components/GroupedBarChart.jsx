@@ -37,64 +37,65 @@ const GroupedBarChart = ({ data }) => {
     if (chartInstance.current !== null) {
       chartInstance.current.destroy();
     }
-    const annotation0=
-{
-  type: 'line',
-  yScaleID: 'y',
-  yMin: 0,
-  yMax: 'yAxisMax',
-  xMin: 5.5,
-  xMax: 5.5
-}
-const annotation1=
-{
-  type: 'line',
-  yScaleID: 'y',
-  yMin: 0,
-  yMax: 'yAxisMax',
-  xMin: 6.5,
-  xMax: 6.5
-}
-const annotation2=
-{
-  type: 'line',
-  yScaleID: 'y',
-  yMin: 0,
-  yMax: 'yAxisMax',
-  xMin: 7.5,
-  xMax: 7.5
-}
-const annotation3=
-{
-  type: 'line',
-  yScaleID: 'y',
-  yMin: 0,
-  yMax: 'yAxisMax',
-  xMin: 9.5,
-  xMax: 9.5
-}
-const annotation4=
-{
-  type: 'line',
-  yScaleID: 'y',
-  yMin: 0,
-  yMax: 'yAxisMax',
-  xMin: 11.5,
-  xMax: 11.5
-}
-const annotation5=
-{
-  type: 'line',
-  yScaleID: 'y',
-  yMin: 0,
-  yMax: 'yAxisMax',
-  xMin: 17.5,
-  xMax: 17.5
-}
+    const loco_line0=
+      {
+        type: 'line',
+        yScaleID: 'y',
+        yMin: 0,
+        yMax: 'yAxisMax',
+        xMin: 5.5,
+        xMax: 5.5
+      }
+    const loco_line1=
+      {
+        type: 'line',
+        yScaleID: 'y',
+        yMin: 0,
+        yMax: 'yAxisMax',
+        xMin: 6.5,
+        xMax: 6.5
+      }
+    const loco_line2=
+      {
+        type: 'line',
+        yScaleID: 'y',
+        yMin: 0,
+        yMax: 'yAxisMax',
+        xMin: 7.5,
+        xMax: 7.5
+      }
+    const loco_line3=
+      {
+        type: 'line',
+        yScaleID: 'y',
+        yMin: 0,
+        yMax: 'yAxisMax',
+        xMin: 9.5,
+        xMax: 9.5
+      }
+    const loco_line4=
+      {
+        type: 'line',
+        yScaleID: 'y',
+        yMin: 0,
+        yMax: 'yAxisMax',
+        xMin: 11.5,
+        xMax: 11.5
+      }
+    const loco_line5=
+      {
+        type: 'line',
+        yScaleID: 'y',
+        yMin: 0,
+        yMax: 'yAxisMax',
+        xMin: 17.5,
+        xMax: 17.5
+      }
     const yAxisMax = 400;
     const marker = {
       type: 'label',
       borderColor: (ctx) => ctx.chart.data.datasets[0].backgroundColor,
+      backgroundColor: '#ffffff',
       borderRadius: 6,
       borderWidth: 1,
       content: ['Climbing', 'Speed'],
@@ -106,19 +107,17 @@ const annotation5=
         x: 'start',
         y: 'center'
       },
-      xValue: '[47]',
+      xValue: 5.75,
       yValue: 250,
-      // xAdjust: (ctx) => maxIndex(ctx) <= 3 ? 60 : maxIndex(ctx) >= 10 ? -60 : 0,
       xAdjust: -195,
-      // xValue: (ctx) => maxLabel(ctx),
       yAdjust: -60,
-      // yValue: (ctx) => maxValue(ctx)
     };
     const marker1 = {
       type: 'label',
       borderColor: (ctx) => ctx.chart.data.datasets[0].backgroundColor,
       borderRadius: 6,
       borderWidth: 1,
+      backgroundColor: '#ffffff',
       content: ['Payload'],
       callout: {
         display: true,
@@ -128,13 +127,10 @@ const annotation5=
         x: 'start',
         y: 'center'
       },
-      xValue: '[47]',
+      xValue: 6.25,
       yValue: 200,
-      // xAdjust: (ctx) => maxIndex(ctx) <= 3 ? 60 : maxIndex(ctx) >= 10 ? -60 : 0,
       xAdjust: 80,
-      // xValue: (ctx) => maxLabel(ctx),
       yAdjust: -100,
-      // yValue: (ctx) => maxValue(ctx)
     };
 
     const ctx = chartRef.current.getContext('2d');
@@ -240,17 +236,17 @@ const annotation5=
             text: "Climbing Speed and Maximum Payload of Non-Planar Climbing Robots"
           },
           annotation: {
+            common: {
+              drawTime: 'afterDraw'
+            },
             annotations: {
-              marker,
-              marker1,
-              annotation0,
-              annotation1,
-              annotation2,
-              annotation3,
-              annotation4,
-              annotation5,
-
-              // annotation6,
+              loco_line0,
+              loco_line1,
+              loco_line2,
+              loco_line3,
+              loco_line4,
+              loco_line5,
+              // loco_line6,
               line1: {
                 type: 'line',
                 yScaleID: 'y1',
@@ -273,6 +269,9 @@ const annotation5=
                   size: 18,
                 }
               },
+
+              marker,
+              marker1,
             }
           }
         },
