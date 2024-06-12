@@ -38,60 +38,58 @@ const GroupedBarChartP = ({ data }) => {
       chartInstance.current.destroy();
     }
     const loco_line0=
-{
-  type: 'line',
-  yScaleID: 'y',
-  yMin: 0,
-  yMax: 'yAxisMax',
-  xMin: 0.5,
-  xMax: 0.5
-}
-const loco_line1=
-{
-  type: 'line',
-  yScaleID: 'y',
-  yMin: 0,
-  yMax: 'yAxisMax',
-  xMin: 6.5,
-  xMax: 6.5
-}
-const loco_line2=
-{
-  type: 'line',
-  yScaleID: 'y',
-  yMin: 0,
-  yMax: 'yAxisMax',
-  xMin: 11.5,
-  xMax: 11.5
-}
-const loco_line3=
-{
-  type: 'line',
-  yScaleID: 'y',
-  yMin: 0,
-  yMax: 'yAxisMax',
-  xMin: 12.5,
-  xMax: 12.5
-}
-const loco_line4=
-{
-  type: 'line',
-  yScaleID: 'y',
-  yMin: 0,
-  yMax: 'yAxisMax',
-  xMin: 17.5,
-  xMax: 17.5
-}
-const loco_line5=
-{
-  type: 'line',
-  yScaleID: 'y',
-  yMin: 0,
-  yMax: 'yAxisMax',
-  xMin: 18.5,
-  xMax: 18.5
-}
-    
+      {
+        type: 'box',
+        yScaleID: 'y',
+        yMin: 0,
+        yMax: 'yAxisMax',
+        xMin: -0.5,
+        xMax: 0.5,
+        backgroundColor: 'rgba(211, 211, 211,0.3)',
+        borderColor: 'rgba(0, 0, 0, 1)',
+        drawTime: 'beforeDatasetsDraw',
+      }
+   
+    const loco_line2=
+      {
+        type: 'box',
+        yScaleID: 'y',
+        yMin: 0,
+        yMax: 'yAxisMax',
+        xMin: 6.5,
+        xMax: 11.5,
+        backgroundColor: 'rgba(211, 211, 211,0.3)',
+        borderColor: 'rgba(0, 0, 0, 1)',
+        drawTime: 'beforeDatasetsDraw',
+
+      }
+        const loco_line4=
+      {
+        type: 'box',
+        yScaleID: 'y',
+        yMin: 0,
+        yMax: 'yAxisMax',
+        xMin: 12.5,
+        xMax: 17.5,
+        backgroundColor: 'rgba(211, 211, 211,0.3)',
+        borderColor: 'rgba(0, 0, 0, 1)',
+        drawTime: 'beforeDatasetsDraw',
+
+      }
+    const loco_line5=
+      {
+        type: 'box',
+        yScaleID: 'y',
+        yMin: 0,
+        yMax: 'yAxisMax',
+        xMin: 18.5,
+        xMax: 20.5,
+        backgroundColor: 'rgba(211, 211, 211,0.3)',
+        borderColor: 'rgba(0, 0, 0, 1)',
+        drawTime: 'beforeDatasetsDraw',
+
+      }
+
     const yAxisMax = 400;
     const marker = {
       type: 'label',
@@ -163,7 +161,7 @@ const loco_line5=
               autoSkipPadding: 50,
               align: 'center',
               sampleSize: 10,
-              
+
               // callback: function(label) {
               //   let realLabel = this.getLabelForValue(label)
               //   var robot = realLabel.split(";")[0];
@@ -171,11 +169,11 @@ const loco_line5=
               //   return realLabel;
               // }
             },
-            
+
             grid: {
-                display: true,
-                color: '#a3a3a3'
-              }
+              display: true,
+              color: '#a3a3a3'
+            }
 
           },
           y: {
@@ -243,18 +241,20 @@ const loco_line5=
             text: "Climbing Speed and Maximum Payload of Planar Climbing Robots"
           },
           annotation: {
+            common: {
+              drawTime: 'afterDraw'
+            },
+
             annotations: {
               marker,
               marker1,
               loco_line0,
-              loco_line1,
               loco_line2,
-              loco_line3,
               loco_line4,
               loco_line5,
 
               // loco_line6,
-              line1: {
+              kgLine: {
                 type: 'line',
                 yScaleID: 'y1',
                 yMin: 1,
@@ -262,7 +262,6 @@ const loco_line5=
                 xMin: 0,
                 borderColor: 'rgb(255,0,0)',
                 borderWidth: 2,
-                // label: '1 Kg requirement'
               },
               label1: {
                 type: 'label',

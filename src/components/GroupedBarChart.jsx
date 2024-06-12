@@ -39,57 +39,52 @@ const GroupedBarChart = ({ data }) => {
     }
     const loco_line0=
       {
-        type: 'line',
+        type: 'box',
         yScaleID: 'y',
         yMin: 0,
         yMax: 'yAxisMax',
-        xMin: 5.5,
-        xMax: 5.5
+        xMin: -0.5,
+        xMax: 5.5,
+        backgroundColor: 'rgba(211, 211, 211,0.3)',
+        borderColor: 'rgba(0, 0, 0, 1)',
+        drawTime: 'beforeDatasetsDraw',
       }
-    const loco_line1=
+    
+    const loco_line2=
       {
-        type: 'line',
+        type: 'box',
         yScaleID: 'y',
         yMin: 0,
         yMax: 'yAxisMax',
         xMin: 6.5,
-        xMax: 6.5
+        xMax: 7.5,
+        backgroundColor: 'rgba(211, 211, 211,0.3)',
+        borderColor: 'rgba(0, 0, 0, 1)',
+        drawTime: 'beforeDatasetsDraw',
       }
-    const loco_line2=
+    const loco_line4=
       {
-        type: 'line',
-        yScaleID: 'y',
-        yMin: 0,
-        yMax: 'yAxisMax',
-        xMin: 7.5,
-        xMax: 7.5
-      }
-    const loco_line3=
-      {
-        type: 'line',
+        type: 'box',
         yScaleID: 'y',
         yMin: 0,
         yMax: 'yAxisMax',
         xMin: 9.5,
-        xMax: 9.5
-      }
-    const loco_line4=
-      {
-        type: 'line',
-        yScaleID: 'y',
-        yMin: 0,
-        yMax: 'yAxisMax',
-        xMin: 11.5,
-        xMax: 11.5
+        xMax: 11.5,
+        backgroundColor: 'rgba(211, 211, 211,0.3)',
+        borderColor: 'rgba(0, 0, 0, 1)',
+        drawTime: 'beforeDatasetsDraw',
       }
     const loco_line5=
       {
-        type: 'line',
+        type: 'box',
         yScaleID: 'y',
         yMin: 0,
         yMax: 'yAxisMax',
         xMin: 17.5,
-        xMax: 17.5
+        xMax: 18.5,
+        backgroundColor: 'rgba(211, 211, 211,0.3)',
+        borderColor: 'rgba(0, 0, 0, 1)',
+        drawTime: 'beforeDatasetsDraw',
       }
     const yAxisMax = 400;
     const marker = {
@@ -241,9 +236,7 @@ const GroupedBarChart = ({ data }) => {
             },
             annotations: {
               loco_line0,
-              loco_line1,
               loco_line2,
-              loco_line3,
               loco_line4,
               loco_line5,
               // loco_line6,
