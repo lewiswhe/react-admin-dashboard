@@ -37,7 +37,7 @@ const GroupedBarChartP = ({ data }) => {
     if (chartInstance.current !== null) {
       chartInstance.current.destroy();
     }
-    const annotation0=
+    const loco_line0=
 {
   type: 'line',
   yScaleID: 'y',
@@ -46,7 +46,7 @@ const GroupedBarChartP = ({ data }) => {
   xMin: 0.5,
   xMax: 0.5
 }
-const annotation1=
+const loco_line1=
 {
   type: 'line',
   yScaleID: 'y',
@@ -55,7 +55,7 @@ const annotation1=
   xMin: 6.5,
   xMax: 6.5
 }
-const annotation2=
+const loco_line2=
 {
   type: 'line',
   yScaleID: 'y',
@@ -64,7 +64,7 @@ const annotation2=
   xMin: 11.5,
   xMax: 11.5
 }
-const annotation3=
+const loco_line3=
 {
   type: 'line',
   yScaleID: 'y',
@@ -73,7 +73,7 @@ const annotation3=
   xMin: 12.5,
   xMax: 12.5
 }
-const annotation4=
+const loco_line4=
 {
   type: 'line',
   yScaleID: 'y',
@@ -82,7 +82,7 @@ const annotation4=
   xMin: 17.5,
   xMax: 17.5
 }
-const annotation5=
+const loco_line5=
 {
   type: 'line',
   yScaleID: 'y',
@@ -246,14 +246,14 @@ const annotation5=
             annotations: {
               marker,
               marker1,
-              annotation0,
-              annotation1,
-              annotation2,
-              annotation3,
-              annotation4,
-              annotation5,
+              loco_line0,
+              loco_line1,
+              loco_line2,
+              loco_line3,
+              loco_line4,
+              loco_line5,
 
-              // annotation6,
+              // loco_line6,
               line1: {
                 type: 'line',
                 yScaleID: 'y1',
