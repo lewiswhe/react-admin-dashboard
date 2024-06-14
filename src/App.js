@@ -22,6 +22,7 @@ import Geography from "./scenes/geography";
 import GroupedBar from "./scenes/groupedBarchart";
 import GroupedBarP from "./scenes/groupedBarchartP";
 import PlotlyBar from "./scenes/plotlybar";
+import Scatter from "./scenes/scatter";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { ColorModeContext, useMode } from "./theme";
 
@@ -58,6 +59,7 @@ function App() {
               <Route path="/heatmap" element={<Heatm />} />
               <Route path="/groupedbar" element={<GroupedBar />} />
               <Route path="/plotlybar" element={<PlotlyBar />} />
+              <Route path="/scatter" element={<Scatter />} />
             </Routes>
           </main>
         </div>
