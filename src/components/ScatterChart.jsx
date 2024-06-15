@@ -8,70 +8,189 @@ import { Box } from "@mui/material";
 ChartJS.register(LinearScale, PointElement, Tooltip, Legend);
 
 const ScatterChart = () => {
+  const quad1 = {
+    type: 'box',
+    backgroundColor: 'rgba(0,245,1,0.2)',
+    xMin: 100,
+    xMax: 2000,
+    yMin: 1,
+    yMax: 1000,
+    order: 0,
+    label: {
+      content: "3",
+      position: {
+        x: '0',
+        y: '0'
+      }
+    }
+  };
+  const quad2 = {
+    type: 'box',
+    backgroundColor: 'rgba(245,245,1,0.2)',
+    xMin: 0,
+    xMax: 100,
+    yMin: 1,
+    yMax: 1000,
+    label: {
+      content: "3",
+      position: {
+        x: '0',
+        y: '0'
+      }
+    }
+  };
+  const quad3 = {
+    type: 'box',
+    backgroundColor: 'rgba(245,0,1,0.2)',
+    xMin: 0,
+    xMax: 100,
+    yMin: 0,
+    yMax: 1,
+    label: {
+      content: "3",
+      position: {
+        x: '0',
+        y: '0'
+      }
+    }
+  };
+  const quad4 = {
+    type: 'box',
+    backgroundColor: 'rgba(245,245,1,0.2)',
+    xMin: 100,
+    xMax: 2000,
+    yMin: 0,
+    yMax: 1,
+    label: {
+      content: "3",
+      position: {
+        x: '0',
+        y: '0'
+      }
+    }
+  };
+  const uniqLocos =  [
+    'dialectric-elastomer',
+    'Humanoid',
+    'Legged',
+    'Tracked',
+    'Wheeled, Legged',
+    'Wheeled',
+    'Wheeled, Inchworm',
+    'Wheel-Legs',
+    'Inchworm',
+    'Jet Propulsion',
+    'Soft'
+  ];
+  const hexColours =  [
+    'rgba(255,0,0,1.0)',
+    'rgba(255,139,0,1.0)',
+    'rgba(232,255,0,1.0)',
+    'rgba(93,255,0,1.0)',
+    'rgba(0,255,46,1.0)',
+    'rgba(0,255,185,1.0)',
+    'rgba(0,185,255,1.0)',
+    'rgba(0,46,255,1.0)',
+    'rgba(93,0,255,1.0)',
+    'rgba(232,0,255,1.0)',
+    'rgba(255,0,139,1.0)'
+  ];
 
   const data = {
     datasets: [
       {
-        label: "Scatter Dataset 1",
+        label: "Planar Robots",
         data: [
-          { x: '100', y: '0' ,customLabel: ''},
-          { x: '90', y: '0' ,customLabel: ''},
-          { x: '1.4', y: '0' ,customLabel: ''},
-          { x: '2', y: '2' ,customLabel: ''},
-          { x: '20', y: '0' ,customLabel: ''},
-          { x: '46', y: '0' ,customLabel: ''},
-          { x: '7.45', y: '0.2' ,customLabel: ''},
-          { x: '250', y: '0.6' ,customLabel: ''},
-          { x: '40', y: '0' ,customLabel: ''},
-          { x: '340', y: '0' ,customLabel: ''},
-          { x: '200', y: '0' ,customLabel: ''},
-          { x: '60', y: '75' ,customLabel: ''},
-          { x: '250', y: '0' ,customLabel: ''},
-          { x: '30', y: '0' ,customLabel: ''},
-          { x: '167', y: '9' ,customLabel: ''},
-          { x: '0', y: '7' ,customLabel: ''},
-          { x: '0', y: '1.6' ,customLabel: ''},
-          { x: '150', y: '4' ,customLabel: ''},
-          { x: '0', y: '10.5' ,customLabel: ''},
-          { x: '77', y: '0.0057' ,customLabel: ''},
-          { x: '30', y: '0' ,customLabel: ''},
+          { x: '100', y: '0', customLabel: '' },
+          { x: '90', y: '0', customLabel: '' },
+          { x: '1.4', y: '0', customLabel: '' },
+          { x: '2', y: '2', customLabel: '' },
+          { x: '20', y: '0', customLabel: '' },
+          { x: '46', y: '0', customLabel: 'cc' },
+          { x: '7.45', y: '0.2', customLabel: '' },
+          { x: '250', y: '0.6', customLabel: '' },
+          { x: '40', y: '0', customLabel: '' },
+          { x: '340', y: '0', customLabel: '' },
+          { x: '60', y: '75', customLabel: '' },
+          { x: '250', y: '0', customLabel: '' },
+          { x: '30', y: '0', customLabel: '' },
+          { x: '167', y: '9', customLabel: '' },
+          { x: '0', y: '7', customLabel: 'aa' },
+          { x: '0', y: '1.6', customLabel: 'bb' },
+          { x: '150', y: '4', customLabel: '' },
+          { x: '0', y: '10.5', customLabel: '' },
+          { x: '77', y: '0.0057', customLabel: '' },
+          { x: '30', y: '0', customLabel: '' }
         ],
-        backgroundColor: "rgba(75, 192, 192, 1)",
+        pointStyle: 'rect',
+        backgroundColor: [
+          'rgba(255,0,0,1.0)',   'rgba(255,139,0,1.0)',
+          'rgba(232,255,0,1.0)', 'rgba(232,255,0,1.0)',
+          'rgba(232,255,0,1.0)', 'rgba(232,255,0,1.0)',
+          'rgba(232,255,0,1.0)', 'rgba(232,255,0,1.0)',
+          'rgba(93,255,0,1.0)',  'rgba(93,255,0,1.0)',
+          'rgba(93,255,0,1.0)',  'rgba(93,255,0,1.0)',
+          'rgba(0,255,46,1.0)',  'rgba(0,255,185,1.0)',
+          'rgba(0,255,185,1.0)', 'rgba(0,255,185,1.0)',
+          'rgba(0,255,185,1.0)', 'rgba(0,185,255,1.0)',
+          'rgba(0,255,185,1.0)', 'rgba(0,46,255,1.0)',
+          'rgba(0,46,255,1.0)'
+        ],
+        radius: 16, // Increase the marker size for this dataset
+      },
+      {
+        label: "Non-Planar Robots",
+        data: [
+          { x: '37', y: '10', customLabel: '' },
+          { x: '25', y: '1.5', customLabel: '' },
+          { x: '0', y: '1', customLabel: '' },
+          { x: '48', y: '0', customLabel: '' },
+          { x: '1', y: '0', customLabel: '' },
+          { x: '115', y: '0', customLabel: '' },
+          { x: '1090', y: '0.5', customLabel: '' },
+          { x: '55.6', y: '0', customLabel: '' },
+          { x: '83', y: '0', customLabel: '' },
+          { x: '2.1', y: '0', customLabel: '' },
+          { x: '8.3', y: '0.5', customLabel: '' },
+          { x: '1000', y: '0', customLabel: '' },
+          { x: '100', y: '0.155', customLabel: '' },
+          { x: '167', y: '2', customLabel: '' },
+          { x: '83', y: '5.5', customLabel: '' },
+          { x: '110', y: '0.370', customLabel: '' },
+          { x: '500', y: '3', customLabel: '' },
+          { x: '180', y: '10', customLabel: '' }
+        ],
+        backgroundColor: [
+          'rgba(93,0,255,1.0)',  'rgba(93,0,255,1.0)',
+          'rgba(93,0,255,1.0)',  'rgba(93,0,255,1.0)',
+          'rgba(93,0,255,1.0)',  'rgba(93,0,255,1.0)',
+          'rgba(232,0,255,1.0)', 'rgba(232,255,0,1.0)',
+          'rgba(93,255,0,1.0)',  'rgba(255,0,139,1.0)',
+          'rgba(255,0,139,1.0)', 'rgba(0,255,185,1.0)',
+          'rgba(0,255,185,1.0)', 'rgba(0,255,185,1.0)',
+          'rgba(0,255,185,1.0)', 'rgba(0,255,185,1.0)',
+          'rgba(0,255,185,1.0)', 'rgba(0,185,255,1.0)'
+        ],
+        pointStyle: 'triangle',
         radius: 10, // Increase the marker size for this dataset
       },
       {
-        label: "Scatter Dataset 2",
-        data: [
-          { x: '37', y: '10' ,customLabel: ''},
-          { x: '25', y: '1.5' ,customLabel: ''},
-          { x: '0', y: '1' ,customLabel: ''},
-          { x: '48', y: '0' ,customLabel: ''},
-          { x: '1', y: '0' ,customLabel: ''},
-          { x: '115', y: '0' ,customLabel: ''},
-          { x: '1090', y: '0.5' ,customLabel: ''},
-          { x: '55.6', y: '0' ,customLabel: ''},
-          { x: '83', y: '0' ,customLabel: ''},
-          { x: '200', y: '0' ,customLabel: ''},
-          { x: '2.1', y: '0' ,customLabel: ''},
-          { x: '8.3', y: '0.5' ,customLabel: ''},
-          { x: '1000', y: '0' ,customLabel: ''},
-          { x: '100', y: '0.155' ,customLabel: ''},
-          { x: '167', y: '2' ,customLabel: ''},
-          { x: '83', y: '5.5' ,customLabel: ''},
-          { x: '110', y: '0.370' ,customLabel: ''},
-          { x: '500', y: '3' ,customLabel: ''},
-          { x: '180', y: '10' ,customLabel: ''},        ],
-        backgroundColor: "rgba(255, 0, 0, 1)",
+        label: "Other Robots",
+        data: [ { x: '200', y: '0', customLabel: '' } ],
+        backgroundColor: [ 'rgba(93,255,0,1.0)' ],
+        pointStyle: 'circle',
         radius: 10, // Increase the marker size for this dataset
       }
+
     ]
   };
 
   const options = {
     scales: {
       x: {
-        type: "linear",
+        type: "logarithmic",
         position: "bottom",
+        bounds: 'data',
         title: {
           display: true,
           text: "Climbing Speed (mm/s)",
@@ -86,7 +205,9 @@ const ScatterChart = () => {
         },
       },
       y: {
-        type: "linear",
+        type: "logarithmic",
+        max: 1000,
+        bounds: 'data',
         title: {
           display: true,
           text: "Payload (kg)",
@@ -103,12 +224,41 @@ const ScatterChart = () => {
     },
     plugins: {
       legend: {
-        position: 'top',
-        labels: {
-          font: {
-            size: 22,
-          },
+        display: true,
+        position: 'right',
+        title: {
+          display: true,
+          color: 'black',
+          text: "Locomotion Methods"
         },
+        labels: {
+        usePointStyle: true,
+          generateLabels: function(chart) {
+            let labels = [];
+            labels.push({
+              text: "Planar",
+              fillStyle: 'rgba(128,128,128,1)',
+              pointStyle: 'rect',
+            },{
+              text: "Non-Planar",
+              fillStyle: 'rgba(128,128,128,1)',
+              pointStyle: 'triangle',
+            },{
+              text: "Planar and Non-Planar",
+              fillStyle: 'rgba(128,128,128,1)',
+              pointStyle: 'circle',
+            })
+            uniqLocos.forEach((adhe, index) => {
+              labels.push({
+                text: adhe,
+                fillStyle: hexColours[index],
+                pointStyle: 'rectRounded',
+              });
+            });
+            
+            return labels;
+          },
+        }
       },
       tooltip: {
         bodyFont: {
@@ -120,11 +270,67 @@ const ScatterChart = () => {
       },
       title: {
         display: true,
-        text: 'Scatter Chart',
+        text: 'Payload Vs. Climbing Speed of all Climbing Robots',
         font: {
           size: 22,
         },
       },
+      annotation: {
+        common: {
+          drawTime: 'beforeDraw'
+        },
+        annotations: {
+          quad1,
+          quad2,
+          quad3,
+          quad4,
+          line1: {
+            type: 'line',
+            yScaleID: 'y',
+            yMin: 1,
+            yMax: 1,
+            xMin: 0,
+            borderColor: 'rgb(255,0,0)',
+            borderWidth: 2,
+            // label: '1 Kg requirement'
+          },
+          label1: {
+            type: 'label',
+            xValue: 0.2,
+            yValue: 1.3,
+            yScaleID: 'y',
+            backgroundColor: 'rgba(245,245,245)',
+            content: ['1 Kg requirement'],
+            color: 'red',
+            font: {
+              size: 18,
+            }
+          },
+          line2: {
+            type: 'line',
+            xScaleID: 'x',
+            xMin: 100,
+            xMax: 100,
+            yMin: 0,
+            borderColor: 'rgb(255,0,0)',
+            borderWidth: 2,
+            // label: '1 Kg requirement'
+          },
+          label2: {
+            type: 'label',
+            xValue: 0.2,
+            yValue: 1.3,
+            yScaleID: 'y',
+            backgroundColor: 'rgba(245,245,245)',
+            content: ['1 Kg requirement'],
+            color: 'red',
+            font: {
+              size: 18,
+            }
+          }
+        }
+      },
+
       datalabels: {
         display: true,
         align: 'end',
@@ -143,7 +349,7 @@ const ScatterChart = () => {
   ChartJS.defaults.font.size = 22;
 
   return (
-    <Box width="100%" height="100%">
+    <Box width="90%" height="90%">
     <Scatter data={data} options={options} />
     </Box>
   );

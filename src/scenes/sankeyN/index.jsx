@@ -13,10 +13,10 @@ const SankeyN = () => {
             <Typography variant="h1" sx={{fontWeight: "bold"}}>Robot</Typography>
           </Grid>
           <Grid item sx={{ transform: "translateX(-30px)" }}>
-            <Typography variant="h1" sx={{fontWeight: "bold"}}>Locomotion </Typography>
+            <Typography variant="h1" sx={{fontWeight: "bold"}}>Adhesion </Typography>
           </Grid>
           <Grid item sx={{ transform: "translateX(0px)" }}>
-            <Typography variant="h1" sx={{fontWeight: "bold"}}>Adhesion </Typography>
+            <Typography variant="h1" sx={{fontWeight: "bold"}}>Locomotion </Typography>
           </Grid>
           <Grid item sx={{ transform: "translateX(40px)" }}>
             <Typography variant="h1" sx={{fontWeight: "bold"}}>Surface </Typography>

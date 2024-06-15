@@ -18,8 +18,8 @@ labels:
   "[28]",
   "[29]",
   "[31]",
-  "[34]",
   "[32]",
+  "[34]",
   "[35]",
   "[36]"
 ], 
@@ -672,6 +672,62 @@ datasets: [
     "stack": 1
   },
   {
+    "label": "[32]",
+    "yAxisID": "y",
+    "data": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "150"
+    ],
+    "loco": "Wheeled, Inchworm",
+    "adhe": "Magnetic",
+    "backgroundColor": "rgba(0,255,255,1.0)",
+    "stack": 0
+  },
+  {
+    "label": "[32]",
+    "yAxisID": "y1",
+    "data": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "4"
+    ],
+    "loco": "Wheeled, Inchworm",
+    "adhe": "Magnetic",
+    "backgroundColor": "rgba(0,255,255,0.25)",
+    "stack": 1
+  },
+  {
     "label": "[34]",
     "yAxisID": "y",
     "data": [
@@ -729,64 +785,6 @@ datasets: [
     "backgroundColor": "rgba(255,0,0,0.25)",
     "stack": 1
   },
-  {
-    "label": "[32]",
-    "yAxisID": "y",
-    "data": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      "150"
-    ],
-    "loco": "Wheeled, Inchworm",
-    "adhe": "Magnetic",
-    "backgroundColor": "rgba(0,255,255,1.0)",
-    "stack": 0
-  },
-  {
-    "label": "[32]",
-    "yAxisID": "y1",
-    "data": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      "4"
-    ],
-    "loco": "Wheeled, Inchworm",
-    "adhe": "Magnetic",
-    "backgroundColor": "rgba(0,255,255,0.25)",
-    "stack": 1
-  },
-
-
   {
     "label": "[35]",
     "yAxisID": "y",
