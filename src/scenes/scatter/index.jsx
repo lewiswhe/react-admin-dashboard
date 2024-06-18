@@ -6,7 +6,7 @@ const Scatter = () => {
   return (
     <Box m="20px">
       <Header title="Scatter Chart" subtitle="Simple Scatter Chart" />
-      <Box height="75vh">
+      <Box height="85vh">
         <ScatterChart />
       </Box>
     </Box>
