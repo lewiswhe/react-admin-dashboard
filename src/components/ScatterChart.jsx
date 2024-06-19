@@ -30,13 +30,17 @@ const ScatterChart = () => {
   const oyc = ScatterData.oyc;
   const uniqAdhes =  ScatterData.uniqAdhes;
   const hexColours = ScatterData.hexColours;
+  const miny = 0.002;
+  const minx = 0.1;
+  const maxx1 = 1500;
+  const maxy1 = 100;
   const quad1 = {
     type: 'box',
     backgroundColor: 'rgba(0,245,1,0.2)',
     xMin: 100,
-    xMax: 1500,
+    xMax: maxx1,
     yMin: 1,
-    yMax: 1000,
+    yMax: maxy1,
     order: 0,
     label: {
       content: "3",
@@ -49,10 +53,10 @@ const ScatterChart = () => {
   const quad2 = {
     type: 'box',
     backgroundColor: 'rgba(245,245,1,0.2)',
-    xMin: 0,
+    xMin: 0.54,
     xMax: 100,
     yMin: 1,
-    yMax: 1000,
+    yMax: maxy1,
     label: {
       content: "3",
       position: {
@@ -64,9 +68,9 @@ const ScatterChart = () => {
   const quad3 = {
     type: 'box',
     backgroundColor: 'rgba(245,0,1,0.2)',
-    xMin: 0,
+    xMin: 0.54,
     xMax: 100,
-    yMin: 0,
+    yMin: 0.0011,
     yMax: 1,
     label: {
       content: "3",
@@ -80,8 +84,8 @@ const ScatterChart = () => {
     type: 'box',
     backgroundColor: 'rgba(245,245,1,0.2)',
     xMin: 100,
-    xMax: 1500,
-    yMin: 0,
+    xMax: maxx1,
+    yMin: 0.0011,
     yMax: 1,
     label: {
       content: "3",
@@ -159,7 +163,7 @@ const ScatterChart = () => {
         position: "bottom",
         bounds: 'data',
         min: 0.5,
-        max: 1500,
+        max: maxx1,
         title: {
           display: true,
           text: "Climbing Speed (mm/s)",
@@ -178,8 +182,8 @@ const ScatterChart = () => {
         position: "bottom",
         bounds: 'data',
         display: false,
-        min: -0.15,
-        max: 10,
+        min: -maxx1/10000,
+        max: maxx1/100,
         title: {
           display: false,
           font: {
@@ -195,7 +199,7 @@ const ScatterChart = () => {
 
       y: {
         type: "logarithmic",
-        max: 100,
+        max: maxy1,
         min: 0.001,
         bounds: 'data',
         title: {
@@ -215,8 +219,8 @@ const ScatterChart = () => {
       y2: {
         type: "linear",
         display: false,
-        max: 10,
-        min: -0.5,
+        max: maxy1/10,
+        min: -maxy1/1000,
         bounds: 'data',
         title: {
           display: true,
@@ -285,7 +289,7 @@ const ScatterChart = () => {
         display: true,
         text: 'Payload Vs. Climbing Speed of all Climbing Robots',
         font: {
-          size: 26,
+          size: 32,
         },
       },
       annotation: {
@@ -302,7 +306,7 @@ const ScatterChart = () => {
             yScaleID: 'y',
             yMin: 1,
             yMax: 1,
-            xMin: 0,
+            xMin: 0.54,
             borderColor: 'rgb(255,0,0)',
             borderWidth: 2,
             // label: '1 Kg requirement'
@@ -313,10 +317,10 @@ const ScatterChart = () => {
             yValue: 1.5,
             yScaleID: 'y',
             backgroundColor: 'rgba(245,245,245)',
-            content: ['1 Kg requirement'],
+            content: ['1 kg requirement'],
             color: 'red',
             font: {
-              size: 18,
+              size: 22,
             }
           },
           line2: {
@@ -331,14 +335,14 @@ const ScatterChart = () => {
           },
           labelspeed: {
             type: 'label',
-            xValue: 210,
+            xValue: 160,
             yValue: 0.05,
             yScaleID: 'y',
             backgroundColor: 'rgba(245,245,245)',
             content: ['100 mm/s requirement'],
             color: 'red',
             font: {
-              size: 18,
+              size: 22,
             }
           },
           linex0: {
@@ -366,7 +370,7 @@ const ScatterChart = () => {
           },
           labelx0: {
             type: 'label',
-            xValue: 0.03,
+            xValue: 0.15,
             yValue: 2.0,
             rotation: -90,
             xScaleID: 'x2',
@@ -375,20 +379,20 @@ const ScatterChart = () => {
             content: ['Speed Not Measured'],
             color: 'black',
             font: {
-              size: 18,
+              size: 24,
             }
           },
           labely0: {
             type: 'label',
-            xValue: 3,
+            xValue: 4,
             xScaleID: 'x2',
             yScaleID: 'y2',
-            yValue: 0,
+            yValue: 0.2,
             backgroundColor: 'rgba(245,245,245)',
             content: ['Payload Not Measured'],
             color: 'black',
             font: {
-              size: 18,
+              size: 24,
             }
           }
         }
