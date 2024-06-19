@@ -263,7 +263,7 @@ const ScatterChart = () => {
         position: "bottom",
         bounds: 'data',
         display: false,
-        min: -0.05,
+        min: -0.15,
         max: 10,
         title: {
           display: false,
@@ -324,7 +324,7 @@ const ScatterChart = () => {
         title: {
           display: true,
           color: 'black',
-          text: "Adhesion Methods",
+          text: "Key",
           font: {
             size: 26,
           },
@@ -416,7 +416,7 @@ const ScatterChart = () => {
           },
           labelspeed: {
             type: 'label',
-            xValue: 160,
+            xValue: 210,
             yValue: 0.05,
             yScaleID: 'y',
             backgroundColor: 'rgba(245,245,245)',
@@ -452,7 +452,7 @@ const ScatterChart = () => {
           labelx0: {
             type: 'label',
             xValue: 0.03,
-            yValue: 1.5,
+            yValue: 2.0,
             rotation: -90,
             xScaleID: 'x2',
             yScaleID: 'y2',
