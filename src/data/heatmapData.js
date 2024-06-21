@@ -58,14 +58,6 @@ export const HeatmapData = [
         "x": "Wheel-Legs",
         "y": 0
       },
-      {
-        "x": "dialectric- elastomer",
-        "y": 0
-      },
-      {
-        "x": "Shell",
-        "y": 0
-      }
     ]
   },
   {
@@ -127,14 +119,6 @@ export const HeatmapData = [
         "x": "Wheel-Legs",
         "y": 0
       },
-      {
-        "x": "dialectric- elastomer",
-        "y": 0
-      },
-      {
-        "x": "Shell",
-        "y": 0
-      }
     ]
   },
   {
@@ -196,14 +180,6 @@ export const HeatmapData = [
         "x": "Wheel-Legs",
         "y": 1
       },
-      {
-        "x": "dialectric- elastomer",
-        "y": 0
-      },
-      {
-        "x": "Shell",
-        "y": 0
-      }
     ]
   },
   {
@@ -265,14 +241,6 @@ export const HeatmapData = [
         "x": "Wheel-Legs",
         "y": 1
       },
-      {
-        "x": "dialectric- elastomer",
-        "y": 1
-      },
-      {
-        "x": "Shell",
-        "y": 0
-      }
     ]
   },
   {
@@ -304,7 +272,7 @@ export const HeatmapData = [
       },
       {
         "x": "Legged",
-        "y": 7
+        "y": 5
       },
       {
         "x": "Inchworm",
@@ -334,14 +302,6 @@ export const HeatmapData = [
         "x": "Wheel-Legs",
         "y": 0
       },
-      {
-        "x": "dialectric- elastomer",
-        "y": 0
-      },
-      {
-        "x": "Shell",
-        "y": 0
-      }
     ]
   },
   {
@@ -403,14 +363,6 @@ export const HeatmapData = [
         "x": "Wheel-Legs",
         "y": 0
       },
-      {
-        "x": "dialectric- elastomer",
-        "y": 0
-      },
-      {
-        "x": "Shell",
-        "y": 0
-      }
     ]
   },
   {
@@ -442,7 +394,7 @@ export const HeatmapData = [
       },
       {
         "x": "Legged",
-        "y": 1
+        "y": 0
       },
       {
         "x": "Inchworm",
@@ -472,14 +424,6 @@ export const HeatmapData = [
         "x": "Wheel-Legs",
         "y": 0
       },
-      {
-        "x": "dialectric- elastomer",
-        "y": 0
-      },
-      {
-        "x": "Shell",
-        "y": 0
-      }
     ]
   },
   {
@@ -519,7 +463,7 @@ export const HeatmapData = [
       },
       {
         "x": "Wheeled",
-        "y": 9
+        "y": 10
       },
       {
         "x": "Tracked",
@@ -541,14 +485,6 @@ export const HeatmapData = [
         "x": "Wheel-Legs",
         "y": 0
       },
-      {
-        "x": "dialectric- elastomer",
-        "y": 0
-      },
-      {
-        "x": "Shell",
-        "y": 1
-      }
     ]
   },
   {
@@ -610,14 +546,6 @@ export const HeatmapData = [
         "x": "Wheel-Legs",
         "y": 0
       },
-      {
-        "x": "dialectric- elastomer",
-        "y": 0
-      },
-      {
-        "x": "Shell",
-        "y": 0
-      }
     ]
   },
   {
@@ -657,7 +585,7 @@ export const HeatmapData = [
       },
       {
         "x": "Wheeled",
-        "y": 1
+        "y": 2
       },
       {
         "x": "Tracked",
@@ -679,14 +607,6 @@ export const HeatmapData = [
         "x": "Wheel-Legs",
         "y": 0
       },
-      {
-        "x": "dialectric- elastomer",
-        "y": 0
-      },
-      {
-        "x": "Shell",
-        "y": 0
-      }
     ]
   },
   {
@@ -748,14 +668,6 @@ export const HeatmapData = [
         "x": "Wheel-Legs",
         "y": 0
       },
-      {
-        "x": "dialectric- elastomer",
-        "y": 0
-      },
-      {
-        "x": "Shell",
-        "y": 0
-      }
     ]
   }
 ]

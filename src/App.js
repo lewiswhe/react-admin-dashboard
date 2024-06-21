@@ -16,6 +16,9 @@ import Calendar from "./scenes/calendar/calendar";
 import SankeyN from "./scenes/sankeyN";
 import SankeyP from "./scenes/sankeyP";
 import SankeyC from "./scenes/sankeyA";
+import SankeyNM from "./scenes/sankeyNM";
+import SankeyPM from "./scenes/sankeyPM";
+import SankeyCM from "./scenes/sankeyAM";
 import Heatm from "./scenes/heatmap";
 import FAQ from "./scenes/faq";
 import Geography from "./scenes/geography";
@@ -51,11 +54,15 @@ function App() {
               <Route path="/faq" element={<FAQ />} />
               <Route path="/calendar" element={<Calendar />} />
               <Route path="/geography" element={<Geography />} />
-              <Route path="/sankey" element={<SankeyN />} />
               <Route path="/radar" element={<Radar />} />
               <Route path="/calendar2" element={<Calendar2 />} />
-              <Route path="/sankey2" element={<SankeyP />} />
-              <Route path="/sankeyc" element={<SankeyC />} />
+              <Route path="/sankeyn" element={<SankeyN />} />
+              <Route path="/sankeyp" element={<SankeyP />} />
+              <Route path="/sankey" element={<SankeyC />} />
+              <Route path="/sankeynm" element={<SankeyNM />} />
+              <Route path="/sankeypm" element={<SankeyPM />} />
+              <Route path="/sankeym" element={<SankeyCM />} />
+
               <Route path="/heatmap" element={<Heatm />} />
               <Route path="/groupedbar" element={<GroupedBar />} />
               <Route path="/plotlybar" element={<PlotlyBar />} />

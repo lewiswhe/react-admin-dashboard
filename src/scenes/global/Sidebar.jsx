@@ -124,22 +124,43 @@ const Sidebar = () => {
               setSelected={setSelected}
             />
             <Item
-              title="Sankey Loco"
+              title="Sankey All"
               to="/sankey"
               icon={<BarChartOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
-              title="Sankey Adhe"
-              to="/sankey2"
+              title="Sankey P"
+              to="/sankeyp"
               icon={<BarChartOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
-              title="Sankey Contacts"
-              to="/sankeyc"
+              title="Sankey Np"
+              to="/sankeyn"
+              icon={<BarChartOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+            <Item
+              title="Sankey All M"
+              to="/sankeym"
+              icon={<BarChartOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+            <Item
+              title="Sankey PM"
+              to="/sankeypm"
+              icon={<BarChartOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+            <Item
+              title="Sankey NpM"
+              to="/sankeynm"
               icon={<BarChartOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
@@ -148,6 +169,13 @@ const Sidebar = () => {
               title="Heatmap"
               to="/heatmap"
               icon={<MapOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+            <Item
+              title="Scatter Chart"
+              to="/scatter"
+              icon={<TimelineOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />

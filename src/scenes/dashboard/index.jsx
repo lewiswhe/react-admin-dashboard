@@ -10,6 +10,7 @@ import Header from "../../components/Header";
 import LineChart from "../../components/LineChart";
 import GeographyChart from "../../components/GeographyChart";
 import BarChart from "../../components/BarChart";
+import ScatterChart from "../../components/ScatterChart";
 import SankeyChartP from "../../components/SankeyChartP";
 import Heatmap from "../../components/Heatmap";
 import StatBox from "../../components/StatBox";
@@ -131,7 +132,7 @@ const Dashboard = () => {
             </Box>
           </Box>
           <Box height="650px" m="-20px 0 0 0">
-            <SankeyChartP isDashboard={true} />
+            <ScatterChart isDashboard={true} />
           </Box>
         </Box>
         <Box
