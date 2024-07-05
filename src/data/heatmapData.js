@@ -8,15 +8,11 @@ export const HeatmapData = [
       },
       {
         "x": "BioInspired - Snake",
-        "y": 1
+        "y": 2
       },
       {
         "x": "Helical Rolling",
         "y": 0
-      },
-      {
-        "x": "Snake",
-        "y": 1
       },
       {
         "x": "Humanoid",
@@ -43,21 +39,21 @@ export const HeatmapData = [
         "y": 0
       },
       {
+        "x": "Wheel-Legs",
+        "y": 0
+      },
+      {
         "x": "Soft",
         "y": 0
       },
       {
-        "x": "Jet Propulsion",
+        "x": "Pneumatic Propulsion",
         "y": 0
       },
       {
         "x": "Drone",
         "y": 0
-      },
-      {
-        "x": "Wheel-Legs",
-        "y": 0
-      },
+      }
     ]
   },
   {
@@ -76,10 +72,6 @@ export const HeatmapData = [
         "y": 5
       },
       {
-        "x": "Snake",
-        "y": 0
-      },
-      {
         "x": "Humanoid",
         "y": 0
       },
@@ -104,21 +96,21 @@ export const HeatmapData = [
         "y": 0
       },
       {
+        "x": "Wheel-Legs",
+        "y": 0
+      },
+      {
         "x": "Soft",
         "y": 0
       },
       {
-        "x": "Jet Propulsion",
+        "x": "Pneumatic Propulsion",
         "y": 0
       },
       {
         "x": "Drone",
         "y": 0
-      },
-      {
-        "x": "Wheel-Legs",
-        "y": 0
-      },
+      }
     ]
   },
   {
@@ -137,10 +129,6 @@ export const HeatmapData = [
         "y": 0
       },
       {
-        "x": "Snake",
-        "y": 0
-      },
-      {
         "x": "Humanoid",
         "y": 0
       },
@@ -165,21 +153,21 @@ export const HeatmapData = [
         "y": 0
       },
       {
+        "x": "Wheel-Legs",
+        "y": 2
+      },
+      {
         "x": "Soft",
         "y": 0
       },
       {
-        "x": "Jet Propulsion",
+        "x": "Pneumatic Propulsion",
         "y": 0
       },
       {
         "x": "Drone",
         "y": 0
-      },
-      {
-        "x": "Wheel-Legs",
-        "y": 1
-      },
+      }
     ]
   },
   {
@@ -195,10 +183,6 @@ export const HeatmapData = [
       },
       {
         "x": "Helical Rolling",
-        "y": 0
-      },
-      {
-        "x": "Snake",
         "y": 0
       },
       {
@@ -226,21 +210,21 @@ export const HeatmapData = [
         "y": 0
       },
       {
-        "x": "Soft",
+        "x": "Wheel-Legs",
         "y": 0
       },
       {
-        "x": "Jet Propulsion",
+        "x": "Soft",
+        "y": 1
+      },
+      {
+        "x": "Pneumatic Propulsion",
         "y": 0
       },
       {
         "x": "Drone",
         "y": 0
-      },
-      {
-        "x": "Wheel-Legs",
-        "y": 1
-      },
+      }
     ]
   },
   {
@@ -256,10 +240,6 @@ export const HeatmapData = [
       },
       {
         "x": "Helical Rolling",
-        "y": 0
-      },
-      {
-        "x": "Snake",
         "y": 0
       },
       {
@@ -287,21 +267,21 @@ export const HeatmapData = [
         "y": 0
       },
       {
+        "x": "Wheel-Legs",
+        "y": 0
+      },
+      {
         "x": "Soft",
         "y": 0
       },
       {
-        "x": "Jet Propulsion",
+        "x": "Pneumatic Propulsion",
         "y": 0
       },
       {
         "x": "Drone",
         "y": 0
-      },
-      {
-        "x": "Wheel-Legs",
-        "y": 0
-      },
+      }
     ]
   },
   {
@@ -317,10 +297,6 @@ export const HeatmapData = [
       },
       {
         "x": "Helical Rolling",
-        "y": 0
-      },
-      {
-        "x": "Snake",
         "y": 0
       },
       {
@@ -348,21 +324,21 @@ export const HeatmapData = [
         "y": 2
       },
       {
-        "x": "Soft",
-        "y": 1
+        "x": "Wheel-Legs",
+        "y": 0
       },
       {
-        "x": "Jet Propulsion",
+        "x": "Soft",
+        "y": 0
+      },
+      {
+        "x": "Pneumatic Propulsion",
         "y": 0
       },
       {
         "x": "Drone",
         "y": 0
-      },
-      {
-        "x": "Wheel-Legs",
-        "y": 0
-      },
+      }
     ]
   },
   {
@@ -378,10 +354,6 @@ export const HeatmapData = [
       },
       {
         "x": "Helical Rolling",
-        "y": 0
-      },
-      {
-        "x": "Snake",
         "y": 0
       },
       {
@@ -409,21 +381,21 @@ export const HeatmapData = [
         "y": 0
       },
       {
+        "x": "Wheel-Legs",
+        "y": 0
+      },
+      {
         "x": "Soft",
         "y": 0
       },
       {
-        "x": "Jet Propulsion",
+        "x": "Pneumatic Propulsion",
         "y": 0
       },
       {
         "x": "Drone",
         "y": 0
-      },
-      {
-        "x": "Wheel-Legs",
-        "y": 0
-      },
+      }
     ]
   },
   {
@@ -439,10 +411,6 @@ export const HeatmapData = [
       },
       {
         "x": "Helical Rolling",
-        "y": 0
-      },
-      {
-        "x": "Snake",
         "y": 0
       },
       {
@@ -470,21 +438,21 @@ export const HeatmapData = [
         "y": 4
       },
       {
+        "x": "Wheel-Legs",
+        "y": 0
+      },
+      {
         "x": "Soft",
         "y": 0
       },
       {
-        "x": "Jet Propulsion",
+        "x": "Pneumatic Propulsion",
         "y": 0
       },
       {
         "x": "Drone",
         "y": 0
-      },
-      {
-        "x": "Wheel-Legs",
-        "y": 0
-      },
+      }
     ]
   },
   {
@@ -503,10 +471,6 @@ export const HeatmapData = [
         "y": 0
       },
       {
-        "x": "Snake",
-        "y": 0
-      },
-      {
         "x": "Humanoid",
         "y": 0
       },
@@ -524,28 +488,28 @@ export const HeatmapData = [
       },
       {
         "x": "Wheeled",
-        "y": 3
-      },
-      {
-        "x": "Tracked",
-        "y": 1
-      },
-      {
-        "x": "Soft",
         "y": 2
       },
       {
-        "x": "Jet Propulsion",
-        "y": 1
-      },
-      {
-        "x": "Drone",
+        "x": "Tracked",
         "y": 0
       },
       {
         "x": "Wheel-Legs",
         "y": 0
       },
+      {
+        "x": "Soft",
+        "y": 2
+      },
+      {
+        "x": "Pneumatic Propulsion",
+        "y": 1
+      },
+      {
+        "x": "Drone",
+        "y": 0
+      }
     ]
   },
   {
@@ -564,10 +528,6 @@ export const HeatmapData = [
         "y": 0
       },
       {
-        "x": "Snake",
-        "y": 0
-      },
-      {
         "x": "Humanoid",
         "y": 0
       },
@@ -592,21 +552,21 @@ export const HeatmapData = [
         "y": 0
       },
       {
+        "x": "Wheel-Legs",
+        "y": 0
+      },
+      {
         "x": "Soft",
         "y": 0
       },
       {
-        "x": "Jet Propulsion",
+        "x": "Pneumatic Propulsion",
         "y": 0
       },
       {
         "x": "Drone",
         "y": 1
-      },
-      {
-        "x": "Wheel-Legs",
-        "y": 0
-      },
+      }
     ]
   },
   {
@@ -622,10 +582,6 @@ export const HeatmapData = [
       },
       {
         "x": "Helical Rolling",
-        "y": 0
-      },
-      {
-        "x": "Snake",
         "y": 0
       },
       {
@@ -653,21 +609,21 @@ export const HeatmapData = [
         "y": 1
       },
       {
+        "x": "Wheel-Legs",
+        "y": 0
+      },
+      {
         "x": "Soft",
         "y": 0
       },
       {
-        "x": "Jet Propulsion",
+        "x": "Pneumatic Propulsion",
         "y": 0
       },
       {
         "x": "Drone",
         "y": 0
-      },
-      {
-        "x": "Wheel-Legs",
-        "y": 0
-      },
+      }
     ]
   }
 ]

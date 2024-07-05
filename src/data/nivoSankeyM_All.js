@@ -1,7 +1,7 @@
 export const SankeyData = {
   "nodes": [
     {
-      "id": "[41]",
+      "id": "[3]",
       "nodeColor": "#000000"
     },
     {
@@ -33,7 +33,7 @@ export const SankeyData = {
       "nodeColor": "#4477b2"
     },
     {
-      "id": "[11]",
+      "id": "[46]",
       "nodeColor": "#000000"
     },
     {
@@ -41,7 +41,15 @@ export const SankeyData = {
       "nodeColor": "#b24844"
     },
     {
-      "id": "[45]",
+      "id": "[14]",
+      "nodeColor": "#000000"
+    },
+    {
+      "id": "F - Transition Horizontal to Horizontal Parallel",
+      "nodeColor": "#4477b2"
+    },
+    {
+      "id": "[7]",
       "nodeColor": "#000000"
     },
     {
@@ -53,11 +61,7 @@ export const SankeyData = {
       "nodeColor": "#b24844"
     },
     {
-      "id": "F - Transition Horizontal to Horizontal Parallel",
-      "nodeColor": "#4477b2"
-    },
-    {
-      "id": "[18]",
+      "id": "[16]",
       "nodeColor": "#000000"
     },
     {
@@ -65,7 +69,7 @@ export const SankeyData = {
       "nodeColor": "#2a695e"
     },
     {
-      "id": "[13]",
+      "id": "[17]",
       "nodeColor": "#000000"
     },
     {
@@ -77,23 +81,7 @@ export const SankeyData = {
       "nodeColor": "#b24844"
     },
     {
-      "id": "[19]",
-      "nodeColor": "#000000"
-    },
-    {
-      "id": "dialectric-elastomer",
-      "nodeColor": "#2a695e"
-    },
-    {
-      "id": "Electroadhesive",
-      "nodeColor": "#b24844"
-    },
-    {
-      "id": "M - Up/ Down Walls",
-      "nodeColor": "#4477b2"
-    },
-    {
-      "id": "[34]",
+      "id": "[27]",
       "nodeColor": "#000000"
     },
     {
@@ -101,19 +89,19 @@ export const SankeyData = {
       "nodeColor": "#4477b2"
     },
     {
-      "id": "[33]",
+      "id": "[26]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[20]",
+      "id": "[35]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[9]",
+      "id": "[36]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[16]",
+      "id": "[6]",
       "nodeColor": "#000000"
     },
     {
@@ -125,7 +113,11 @@ export const SankeyData = {
       "nodeColor": "#b24844"
     },
     {
-      "id": "[52]",
+      "id": "M - Up/ Down Walls",
+      "nodeColor": "#4477b2"
+    },
+    {
+      "id": "[45]",
       "nodeColor": "#000000"
     },
     {
@@ -133,31 +125,31 @@ export const SankeyData = {
       "nodeColor": "#2a695e"
     },
     {
-      "id": "[43]",
+      "id": "[38]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[61]",
+      "id": "[59]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[35]",
+      "id": "[28]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[44]",
+      "id": "[39]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[62]",
+      "id": "[60]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[36]",
+      "id": "[30]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[8]",
+      "id": "[40]",
       "nodeColor": "#000000"
     },
     {
@@ -169,7 +161,7 @@ export const SankeyData = {
       "nodeColor": "#4477b2"
     },
     {
-      "id": "[42]",
+      "id": "[37]",
       "nodeColor": "#000000"
     },
     {
@@ -181,15 +173,15 @@ export const SankeyData = {
       "nodeColor": "#4477b2"
     },
     {
-      "id": "[21]",
+      "id": "[9]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[22]",
+      "id": "[12]",
       "nodeColor": "#000000"
     },
     {
-      "id": "Jet Propulsion",
+      "id": "Pneumatic Propulsion",
       "nodeColor": "#2a695e"
     },
     {
@@ -197,7 +189,7 @@ export const SankeyData = {
       "nodeColor": "#b24844"
     },
     {
-      "id": "[29]",
+      "id": "[20]",
       "nodeColor": "#000000"
     },
     {
@@ -209,51 +201,15 @@ export const SankeyData = {
       "nodeColor": "#b24844"
     },
     {
-      "id": "[32]",
+      "id": "[25]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[30]",
+      "id": "[21]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[53]",
-      "nodeColor": "#000000"
-    },
-    {
-      "id": "[6]",
-      "nodeColor": "#000000"
-    },
-    {
-      "id": "[54]",
-      "nodeColor": "#000000"
-    },
-    {
-      "id": "[7]",
-      "nodeColor": "#000000"
-    },
-    {
-      "id": "[56]",
-      "nodeColor": "#000000"
-    },
-    {
-      "id": "[23]",
-      "nodeColor": "#000000"
-    },
-    {
-      "id": "[57]",
-      "nodeColor": "#000000"
-    },
-    {
-      "id": "Tracked",
-      "nodeColor": "#2a695e"
-    },
-    {
-      "id": "[63]",
-      "nodeColor": "#000000"
-    },
-    {
-      "id": "[26]",
+      "id": "[5]",
       "nodeColor": "#000000"
     },
     {
@@ -261,15 +217,55 @@ export const SankeyData = {
       "nodeColor": "#000000"
     },
     {
-      "id": "[46]",
+      "id": "[48]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[58]",
+      "id": "Electroadhesive",
+      "nodeColor": "#b24844"
+    },
+    {
+      "id": "[52]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[14]",
+      "id": "[53]",
+      "nodeColor": "#000000"
+    },
+    {
+      "id": "[54]",
+      "nodeColor": "#000000"
+    },
+    {
+      "id": "[55]",
+      "nodeColor": "#000000"
+    },
+    {
+      "id": "Tracked",
+      "nodeColor": "#2a695e"
+    },
+    {
+      "id": "[61]",
+      "nodeColor": "#000000"
+    },
+    {
+      "id": "[49]",
+      "nodeColor": "#000000"
+    },
+    {
+      "id": "[11]",
+      "nodeColor": "#000000"
+    },
+    {
+      "id": "[50]",
+      "nodeColor": "#000000"
+    },
+    {
+      "id": "[56]",
+      "nodeColor": "#000000"
+    },
+    {
+      "id": "[24]",
       "nodeColor": "#000000"
     },
     {
@@ -277,15 +273,7 @@ export const SankeyData = {
       "nodeColor": "#b24844"
     },
     {
-      "id": "[31]",
-      "nodeColor": "#000000"
-    },
-    {
-      "id": "Snake",
-      "nodeColor": "#2a695e"
-    },
-    {
-      "id": "[25]",
+      "id": "[15]",
       "nodeColor": "#000000"
     },
     {
@@ -293,11 +281,15 @@ export const SankeyData = {
       "nodeColor": "#2a695e"
     },
     {
-      "id": "[28]",
+      "id": "[19]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[37]",
+      "id": "[13]",
+      "nodeColor": "#000000"
+    },
+    {
+      "id": "[31]",
       "nodeColor": "#000000"
     },
     {
@@ -309,15 +301,23 @@ export const SankeyData = {
       "nodeColor": "#4477b2"
     },
     {
-      "id": "[59]",
+      "id": "[62]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[51]",
+      "id": "[44]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[40]",
+      "id": "[34]",
+      "nodeColor": "#000000"
+    },
+    {
+      "id": "[63]",
+      "nodeColor": "#000000"
+    },
+    {
+      "id": "[29]",
       "nodeColor": "#000000"
     },
     {
@@ -325,35 +325,43 @@ export const SankeyData = {
       "nodeColor": "#000000"
     },
     {
-      "id": "[24]",
+      "id": "[32]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[65]",
+      "id": "[41]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[38]",
+      "id": "[42]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[15]",
+      "id": "[57]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[48]",
+      "id": "[43]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[60]",
+      "id": "[33]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[49]",
+      "id": "[22]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[39]",
+      "id": "[51]",
+      "nodeColor": "#000000"
+    },
+    {
+      "id": "[8]",
+      "nodeColor": "#000000"
+    },
+    {
+      "id": "[58]",
       "nodeColor": "#000000"
     },
     {
@@ -361,19 +369,7 @@ export const SankeyData = {
       "nodeColor": "#000000"
     },
     {
-      "id": "[55]",
-      "nodeColor": "#000000"
-    },
-    {
-      "id": "[50]",
-      "nodeColor": "#000000"
-    },
-    {
-      "id": "[12]",
-      "nodeColor": "#000000"
-    },
-    {
-      "id": "[5]",
+      "id": "[23]",
       "nodeColor": "#000000"
     },
     {
@@ -385,13 +381,13 @@ export const SankeyData = {
       "nodeColor": "#b24844"
     },
     {
-      "id": "[27]",
+      "id": "[4]",
       "nodeColor": "#000000"
     }
   ],
   "links": [
     {
-      "source": "[41]",
+      "source": "[3]",
       "target": "Helical Friction",
       "value": 1,
       "id": "1-0",
@@ -490,7 +486,7 @@ export const SankeyData = {
       "endColor": "rgba(255,0,0,0.8)"
     },
     {
-      "source": "[11]",
+      "source": "[46]",
       "target": "None",
       "value": 1,
       "id": "2-0",
@@ -508,133 +504,133 @@ export const SankeyData = {
       "endColor": "rgba(255,25,0,0.8)"
     },
     {
-      "source": "[45]",
-      "target": "Grippers",
+      "source": "[14]",
+      "target": "None",
       "value": 1,
       "id": "3-0",
-      "name": "Design, modeling, and manufacturing of a novel robust gripper-based climbing robot: KharazmBot",
+      "name": "Ladder Climbing with a Snake Robot",
       "startColor": "rgba(255,50,0,0.8)",
       "endColor": "rgba(255,50,0,0.8)"
+    },
+    {
+      "source": "None",
+      "target": "BioInspired - Snake",
+      "value": 1,
+      "id": "3-1",
+      "name": "Ladder Climbing with a Snake Robot",
+      "startColor": "rgba(255,50,0,0.8)",
+      "endColor": "rgba(255,50,0,0.8)"
+    },
+    {
+      "source": "BioInspired - Snake",
+      "target": "F - Transition Horizontal to Horizontal Parallel",
+      "value": 1,
+      "id": "3-3",
+      "name": "Ladder Climbing with a Snake Robot",
+      "startColor": "rgba(255,50,0,0.8)",
+      "endColor": "rgba(255,50,0,0.8)"
+    },
+    {
+      "source": "[7]",
+      "target": "Grippers",
+      "value": 1,
+      "id": "4-0",
+      "name": "Design, modeling, and manufacturing of a novel robust gripper-based climbing robot: KharazmBot",
+      "startColor": "rgba(255,75,0,0.8)",
+      "endColor": "rgba(255,75,0,0.8)"
     },
     {
       "source": "Grippers",
       "target": "Brachiating",
       "value": 1,
-      "id": "3-1",
+      "id": "4-1",
       "name": "Design, modeling, and manufacturing of a novel robust gripper-based climbing robot: KharazmBot",
-      "startColor": "rgba(255,50,0,0.8)",
-      "endColor": "rgba(255,50,0,0.8)"
+      "startColor": "rgba(255,75,0,0.8)",
+      "endColor": "rgba(255,75,0,0.8)"
     },
     {
       "source": "Brachiating",
       "target": "F - Transition Horizontal to Horizontal Parallel",
       "value": 1,
-      "id": "3-3",
+      "id": "4-3",
       "name": "Design, modeling, and manufacturing of a novel robust gripper-based climbing robot: KharazmBot",
-      "startColor": "rgba(255,50,0,0.8)",
-      "endColor": "rgba(255,50,0,0.8)"
-    },
-    {
-      "source": "[18]",
-      "target": "None",
-      "value": 1,
-      "id": "4-0",
-      "name": "A bio-inspired continuum robot for out-pipe climbing and confined space navigating",
       "startColor": "rgba(255,75,0,0.8)",
       "endColor": "rgba(255,75,0,0.8)"
+    },
+    {
+      "source": "[16]",
+      "target": "None",
+      "value": 1,
+      "id": "5-0",
+      "name": "A bio-inspired continuum robot for out-pipe climbing and confined space navigating",
+      "startColor": "rgba(255,100,0,0.8)",
+      "endColor": "rgba(255,100,0,0.8)"
     },
     {
       "source": "None",
       "target": "Continuum",
       "value": 1,
-      "id": "4-1",
+      "id": "5-1",
       "name": "A bio-inspired continuum robot for out-pipe climbing and confined space navigating",
-      "startColor": "rgba(255,75,0,0.8)",
-      "endColor": "rgba(255,75,0,0.8)"
-    },
-    {
-      "source": "[13]",
-      "target": "Sliding Frame",
-      "value": 1,
-      "id": "5-0",
-      "name": "Development of a Novel Modular Robot for Vertical Pipeline Climbing\n                    ",
       "startColor": "rgba(255,100,0,0.8)",
       "endColor": "rgba(255,100,0,0.8)"
+    },
+    {
+      "source": "[17]",
+      "target": "Sliding Frame",
+      "value": 1,
+      "id": "6-0",
+      "name": "Development of a Novel Modular Robot for Vertical Pipeline Climbing\n                    ",
+      "startColor": "rgba(255,125,0,0.8)",
+      "endColor": "rgba(255,125,0,0.8)"
     },
     {
       "source": "Sliding Frame",
       "target": "Drone",
       "value": 1,
-      "id": "5-1",
+      "id": "6-1",
       "name": "Development of a Novel Modular Robot for Vertical Pipeline Climbing\n                    ",
-      "startColor": "rgba(255,100,0,0.8)",
-      "endColor": "rgba(255,100,0,0.8)"
+      "startColor": "rgba(255,125,0,0.8)",
+      "endColor": "rgba(255,125,0,0.8)"
     },
     {
       "source": "Drone",
       "target": "A - Along Horizontal Pipe",
       "value": 1,
-      "id": "5-3",
+      "id": "6-3",
       "name": "Development of a Novel Modular Robot for Vertical Pipeline Climbing\n                    ",
-      "startColor": "rgba(255,100,0,0.8)",
-      "endColor": "rgba(255,100,0,0.8)"
+      "startColor": "rgba(255,125,0,0.8)",
+      "endColor": "rgba(255,125,0,0.8)"
     },
     {
       "source": "Drone",
       "target": "B - Up Vertical Pipe",
       "value": 1,
-      "id": "5-3",
+      "id": "6-3",
       "name": "Development of a Novel Modular Robot for Vertical Pipeline Climbing\n                    ",
-      "startColor": "rgba(255,100,0,0.8)",
-      "endColor": "rgba(255,100,0,0.8)"
+      "startColor": "rgba(255,125,0,0.8)",
+      "endColor": "rgba(255,125,0,0.8)"
     },
     {
       "source": "Drone",
       "target": "C - Down Vertical Pipe",
       "value": 1,
-      "id": "5-3",
+      "id": "6-3",
       "name": "Development of a Novel Modular Robot for Vertical Pipeline Climbing\n                    ",
-      "startColor": "rgba(255,100,0,0.8)",
-      "endColor": "rgba(255,100,0,0.8)"
+      "startColor": "rgba(255,125,0,0.8)",
+      "endColor": "rgba(255,125,0,0.8)"
     },
     {
       "source": "Drone",
       "target": "L - Diameter Change",
       "value": 1,
-      "id": "5-3",
-      "name": "Development of a Novel Modular Robot for Vertical Pipeline Climbing\n                    ",
-      "startColor": "rgba(255,100,0,0.8)",
-      "endColor": "rgba(255,100,0,0.8)"
-    },
-    {
-      "source": "[19]",
-      "target": "Electroadhesive",
-      "value": 1,
-      "id": "6-0",
-      "name": "Soft wall-climbing robots",
-      "startColor": "rgba(255,125,0,0.8)",
-      "endColor": "rgba(255,125,0,0.8)"
-    },
-    {
-      "source": "Electroadhesive",
-      "target": "dialectric-elastomer",
-      "value": 1,
-      "id": "6-1",
-      "name": "Soft wall-climbing robots",
-      "startColor": "rgba(255,125,0,0.8)",
-      "endColor": "rgba(255,125,0,0.8)"
-    },
-    {
-      "source": "dialectric-elastomer",
-      "target": "M - Up/ Down Walls",
-      "value": 1,
       "id": "6-3",
-      "name": "Soft wall-climbing robots",
+      "name": "Development of a Novel Modular Robot for Vertical Pipeline Climbing\n                    ",
       "startColor": "rgba(255,125,0,0.8)",
       "endColor": "rgba(255,125,0,0.8)"
     },
     {
-      "source": "[34]",
+      "source": "[27]",
       "target": "Helical Friction",
       "value": 1,
       "id": "7-0",
@@ -670,7 +666,7 @@ export const SankeyData = {
       "endColor": "rgba(255,150,0,0.8)"
     },
     {
-      "source": "[33]",
+      "source": "[26]",
       "target": "Helical Friction",
       "value": 1,
       "id": "8-0",
@@ -697,7 +693,7 @@ export const SankeyData = {
       "endColor": "rgba(255,176,0,0.8)"
     },
     {
-      "source": "[20]",
+      "source": "[35]",
       "target": "Helical Friction",
       "value": 1,
       "id": "9-0",
@@ -751,7 +747,7 @@ export const SankeyData = {
       "endColor": "rgba(255,201,0,0.8)"
     },
     {
-      "source": "[9]",
+      "source": "[36]",
       "target": "Helical Friction",
       "value": 1,
       "id": "10-0",
@@ -805,7 +801,7 @@ export const SankeyData = {
       "endColor": "rgba(255,226,0,0.8)"
     },
     {
-      "source": "[16]",
+      "source": "[6]",
       "target": "Pneumatic",
       "value": 1,
       "id": "11-0",
@@ -832,7 +828,7 @@ export const SankeyData = {
       "endColor": "rgba(255,251,0,0.8)"
     },
     {
-      "source": "[52]",
+      "source": "[45]",
       "target": "Grippers",
       "value": 1,
       "id": "12-0",
@@ -868,7 +864,7 @@ export const SankeyData = {
       "endColor": "rgba(234,255,0,0.8)"
     },
     {
-      "source": "[43]",
+      "source": "[38]",
       "target": "Grippers",
       "value": 1,
       "id": "13-0",
@@ -922,7 +918,7 @@ export const SankeyData = {
       "endColor": "rgba(209,255,0,0.8)"
     },
     {
-      "source": "[61]",
+      "source": "[59]",
       "target": "Grippers",
       "value": 1,
       "id": "14-0",
@@ -958,7 +954,7 @@ export const SankeyData = {
       "endColor": "rgba(184,255,0,0.8)"
     },
     {
-      "source": "[35]",
+      "source": "[28]",
       "target": "Grippers",
       "value": 1,
       "id": "15-0",
@@ -985,7 +981,7 @@ export const SankeyData = {
       "endColor": "rgba(159,255,0,0.8)"
     },
     {
-      "source": "[44]",
+      "source": "[39]",
       "target": "Grippers",
       "value": 1,
       "id": "16-0",
@@ -1039,7 +1035,7 @@ export const SankeyData = {
       "endColor": "rgba(134,255,0,0.8)"
     },
     {
-      "source": "[62]",
+      "source": "[60]",
       "target": "Grippers",
       "value": 1,
       "id": "17-0",
@@ -1075,7 +1071,7 @@ export const SankeyData = {
       "endColor": "rgba(109,255,0,0.8)"
     },
     {
-      "source": "[36]",
+      "source": "[30]",
       "target": "Grippers",
       "value": 1,
       "id": "18-0",
@@ -1111,7 +1107,7 @@ export const SankeyData = {
       "endColor": "rgba(84,255,0,0.8)"
     },
     {
-      "source": "[8]",
+      "source": "[40]",
       "target": "Grippers",
       "value": 1,
       "id": "19-0",
@@ -1264,7 +1260,7 @@ export const SankeyData = {
       "endColor": "rgba(59,255,0,0.8)"
     },
     {
-      "source": "[42]",
+      "source": "[37]",
       "target": "Magnetic",
       "value": 1,
       "id": "20-0",
@@ -1363,7 +1359,7 @@ export const SankeyData = {
       "endColor": "rgba(33,255,0,0.8)"
     },
     {
-      "source": "[21]",
+      "source": "[9]",
       "target": "Magnetic",
       "value": 1,
       "id": "21-0",
@@ -1426,7 +1422,7 @@ export const SankeyData = {
       "endColor": "rgba(8,255,0,0.8)"
     },
     {
-      "source": "[22]",
+      "source": "[12]",
       "target": "Friction",
       "value": 1,
       "id": "22-0",
@@ -1436,7 +1432,7 @@ export const SankeyData = {
     },
     {
       "source": "Friction",
-      "target": "Jet Propulsion",
+      "target": "Pneumatic Propulsion",
       "value": 1,
       "id": "22-1",
       "name": "A Soft-Rigid Air-Propelled Pipe-Climbing Robot",
@@ -1444,7 +1440,7 @@ export const SankeyData = {
       "endColor": "rgba(0,255,17,0.8)"
     },
     {
-      "source": "Jet Propulsion",
+      "source": "Pneumatic Propulsion",
       "target": "A - Along Horizontal Pipe",
       "value": 1,
       "id": "22-3",
@@ -1453,7 +1449,7 @@ export const SankeyData = {
       "endColor": "rgba(0,255,17,0.8)"
     },
     {
-      "source": "Jet Propulsion",
+      "source": "Pneumatic Propulsion",
       "target": "L - Diameter Change",
       "value": 1,
       "id": "22-3",
@@ -1462,7 +1458,7 @@ export const SankeyData = {
       "endColor": "rgba(0,255,17,0.8)"
     },
     {
-      "source": "Jet Propulsion",
+      "source": "Pneumatic Propulsion",
       "target": "B - Up Vertical Pipe",
       "value": 1,
       "id": "22-3",
@@ -1471,7 +1467,7 @@ export const SankeyData = {
       "endColor": "rgba(0,255,17,0.8)"
     },
     {
-      "source": "Jet Propulsion",
+      "source": "Pneumatic Propulsion",
       "target": "C - Down Vertical Pipe",
       "value": 1,
       "id": "22-3",
@@ -1480,7 +1476,7 @@ export const SankeyData = {
       "endColor": "rgba(0,255,17,0.8)"
     },
     {
-      "source": "[29]",
+      "source": "[20]",
       "target": "Claws/Spines",
       "value": 1,
       "id": "23-0",
@@ -1516,7 +1512,7 @@ export const SankeyData = {
       "endColor": "rgba(0,255,42,0.8)"
     },
     {
-      "source": "[32]",
+      "source": "[25]",
       "target": "Claws/Spines",
       "value": 1,
       "id": "24-0",
@@ -1552,7 +1548,7 @@ export const SankeyData = {
       "endColor": "rgba(0,255,67,0.8)"
     },
     {
-      "source": "[30]",
+      "source": "[21]",
       "target": "Claws/Spines",
       "value": 1,
       "id": "25-0",
@@ -1588,7 +1584,7 @@ export const SankeyData = {
       "endColor": "rgba(0,255,92,0.8)"
     },
     {
-      "source": "[53]",
+      "source": "[5]",
       "target": "Claws/Spines",
       "value": 1,
       "id": "26-0",
@@ -1615,7 +1611,7 @@ export const SankeyData = {
       "endColor": "rgba(0,255,117,0.8)"
     },
     {
-      "source": "[6]",
+      "source": "[47]",
       "target": "Claws/Spines",
       "value": 1,
       "id": "27-0",
@@ -1651,7 +1647,7 @@ export const SankeyData = {
       "endColor": "rgba(0,255,142,0.8)"
     },
     {
-      "source": "[54]",
+      "source": "[48]",
       "target": "Electroadhesive",
       "value": 1,
       "id": "28-0",
@@ -1687,7 +1683,7 @@ export const SankeyData = {
       "endColor": "rgba(0,255,167,0.8)"
     },
     {
-      "source": "[7]",
+      "source": "[52]",
       "target": "Electroadhesive",
       "value": 1,
       "id": "29-0",
@@ -1714,7 +1710,7 @@ export const SankeyData = {
       "endColor": "rgba(0,255,192,0.8)"
     },
     {
-      "source": "[56]",
+      "source": "[53]",
       "target": "Electroadhesive",
       "value": 1,
       "id": "30-0",
@@ -1741,7 +1737,7 @@ export const SankeyData = {
       "endColor": "rgba(0,255,217,0.8)"
     },
     {
-      "source": "[23]",
+      "source": "[54]",
       "target": "Pneumatic",
       "value": 1,
       "id": "31-0",
@@ -1777,7 +1773,7 @@ export const SankeyData = {
       "endColor": "rgba(0,255,242,0.8)"
     },
     {
-      "source": "[57]",
+      "source": "[55]",
       "target": "Magnetic",
       "value": 1,
       "id": "32-0",
@@ -1813,7 +1809,7 @@ export const SankeyData = {
       "endColor": "rgba(0,242,255,0.8)"
     },
     {
-      "source": "[63]",
+      "source": "[61]",
       "target": "Magnetic",
       "value": 1,
       "id": "33-0",
@@ -1849,7 +1845,7 @@ export const SankeyData = {
       "endColor": "rgba(0,217,255,0.8)"
     },
     {
-      "source": "[26]",
+      "source": "[49]",
       "target": "Magnetic",
       "value": 1,
       "id": "34-0",
@@ -1921,7 +1917,7 @@ export const SankeyData = {
       "endColor": "rgba(0,192,255,0.8)"
     },
     {
-      "source": "[47]",
+      "source": "[11]",
       "target": "Magnetic",
       "value": 1,
       "id": "35-0",
@@ -1948,7 +1944,7 @@ export const SankeyData = {
       "endColor": "rgba(0,167,255,0.8)"
     },
     {
-      "source": "[46]",
+      "source": "[50]",
       "target": "Pneumatic",
       "value": 1,
       "id": "36-0",
@@ -1984,7 +1980,7 @@ export const SankeyData = {
       "endColor": "rgba(0,142,255,0.8)"
     },
     {
-      "source": "[58]",
+      "source": "[56]",
       "target": "Pneumatic",
       "value": 1,
       "id": "37-0",
@@ -2020,7 +2016,7 @@ export const SankeyData = {
       "endColor": "rgba(0,117,255,0.8)"
     },
     {
-      "source": "[14]",
+      "source": "[24]",
       "target": "Tension Straps",
       "value": 1,
       "id": "38-0",
@@ -2030,24 +2026,6 @@ export const SankeyData = {
     },
     {
       "source": "Tension Straps",
-      "target": "Tracked",
-      "value": 1,
-      "id": "38-1",
-      "name": "\nDesign of a Multi-Robot System for Wind Turbine Maintenance ",
-      "startColor": "rgba(0,92,255,0.8)",
-      "endColor": "rgba(0,92,255,0.8)"
-    },
-    {
-      "source": "[14]",
-      "target": "Friction",
-      "value": 1,
-      "id": "38-0",
-      "name": "\nDesign of a Multi-Robot System for Wind Turbine Maintenance ",
-      "startColor": "rgba(0,92,255,0.8)",
-      "endColor": "rgba(0,92,255,0.8)"
-    },
-    {
-      "source": "Friction",
       "target": "Tracked",
       "value": 1,
       "id": "38-1",
@@ -2074,34 +2052,34 @@ export const SankeyData = {
       "endColor": "rgba(0,92,255,0.8)"
     },
     {
-      "source": "[31]",
-      "target": "None",
+      "source": "[15]",
+      "target": "Electroadhesive",
       "value": 1,
       "id": "39-0",
-      "name": "Ladder Climbing with a Snake Robot",
+      "name": "Soft wall-climbing robots",
       "startColor": "rgba(0,67,255,0.8)",
       "endColor": "rgba(0,67,255,0.8)"
     },
     {
-      "source": "None",
-      "target": "Snake",
+      "source": "Electroadhesive",
+      "target": "Soft",
       "value": 1,
       "id": "39-1",
-      "name": "Ladder Climbing with a Snake Robot",
+      "name": "Soft wall-climbing robots",
       "startColor": "rgba(0,67,255,0.8)",
       "endColor": "rgba(0,67,255,0.8)"
     },
     {
-      "source": "Snake",
-      "target": "F - Transition Horizontal to Horizontal Parallel",
+      "source": "Soft",
+      "target": "M - Up/ Down Walls",
       "value": 1,
       "id": "39-3",
-      "name": "Ladder Climbing with a Snake Robot",
+      "name": "Soft wall-climbing robots",
       "startColor": "rgba(0,67,255,0.8)",
       "endColor": "rgba(0,67,255,0.8)"
     },
     {
-      "source": "[25]",
+      "source": "[19]",
       "target": "Friction",
       "value": 1,
       "id": "40-0",
@@ -2137,7 +2115,7 @@ export const SankeyData = {
       "endColor": "rgba(0,42,255,0.8)"
     },
     {
-      "source": "[28]",
+      "source": "[13]",
       "target": "Friction",
       "value": 1,
       "id": "41-0",
@@ -2147,24 +2125,6 @@ export const SankeyData = {
     },
     {
       "source": "Friction",
-      "target": "Soft",
-      "value": 1,
-      "id": "41-1",
-      "name": "Out-Pipe Climbing Soft Robot with Omnidirectional Actuator",
-      "startColor": "rgba(0,17,255,0.8)",
-      "endColor": "rgba(0,17,255,0.8)"
-    },
-    {
-      "source": "[28]",
-      "target": "Pneumatic",
-      "value": 1,
-      "id": "41-0",
-      "name": "Out-Pipe Climbing Soft Robot with Omnidirectional Actuator",
-      "startColor": "rgba(0,17,255,0.8)",
-      "endColor": "rgba(0,17,255,0.8)"
-    },
-    {
-      "source": "Pneumatic",
       "target": "Soft",
       "value": 1,
       "id": "41-1",
@@ -2191,7 +2151,7 @@ export const SankeyData = {
       "endColor": "rgba(0,17,255,0.8)"
     },
     {
-      "source": "[37]",
+      "source": "[31]",
       "target": "Friction",
       "value": 1,
       "id": "42-0",
@@ -2245,11 +2205,11 @@ export const SankeyData = {
       "endColor": "rgba(8,0,255,0.8)"
     },
     {
-      "source": "[31]",
+      "source": "[62]",
       "target": "Friction",
       "value": 1,
       "id": "43-0",
-      "name": "Climbing ring robot for inspection of offshore wind turbines",
+      "name": "Design of the out-pipe type pipe climbing robot",
       "startColor": "rgba(33,0,255,0.8)",
       "endColor": "rgba(33,0,255,0.8)"
     },
@@ -2258,25 +2218,16 @@ export const SankeyData = {
       "target": "Wheeled",
       "value": 1,
       "id": "43-1",
-      "name": "Climbing ring robot for inspection of offshore wind turbines",
+      "name": "Design of the out-pipe type pipe climbing robot",
       "startColor": "rgba(33,0,255,0.8)",
       "endColor": "rgba(33,0,255,0.8)"
     },
     {
-      "source": "[31]",
-      "target": "Sliding Frame",
+      "source": "Wheeled",
+      "target": "A - Along Horizontal Pipe",
       "value": 1,
-      "id": "43-0",
-      "name": "Climbing ring robot for inspection of offshore wind turbines",
-      "startColor": "rgba(33,0,255,0.8)",
-      "endColor": "rgba(33,0,255,0.8)"
-    },
-    {
-      "source": "Sliding Frame",
-      "target": "Wheeled",
-      "value": 1,
-      "id": "43-1",
-      "name": "Climbing ring robot for inspection of offshore wind turbines",
+      "id": "43-3",
+      "name": "Design of the out-pipe type pipe climbing robot",
       "startColor": "rgba(33,0,255,0.8)",
       "endColor": "rgba(33,0,255,0.8)"
     },
@@ -2285,7 +2236,7 @@ export const SankeyData = {
       "target": "B - Up Vertical Pipe",
       "value": 1,
       "id": "43-3",
-      "name": "Climbing ring robot for inspection of offshore wind turbines",
+      "name": "Design of the out-pipe type pipe climbing robot",
       "startColor": "rgba(33,0,255,0.8)",
       "endColor": "rgba(33,0,255,0.8)"
     },
@@ -2294,16 +2245,7 @@ export const SankeyData = {
       "target": "C - Down Vertical Pipe",
       "value": 1,
       "id": "43-3",
-      "name": "Climbing ring robot for inspection of offshore wind turbines",
-      "startColor": "rgba(33,0,255,0.8)",
-      "endColor": "rgba(33,0,255,0.8)"
-    },
-    {
-      "source": "Wheeled",
-      "target": "D - Radially Around Pipe",
-      "value": 1,
-      "id": "43-3",
-      "name": "Climbing ring robot for inspection of offshore wind turbines",
+      "name": "Design of the out-pipe type pipe climbing robot",
       "startColor": "rgba(33,0,255,0.8)",
       "endColor": "rgba(33,0,255,0.8)"
     },
@@ -2312,25 +2254,25 @@ export const SankeyData = {
       "target": "L - Diameter Change",
       "value": 1,
       "id": "43-3",
-      "name": "Climbing ring robot for inspection of offshore wind turbines",
+      "name": "Design of the out-pipe type pipe climbing robot",
       "startColor": "rgba(33,0,255,0.8)",
       "endColor": "rgba(33,0,255,0.8)"
     },
     {
-      "source": "[59]",
-      "target": "Friction",
+      "source": "[44]",
+      "target": "Grippers",
       "value": 1,
       "id": "44-0",
-      "name": "Design of the out-pipe type pipe climbing robot",
+      "name": "Design and Development of a Pipe Climbing Mechanism",
       "startColor": "rgba(59,0,255,0.8)",
       "endColor": "rgba(59,0,255,0.8)"
     },
     {
-      "source": "Friction",
+      "source": "Grippers",
       "target": "Wheeled",
       "value": 1,
       "id": "44-1",
-      "name": "Design of the out-pipe type pipe climbing robot",
+      "name": "Design and Development of a Pipe Climbing Mechanism",
       "startColor": "rgba(59,0,255,0.8)",
       "endColor": "rgba(59,0,255,0.8)"
     },
@@ -2339,7 +2281,7 @@ export const SankeyData = {
       "target": "A - Along Horizontal Pipe",
       "value": 1,
       "id": "44-3",
-      "name": "Design of the out-pipe type pipe climbing robot",
+      "name": "Design and Development of a Pipe Climbing Mechanism",
       "startColor": "rgba(59,0,255,0.8)",
       "endColor": "rgba(59,0,255,0.8)"
     },
@@ -2348,7 +2290,7 @@ export const SankeyData = {
       "target": "B - Up Vertical Pipe",
       "value": 1,
       "id": "44-3",
-      "name": "Design of the out-pipe type pipe climbing robot",
+      "name": "Design and Development of a Pipe Climbing Mechanism",
       "startColor": "rgba(59,0,255,0.8)",
       "endColor": "rgba(59,0,255,0.8)"
     },
@@ -2357,25 +2299,16 @@ export const SankeyData = {
       "target": "C - Down Vertical Pipe",
       "value": 1,
       "id": "44-3",
-      "name": "Design of the out-pipe type pipe climbing robot",
+      "name": "Design and Development of a Pipe Climbing Mechanism",
       "startColor": "rgba(59,0,255,0.8)",
       "endColor": "rgba(59,0,255,0.8)"
     },
     {
-      "source": "Wheeled",
-      "target": "L - Diameter Change",
-      "value": 1,
-      "id": "44-3",
-      "name": "Design of the out-pipe type pipe climbing robot",
-      "startColor": "rgba(59,0,255,0.8)",
-      "endColor": "rgba(59,0,255,0.8)"
-    },
-    {
-      "source": "[51]",
+      "source": "[34]",
       "target": "Grippers",
       "value": 1,
       "id": "45-0",
-      "name": "Design and Development of a Pipe Climbing Mechanism",
+      "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
       "startColor": "rgba(84,0,255,0.8)",
       "endColor": "rgba(84,0,255,0.8)"
     },
@@ -2384,70 +2317,124 @@ export const SankeyData = {
       "target": "Wheeled",
       "value": 1,
       "id": "45-1",
-      "name": "Design and Development of a Pipe Climbing Mechanism",
-      "startColor": "rgba(84,0,255,0.8)",
-      "endColor": "rgba(84,0,255,0.8)"
-    },
-    {
-      "source": "Wheeled",
-      "target": "A - Along Horizontal Pipe",
-      "value": 1,
-      "id": "45-3",
-      "name": "Design and Development of a Pipe Climbing Mechanism",
-      "startColor": "rgba(84,0,255,0.8)",
-      "endColor": "rgba(84,0,255,0.8)"
-    },
-    {
-      "source": "Wheeled",
-      "target": "B - Up Vertical Pipe",
-      "value": 1,
-      "id": "45-3",
-      "name": "Design and Development of a Pipe Climbing Mechanism",
-      "startColor": "rgba(84,0,255,0.8)",
-      "endColor": "rgba(84,0,255,0.8)"
-    },
-    {
-      "source": "Wheeled",
-      "target": "C - Down Vertical Pipe",
-      "value": 1,
-      "id": "45-3",
-      "name": "Design and Development of a Pipe Climbing Mechanism",
-      "startColor": "rgba(84,0,255,0.8)",
-      "endColor": "rgba(84,0,255,0.8)"
-    },
-    {
-      "source": "[40]",
-      "target": "Grippers",
-      "value": 1,
-      "id": "46-0",
       "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
-      "startColor": "rgba(109,0,255,0.8)",
-      "endColor": "rgba(109,0,255,0.8)"
-    },
-    {
-      "source": "Grippers",
-      "target": "Wheeled",
-      "value": 1,
-      "id": "46-1",
-      "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
-      "startColor": "rgba(109,0,255,0.8)",
-      "endColor": "rgba(109,0,255,0.8)"
+      "startColor": "rgba(84,0,255,0.8)",
+      "endColor": "rgba(84,0,255,0.8)"
     },
     {
       "source": "Grippers",
       "target": "Inchworm",
       "value": 1,
+      "id": "45-1",
+      "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
+      "startColor": "rgba(84,0,255,0.8)",
+      "endColor": "rgba(84,0,255,0.8)"
+    },
+    {
+      "source": "Wheeled",
+      "target": "A - Along Horizontal Pipe",
+      "value": 1,
+      "id": "45-3",
+      "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
+      "startColor": "rgba(84,0,255,0.8)",
+      "endColor": "rgba(84,0,255,0.8)"
+    },
+    {
+      "source": "Wheeled",
+      "target": "B - Up Vertical Pipe",
+      "value": 1,
+      "id": "45-3",
+      "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
+      "startColor": "rgba(84,0,255,0.8)",
+      "endColor": "rgba(84,0,255,0.8)"
+    },
+    {
+      "source": "Wheeled",
+      "target": "C - Down Vertical Pipe",
+      "value": 1,
+      "id": "45-3",
+      "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
+      "startColor": "rgba(84,0,255,0.8)",
+      "endColor": "rgba(84,0,255,0.8)"
+    },
+    {
+      "source": "Wheeled",
+      "target": "D - Radially Around Pipe",
+      "value": 1,
+      "id": "45-3",
+      "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
+      "startColor": "rgba(84,0,255,0.8)",
+      "endColor": "rgba(84,0,255,0.8)"
+    },
+    {
+      "source": "Wheeled",
+      "target": "E - Transition Horizontal to Vertical",
+      "value": 1,
+      "id": "45-3",
+      "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
+      "startColor": "rgba(84,0,255,0.8)",
+      "endColor": "rgba(84,0,255,0.8)"
+    },
+    {
+      "source": "Inchworm",
+      "target": "A - Along Horizontal Pipe",
+      "value": 1,
+      "id": "45-3",
+      "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
+      "startColor": "rgba(84,0,255,0.8)",
+      "endColor": "rgba(84,0,255,0.8)"
+    },
+    {
+      "source": "Inchworm",
+      "target": "B - Up Vertical Pipe",
+      "value": 1,
+      "id": "45-3",
+      "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
+      "startColor": "rgba(84,0,255,0.8)",
+      "endColor": "rgba(84,0,255,0.8)"
+    },
+    {
+      "source": "Inchworm",
+      "target": "C - Down Vertical Pipe",
+      "value": 1,
+      "id": "45-3",
+      "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
+      "startColor": "rgba(84,0,255,0.8)",
+      "endColor": "rgba(84,0,255,0.8)"
+    },
+    {
+      "source": "Inchworm",
+      "target": "D - Radially Around Pipe",
+      "value": 1,
+      "id": "45-3",
+      "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
+      "startColor": "rgba(84,0,255,0.8)",
+      "endColor": "rgba(84,0,255,0.8)"
+    },
+    {
+      "source": "Inchworm",
+      "target": "E - Transition Horizontal to Vertical",
+      "value": 1,
+      "id": "45-3",
+      "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
+      "startColor": "rgba(84,0,255,0.8)",
+      "endColor": "rgba(84,0,255,0.8)"
+    },
+    {
+      "source": "[63]",
+      "target": "Magnetic",
+      "value": 1,
+      "id": "46-0",
+      "name": "Design and Development of Climbing Robot for Lightning Rod Maintenance in Substation",
+      "startColor": "rgba(109,0,255,0.8)",
+      "endColor": "rgba(109,0,255,0.8)"
+    },
+    {
+      "source": "Magnetic",
+      "target": "Wheeled",
+      "value": 1,
       "id": "46-1",
-      "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
-      "startColor": "rgba(109,0,255,0.8)",
-      "endColor": "rgba(109,0,255,0.8)"
-    },
-    {
-      "source": "Wheeled",
-      "target": "A - Along Horizontal Pipe",
-      "value": 1,
-      "id": "46-3",
-      "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
+      "name": "Design and Development of Climbing Robot for Lightning Rod Maintenance in Substation",
       "startColor": "rgba(109,0,255,0.8)",
       "endColor": "rgba(109,0,255,0.8)"
     },
@@ -2456,7 +2443,7 @@ export const SankeyData = {
       "target": "B - Up Vertical Pipe",
       "value": 1,
       "id": "46-3",
-      "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
+      "name": "Design and Development of Climbing Robot for Lightning Rod Maintenance in Substation",
       "startColor": "rgba(109,0,255,0.8)",
       "endColor": "rgba(109,0,255,0.8)"
     },
@@ -2465,79 +2452,25 @@ export const SankeyData = {
       "target": "C - Down Vertical Pipe",
       "value": 1,
       "id": "46-3",
-      "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
+      "name": "Design and Development of Climbing Robot for Lightning Rod Maintenance in Substation",
       "startColor": "rgba(109,0,255,0.8)",
       "endColor": "rgba(109,0,255,0.8)"
     },
     {
       "source": "Wheeled",
-      "target": "D - Radially Around Pipe",
+      "target": "K - Over Small Obstacles",
       "value": 1,
       "id": "46-3",
-      "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
+      "name": "Design and Development of Climbing Robot for Lightning Rod Maintenance in Substation",
       "startColor": "rgba(109,0,255,0.8)",
       "endColor": "rgba(109,0,255,0.8)"
     },
     {
-      "source": "Wheeled",
-      "target": "E - Transition Horizontal to Vertical",
-      "value": 1,
-      "id": "46-3",
-      "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
-      "startColor": "rgba(109,0,255,0.8)",
-      "endColor": "rgba(109,0,255,0.8)"
-    },
-    {
-      "source": "Inchworm",
-      "target": "A - Along Horizontal Pipe",
-      "value": 1,
-      "id": "46-3",
-      "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
-      "startColor": "rgba(109,0,255,0.8)",
-      "endColor": "rgba(109,0,255,0.8)"
-    },
-    {
-      "source": "Inchworm",
-      "target": "B - Up Vertical Pipe",
-      "value": 1,
-      "id": "46-3",
-      "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
-      "startColor": "rgba(109,0,255,0.8)",
-      "endColor": "rgba(109,0,255,0.8)"
-    },
-    {
-      "source": "Inchworm",
-      "target": "C - Down Vertical Pipe",
-      "value": 1,
-      "id": "46-3",
-      "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
-      "startColor": "rgba(109,0,255,0.8)",
-      "endColor": "rgba(109,0,255,0.8)"
-    },
-    {
-      "source": "Inchworm",
-      "target": "D - Radially Around Pipe",
-      "value": 1,
-      "id": "46-3",
-      "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
-      "startColor": "rgba(109,0,255,0.8)",
-      "endColor": "rgba(109,0,255,0.8)"
-    },
-    {
-      "source": "Inchworm",
-      "target": "E - Transition Horizontal to Vertical",
-      "value": 1,
-      "id": "46-3",
-      "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
-      "startColor": "rgba(109,0,255,0.8)",
-      "endColor": "rgba(109,0,255,0.8)"
-    },
-    {
-      "source": "[64]",
+      "source": "[29]",
       "target": "Magnetic",
       "value": 1,
       "id": "47-0",
-      "name": "Design and Development of Climbing Robot for Lightning Rod Maintenance in Substation",
+      "name": "Design and Fabrication of a Novel Autonomous Pipeline Scanning Robot",
       "startColor": "rgba(134,0,255,0.8)",
       "endColor": "rgba(134,0,255,0.8)"
     },
@@ -2546,43 +2479,43 @@ export const SankeyData = {
       "target": "Wheeled",
       "value": 1,
       "id": "47-1",
-      "name": "Design and Development of Climbing Robot for Lightning Rod Maintenance in Substation",
+      "name": "Design and Fabrication of a Novel Autonomous Pipeline Scanning Robot",
+      "startColor": "rgba(134,0,255,0.8)",
+      "endColor": "rgba(134,0,255,0.8)"
+    },
+    {
+      "source": "[29]",
+      "target": "Sliding Frame",
+      "value": 1,
+      "id": "47-0",
+      "name": "Design and Fabrication of a Novel Autonomous Pipeline Scanning Robot",
+      "startColor": "rgba(134,0,255,0.8)",
+      "endColor": "rgba(134,0,255,0.8)"
+    },
+    {
+      "source": "Sliding Frame",
+      "target": "Wheeled",
+      "value": 1,
+      "id": "47-1",
+      "name": "Design and Fabrication of a Novel Autonomous Pipeline Scanning Robot",
       "startColor": "rgba(134,0,255,0.8)",
       "endColor": "rgba(134,0,255,0.8)"
     },
     {
       "source": "Wheeled",
-      "target": "B - Up Vertical Pipe",
+      "target": "A - Along Horizontal Pipe",
       "value": 1,
       "id": "47-3",
-      "name": "Design and Development of Climbing Robot for Lightning Rod Maintenance in Substation",
+      "name": "Design and Fabrication of a Novel Autonomous Pipeline Scanning Robot",
       "startColor": "rgba(134,0,255,0.8)",
       "endColor": "rgba(134,0,255,0.8)"
     },
     {
-      "source": "Wheeled",
-      "target": "C - Down Vertical Pipe",
-      "value": 1,
-      "id": "47-3",
-      "name": "Design and Development of Climbing Robot for Lightning Rod Maintenance in Substation",
-      "startColor": "rgba(134,0,255,0.8)",
-      "endColor": "rgba(134,0,255,0.8)"
-    },
-    {
-      "source": "Wheeled",
-      "target": "K - Over Small Obstacles",
-      "value": 1,
-      "id": "47-3",
-      "name": "Design and Development of Climbing Robot for Lightning Rod Maintenance in Substation",
-      "startColor": "rgba(134,0,255,0.8)",
-      "endColor": "rgba(134,0,255,0.8)"
-    },
-    {
-      "source": "[24]",
+      "source": "[64]",
       "target": "Magnetic",
       "value": 1,
       "id": "48-0",
-      "name": "Design and Fabrication of a Novel Autonomous Pipeline Scanning Robot",
+      "name": "Development and Evaluation of Compact Robot Imitating a Hermit Crab for Inspecting the Outer Surface of Pipes",
       "startColor": "rgba(159,0,255,0.8)",
       "endColor": "rgba(159,0,255,0.8)"
     },
@@ -2591,25 +2524,7 @@ export const SankeyData = {
       "target": "Wheeled",
       "value": 1,
       "id": "48-1",
-      "name": "Design and Fabrication of a Novel Autonomous Pipeline Scanning Robot",
-      "startColor": "rgba(159,0,255,0.8)",
-      "endColor": "rgba(159,0,255,0.8)"
-    },
-    {
-      "source": "[24]",
-      "target": "Sliding Frame",
-      "value": 1,
-      "id": "48-0",
-      "name": "Design and Fabrication of a Novel Autonomous Pipeline Scanning Robot",
-      "startColor": "rgba(159,0,255,0.8)",
-      "endColor": "rgba(159,0,255,0.8)"
-    },
-    {
-      "source": "Sliding Frame",
-      "target": "Wheeled",
-      "value": 1,
-      "id": "48-1",
-      "name": "Design and Fabrication of a Novel Autonomous Pipeline Scanning Robot",
+      "name": "Development and Evaluation of Compact Robot Imitating a Hermit Crab for Inspecting the Outer Surface of Pipes",
       "startColor": "rgba(159,0,255,0.8)",
       "endColor": "rgba(159,0,255,0.8)"
     },
@@ -2618,16 +2533,34 @@ export const SankeyData = {
       "target": "A - Along Horizontal Pipe",
       "value": 1,
       "id": "48-3",
-      "name": "Design and Fabrication of a Novel Autonomous Pipeline Scanning Robot",
+      "name": "Development and Evaluation of Compact Robot Imitating a Hermit Crab for Inspecting the Outer Surface of Pipes",
       "startColor": "rgba(159,0,255,0.8)",
       "endColor": "rgba(159,0,255,0.8)"
     },
     {
-      "source": "[65]",
+      "source": "Wheeled",
+      "target": "B - Up Vertical Pipe",
+      "value": 1,
+      "id": "48-3",
+      "name": "Development and Evaluation of Compact Robot Imitating a Hermit Crab for Inspecting the Outer Surface of Pipes",
+      "startColor": "rgba(159,0,255,0.8)",
+      "endColor": "rgba(159,0,255,0.8)"
+    },
+    {
+      "source": "Wheeled",
+      "target": "C - Down Vertical Pipe",
+      "value": 1,
+      "id": "48-3",
+      "name": "Development and Evaluation of Compact Robot Imitating a Hermit Crab for Inspecting the Outer Surface of Pipes",
+      "startColor": "rgba(159,0,255,0.8)",
+      "endColor": "rgba(159,0,255,0.8)"
+    },
+    {
+      "source": "[32]",
       "target": "Magnetic",
       "value": 1,
       "id": "49-0",
-      "name": "Development and Evaluation of Compact Robot Imitating a Hermit Crab for Inspecting the Outer Surface of Pipes",
+      "name": "Design and analysis of a wall-climbing robot for passive adaptive movement on variable-curvature metal facades",
       "startColor": "rgba(184,0,255,0.8)",
       "endColor": "rgba(184,0,255,0.8)"
     },
@@ -2636,7 +2569,34 @@ export const SankeyData = {
       "target": "Wheeled",
       "value": 1,
       "id": "49-1",
-      "name": "Development and Evaluation of Compact Robot Imitating a Hermit Crab for Inspecting the Outer Surface of Pipes",
+      "name": "Design and analysis of a wall-climbing robot for passive adaptive movement on variable-curvature metal facades",
+      "startColor": "rgba(184,0,255,0.8)",
+      "endColor": "rgba(184,0,255,0.8)"
+    },
+    {
+      "source": "Wheeled",
+      "target": "D - Radially Around Pipe",
+      "value": 1,
+      "id": "49-3",
+      "name": "Design and analysis of a wall-climbing robot for passive adaptive movement on variable-curvature metal facades",
+      "startColor": "rgba(184,0,255,0.8)",
+      "endColor": "rgba(184,0,255,0.8)"
+    },
+    {
+      "source": "Wheeled",
+      "target": "M - Up/ Down Walls",
+      "value": 1,
+      "id": "49-3",
+      "name": "Design and analysis of a wall-climbing robot for passive adaptive movement on variable-curvature metal facades",
+      "startColor": "rgba(184,0,255,0.8)",
+      "endColor": "rgba(184,0,255,0.8)"
+    },
+    {
+      "source": "Wheeled",
+      "target": "N - Left/Right Walls",
+      "value": 1,
+      "id": "49-3",
+      "name": "Design and analysis of a wall-climbing robot for passive adaptive movement on variable-curvature metal facades",
       "startColor": "rgba(184,0,255,0.8)",
       "endColor": "rgba(184,0,255,0.8)"
     },
@@ -2645,16 +2605,7 @@ export const SankeyData = {
       "target": "A - Along Horizontal Pipe",
       "value": 1,
       "id": "49-3",
-      "name": "Development and Evaluation of Compact Robot Imitating a Hermit Crab for Inspecting the Outer Surface of Pipes",
-      "startColor": "rgba(184,0,255,0.8)",
-      "endColor": "rgba(184,0,255,0.8)"
-    },
-    {
-      "source": "Wheeled",
-      "target": "B - Up Vertical Pipe",
-      "value": 1,
-      "id": "49-3",
-      "name": "Development and Evaluation of Compact Robot Imitating a Hermit Crab for Inspecting the Outer Surface of Pipes",
+      "name": "Design and analysis of a wall-climbing robot for passive adaptive movement on variable-curvature metal facades",
       "startColor": "rgba(184,0,255,0.8)",
       "endColor": "rgba(184,0,255,0.8)"
     },
@@ -2663,16 +2614,25 @@ export const SankeyData = {
       "target": "C - Down Vertical Pipe",
       "value": 1,
       "id": "49-3",
-      "name": "Development and Evaluation of Compact Robot Imitating a Hermit Crab for Inspecting the Outer Surface of Pipes",
+      "name": "Design and analysis of a wall-climbing robot for passive adaptive movement on variable-curvature metal facades",
       "startColor": "rgba(184,0,255,0.8)",
       "endColor": "rgba(184,0,255,0.8)"
     },
     {
-      "source": "[38]",
+      "source": "Wheeled",
+      "target": "B - Up Vertical Pipe",
+      "value": 1,
+      "id": "49-3",
+      "name": "Design and analysis of a wall-climbing robot for passive adaptive movement on variable-curvature metal facades",
+      "startColor": "rgba(184,0,255,0.8)",
+      "endColor": "rgba(184,0,255,0.8)"
+    },
+    {
+      "source": "[41]",
       "target": "Magnetic",
       "value": 1,
       "id": "50-0",
-      "name": "Design and analysis of a wall-climbing robot for passive adaptive movement on variable-curvature metal facades",
+      "name": "\nOptimization Design and Flexible Detection Method of a Surface \nAdaptation Wall-Climbing Robot with Multisensor Integration for \nPetrochemical Tanks ",
       "startColor": "rgba(209,0,255,0.8)",
       "endColor": "rgba(209,0,255,0.8)"
     },
@@ -2681,16 +2641,7 @@ export const SankeyData = {
       "target": "Wheeled",
       "value": 1,
       "id": "50-1",
-      "name": "Design and analysis of a wall-climbing robot for passive adaptive movement on variable-curvature metal facades",
-      "startColor": "rgba(209,0,255,0.8)",
-      "endColor": "rgba(209,0,255,0.8)"
-    },
-    {
-      "source": "Wheeled",
-      "target": "D - Radially Around Pipe",
-      "value": 1,
-      "id": "50-3",
-      "name": "Design and analysis of a wall-climbing robot for passive adaptive movement on variable-curvature metal facades",
+      "name": "\nOptimization Design and Flexible Detection Method of a Surface \nAdaptation Wall-Climbing Robot with Multisensor Integration for \nPetrochemical Tanks ",
       "startColor": "rgba(209,0,255,0.8)",
       "endColor": "rgba(209,0,255,0.8)"
     },
@@ -2699,7 +2650,7 @@ export const SankeyData = {
       "target": "M - Up/ Down Walls",
       "value": 1,
       "id": "50-3",
-      "name": "Design and analysis of a wall-climbing robot for passive adaptive movement on variable-curvature metal facades",
+      "name": "\nOptimization Design and Flexible Detection Method of a Surface \nAdaptation Wall-Climbing Robot with Multisensor Integration for \nPetrochemical Tanks ",
       "startColor": "rgba(209,0,255,0.8)",
       "endColor": "rgba(209,0,255,0.8)"
     },
@@ -2708,43 +2659,16 @@ export const SankeyData = {
       "target": "N - Left/Right Walls",
       "value": 1,
       "id": "50-3",
-      "name": "Design and analysis of a wall-climbing robot for passive adaptive movement on variable-curvature metal facades",
+      "name": "\nOptimization Design and Flexible Detection Method of a Surface \nAdaptation Wall-Climbing Robot with Multisensor Integration for \nPetrochemical Tanks ",
       "startColor": "rgba(209,0,255,0.8)",
       "endColor": "rgba(209,0,255,0.8)"
     },
     {
-      "source": "Wheeled",
-      "target": "A - Along Horizontal Pipe",
-      "value": 1,
-      "id": "50-3",
-      "name": "Design and analysis of a wall-climbing robot for passive adaptive movement on variable-curvature metal facades",
-      "startColor": "rgba(209,0,255,0.8)",
-      "endColor": "rgba(209,0,255,0.8)"
-    },
-    {
-      "source": "Wheeled",
-      "target": "C - Down Vertical Pipe",
-      "value": 1,
-      "id": "50-3",
-      "name": "Design and analysis of a wall-climbing robot for passive adaptive movement on variable-curvature metal facades",
-      "startColor": "rgba(209,0,255,0.8)",
-      "endColor": "rgba(209,0,255,0.8)"
-    },
-    {
-      "source": "Wheeled",
-      "target": "B - Up Vertical Pipe",
-      "value": 1,
-      "id": "50-3",
-      "name": "Design and analysis of a wall-climbing robot for passive adaptive movement on variable-curvature metal facades",
-      "startColor": "rgba(209,0,255,0.8)",
-      "endColor": "rgba(209,0,255,0.8)"
-    },
-    {
-      "source": "[15]",
+      "source": "[42]",
       "target": "Magnetic",
       "value": 1,
       "id": "51-0",
-      "name": "\nOptimization Design and Flexible Detection Method of a Surface \nAdaptation Wall-Climbing Robot with Multisensor Integration for \nPetrochemical Tanks ",
+      "name": "An Autonomous Wall Climbing Robot for Inspection of Reinforced Concrete Structures: SIRCAUR",
       "startColor": "rgba(234,0,255,0.8)",
       "endColor": "rgba(234,0,255,0.8)"
     },
@@ -2753,16 +2677,7 @@ export const SankeyData = {
       "target": "Wheeled",
       "value": 1,
       "id": "51-1",
-      "name": "\nOptimization Design and Flexible Detection Method of a Surface \nAdaptation Wall-Climbing Robot with Multisensor Integration for \nPetrochemical Tanks ",
-      "startColor": "rgba(234,0,255,0.8)",
-      "endColor": "rgba(234,0,255,0.8)"
-    },
-    {
-      "source": "Wheeled",
-      "target": "M - Up/ Down Walls",
-      "value": 1,
-      "id": "51-3",
-      "name": "\nOptimization Design and Flexible Detection Method of a Surface \nAdaptation Wall-Climbing Robot with Multisensor Integration for \nPetrochemical Tanks ",
+      "name": "An Autonomous Wall Climbing Robot for Inspection of Reinforced Concrete Structures: SIRCAUR",
       "startColor": "rgba(234,0,255,0.8)",
       "endColor": "rgba(234,0,255,0.8)"
     },
@@ -2771,16 +2686,25 @@ export const SankeyData = {
       "target": "N - Left/Right Walls",
       "value": 1,
       "id": "51-3",
-      "name": "\nOptimization Design and Flexible Detection Method of a Surface \nAdaptation Wall-Climbing Robot with Multisensor Integration for \nPetrochemical Tanks ",
+      "name": "An Autonomous Wall Climbing Robot for Inspection of Reinforced Concrete Structures: SIRCAUR",
       "startColor": "rgba(234,0,255,0.8)",
       "endColor": "rgba(234,0,255,0.8)"
     },
     {
-      "source": "[48]",
+      "source": "Wheeled",
+      "target": "M - Up/ Down Walls",
+      "value": 1,
+      "id": "51-3",
+      "name": "An Autonomous Wall Climbing Robot for Inspection of Reinforced Concrete Structures: SIRCAUR",
+      "startColor": "rgba(234,0,255,0.8)",
+      "endColor": "rgba(234,0,255,0.8)"
+    },
+    {
+      "source": "[57]",
       "target": "Magnetic",
       "value": 1,
       "id": "52-0",
-      "name": "An Autonomous Wall Climbing Robot for Inspection of Reinforced Concrete Structures: SIRCAUR",
+      "name": "Automated robotic monitoring and inspection of steel structures and bridges",
       "startColor": "rgba(255,0,251,0.8)",
       "endColor": "rgba(255,0,251,0.8)"
     },
@@ -2789,16 +2713,7 @@ export const SankeyData = {
       "target": "Wheeled",
       "value": 1,
       "id": "52-1",
-      "name": "An Autonomous Wall Climbing Robot for Inspection of Reinforced Concrete Structures: SIRCAUR",
-      "startColor": "rgba(255,0,251,0.8)",
-      "endColor": "rgba(255,0,251,0.8)"
-    },
-    {
-      "source": "Wheeled",
-      "target": "N - Left/Right Walls",
-      "value": 1,
-      "id": "52-3",
-      "name": "An Autonomous Wall Climbing Robot for Inspection of Reinforced Concrete Structures: SIRCAUR",
+      "name": "Automated robotic monitoring and inspection of steel structures and bridges",
       "startColor": "rgba(255,0,251,0.8)",
       "endColor": "rgba(255,0,251,0.8)"
     },
@@ -2807,16 +2722,25 @@ export const SankeyData = {
       "target": "M - Up/ Down Walls",
       "value": 1,
       "id": "52-3",
-      "name": "An Autonomous Wall Climbing Robot for Inspection of Reinforced Concrete Structures: SIRCAUR",
+      "name": "Automated robotic monitoring and inspection of steel structures and bridges",
       "startColor": "rgba(255,0,251,0.8)",
       "endColor": "rgba(255,0,251,0.8)"
     },
     {
-      "source": "[60]",
+      "source": "Wheeled",
+      "target": "N - Left/Right Walls",
+      "value": 1,
+      "id": "52-3",
+      "name": "Automated robotic monitoring and inspection of steel structures and bridges",
+      "startColor": "rgba(255,0,251,0.8)",
+      "endColor": "rgba(255,0,251,0.8)"
+    },
+    {
+      "source": "[43]",
       "target": "Magnetic",
       "value": 1,
       "id": "53-0",
-      "name": "Automated robotic monitoring and inspection of steel structures and bridges",
+      "name": "Design and Optimization of Permanent Magnet Based Adhesion Module for Robots Climbing on Reinforced Concrete Surfaces",
       "startColor": "rgba(255,0,226,0.8)",
       "endColor": "rgba(255,0,226,0.8)"
     },
@@ -2825,16 +2749,7 @@ export const SankeyData = {
       "target": "Wheeled",
       "value": 1,
       "id": "53-1",
-      "name": "Automated robotic monitoring and inspection of steel structures and bridges",
-      "startColor": "rgba(255,0,226,0.8)",
-      "endColor": "rgba(255,0,226,0.8)"
-    },
-    {
-      "source": "Wheeled",
-      "target": "M - Up/ Down Walls",
-      "value": 1,
-      "id": "53-3",
-      "name": "Automated robotic monitoring and inspection of steel structures and bridges",
+      "name": "Design and Optimization of Permanent Magnet Based Adhesion Module for Robots Climbing on Reinforced Concrete Surfaces",
       "startColor": "rgba(255,0,226,0.8)",
       "endColor": "rgba(255,0,226,0.8)"
     },
@@ -2843,16 +2758,25 @@ export const SankeyData = {
       "target": "N - Left/Right Walls",
       "value": 1,
       "id": "53-3",
-      "name": "Automated robotic monitoring and inspection of steel structures and bridges",
+      "name": "Design and Optimization of Permanent Magnet Based Adhesion Module for Robots Climbing on Reinforced Concrete Surfaces",
       "startColor": "rgba(255,0,226,0.8)",
       "endColor": "rgba(255,0,226,0.8)"
     },
     {
-      "source": "[49]",
+      "source": "Wheeled",
+      "target": "M - Up/ Down Walls",
+      "value": 1,
+      "id": "53-3",
+      "name": "Design and Optimization of Permanent Magnet Based Adhesion Module for Robots Climbing on Reinforced Concrete Surfaces",
+      "startColor": "rgba(255,0,226,0.8)",
+      "endColor": "rgba(255,0,226,0.8)"
+    },
+    {
+      "source": "[33]",
       "target": "Magnetic",
       "value": 1,
       "id": "54-0",
-      "name": "Design and Optimization of Permanent Magnet Based Adhesion Module for Robots Climbing on Reinforced Concrete Surfaces",
+      "name": "OmniClimbers: Omni-directional magnetic wheeled climbing robots for inspection of ferromagnetic structures",
       "startColor": "rgba(255,0,201,0.8)",
       "endColor": "rgba(255,0,201,0.8)"
     },
@@ -2861,7 +2785,7 @@ export const SankeyData = {
       "target": "Wheeled",
       "value": 1,
       "id": "54-1",
-      "name": "Design and Optimization of Permanent Magnet Based Adhesion Module for Robots Climbing on Reinforced Concrete Surfaces",
+      "name": "OmniClimbers: Omni-directional magnetic wheeled climbing robots for inspection of ferromagnetic structures",
       "startColor": "rgba(255,0,201,0.8)",
       "endColor": "rgba(255,0,201,0.8)"
     },
@@ -2870,7 +2794,7 @@ export const SankeyData = {
       "target": "N - Left/Right Walls",
       "value": 1,
       "id": "54-3",
-      "name": "Design and Optimization of Permanent Magnet Based Adhesion Module for Robots Climbing on Reinforced Concrete Surfaces",
+      "name": "OmniClimbers: Omni-directional magnetic wheeled climbing robots for inspection of ferromagnetic structures",
       "startColor": "rgba(255,0,201,0.8)",
       "endColor": "rgba(255,0,201,0.8)"
     },
@@ -2879,16 +2803,43 @@ export const SankeyData = {
       "target": "M - Up/ Down Walls",
       "value": 1,
       "id": "54-3",
-      "name": "Design and Optimization of Permanent Magnet Based Adhesion Module for Robots Climbing on Reinforced Concrete Surfaces",
+      "name": "OmniClimbers: Omni-directional magnetic wheeled climbing robots for inspection of ferromagnetic structures",
       "startColor": "rgba(255,0,201,0.8)",
       "endColor": "rgba(255,0,201,0.8)"
     },
     {
-      "source": "[39]",
+      "source": "Wheeled",
+      "target": "B - Up Vertical Pipe",
+      "value": 1,
+      "id": "54-3",
+      "name": "OmniClimbers: Omni-directional magnetic wheeled climbing robots for inspection of ferromagnetic structures",
+      "startColor": "rgba(255,0,201,0.8)",
+      "endColor": "rgba(255,0,201,0.8)"
+    },
+    {
+      "source": "Wheeled",
+      "target": "C - Down Vertical Pipe",
+      "value": 1,
+      "id": "54-3",
+      "name": "OmniClimbers: Omni-directional magnetic wheeled climbing robots for inspection of ferromagnetic structures",
+      "startColor": "rgba(255,0,201,0.8)",
+      "endColor": "rgba(255,0,201,0.8)"
+    },
+    {
+      "source": "Wheeled",
+      "target": "D - Radially Around Pipe",
+      "value": 1,
+      "id": "54-3",
+      "name": "OmniClimbers: Omni-directional magnetic wheeled climbing robots for inspection of ferromagnetic structures",
+      "startColor": "rgba(255,0,201,0.8)",
+      "endColor": "rgba(255,0,201,0.8)"
+    },
+    {
+      "source": "[22]",
       "target": "Magnetic",
       "value": 1,
       "id": "55-0",
-      "name": "OmniClimbers: Omni-directional magnetic wheeled climbing robots for inspection of ferromagnetic structures",
+      "name": "Modelling, simulation and experimental validation of wheel and arm locomotion based wall-climbing robot",
       "startColor": "rgba(255,0,176,0.8)",
       "endColor": "rgba(255,0,176,0.8)"
     },
@@ -2897,88 +2848,97 @@ export const SankeyData = {
       "target": "Wheeled",
       "value": 1,
       "id": "55-1",
-      "name": "OmniClimbers: Omni-directional magnetic wheeled climbing robots for inspection of ferromagnetic structures",
-      "startColor": "rgba(255,0,176,0.8)",
-      "endColor": "rgba(255,0,176,0.8)"
-    },
-    {
-      "source": "Wheeled",
-      "target": "N - Left/Right Walls",
-      "value": 1,
-      "id": "55-3",
-      "name": "OmniClimbers: Omni-directional magnetic wheeled climbing robots for inspection of ferromagnetic structures",
-      "startColor": "rgba(255,0,176,0.8)",
-      "endColor": "rgba(255,0,176,0.8)"
-    },
-    {
-      "source": "Wheeled",
-      "target": "M - Up/ Down Walls",
-      "value": 1,
-      "id": "55-3",
-      "name": "OmniClimbers: Omni-directional magnetic wheeled climbing robots for inspection of ferromagnetic structures",
-      "startColor": "rgba(255,0,176,0.8)",
-      "endColor": "rgba(255,0,176,0.8)"
-    },
-    {
-      "source": "Wheeled",
-      "target": "B - Up Vertical Pipe",
-      "value": 1,
-      "id": "55-3",
-      "name": "OmniClimbers: Omni-directional magnetic wheeled climbing robots for inspection of ferromagnetic structures",
-      "startColor": "rgba(255,0,176,0.8)",
-      "endColor": "rgba(255,0,176,0.8)"
-    },
-    {
-      "source": "Wheeled",
-      "target": "C - Down Vertical Pipe",
-      "value": 1,
-      "id": "55-3",
-      "name": "OmniClimbers: Omni-directional magnetic wheeled climbing robots for inspection of ferromagnetic structures",
-      "startColor": "rgba(255,0,176,0.8)",
-      "endColor": "rgba(255,0,176,0.8)"
-    },
-    {
-      "source": "Wheeled",
-      "target": "D - Radially Around Pipe",
-      "value": 1,
-      "id": "55-3",
-      "name": "OmniClimbers: Omni-directional magnetic wheeled climbing robots for inspection of ferromagnetic structures",
-      "startColor": "rgba(255,0,176,0.8)",
-      "endColor": "rgba(255,0,176,0.8)"
-    },
-    {
-      "source": "[10]",
-      "target": "Magnetic",
-      "value": 1,
-      "id": "56-0",
       "name": "Modelling, simulation and experimental validation of wheel and arm locomotion based wall-climbing robot",
-      "startColor": "rgba(255,0,150,0.8)",
-      "endColor": "rgba(255,0,150,0.8)"
-    },
-    {
-      "source": "Magnetic",
-      "target": "Wheeled",
-      "value": 1,
-      "id": "56-1",
-      "name": "Modelling, simulation and experimental validation of wheel and arm locomotion based wall-climbing robot",
-      "startColor": "rgba(255,0,150,0.8)",
-      "endColor": "rgba(255,0,150,0.8)"
+      "startColor": "rgba(255,0,176,0.8)",
+      "endColor": "rgba(255,0,176,0.8)"
     },
     {
       "source": "Magnetic",
       "target": "Inchworm",
       "value": 1,
+      "id": "55-1",
+      "name": "Modelling, simulation and experimental validation of wheel and arm locomotion based wall-climbing robot",
+      "startColor": "rgba(255,0,176,0.8)",
+      "endColor": "rgba(255,0,176,0.8)"
+    },
+    {
+      "source": "Wheeled",
+      "target": "K - Over Small Obstacles",
+      "value": 1,
+      "id": "55-3",
+      "name": "Modelling, simulation and experimental validation of wheel and arm locomotion based wall-climbing robot",
+      "startColor": "rgba(255,0,176,0.8)",
+      "endColor": "rgba(255,0,176,0.8)"
+    },
+    {
+      "source": "Wheeled",
+      "target": "M - Up/ Down Walls",
+      "value": 1,
+      "id": "55-3",
+      "name": "Modelling, simulation and experimental validation of wheel and arm locomotion based wall-climbing robot",
+      "startColor": "rgba(255,0,176,0.8)",
+      "endColor": "rgba(255,0,176,0.8)"
+    },
+    {
+      "source": "Wheeled",
+      "target": "N - Left/Right Walls",
+      "value": 1,
+      "id": "55-3",
+      "name": "Modelling, simulation and experimental validation of wheel and arm locomotion based wall-climbing robot",
+      "startColor": "rgba(255,0,176,0.8)",
+      "endColor": "rgba(255,0,176,0.8)"
+    },
+    {
+      "source": "Inchworm",
+      "target": "K - Over Small Obstacles",
+      "value": 1,
+      "id": "55-3",
+      "name": "Modelling, simulation and experimental validation of wheel and arm locomotion based wall-climbing robot",
+      "startColor": "rgba(255,0,176,0.8)",
+      "endColor": "rgba(255,0,176,0.8)"
+    },
+    {
+      "source": "Inchworm",
+      "target": "M - Up/ Down Walls",
+      "value": 1,
+      "id": "55-3",
+      "name": "Modelling, simulation and experimental validation of wheel and arm locomotion based wall-climbing robot",
+      "startColor": "rgba(255,0,176,0.8)",
+      "endColor": "rgba(255,0,176,0.8)"
+    },
+    {
+      "source": "Inchworm",
+      "target": "N - Left/Right Walls",
+      "value": 1,
+      "id": "55-3",
+      "name": "Modelling, simulation and experimental validation of wheel and arm locomotion based wall-climbing robot",
+      "startColor": "rgba(255,0,176,0.8)",
+      "endColor": "rgba(255,0,176,0.8)"
+    },
+    {
+      "source": "[51]",
+      "target": "Pneumatic",
+      "value": 1,
+      "id": "56-0",
+      "name": "Development of Dual-Unit Ceiling Adhesion Robot System With Passive Hinge for Obstacle Traversal Under Kinodynamic ConstraintsNot Measured",
+      "startColor": "rgba(255,0,150,0.8)",
+      "endColor": "rgba(255,0,150,0.8)"
+    },
+    {
+      "source": "Pneumatic",
+      "target": "Wheeled",
+      "value": 1,
       "id": "56-1",
-      "name": "Modelling, simulation and experimental validation of wheel and arm locomotion based wall-climbing robot",
+      "name": "Development of Dual-Unit Ceiling Adhesion Robot System With Passive Hinge for Obstacle Traversal Under Kinodynamic ConstraintsNot Measured",
       "startColor": "rgba(255,0,150,0.8)",
       "endColor": "rgba(255,0,150,0.8)"
     },
     {
-      "source": "Wheeled",
-      "target": "K - Over Small Obstacles",
+      "source": "Pneumatic",
+      "target": "Legged",
       "value": 1,
-      "id": "56-3",
-      "name": "Modelling, simulation and experimental validation of wheel and arm locomotion based wall-climbing robot",
+      "id": "56-1",
+      "name": "Development of Dual-Unit Ceiling Adhesion Robot System With Passive Hinge for Obstacle Traversal Under Kinodynamic ConstraintsNot Measured",
       "startColor": "rgba(255,0,150,0.8)",
       "endColor": "rgba(255,0,150,0.8)"
     },
@@ -2987,7 +2947,7 @@ export const SankeyData = {
       "target": "M - Up/ Down Walls",
       "value": 1,
       "id": "56-3",
-      "name": "Modelling, simulation and experimental validation of wheel and arm locomotion based wall-climbing robot",
+      "name": "Development of Dual-Unit Ceiling Adhesion Robot System With Passive Hinge for Obstacle Traversal Under Kinodynamic ConstraintsNot Measured",
       "startColor": "rgba(255,0,150,0.8)",
       "endColor": "rgba(255,0,150,0.8)"
     },
@@ -2996,43 +2956,52 @@ export const SankeyData = {
       "target": "N - Left/Right Walls",
       "value": 1,
       "id": "56-3",
-      "name": "Modelling, simulation and experimental validation of wheel and arm locomotion based wall-climbing robot",
+      "name": "Development of Dual-Unit Ceiling Adhesion Robot System With Passive Hinge for Obstacle Traversal Under Kinodynamic ConstraintsNot Measured",
       "startColor": "rgba(255,0,150,0.8)",
       "endColor": "rgba(255,0,150,0.8)"
     },
     {
-      "source": "Inchworm",
+      "source": "Wheeled",
       "target": "K - Over Small Obstacles",
       "value": 1,
       "id": "56-3",
-      "name": "Modelling, simulation and experimental validation of wheel and arm locomotion based wall-climbing robot",
+      "name": "Development of Dual-Unit Ceiling Adhesion Robot System With Passive Hinge for Obstacle Traversal Under Kinodynamic ConstraintsNot Measured",
       "startColor": "rgba(255,0,150,0.8)",
       "endColor": "rgba(255,0,150,0.8)"
     },
     {
-      "source": "Inchworm",
+      "source": "Legged",
       "target": "M - Up/ Down Walls",
       "value": 1,
       "id": "56-3",
-      "name": "Modelling, simulation and experimental validation of wheel and arm locomotion based wall-climbing robot",
+      "name": "Development of Dual-Unit Ceiling Adhesion Robot System With Passive Hinge for Obstacle Traversal Under Kinodynamic ConstraintsNot Measured",
       "startColor": "rgba(255,0,150,0.8)",
       "endColor": "rgba(255,0,150,0.8)"
     },
     {
-      "source": "Inchworm",
+      "source": "Legged",
       "target": "N - Left/Right Walls",
       "value": 1,
       "id": "56-3",
-      "name": "Modelling, simulation and experimental validation of wheel and arm locomotion based wall-climbing robot",
+      "name": "Development of Dual-Unit Ceiling Adhesion Robot System With Passive Hinge for Obstacle Traversal Under Kinodynamic ConstraintsNot Measured",
       "startColor": "rgba(255,0,150,0.8)",
       "endColor": "rgba(255,0,150,0.8)"
     },
     {
-      "source": "[55]",
+      "source": "Legged",
+      "target": "K - Over Small Obstacles",
+      "value": 1,
+      "id": "56-3",
+      "name": "Development of Dual-Unit Ceiling Adhesion Robot System With Passive Hinge for Obstacle Traversal Under Kinodynamic ConstraintsNot Measured",
+      "startColor": "rgba(255,0,150,0.8)",
+      "endColor": "rgba(255,0,150,0.8)"
+    },
+    {
+      "source": "[8]",
       "target": "Pneumatic",
       "value": 1,
       "id": "57-0",
-      "name": "Development of Dual-Unit Ceiling Adhesion Robot System With Passive Hinge for Obstacle Traversal Under Kinodynamic ConstraintsNot Measured",
+      "name": "Automated wall-climbing robot for concrete construction inspection",
       "startColor": "rgba(255,0,125,0.8)",
       "endColor": "rgba(255,0,125,0.8)"
     },
@@ -3041,16 +3010,7 @@ export const SankeyData = {
       "target": "Wheeled",
       "value": 1,
       "id": "57-1",
-      "name": "Development of Dual-Unit Ceiling Adhesion Robot System With Passive Hinge for Obstacle Traversal Under Kinodynamic ConstraintsNot Measured",
-      "startColor": "rgba(255,0,125,0.8)",
-      "endColor": "rgba(255,0,125,0.8)"
-    },
-    {
-      "source": "Pneumatic",
-      "target": "Legged",
-      "value": 1,
-      "id": "57-1",
-      "name": "Development of Dual-Unit Ceiling Adhesion Robot System With Passive Hinge for Obstacle Traversal Under Kinodynamic ConstraintsNot Measured",
+      "name": "Automated wall-climbing robot for concrete construction inspection",
       "startColor": "rgba(255,0,125,0.8)",
       "endColor": "rgba(255,0,125,0.8)"
     },
@@ -3059,7 +3019,7 @@ export const SankeyData = {
       "target": "M - Up/ Down Walls",
       "value": 1,
       "id": "57-3",
-      "name": "Development of Dual-Unit Ceiling Adhesion Robot System With Passive Hinge for Obstacle Traversal Under Kinodynamic ConstraintsNot Measured",
+      "name": "Automated wall-climbing robot for concrete construction inspection",
       "startColor": "rgba(255,0,125,0.8)",
       "endColor": "rgba(255,0,125,0.8)"
     },
@@ -3068,52 +3028,16 @@ export const SankeyData = {
       "target": "N - Left/Right Walls",
       "value": 1,
       "id": "57-3",
-      "name": "Development of Dual-Unit Ceiling Adhesion Robot System With Passive Hinge for Obstacle Traversal Under Kinodynamic ConstraintsNot Measured",
+      "name": "Automated wall-climbing robot for concrete construction inspection",
       "startColor": "rgba(255,0,125,0.8)",
       "endColor": "rgba(255,0,125,0.8)"
     },
     {
-      "source": "Wheeled",
-      "target": "K - Over Small Obstacles",
-      "value": 1,
-      "id": "57-3",
-      "name": "Development of Dual-Unit Ceiling Adhesion Robot System With Passive Hinge for Obstacle Traversal Under Kinodynamic ConstraintsNot Measured",
-      "startColor": "rgba(255,0,125,0.8)",
-      "endColor": "rgba(255,0,125,0.8)"
-    },
-    {
-      "source": "Legged",
-      "target": "M - Up/ Down Walls",
-      "value": 1,
-      "id": "57-3",
-      "name": "Development of Dual-Unit Ceiling Adhesion Robot System With Passive Hinge for Obstacle Traversal Under Kinodynamic ConstraintsNot Measured",
-      "startColor": "rgba(255,0,125,0.8)",
-      "endColor": "rgba(255,0,125,0.8)"
-    },
-    {
-      "source": "Legged",
-      "target": "N - Left/Right Walls",
-      "value": 1,
-      "id": "57-3",
-      "name": "Development of Dual-Unit Ceiling Adhesion Robot System With Passive Hinge for Obstacle Traversal Under Kinodynamic ConstraintsNot Measured",
-      "startColor": "rgba(255,0,125,0.8)",
-      "endColor": "rgba(255,0,125,0.8)"
-    },
-    {
-      "source": "Legged",
-      "target": "K - Over Small Obstacles",
-      "value": 1,
-      "id": "57-3",
-      "name": "Development of Dual-Unit Ceiling Adhesion Robot System With Passive Hinge for Obstacle Traversal Under Kinodynamic ConstraintsNot Measured",
-      "startColor": "rgba(255,0,125,0.8)",
-      "endColor": "rgba(255,0,125,0.8)"
-    },
-    {
-      "source": "[50]",
+      "source": "[58]",
       "target": "Pneumatic",
       "value": 1,
       "id": "58-0",
-      "name": "Automated wall-climbing robot for concrete construction inspection",
+      "name": "Design and Control of an Omnidirectional Mobile Wall-Climbing Robot",
       "startColor": "rgba(255,0,100,0.8)",
       "endColor": "rgba(255,0,100,0.8)"
     },
@@ -3122,7 +3046,7 @@ export const SankeyData = {
       "target": "Wheeled",
       "value": 1,
       "id": "58-1",
-      "name": "Automated wall-climbing robot for concrete construction inspection",
+      "name": "Design and Control of an Omnidirectional Mobile Wall-Climbing Robot",
       "startColor": "rgba(255,0,100,0.8)",
       "endColor": "rgba(255,0,100,0.8)"
     },
@@ -3131,7 +3055,7 @@ export const SankeyData = {
       "target": "M - Up/ Down Walls",
       "value": 1,
       "id": "58-3",
-      "name": "Automated wall-climbing robot for concrete construction inspection",
+      "name": "Design and Control of an Omnidirectional Mobile Wall-Climbing Robot",
       "startColor": "rgba(255,0,100,0.8)",
       "endColor": "rgba(255,0,100,0.8)"
     },
@@ -3140,48 +3064,66 @@ export const SankeyData = {
       "target": "N - Left/Right Walls",
       "value": 1,
       "id": "58-3",
-      "name": "Automated wall-climbing robot for concrete construction inspection",
+      "name": "Design and Control of an Omnidirectional Mobile Wall-Climbing Robot",
       "startColor": "rgba(255,0,100,0.8)",
       "endColor": "rgba(255,0,100,0.8)"
     },
     {
-      "source": "[12]",
-      "target": "Pneumatic",
+      "source": "[10]",
+      "target": "Sliding Frame",
       "value": 1,
       "id": "59-0",
-      "name": "Design and Control of an Omnidirectional Mobile Wall-Climbing Robot",
+      "name": "Climbing ring robot for inspection of offshore wind turbines",
       "startColor": "rgba(255,0,75,0.8)",
       "endColor": "rgba(255,0,75,0.8)"
     },
     {
-      "source": "Pneumatic",
+      "source": "Sliding Frame",
       "target": "Wheeled",
       "value": 1,
       "id": "59-1",
-      "name": "Design and Control of an Omnidirectional Mobile Wall-Climbing Robot",
+      "name": "Climbing ring robot for inspection of offshore wind turbines",
       "startColor": "rgba(255,0,75,0.8)",
       "endColor": "rgba(255,0,75,0.8)"
     },
     {
       "source": "Wheeled",
-      "target": "M - Up/ Down Walls",
+      "target": "B - Up Vertical Pipe",
       "value": 1,
       "id": "59-3",
-      "name": "Design and Control of an Omnidirectional Mobile Wall-Climbing Robot",
+      "name": "Climbing ring robot for inspection of offshore wind turbines",
       "startColor": "rgba(255,0,75,0.8)",
       "endColor": "rgba(255,0,75,0.8)"
     },
     {
       "source": "Wheeled",
-      "target": "N - Left/Right Walls",
+      "target": "C - Down Vertical Pipe",
       "value": 1,
       "id": "59-3",
-      "name": "Design and Control of an Omnidirectional Mobile Wall-Climbing Robot",
+      "name": "Climbing ring robot for inspection of offshore wind turbines",
       "startColor": "rgba(255,0,75,0.8)",
       "endColor": "rgba(255,0,75,0.8)"
     },
     {
-      "source": "[5]",
+      "source": "Wheeled",
+      "target": "D - Radially Around Pipe",
+      "value": 1,
+      "id": "59-3",
+      "name": "Climbing ring robot for inspection of offshore wind turbines",
+      "startColor": "rgba(255,0,75,0.8)",
+      "endColor": "rgba(255,0,75,0.8)"
+    },
+    {
+      "source": "Wheeled",
+      "target": "L - Diameter Change",
+      "value": 1,
+      "id": "59-3",
+      "name": "Climbing ring robot for inspection of offshore wind turbines",
+      "startColor": "rgba(255,0,75,0.8)",
+      "endColor": "rgba(255,0,75,0.8)"
+    },
+    {
+      "source": "[23]",
       "target": "Adhesives",
       "value": 1,
       "id": "60-0",
@@ -3217,8 +3159,8 @@ export const SankeyData = {
       "endColor": "rgba(255,0,50,0.8)"
     },
     {
-      "source": "[27]",
-      "target": "Electroadhesive",
+      "source": "[4]",
+      "target": "Adhesives",
       "value": 1,
       "id": "61-0",
       "name": "Design, Modeling, and Experimentation of a Bio-Inspired Miniature Climbing Robot With Bilayer Dry Adhesives",
@@ -3226,7 +3168,7 @@ export const SankeyData = {
       "endColor": "rgba(255,0,25,0.8)"
     },
     {
-      "source": "Electroadhesive",
+      "source": "Adhesives",
       "target": "Wheel-Legs",
       "value": 1,
       "id": "61-1",
