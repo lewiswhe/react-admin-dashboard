@@ -33,7 +33,7 @@ export const SankeyData = {
       "nodeColor": "#4477b2"
     },
     {
-      "id": "[46]",
+      "id": "[47]",
       "nodeColor": "#000000"
     },
     {
@@ -77,7 +77,7 @@ export const SankeyData = {
       "nodeColor": "#b24844"
     },
     {
-      "id": "[27]",
+      "id": "[28]",
       "nodeColor": "#000000"
     },
     {
@@ -85,11 +85,7 @@ export const SankeyData = {
       "nodeColor": "#4477b2"
     },
     {
-      "id": "[26]",
-      "nodeColor": "#000000"
-    },
-    {
-      "id": "[35]",
+      "id": "[27]",
       "nodeColor": "#000000"
     },
     {
@@ -97,7 +93,11 @@ export const SankeyData = {
       "nodeColor": "#000000"
     },
     {
-      "id": "[45]",
+      "id": "[37]",
+      "nodeColor": "#000000"
+    },
+    {
+      "id": "[46]",
       "nodeColor": "#000000"
     },
     {
@@ -105,31 +105,31 @@ export const SankeyData = {
       "nodeColor": "#2a695e"
     },
     {
-      "id": "[38]",
-      "nodeColor": "#000000"
-    },
-    {
-      "id": "[59]",
-      "nodeColor": "#000000"
-    },
-    {
-      "id": "[28]",
-      "nodeColor": "#000000"
-    },
-    {
       "id": "[39]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[60]",
+      "id": "[61]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[30]",
+      "id": "[29]",
       "nodeColor": "#000000"
     },
     {
       "id": "[40]",
+      "nodeColor": "#000000"
+    },
+    {
+      "id": "[62]",
+      "nodeColor": "#000000"
+    },
+    {
+      "id": "[31]",
+      "nodeColor": "#000000"
+    },
+    {
+      "id": "[41]",
       "nodeColor": "#000000"
     },
     {
@@ -153,7 +153,7 @@ export const SankeyData = {
       "nodeColor": "#b24844"
     },
     {
-      "id": "[25]",
+      "id": "[26]",
       "nodeColor": "#000000"
     },
     {
@@ -165,7 +165,7 @@ export const SankeyData = {
       "nodeColor": "#b24844"
     },
     {
-      "id": "[24]",
+      "id": "[25]",
       "nodeColor": "#000000"
     },
     {
@@ -177,7 +177,7 @@ export const SankeyData = {
       "nodeColor": "#b24844"
     },
     {
-      "id": "[19]",
+      "id": "[20]",
       "nodeColor": "#000000"
     },
     {
@@ -189,7 +189,7 @@ export const SankeyData = {
       "nodeColor": "#000000"
     },
     {
-      "id": "[31]",
+      "id": "[32]",
       "nodeColor": "#000000"
     },
     {
@@ -201,19 +201,19 @@ export const SankeyData = {
       "nodeColor": "#4477b2"
     },
     {
-      "id": "[62]",
+      "id": "[64]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[44]",
-      "nodeColor": "#000000"
-    },
-    {
-      "id": "[34]",
+      "id": "[35]",
       "nodeColor": "#000000"
     },
     {
       "id": "[10]",
+      "nodeColor": "#000000"
+    },
+    {
+      "id": "[45]",
       "nodeColor": "#000000"
     }
   ],
@@ -318,7 +318,7 @@ export const SankeyData = {
       "endColor": "rgba(255,0,0,0.8)"
     },
     {
-      "source": "[46]",
+      "source": "[47]",
       "target": "None",
       "value": 1,
       "id": "2-0",
@@ -435,7 +435,7 @@ export const SankeyData = {
       "endColor": "rgba(255,227,0,0.8)"
     },
     {
-      "source": "[27]",
+      "source": "[28]",
       "target": "Helical Friction",
       "value": 1,
       "id": "6-0",
@@ -471,7 +471,7 @@ export const SankeyData = {
       "endColor": "rgba(227,255,0,0.8)"
     },
     {
-      "source": "[26]",
+      "source": "[27]",
       "target": "Helical Friction",
       "value": 1,
       "id": "7-0",
@@ -498,7 +498,7 @@ export const SankeyData = {
       "endColor": "rgba(170,255,0,0.8)"
     },
     {
-      "source": "[35]",
+      "source": "[36]",
       "target": "Helical Friction",
       "value": 1,
       "id": "8-0",
@@ -552,7 +552,7 @@ export const SankeyData = {
       "endColor": "rgba(113,255,0,0.8)"
     },
     {
-      "source": "[36]",
+      "source": "[37]",
       "target": "Helical Friction",
       "value": 1,
       "id": "9-0",
@@ -606,7 +606,7 @@ export const SankeyData = {
       "endColor": "rgba(57,255,0,0.8)"
     },
     {
-      "source": "[45]",
+      "source": "[46]",
       "target": "Grippers",
       "value": 1,
       "id": "10-0",
@@ -642,7 +642,7 @@ export const SankeyData = {
       "endColor": "rgba(0,255,0,0.8)"
     },
     {
-      "source": "[38]",
+      "source": "[39]",
       "target": "Grippers",
       "value": 1,
       "id": "11-0",
@@ -696,7 +696,7 @@ export const SankeyData = {
       "endColor": "rgba(0,255,57,0.8)"
     },
     {
-      "source": "[59]",
+      "source": "[61]",
       "target": "Grippers",
       "value": 1,
       "id": "12-0",
@@ -732,7 +732,7 @@ export const SankeyData = {
       "endColor": "rgba(0,255,113,0.8)"
     },
     {
-      "source": "[28]",
+      "source": "[29]",
       "target": "Grippers",
       "value": 1,
       "id": "13-0",
@@ -759,7 +759,7 @@ export const SankeyData = {
       "endColor": "rgba(0,255,170,0.8)"
     },
     {
-      "source": "[39]",
+      "source": "[40]",
       "target": "Grippers",
       "value": 1,
       "id": "14-0",
@@ -813,7 +813,7 @@ export const SankeyData = {
       "endColor": "rgba(0,255,227,0.8)"
     },
     {
-      "source": "[60]",
+      "source": "[62]",
       "target": "Grippers",
       "value": 1,
       "id": "15-0",
@@ -849,7 +849,7 @@ export const SankeyData = {
       "endColor": "rgba(0,227,255,0.8)"
     },
     {
-      "source": "[30]",
+      "source": "[31]",
       "target": "Grippers",
       "value": 1,
       "id": "16-0",
@@ -885,7 +885,7 @@ export const SankeyData = {
       "endColor": "rgba(0,170,255,0.8)"
     },
     {
-      "source": "[40]",
+      "source": "[41]",
       "target": "Grippers",
       "value": 1,
       "id": "17-0",
@@ -1092,7 +1092,7 @@ export const SankeyData = {
       "endColor": "rgba(0,57,255,0.8)"
     },
     {
-      "source": "[25]",
+      "source": "[26]",
       "target": "Claws/Spines",
       "value": 1,
       "id": "19-0",
@@ -1128,7 +1128,7 @@ export const SankeyData = {
       "endColor": "rgba(0,0,255,0.8)"
     },
     {
-      "source": "[24]",
+      "source": "[25]",
       "target": "Tension Straps",
       "value": 1,
       "id": "20-0",
@@ -1164,7 +1164,7 @@ export const SankeyData = {
       "endColor": "rgba(57,0,255,0.8)"
     },
     {
-      "source": "[19]",
+      "source": "[20]",
       "target": "Friction",
       "value": 1,
       "id": "21-0",
@@ -1236,7 +1236,7 @@ export const SankeyData = {
       "endColor": "rgba(170,0,255,0.8)"
     },
     {
-      "source": "[31]",
+      "source": "[32]",
       "target": "Friction",
       "value": 1,
       "id": "23-0",
@@ -1290,7 +1290,7 @@ export const SankeyData = {
       "endColor": "rgba(227,0,255,0.8)"
     },
     {
-      "source": "[62]",
+      "source": "[64]",
       "target": "Friction",
       "value": 1,
       "id": "24-0",
@@ -1344,11 +1344,11 @@ export const SankeyData = {
       "endColor": "rgba(255,0,227,0.8)"
     },
     {
-      "source": "[44]",
+      "source": "[35]",
       "target": "Grippers",
       "value": 1,
       "id": "25-0",
-      "name": "Design and Development of a Pipe Climbing Mechanism",
+      "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
       "startColor": "rgba(255,0,170,0.8)",
       "endColor": "rgba(255,0,170,0.8)"
     },
@@ -1357,160 +1357,169 @@ export const SankeyData = {
       "target": "Wheeled",
       "value": 1,
       "id": "25-1",
-      "name": "Design and Development of a Pipe Climbing Mechanism",
-      "startColor": "rgba(255,0,170,0.8)",
-      "endColor": "rgba(255,0,170,0.8)"
-    },
-    {
-      "source": "Wheeled",
-      "target": "A - Along Horizontal Pipe",
-      "value": 1,
-      "id": "25-3",
-      "name": "Design and Development of a Pipe Climbing Mechanism",
-      "startColor": "rgba(255,0,170,0.8)",
-      "endColor": "rgba(255,0,170,0.8)"
-    },
-    {
-      "source": "Wheeled",
-      "target": "B - Up Vertical Pipe",
-      "value": 1,
-      "id": "25-3",
-      "name": "Design and Development of a Pipe Climbing Mechanism",
-      "startColor": "rgba(255,0,170,0.8)",
-      "endColor": "rgba(255,0,170,0.8)"
-    },
-    {
-      "source": "Wheeled",
-      "target": "C - Down Vertical Pipe",
-      "value": 1,
-      "id": "25-3",
-      "name": "Design and Development of a Pipe Climbing Mechanism",
-      "startColor": "rgba(255,0,170,0.8)",
-      "endColor": "rgba(255,0,170,0.8)"
-    },
-    {
-      "source": "[34]",
-      "target": "Grippers",
-      "value": 1,
-      "id": "26-0",
       "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
-      "startColor": "rgba(255,0,113,0.8)",
-      "endColor": "rgba(255,0,113,0.8)"
-    },
-    {
-      "source": "Grippers",
-      "target": "Wheeled",
-      "value": 1,
-      "id": "26-1",
-      "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
-      "startColor": "rgba(255,0,113,0.8)",
-      "endColor": "rgba(255,0,113,0.8)"
+      "startColor": "rgba(255,0,170,0.8)",
+      "endColor": "rgba(255,0,170,0.8)"
     },
     {
       "source": "Grippers",
       "target": "Inchworm",
       "value": 1,
-      "id": "26-1",
+      "id": "25-1",
       "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
-      "startColor": "rgba(255,0,113,0.8)",
-      "endColor": "rgba(255,0,113,0.8)"
+      "startColor": "rgba(255,0,170,0.8)",
+      "endColor": "rgba(255,0,170,0.8)"
     },
     {
       "source": "Wheeled",
       "target": "A - Along Horizontal Pipe",
       "value": 1,
-      "id": "26-3",
+      "id": "25-3",
       "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
-      "startColor": "rgba(255,0,113,0.8)",
-      "endColor": "rgba(255,0,113,0.8)"
+      "startColor": "rgba(255,0,170,0.8)",
+      "endColor": "rgba(255,0,170,0.8)"
     },
     {
       "source": "Wheeled",
       "target": "B - Up Vertical Pipe",
       "value": 1,
-      "id": "26-3",
+      "id": "25-3",
       "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
-      "startColor": "rgba(255,0,113,0.8)",
-      "endColor": "rgba(255,0,113,0.8)"
+      "startColor": "rgba(255,0,170,0.8)",
+      "endColor": "rgba(255,0,170,0.8)"
     },
     {
       "source": "Wheeled",
       "target": "C - Down Vertical Pipe",
       "value": 1,
-      "id": "26-3",
+      "id": "25-3",
       "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
-      "startColor": "rgba(255,0,113,0.8)",
-      "endColor": "rgba(255,0,113,0.8)"
+      "startColor": "rgba(255,0,170,0.8)",
+      "endColor": "rgba(255,0,170,0.8)"
     },
     {
       "source": "Wheeled",
       "target": "D - Radially Around Pipe",
       "value": 1,
-      "id": "26-3",
+      "id": "25-3",
       "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
-      "startColor": "rgba(255,0,113,0.8)",
-      "endColor": "rgba(255,0,113,0.8)"
+      "startColor": "rgba(255,0,170,0.8)",
+      "endColor": "rgba(255,0,170,0.8)"
     },
     {
       "source": "Wheeled",
       "target": "E - Transition Horizontal to Vertical",
       "value": 1,
-      "id": "26-3",
+      "id": "25-3",
       "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
-      "startColor": "rgba(255,0,113,0.8)",
-      "endColor": "rgba(255,0,113,0.8)"
+      "startColor": "rgba(255,0,170,0.8)",
+      "endColor": "rgba(255,0,170,0.8)"
     },
     {
       "source": "Inchworm",
       "target": "A - Along Horizontal Pipe",
       "value": 1,
-      "id": "26-3",
+      "id": "25-3",
       "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
-      "startColor": "rgba(255,0,113,0.8)",
-      "endColor": "rgba(255,0,113,0.8)"
+      "startColor": "rgba(255,0,170,0.8)",
+      "endColor": "rgba(255,0,170,0.8)"
     },
     {
       "source": "Inchworm",
       "target": "B - Up Vertical Pipe",
       "value": 1,
-      "id": "26-3",
+      "id": "25-3",
       "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
-      "startColor": "rgba(255,0,113,0.8)",
-      "endColor": "rgba(255,0,113,0.8)"
+      "startColor": "rgba(255,0,170,0.8)",
+      "endColor": "rgba(255,0,170,0.8)"
     },
     {
       "source": "Inchworm",
       "target": "C - Down Vertical Pipe",
       "value": 1,
-      "id": "26-3",
+      "id": "25-3",
       "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
-      "startColor": "rgba(255,0,113,0.8)",
-      "endColor": "rgba(255,0,113,0.8)"
+      "startColor": "rgba(255,0,170,0.8)",
+      "endColor": "rgba(255,0,170,0.8)"
     },
     {
       "source": "Inchworm",
       "target": "D - Radially Around Pipe",
       "value": 1,
-      "id": "26-3",
+      "id": "25-3",
       "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
-      "startColor": "rgba(255,0,113,0.8)",
-      "endColor": "rgba(255,0,113,0.8)"
+      "startColor": "rgba(255,0,170,0.8)",
+      "endColor": "rgba(255,0,170,0.8)"
     },
     {
       "source": "Inchworm",
       "target": "E - Transition Horizontal to Vertical",
       "value": 1,
-      "id": "26-3",
+      "id": "25-3",
       "name": "Remotely controlled prehensile locomotion of a two-module 3D pipe-climbing robot ",
-      "startColor": "rgba(255,0,113,0.8)",
-      "endColor": "rgba(255,0,113,0.8)"
+      "startColor": "rgba(255,0,170,0.8)",
+      "endColor": "rgba(255,0,170,0.8)"
     },
     {
       "source": "[10]",
       "target": "Sliding Frame",
       "value": 1,
-      "id": "27-0",
+      "id": "26-0",
       "name": "Climbing ring robot for inspection of offshore wind turbines",
+      "startColor": "rgba(255,0,113,0.8)",
+      "endColor": "rgba(255,0,113,0.8)"
+    },
+    {
+      "source": "Sliding Frame",
+      "target": "Wheeled",
+      "value": 1,
+      "id": "26-1",
+      "name": "Climbing ring robot for inspection of offshore wind turbines",
+      "startColor": "rgba(255,0,113,0.8)",
+      "endColor": "rgba(255,0,113,0.8)"
+    },
+    {
+      "source": "Wheeled",
+      "target": "B - Up Vertical Pipe",
+      "value": 1,
+      "id": "26-3",
+      "name": "Climbing ring robot for inspection of offshore wind turbines",
+      "startColor": "rgba(255,0,113,0.8)",
+      "endColor": "rgba(255,0,113,0.8)"
+    },
+    {
+      "source": "Wheeled",
+      "target": "C - Down Vertical Pipe",
+      "value": 1,
+      "id": "26-3",
+      "name": "Climbing ring robot for inspection of offshore wind turbines",
+      "startColor": "rgba(255,0,113,0.8)",
+      "endColor": "rgba(255,0,113,0.8)"
+    },
+    {
+      "source": "Wheeled",
+      "target": "D - Radially Around Pipe",
+      "value": 1,
+      "id": "26-3",
+      "name": "Climbing ring robot for inspection of offshore wind turbines",
+      "startColor": "rgba(255,0,113,0.8)",
+      "endColor": "rgba(255,0,113,0.8)"
+    },
+    {
+      "source": "Wheeled",
+      "target": "L - Diameter Change",
+      "value": 1,
+      "id": "26-3",
+      "name": "Climbing ring robot for inspection of offshore wind turbines",
+      "startColor": "rgba(255,0,113,0.8)",
+      "endColor": "rgba(255,0,113,0.8)"
+    },
+    {
+      "source": "[45]",
+      "target": "Sliding Frame",
+      "value": 1,
+      "id": "27-0",
+      "name": "Design and Development of a Pipe Climbing Mechanism",
       "startColor": "rgba(255,0,57,0.8)",
       "endColor": "rgba(255,0,57,0.8)"
     },
@@ -1519,7 +1528,16 @@ export const SankeyData = {
       "target": "Wheeled",
       "value": 1,
       "id": "27-1",
-      "name": "Climbing ring robot for inspection of offshore wind turbines",
+      "name": "Design and Development of a Pipe Climbing Mechanism",
+      "startColor": "rgba(255,0,57,0.8)",
+      "endColor": "rgba(255,0,57,0.8)"
+    },
+    {
+      "source": "Wheeled",
+      "target": "A - Along Horizontal Pipe",
+      "value": 1,
+      "id": "27-3",
+      "name": "Design and Development of a Pipe Climbing Mechanism",
       "startColor": "rgba(255,0,57,0.8)",
       "endColor": "rgba(255,0,57,0.8)"
     },
@@ -1528,7 +1546,7 @@ export const SankeyData = {
       "target": "B - Up Vertical Pipe",
       "value": 1,
       "id": "27-3",
-      "name": "Climbing ring robot for inspection of offshore wind turbines",
+      "name": "Design and Development of a Pipe Climbing Mechanism",
       "startColor": "rgba(255,0,57,0.8)",
       "endColor": "rgba(255,0,57,0.8)"
     },
@@ -1537,25 +1555,7 @@ export const SankeyData = {
       "target": "C - Down Vertical Pipe",
       "value": 1,
       "id": "27-3",
-      "name": "Climbing ring robot for inspection of offshore wind turbines",
-      "startColor": "rgba(255,0,57,0.8)",
-      "endColor": "rgba(255,0,57,0.8)"
-    },
-    {
-      "source": "Wheeled",
-      "target": "D - Radially Around Pipe",
-      "value": 1,
-      "id": "27-3",
-      "name": "Climbing ring robot for inspection of offshore wind turbines",
-      "startColor": "rgba(255,0,57,0.8)",
-      "endColor": "rgba(255,0,57,0.8)"
-    },
-    {
-      "source": "Wheeled",
-      "target": "L - Diameter Change",
-      "value": 1,
-      "id": "27-3",
-      "name": "Climbing ring robot for inspection of offshore wind turbines",
+      "name": "Design and Development of a Pipe Climbing Mechanism",
       "startColor": "rgba(255,0,57,0.8)",
       "endColor": "rgba(255,0,57,0.8)"
     }

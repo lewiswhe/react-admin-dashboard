@@ -374,7 +374,7 @@ export const HeatmapData = [
       },
       {
         "x": "Wheeled",
-        "y": 2
+        "y": 1
       },
       {
         "x": "Tracked",
@@ -545,7 +545,7 @@ export const HeatmapData = [
       },
       {
         "x": "Wheeled",
-        "y": 2
+        "y": 3
       },
       {
         "x": "Tracked",

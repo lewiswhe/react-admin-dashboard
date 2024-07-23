@@ -1,3 +1,3 @@
 export const TotalData= {
-  "total": 64
+  "total": 66
 }
