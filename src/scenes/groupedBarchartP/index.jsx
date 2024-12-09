@@ -1,19 +1,18 @@
-
 import React from 'react';
 import GroupedBarChartP from '../../components/GroupedBarChartP';
 import { Box, Grid, Typography } from "@mui/material";
 import Header from "../../components/Header";
-import { chartData as Sdata } from "../../data/chart_barChart_Planar";
+import { chartData as Pdata } from "../../data/chart_barChart_p_All";
 // import { chartDataP as Pdata } from "../../data/chart_barChartP";
 
 const GroupedBarP = () => {
-  const speedData = Sdata;
+  const payloadData = Pdata;
   // const payloadData = Pdata;
   return (
     <Box m="10px" display="flex" flexDirection="column" minHeight="100vh">
-      <Header title="Bar Chart" />
+      <Header title="Payload Chart" />
       <Box flex="1" height="55vh">
-        <GroupedBarChartP data={speedData} />
+        <GroupedBarChartP data={payloadData} />
       </Box>
       <Box mt={1} height="10vh">
         <Grid container spacing={2} justifyContent="space-around" alignItems="center">

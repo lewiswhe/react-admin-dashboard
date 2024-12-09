@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import Chart from 'chart.js/auto';
 import ChartDataLabels from 'chartjs-plugin-datalabels';
 import annotationPlugin from 'chartjs-plugin-annotation';
-import { legendData, annotations } from '../data/chart_extra_p_All';
+import { legendData, annotations } from '../data/chart_extra_c_All';
 
 Chart.register(ChartDataLabels);
 Chart.register(annotationPlugin);
@@ -20,7 +20,7 @@ function maxIndex(ctx) {
 function maxLabel(ctx) {
   return ctx.chart.data.labels[maxIndex(ctx)];
 }
-const GroupedBarChartP = ({ data  }) => {
+const GroupedBarChartC = ({ data  }) => {
   const chartRef = useRef();
   const chartInstance = useRef(null);
 
@@ -69,12 +69,12 @@ const GroupedBarChartP = ({ data  }) => {
             beginAtZero: true,
             position: 'left',
             type: 'logarithmic',
-            max: 100,
+            max: 1500,
             minBarLength: 5,
             stacked: false,
             title: {
               display: true,
-              text: 'Maximum Payload Capacity (kg)',
+              text: 'Maximum Climbing Speed (mm/s)',
             },
           },
         },
@@ -114,12 +114,13 @@ const GroupedBarChartP = ({ data  }) => {
           },
           title: {
             display: true,
-            text: "Maximum Payload of Planar Climbing Robots"
+            text: "Maximum Climbing Speed of Climbing Robots"
           },
           annotation: {
             common: {
               drawTime: 'afterDraw'
             },
+
             annotations: annotations
           },
           tooltip: {
@@ -134,7 +135,7 @@ const GroupedBarChartP = ({ data  }) => {
                 const loco = context.dataset.loco; // Access the loco value from the dataset
                 const adhe = context.dataset.adhe; // Access the loco value from the dataset
                 const datasetLabel = context.dataset.label || ''; // Dataset label
-                return `${loco}|${value} kg|${adhe}`; // Include loco in the tooltip
+                return `${loco}|${value} mm/s|${adhe}`; // Include loco in the tooltip
               },
             },
             backgroundColor: 'rgba(0, 0, 0, 0.8)',
@@ -167,4 +168,4 @@ const GroupedBarChartP = ({ data  }) => {
   return <canvas ref={chartRef} />;
 };
 
-export default GroupedBarChartP;
+export default GroupedBarChartC;
