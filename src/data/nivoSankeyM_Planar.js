@@ -1,7 +1,7 @@
 export const SankeyData = {
   "nodes": [
     {
-      "id": "[6]",
+      "id": "[8]",
       "nodeColor": "#000000"
     },
     {
@@ -17,7 +17,7 @@ export const SankeyData = {
       "nodeColor": "#4477b2"
     },
     {
-      "id": "[21]",
+      "id": "[28]",
       "nodeColor": "#000000"
     },
     {
@@ -33,19 +33,19 @@ export const SankeyData = {
       "nodeColor": "#4477b2"
     },
     {
-      "id": "[22]",
+      "id": "[29]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[5]",
+      "id": "[7]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[48]",
+      "id": "[24]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[49]",
+      "id": "[53]",
       "nodeColor": "#000000"
     },
     {
@@ -53,19 +53,19 @@ export const SankeyData = {
       "nodeColor": "#b24844"
     },
     {
+      "id": "[57]",
+      "nodeColor": "#000000"
+    },
+    {
+      "id": "[58]",
+      "nodeColor": "#000000"
+    },
+    {
+      "id": "[59]",
+      "nodeColor": "#000000"
+    },
+    {
       "id": "[54]",
-      "nodeColor": "#000000"
-    },
-    {
-      "id": "[55]",
-      "nodeColor": "#000000"
-    },
-    {
-      "id": "[56]",
-      "nodeColor": "#000000"
-    },
-    {
-      "id": "[51]",
       "nodeColor": "#000000"
     },
     {
@@ -73,11 +73,11 @@ export const SankeyData = {
       "nodeColor": "#2a695e"
     },
     {
-      "id": "[58]",
+      "id": "[61]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[15]",
+      "id": "[17]",
       "nodeColor": "#000000"
     },
     {
@@ -85,7 +85,7 @@ export const SankeyData = {
       "nodeColor": "#2a695e"
     },
     {
-      "id": "[52]",
+      "id": "[55]",
       "nodeColor": "#000000"
     },
     {
@@ -97,15 +97,15 @@ export const SankeyData = {
       "nodeColor": "#4477b2"
     },
     {
-      "id": "[8]",
+      "id": "[10]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[60]",
+      "id": "[63]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[24]",
+      "id": "[31]",
       "nodeColor": "#000000"
     },
     {
@@ -117,13 +117,13 @@ export const SankeyData = {
       "nodeColor": "#b24844"
     },
     {
-      "id": "[4]",
+      "id": "[6]",
       "nodeColor": "#000000"
     }
   ],
   "links": [
     {
-      "source": "[6]",
+      "source": "[8]",
       "target": "Pneumatic",
       "value": 1,
       "id": "1-0",
@@ -150,7 +150,7 @@ export const SankeyData = {
       "endColor": "rgba(255,0,0,0.8)"
     },
     {
-      "source": "[21]",
+      "source": "[28]",
       "target": "Claws/Spines",
       "value": 1,
       "id": "2-0",
@@ -186,7 +186,7 @@ export const SankeyData = {
       "endColor": "rgba(255,90,0,0.8)"
     },
     {
-      "source": "[22]",
+      "source": "[29]",
       "target": "Claws/Spines",
       "value": 1,
       "id": "3-0",
@@ -222,7 +222,7 @@ export const SankeyData = {
       "endColor": "rgba(255,180,0,0.8)"
     },
     {
-      "source": "[5]",
+      "source": "[7]",
       "target": "Claws/Spines",
       "value": 1,
       "id": "4-0",
@@ -249,7 +249,7 @@ export const SankeyData = {
       "endColor": "rgba(240,255,0,0.8)"
     },
     {
-      "source": "[48]",
+      "source": "[24]",
       "target": "Claws/Spines",
       "value": 1,
       "id": "5-0",
@@ -285,7 +285,7 @@ export const SankeyData = {
       "endColor": "rgba(150,255,0,0.8)"
     },
     {
-      "source": "[49]",
+      "source": "[53]",
       "target": "Electroadhesive",
       "value": 1,
       "id": "6-0",
@@ -321,7 +321,7 @@ export const SankeyData = {
       "endColor": "rgba(60,255,0,0.8)"
     },
     {
-      "source": "[54]",
+      "source": "[57]",
       "target": "Electroadhesive",
       "value": 1,
       "id": "7-0",
@@ -348,7 +348,7 @@ export const SankeyData = {
       "endColor": "rgba(0,255,30,0.8)"
     },
     {
-      "source": "[55]",
+      "source": "[58]",
       "target": "Electroadhesive",
       "value": 1,
       "id": "8-0",
@@ -375,7 +375,7 @@ export const SankeyData = {
       "endColor": "rgba(0,255,120,0.8)"
     },
     {
-      "source": "[56]",
+      "source": "[59]",
       "target": "Pneumatic",
       "value": 1,
       "id": "9-0",
@@ -411,7 +411,7 @@ export const SankeyData = {
       "endColor": "rgba(0,255,210,0.8)"
     },
     {
-      "source": "[51]",
+      "source": "[54]",
       "target": "Pneumatic",
       "value": 1,
       "id": "10-0",
@@ -447,7 +447,7 @@ export const SankeyData = {
       "endColor": "rgba(0,210,255,0.8)"
     },
     {
-      "source": "[58]",
+      "source": "[61]",
       "target": "Pneumatic",
       "value": 1,
       "id": "11-0",
@@ -483,7 +483,7 @@ export const SankeyData = {
       "endColor": "rgba(0,120,255,0.8)"
     },
     {
-      "source": "[15]",
+      "source": "[17]",
       "target": "Electroadhesive",
       "value": 1,
       "id": "12-0",
@@ -510,7 +510,7 @@ export const SankeyData = {
       "endColor": "rgba(0,30,255,0.8)"
     },
     {
-      "source": "[52]",
+      "source": "[55]",
       "target": "Pneumatic",
       "value": 1,
       "id": "13-0",
@@ -591,7 +591,7 @@ export const SankeyData = {
       "endColor": "rgba(60,0,255,0.8)"
     },
     {
-      "source": "[8]",
+      "source": "[10]",
       "target": "Pneumatic",
       "value": 1,
       "id": "14-0",
@@ -627,7 +627,7 @@ export const SankeyData = {
       "endColor": "rgba(150,0,255,0.8)"
     },
     {
-      "source": "[60]",
+      "source": "[63]",
       "target": "Pneumatic",
       "value": 1,
       "id": "15-0",
@@ -663,7 +663,7 @@ export const SankeyData = {
       "endColor": "rgba(240,0,255,0.8)"
     },
     {
-      "source": "[24]",
+      "source": "[31]",
       "target": "Adhesives",
       "value": 1,
       "id": "16-0",
@@ -699,7 +699,7 @@ export const SankeyData = {
       "endColor": "rgba(255,0,180,0.8)"
     },
     {
-      "source": "[4]",
+      "source": "[6]",
       "target": "Adhesives",
       "value": 1,
       "id": "17-0",

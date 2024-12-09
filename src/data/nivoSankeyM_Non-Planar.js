@@ -1,7 +1,7 @@
 export const SankeyData = {
   "nodes": [
     {
-      "id": "[3]",
+      "id": "[5]",
       "nodeColor": "#000000"
     },
     {
@@ -33,7 +33,7 @@ export const SankeyData = {
       "nodeColor": "#4477b2"
     },
     {
-      "id": "[47]",
+      "id": "[52]",
       "nodeColor": "#000000"
     },
     {
@@ -41,7 +41,7 @@ export const SankeyData = {
       "nodeColor": "#b24844"
     },
     {
-      "id": "[7]",
+      "id": "[9]",
       "nodeColor": "#000000"
     },
     {
@@ -57,7 +57,7 @@ export const SankeyData = {
       "nodeColor": "#4477b2"
     },
     {
-      "id": "[16]",
+      "id": "[18]",
       "nodeColor": "#000000"
     },
     {
@@ -65,11 +65,11 @@ export const SankeyData = {
       "nodeColor": "#2a695e"
     },
     {
-      "id": "[17]",
+      "id": "[19]",
       "nodeColor": "#000000"
     },
     {
-      "id": "Drone",
+      "id": "Drone-like",
       "nodeColor": "#2a695e"
     },
     {
@@ -77,7 +77,7 @@ export const SankeyData = {
       "nodeColor": "#b24844"
     },
     {
-      "id": "[28]",
+      "id": "[34]",
       "nodeColor": "#000000"
     },
     {
@@ -85,11 +85,43 @@ export const SankeyData = {
       "nodeColor": "#4477b2"
     },
     {
-      "id": "[27]",
+      "id": "[22]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[36]",
+      "id": "[42]",
+      "nodeColor": "#000000"
+    },
+    {
+      "id": "[23]",
+      "nodeColor": "#000000"
+    },
+    {
+      "id": "[51]",
+      "nodeColor": "#000000"
+    },
+    {
+      "id": "Inchworm",
+      "nodeColor": "#2a695e"
+    },
+    {
+      "id": "[44]",
+      "nodeColor": "#000000"
+    },
+    {
+      "id": "[64]",
+      "nodeColor": "#000000"
+    },
+    {
+      "id": "[35]",
+      "nodeColor": "#000000"
+    },
+    {
+      "id": "[45]",
+      "nodeColor": "#000000"
+    },
+    {
+      "id": "[65]",
       "nodeColor": "#000000"
     },
     {
@@ -101,38 +133,6 @@ export const SankeyData = {
       "nodeColor": "#000000"
     },
     {
-      "id": "Inchworm",
-      "nodeColor": "#2a695e"
-    },
-    {
-      "id": "[39]",
-      "nodeColor": "#000000"
-    },
-    {
-      "id": "[61]",
-      "nodeColor": "#000000"
-    },
-    {
-      "id": "[29]",
-      "nodeColor": "#000000"
-    },
-    {
-      "id": "[40]",
-      "nodeColor": "#000000"
-    },
-    {
-      "id": "[62]",
-      "nodeColor": "#000000"
-    },
-    {
-      "id": "[31]",
-      "nodeColor": "#000000"
-    },
-    {
-      "id": "[41]",
-      "nodeColor": "#000000"
-    },
-    {
       "id": "E - Transition Horizontal to Vertical",
       "nodeColor": "#4477b2"
     },
@@ -141,7 +141,7 @@ export const SankeyData = {
       "nodeColor": "#4477b2"
     },
     {
-      "id": "[12]",
+      "id": "[14]",
       "nodeColor": "#000000"
     },
     {
@@ -153,7 +153,7 @@ export const SankeyData = {
       "nodeColor": "#b24844"
     },
     {
-      "id": "[26]",
+      "id": "[33]",
       "nodeColor": "#000000"
     },
     {
@@ -165,7 +165,7 @@ export const SankeyData = {
       "nodeColor": "#b24844"
     },
     {
-      "id": "[25]",
+      "id": "[32]",
       "nodeColor": "#000000"
     },
     {
@@ -177,7 +177,7 @@ export const SankeyData = {
       "nodeColor": "#b24844"
     },
     {
-      "id": "[20]",
+      "id": "[25]",
       "nodeColor": "#000000"
     },
     {
@@ -185,11 +185,11 @@ export const SankeyData = {
       "nodeColor": "#2a695e"
     },
     {
-      "id": "[13]",
+      "id": "[15]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[32]",
+      "id": "[38]",
       "nodeColor": "#000000"
     },
     {
@@ -201,25 +201,25 @@ export const SankeyData = {
       "nodeColor": "#4477b2"
     },
     {
-      "id": "[64]",
+      "id": "[27]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[35]",
+      "id": "[41]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[10]",
+      "id": "[12]",
       "nodeColor": "#000000"
     },
     {
-      "id": "[45]",
+      "id": "[50]",
       "nodeColor": "#000000"
     }
   ],
   "links": [
     {
-      "source": "[3]",
+      "source": "[5]",
       "target": "Helical Friction",
       "value": 1,
       "id": "1-0",
@@ -318,7 +318,7 @@ export const SankeyData = {
       "endColor": "rgba(255,0,0,0.8)"
     },
     {
-      "source": "[47]",
+      "source": "[52]",
       "target": "None",
       "value": 1,
       "id": "2-0",
@@ -336,7 +336,7 @@ export const SankeyData = {
       "endColor": "rgba(255,57,0,0.8)"
     },
     {
-      "source": "[7]",
+      "source": "[9]",
       "target": "Grippers",
       "value": 1,
       "id": "3-0",
@@ -363,7 +363,7 @@ export const SankeyData = {
       "endColor": "rgba(255,113,0,0.8)"
     },
     {
-      "source": "[16]",
+      "source": "[18]",
       "target": "None",
       "value": 1,
       "id": "4-0",
@@ -381,7 +381,7 @@ export const SankeyData = {
       "endColor": "rgba(255,170,0,0.8)"
     },
     {
-      "source": "[17]",
+      "source": "[19]",
       "target": "Sliding Frame",
       "value": 1,
       "id": "5-0",
@@ -391,7 +391,7 @@ export const SankeyData = {
     },
     {
       "source": "Sliding Frame",
-      "target": "Drone",
+      "target": "Drone-like",
       "value": 1,
       "id": "5-1",
       "name": "Development of a Novel Modular Robot for Vertical Pipeline Climbing\n                    ",
@@ -399,7 +399,7 @@ export const SankeyData = {
       "endColor": "rgba(255,227,0,0.8)"
     },
     {
-      "source": "Drone",
+      "source": "Drone-like",
       "target": "A - Along Horizontal Pipe",
       "value": 1,
       "id": "5-3",
@@ -408,7 +408,7 @@ export const SankeyData = {
       "endColor": "rgba(255,227,0,0.8)"
     },
     {
-      "source": "Drone",
+      "source": "Drone-like",
       "target": "B - Up Vertical Pipe",
       "value": 1,
       "id": "5-3",
@@ -417,7 +417,7 @@ export const SankeyData = {
       "endColor": "rgba(255,227,0,0.8)"
     },
     {
-      "source": "Drone",
+      "source": "Drone-like",
       "target": "C - Down Vertical Pipe",
       "value": 1,
       "id": "5-3",
@@ -426,7 +426,7 @@ export const SankeyData = {
       "endColor": "rgba(255,227,0,0.8)"
     },
     {
-      "source": "Drone",
+      "source": "Drone-like",
       "target": "L - Diameter Change",
       "value": 1,
       "id": "5-3",
@@ -435,7 +435,7 @@ export const SankeyData = {
       "endColor": "rgba(255,227,0,0.8)"
     },
     {
-      "source": "[28]",
+      "source": "[34]",
       "target": "Helical Friction",
       "value": 1,
       "id": "6-0",
@@ -471,7 +471,7 @@ export const SankeyData = {
       "endColor": "rgba(227,255,0,0.8)"
     },
     {
-      "source": "[27]",
+      "source": "[22]",
       "target": "Helical Friction",
       "value": 1,
       "id": "7-0",
@@ -498,7 +498,7 @@ export const SankeyData = {
       "endColor": "rgba(170,255,0,0.8)"
     },
     {
-      "source": "[36]",
+      "source": "[42]",
       "target": "Helical Friction",
       "value": 1,
       "id": "8-0",
@@ -552,7 +552,7 @@ export const SankeyData = {
       "endColor": "rgba(113,255,0,0.8)"
     },
     {
-      "source": "[37]",
+      "source": "[23]",
       "target": "Helical Friction",
       "value": 1,
       "id": "9-0",
@@ -606,7 +606,7 @@ export const SankeyData = {
       "endColor": "rgba(57,255,0,0.8)"
     },
     {
-      "source": "[46]",
+      "source": "[51]",
       "target": "Grippers",
       "value": 1,
       "id": "10-0",
@@ -642,7 +642,7 @@ export const SankeyData = {
       "endColor": "rgba(0,255,0,0.8)"
     },
     {
-      "source": "[39]",
+      "source": "[44]",
       "target": "Grippers",
       "value": 1,
       "id": "11-0",
@@ -696,7 +696,7 @@ export const SankeyData = {
       "endColor": "rgba(0,255,57,0.8)"
     },
     {
-      "source": "[61]",
+      "source": "[64]",
       "target": "Grippers",
       "value": 1,
       "id": "12-0",
@@ -732,7 +732,7 @@ export const SankeyData = {
       "endColor": "rgba(0,255,113,0.8)"
     },
     {
-      "source": "[29]",
+      "source": "[35]",
       "target": "Grippers",
       "value": 1,
       "id": "13-0",
@@ -759,7 +759,7 @@ export const SankeyData = {
       "endColor": "rgba(0,255,170,0.8)"
     },
     {
-      "source": "[40]",
+      "source": "[45]",
       "target": "Grippers",
       "value": 1,
       "id": "14-0",
@@ -813,7 +813,7 @@ export const SankeyData = {
       "endColor": "rgba(0,255,227,0.8)"
     },
     {
-      "source": "[62]",
+      "source": "[65]",
       "target": "Grippers",
       "value": 1,
       "id": "15-0",
@@ -849,7 +849,7 @@ export const SankeyData = {
       "endColor": "rgba(0,227,255,0.8)"
     },
     {
-      "source": "[31]",
+      "source": "[37]",
       "target": "Grippers",
       "value": 1,
       "id": "16-0",
@@ -885,7 +885,7 @@ export const SankeyData = {
       "endColor": "rgba(0,170,255,0.8)"
     },
     {
-      "source": "[41]",
+      "source": "[46]",
       "target": "Grippers",
       "value": 1,
       "id": "17-0",
@@ -1038,7 +1038,7 @@ export const SankeyData = {
       "endColor": "rgba(0,113,255,0.8)"
     },
     {
-      "source": "[12]",
+      "source": "[14]",
       "target": "Friction",
       "value": 1,
       "id": "18-0",
@@ -1092,7 +1092,7 @@ export const SankeyData = {
       "endColor": "rgba(0,57,255,0.8)"
     },
     {
-      "source": "[26]",
+      "source": "[33]",
       "target": "Claws/Spines",
       "value": 1,
       "id": "19-0",
@@ -1128,7 +1128,7 @@ export const SankeyData = {
       "endColor": "rgba(0,0,255,0.8)"
     },
     {
-      "source": "[25]",
+      "source": "[32]",
       "target": "Tension Straps",
       "value": 1,
       "id": "20-0",
@@ -1164,7 +1164,7 @@ export const SankeyData = {
       "endColor": "rgba(57,0,255,0.8)"
     },
     {
-      "source": "[20]",
+      "source": "[25]",
       "target": "Friction",
       "value": 1,
       "id": "21-0",
@@ -1200,7 +1200,7 @@ export const SankeyData = {
       "endColor": "rgba(113,0,255,0.8)"
     },
     {
-      "source": "[13]",
+      "source": "[15]",
       "target": "Friction",
       "value": 1,
       "id": "22-0",
@@ -1236,7 +1236,7 @@ export const SankeyData = {
       "endColor": "rgba(170,0,255,0.8)"
     },
     {
-      "source": "[32]",
+      "source": "[38]",
       "target": "Friction",
       "value": 1,
       "id": "23-0",
@@ -1290,7 +1290,7 @@ export const SankeyData = {
       "endColor": "rgba(227,0,255,0.8)"
     },
     {
-      "source": "[64]",
+      "source": "[27]",
       "target": "Friction",
       "value": 1,
       "id": "24-0",
@@ -1344,7 +1344,7 @@ export const SankeyData = {
       "endColor": "rgba(255,0,227,0.8)"
     },
     {
-      "source": "[35]",
+      "source": "[41]",
       "target": "Grippers",
       "value": 1,
       "id": "25-0",
@@ -1461,7 +1461,7 @@ export const SankeyData = {
       "endColor": "rgba(255,0,170,0.8)"
     },
     {
-      "source": "[10]",
+      "source": "[12]",
       "target": "Sliding Frame",
       "value": 1,
       "id": "26-0",
@@ -1515,7 +1515,7 @@ export const SankeyData = {
       "endColor": "rgba(255,0,113,0.8)"
     },
     {
-      "source": "[45]",
+      "source": "[50]",
       "target": "Sliding Frame",
       "value": 1,
       "id": "27-0",

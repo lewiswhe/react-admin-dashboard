@@ -64,7 +64,8 @@ function App() {
               <Route path="/sankeym" element={<SankeyCM />} />
 
               <Route path="/heatmap" element={<Heatm />} />
-              <Route path="/groupedbar" element={<GroupedBar />} />
+              <Route path="/groupedbar" element={<GroupedBarP />} />
+              <Route path="/groupedbarp" element={<GroupedBar />} />
               <Route path="/plotlybar" element={<PlotlyBar />} />
               <Route path="/scatter" element={<Scatter />} />
             </Routes>
