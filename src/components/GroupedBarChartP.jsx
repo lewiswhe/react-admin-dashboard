@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import Chart from 'chart.js/auto';
 import ChartDataLabels from 'chartjs-plugin-datalabels';
 import annotationPlugin from 'chartjs-plugin-annotation';
-import { legendData, annotations } from '../data/chart_extra_p_All';
+import { legendData, annotations } from '../data/chart_extra_p';
 
 Chart.register(ChartDataLabels);
 Chart.register(annotationPlugin);

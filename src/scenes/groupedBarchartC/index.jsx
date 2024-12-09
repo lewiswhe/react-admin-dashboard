@@ -2,7 +2,7 @@ import React from 'react';
 import GroupedBarChartC from '../../components/GroupedBarChartC';
 import { Box, Grid, Typography } from "@mui/material";
 import Header from "../../components/Header";
-import { chartData as Sdata } from "../../data/chart_barChart_c_All"
+import { chartData as Sdata } from "../../data/chart_barChart_c"
 // import { chartDataP as Pdata } from "../../data/chart_barChartP"
 
 const GroupedBarC = () => {
