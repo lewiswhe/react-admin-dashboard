@@ -124,6 +124,20 @@ const Sidebar = () => {
               setSelected={setSelected}
             />
             <Item
+              title="GrpBar Payload"
+              to="/groupedbarp"
+              icon={<BarChartOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+          <Item
+              title="GrpBar Speed"
+              to="/groupedbarc"
+              icon={<BarChartOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+            <Item
               title="Sankey All"
               to="/sankey"
               icon={<BarChartOutlinedIcon />}
