@@ -22,7 +22,7 @@ import SankeyCM from "./scenes/sankeyAM";
 import Heatm from "./scenes/heatmap";
 import FAQ from "./scenes/faq";
 import Geography from "./scenes/geography";
-import GroupedBar from "./scenes/groupedBarchart";
+import GroupedBarC from "./scenes/groupedBarchartC";
 import GroupedBarP from "./scenes/groupedBarchartP";
 import PlotlyBar from "./scenes/plotlybar";
 import Scatter from "./scenes/scatter";
@@ -47,7 +47,7 @@ function App() {
               <Route path="/contacts" element={<Contacts />} />
               <Route path="/invoices" element={<Invoices />} />
               <Route path="/form" element={<Form />} />
-              <Route path="/bar" element={<GroupedBar />} />
+              <Route path="/bar" element={<GroupedBarC />} />
               <Route path="/barp" element={<GroupedBarP />} />
               <Route path="/pie" element={<Pie />} />
               <Route path="/line" element={<Line />} />
@@ -64,8 +64,8 @@ function App() {
               <Route path="/sankeym" element={<SankeyCM />} />
 
               <Route path="/heatmap" element={<Heatm />} />
-              <Route path="/groupedbar" element={<GroupedBarP />} />
-              <Route path="/groupedbarp" element={<GroupedBar />} />
+              <Route path="/groupedbarc" element={<GroupedBarC />} />
+              <Route path="/groupedbarp" element={<GroupedBarP />} />
               <Route path="/plotlybar" element={<PlotlyBar />} />
               <Route path="/scatter" element={<Scatter />} />
             </Routes>
