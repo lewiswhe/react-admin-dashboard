@@ -1,32 +1,32 @@
 export const chartData = {
 labels:
     [
-  "[6]",
-  "[18]",
-  "[22]",
-  "[20]",
-  "[23]",
-  "[21]",
-  "[1]",
-  "[25]",
+  "[8]",
+  "[28]",
+  "[53]",
+  "[29]",
+  "[58]",
+  "[7]",
   "[24]",
+  "[54]",
+  "[60]",
+  "[61]",
   "[26]",
   "[13]",
-  "[5]",
-  "[33]",
-  "[27]",
-  "[28]",
-  "[29]",
+  "[17]",
+  "[55]",
+  "[47]",
+  "[48]",
+  "[49]",
+  "[30]",
+  "[10]",
   "[31]",
-  "[32]",
-  "[34]",
-  "[35]",
-  "[36]"
+  "[6]"
 ], 
     
 datasets: [
   {
-    "label": "[6]",
+    "label": "[8]",
     "yAxisID": "y",
     "data": [
       "100"
@@ -37,18 +37,7 @@ datasets: [
     "stack": 0
   },
   {
-    "label": "[6]",
-    "yAxisID": "y",
-    "data": [
-      "0"
-    ],
-    "loco": "Humanoid",
-    "adhe": "Pneumatic",
-    "backgroundColor": "rgba(255,0,0,0.25)",
-    "stack": 1
-  },
-  {
-    "label": "[18]",
+    "label": "[28]",
     "yAxisID": "y",
     "data": [
       null,
@@ -56,23 +45,11 @@ datasets: [
     ],
     "loco": "Legged",
     "adhe": "Claws/Spines",
-    "backgroundColor": "rgba(255,255,0,1.0)",
+    "backgroundColor": "rgba(204,255,0,1.0)",
     "stack": 0
   },
   {
-    "label": "[18]",
-    "yAxisID": "y",
-    "data": [
-      null,
-      "0"
-    ],
-    "loco": "Legged",
-    "adhe": "Claws/Spines",
-    "backgroundColor": "rgba(255,255,0,0.25)",
-    "stack": 1
-  },
-  {
-    "label": "[22]",
+    "label": "[53]",
     "yAxisID": "y",
     "data": [
       null,
@@ -81,24 +58,11 @@ datasets: [
     ],
     "loco": "Legged",
     "adhe": "Electroadhesive",
-    "backgroundColor": "rgba(0,255,0,1.0)",
+    "backgroundColor": "rgba(0,255,102,1.0)",
     "stack": 0
   },
   {
-    "label": "[22]",
-    "yAxisID": "y",
-    "data": [
-      null,
-      null,
-      "0"
-    ],
-    "loco": "Legged",
-    "adhe": "Electroadhesive",
-    "backgroundColor": "rgba(0,255,0,0.25)",
-    "stack": 1
-  },
-  {
-    "label": "[20]",
+    "label": "[29]",
     "yAxisID": "y",
     "data": [
       null,
@@ -108,25 +72,11 @@ datasets: [
     ],
     "loco": "Legged",
     "adhe": "Claws/Spines",
-    "backgroundColor": "rgba(255,255,0,1.0)",
+    "backgroundColor": "rgba(204,255,0,1.0)",
     "stack": 0
   },
   {
-    "label": "[20]",
-    "yAxisID": "y1",
-    "data": [
-      null,
-      null,
-      null,
-      "2"
-    ],
-    "loco": "Legged",
-    "adhe": "Claws/Spines",
-    "backgroundColor": "rgba(255,255,0,0.25)",
-    "stack": 1
-  },
-  {
-    "label": "[23]",
+    "label": "[58]",
     "yAxisID": "y",
     "data": [
       null,
@@ -137,26 +87,11 @@ datasets: [
     ],
     "loco": "Legged",
     "adhe": "Electroadhesive",
-    "backgroundColor": "rgba(0,255,0,1.0)",
+    "backgroundColor": "rgba(0,255,102,1.0)",
     "stack": 0
   },
   {
-    "label": "[23]",
-    "yAxisID": "y",
-    "data": [
-      null,
-      null,
-      null,
-      null,
-      "0"
-    ],
-    "loco": "Legged",
-    "adhe": "Electroadhesive",
-    "backgroundColor": "rgba(0,255,0,0.25)",
-    "stack": 1
-  },
-  {
-    "label": "[21]",
+    "label": "[7]",
     "yAxisID": "y",
     "data": [
       null,
@@ -168,27 +103,11 @@ datasets: [
     ],
     "loco": "Legged",
     "adhe": "Claws/Spines",
-    "backgroundColor": "rgba(255,255,0,1.0)",
+    "backgroundColor": "rgba(204,255,0,1.0)",
     "stack": 0
   },
   {
-    "label": "[21]",
-    "yAxisID": "y",
-    "data": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      "0"
-    ],
-    "loco": "Legged",
-    "adhe": "Claws/Spines",
-    "backgroundColor": "rgba(255,255,0,0.25)",
-    "stack": 1
-  },
-  {
-    "label": "[1]",
+    "label": "[24]",
     "yAxisID": "y",
     "data": [
       null,
@@ -201,28 +120,11 @@ datasets: [
     ],
     "loco": "Legged",
     "adhe": "Claws/Spines",
-    "backgroundColor": "rgba(255,255,0,1.0)",
+    "backgroundColor": "rgba(204,255,0,1.0)",
     "stack": 0
   },
   {
-    "label": "[1]",
-    "yAxisID": "y1",
-    "data": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      "0.2"
-    ],
-    "loco": "Legged",
-    "adhe": "Claws/Spines",
-    "backgroundColor": "rgba(255,255,0,0.25)",
-    "stack": 1
-  },
-  {
-    "label": "[25]",
+    "label": "[54]",
     "yAxisID": "y",
     "data": [
       null,
@@ -240,25 +142,7 @@ datasets: [
     "stack": 0
   },
   {
-    "label": "[25]",
-    "yAxisID": "y1",
-    "data": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      "0.6"
-    ],
-    "loco": "Tracked",
-    "adhe": "Pneumatic",
-    "backgroundColor": "rgba(255,0,0,0.25)",
-    "stack": 1
-  },
-  {
-    "label": "[24]",
+    "label": "[60]",
     "yAxisID": "y",
     "data": [
       null,
@@ -273,30 +157,11 @@ datasets: [
     ],
     "loco": "Tracked",
     "adhe": "Magnetic",
-    "backgroundColor": "rgba(0,255,255,1.0)",
+    "backgroundColor": "rgba(0,102,255,1.0)",
     "stack": 0
   },
   {
-    "label": "[24]",
-    "yAxisID": "y",
-    "data": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      "0"
-    ],
-    "loco": "Tracked",
-    "adhe": "Magnetic",
-    "backgroundColor": "rgba(0,255,255,0.25)",
-    "stack": 1
-  },
-  {
-    "label": "[26]",
+    "label": "[61]",
     "yAxisID": "y",
     "data": [
       null,
@@ -328,57 +193,16 @@ datasets: [
       null,
       null,
       null,
-      "0"
-    ],
-    "loco": "Tracked",
-    "adhe": "Pneumatic",
-    "backgroundColor": "rgba(255,0,0,0.25)",
-    "stack": 1
-  },
-  {
-    "label": "[13]",
-    "yAxisID": "y",
-    "data": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
       null,
       "200"
     ],
     "loco": "Tracked",
     "adhe": "Magnetic",
-    "backgroundColor": "rgba(0,255,255,1.0)",
+    "backgroundColor": "rgba(0,102,255,1.0)",
     "stack": 0
   },
   {
     "label": "[13]",
-    "yAxisID": "y",
-    "data": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      "0"
-    ],
-    "loco": "Tracked",
-    "adhe": "Magnetic",
-    "backgroundColor": "rgba(0,255,255,0.25)",
-    "stack": 1
-  },
-  {
-    "label": "[5]",
     "yAxisID": "y",
     "data": [
       null,
@@ -396,35 +220,37 @@ datasets: [
     ],
     "loco": "Tracked",
     "adhe": "Magnetic",
-    "backgroundColor": "rgba(0,255,255,1.0)",
+    "backgroundColor": "rgba(0,102,255,1.0)",
     "stack": 0
   },
   {
-    "label": "[5]",
-    "yAxisID": "y1",
-    "data": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      "75"
-    ],
-    "loco": "Tracked",
-    "adhe": "Magnetic",
-    "backgroundColor": "rgba(0,255,255,0.25)",
-    "stack": 1
-  },
-  {
-    "label": "[33]",
+    "label": "[17]",
     "yAxisID": "y",
     "data": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "88.46"
+    ],
+    "loco": "Soft",
+    "adhe": "Electroadhesive",
+    "backgroundColor": "rgba(0,255,102,1.0)",
+    "stack": 0
+  },
+  {
+    "label": "[55]",
+    "yAxisID": "y",
+    "data": [
+      null,
       null,
       null,
       null,
@@ -445,78 +271,7 @@ datasets: [
     "stack": 0
   },
   {
-    "label": "[33]",
-    "yAxisID": "y",
-    "data": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      "0"
-    ],
-    "loco": "Wheeled, Legged",
-    "adhe": "Pneumatic",
-    "backgroundColor": "rgba(255,0,0,0.25)",
-    "stack": 1
-  },
-  {
-    "label": "[27]",
-    "yAxisID": "y",
-    "data": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      "30"
-    ],
-    "loco": "Wheeled",
-    "adhe": "Friction",
-    "backgroundColor": "rgba(0,0,255,1.0)",
-    "stack": 0
-  },
-  {
-    "label": "[27]",
-    "yAxisID": "y",
-    "data": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      "0"
-    ],
-    "loco": "Wheeled",
-    "adhe": "Friction",
-    "backgroundColor": "rgba(0,0,255,0.25)",
-    "stack": 1
-  },
-  {
-    "label": "[28]",
+    "label": "[47]",
     "yAxisID": "y",
     "data": [
       null,
@@ -537,36 +292,11 @@ datasets: [
     ],
     "loco": "Wheeled",
     "adhe": "Magnetic",
-    "backgroundColor": "rgba(0,255,255,1.0)",
+    "backgroundColor": "rgba(0,102,255,1.0)",
     "stack": 0
   },
   {
-    "label": "[28]",
-    "yAxisID": "y1",
-    "data": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      "9"
-    ],
-    "loco": "Wheeled",
-    "adhe": "Magnetic",
-    "backgroundColor": "rgba(0,255,255,0.25)",
-    "stack": 1
-  },
-  {
-    "label": "[29]",
+    "label": "[48]",
     "yAxisID": "y",
     "data": [
       null,
@@ -588,37 +318,11 @@ datasets: [
     ],
     "loco": "Wheeled",
     "adhe": "Magnetic",
-    "backgroundColor": "rgba(0,255,255,1.0)",
+    "backgroundColor": "rgba(0,102,255,1.0)",
     "stack": 0
   },
   {
-    "label": "[29]",
-    "yAxisID": "y1",
-    "data": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      "7"
-    ],
-    "loco": "Wheeled",
-    "adhe": "Magnetic",
-    "backgroundColor": "rgba(0,255,255,0.25)",
-    "stack": 1
-  },
-  {
-    "label": "[31]",
+    "label": "[49]",
     "yAxisID": "y",
     "data": [
       null,
@@ -641,38 +345,11 @@ datasets: [
     ],
     "loco": "Wheeled",
     "adhe": "Magnetic",
-    "backgroundColor": "rgba(0,255,255,1.0)",
+    "backgroundColor": "rgba(0,102,255,1.0)",
     "stack": 0
   },
   {
-    "label": "[31]",
-    "yAxisID": "y1",
-    "data": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      "1.6"
-    ],
-    "loco": "Wheeled",
-    "adhe": "Magnetic",
-    "backgroundColor": "rgba(0,255,255,0.25)",
-    "stack": 1
-  },
-  {
-    "label": "[32]",
+    "label": "[30]",
     "yAxisID": "y",
     "data": [
       null,
@@ -696,39 +373,11 @@ datasets: [
     ],
     "loco": "Wheeled, Inchworm",
     "adhe": "Magnetic",
-    "backgroundColor": "rgba(0,255,255,1.0)",
+    "backgroundColor": "rgba(0,102,255,1.0)",
     "stack": 0
   },
   {
-    "label": "[32]",
-    "yAxisID": "y1",
-    "data": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      "4"
-    ],
-    "loco": "Wheeled, Inchworm",
-    "adhe": "Magnetic",
-    "backgroundColor": "rgba(0,255,255,0.25)",
-    "stack": 1
-  },
-  {
-    "label": "[34]",
+    "label": "[10]",
     "yAxisID": "y",
     "data": [
       null,
@@ -757,36 +406,7 @@ datasets: [
     "stack": 0
   },
   {
-    "label": "[34]",
-    "yAxisID": "y1",
-    "data": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      "10.5"
-    ],
-    "loco": "Wheeled",
-    "adhe": "Pneumatic",
-    "backgroundColor": "rgba(255,0,0,0.25)",
-    "stack": 1
-  },
-  {
-    "label": "[35]",
+    "label": "[31]",
     "yAxisID": "y",
     "data": [
       null,
@@ -812,41 +432,11 @@ datasets: [
     ],
     "loco": "Wheel-Legs",
     "adhe": "Adhesives",
-    "backgroundColor": "rgba(255,0,255,1.0)",
+    "backgroundColor": "rgba(204,0,255,1.0)",
     "stack": 0
   },
   {
-    "label": "[35]",
-    "yAxisID": "y1",
-    "data": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      "0.0057"
-    ],
-    "loco": "Wheel-Legs",
-    "adhe": "Adhesives",
-    "backgroundColor": "rgba(255,0,255,0.25)",
-    "stack": 1
-  },
-  {
-    "label": "[36]",
+    "label": "[6]",
     "yAxisID": "y",
     "data": [
       null,
@@ -872,39 +462,8 @@ datasets: [
       "30"
     ],
     "loco": "Wheel-Legs",
-    "adhe": "Electroadhesive",
-    "backgroundColor": "rgba(0,255,0,1.0)",
+    "adhe": "Adhesives",
+    "backgroundColor": "rgba(204,0,255,1.0)",
     "stack": 0
-  },
-  {
-    "label": "[36]",
-    "yAxisID": "y",
-    "data": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      "0"
-    ],
-    "loco": "Wheel-Legs",
-    "adhe": "Electroadhesive",
-    "backgroundColor": "rgba(0,255,0,0.25)",
-    "stack": 1
   }
 ]}; 
